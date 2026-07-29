@@ -4,7 +4,7 @@
 # Produktions-Einstellung (Login/Speichern laeuft ueber DecapBridge als
 # Ersatz fuer das von Netlify abgekuendigte "Netlify Identity"). Die Site
 # ist unter DecapBridge registriert (Login-URL:
-# https://hotel-weinberg.netlify.app/admin/index.html).
+# https://hotel-weinberg-editor.netlify.app/admin/index.html).
 # local_backend: true sorgt zusaetzlich dafuer, dass Decap CMS automatisch
 # auf den lokalen Test-Server (npx decap-server) umschaltet, wenn man die
 # Seite ueber "localhost" oeffnet - so kann man weiterhin alles ohne
@@ -24,7 +24,7 @@ backend:
     openAuthoring: 'Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge'
 
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-site_url: https://hotel-weinberg.netlify.app
+site_url: https://hotel-weinberg-editor.netlify.app
 
 local_backend: true
 
