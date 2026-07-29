@@ -68,7 +68,7 @@ var WeinbergIndexPreview = createClass({
     var footer = data.footer || {};
     var contact = data.contact || {};
 
-    var LIVE_URL = 'https://hotel-weinberg-editor.netlify.app/de/index.html';
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/index.html';
     var html = '';
 
     // 0 Referenz: echte, aktuell veröffentlichte Live-Seite (Netlify).
@@ -186,7 +186,7 @@ var WeinbergZimmerPreview = createClass({
     var data = this.props.entry.get('data').toJS() || {};
     var rooms = data.rooms || [];
 
-    var LIVE_URL = 'https://hotel-weinberg-editor.netlify.app/de/zimmer.html';
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/zimmer.html';
     var html = '';
 
     html +=
@@ -266,7 +266,7 @@ var WeinbergGeniessenPreview = createClass({
     var kt = data.kulinarik_teaser || {};
     var cta = data.cta_banner || {};
 
-    var LIVE_URL = 'https://hotel-weinberg-editor.netlify.app/de/geniessen.html';
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/geniessen.html';
     var html = '';
 
     html +=
@@ -342,7 +342,7 @@ var WeinbergKulinarikPreview = createClass({
     var polaroids = data.polaroids || [];
     var cards = data.cards || [];
 
-    var LIVE_URL = 'https://hotel-weinberg-editor.netlify.app/de/kulinarik.html';
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/kulinarik.html';
     var html = '';
 
     html +=
@@ -398,7 +398,7 @@ var WeinbergPhilosophiePreview = createClass({
     var gl = data.geniessen_link || {};
     var cta = data.cta_banner || {};
 
-    var LIVE_URL = 'https://hotel-weinberg-editor.netlify.app/de/philosophie.html';
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/philosophie.html';
     var html = '';
 
     html +=
@@ -476,7 +476,7 @@ var WeinbergKontaktPreview = createClass({
     var an = data.anfrage || {};
     var bp = data.booking_panel || {};
 
-    var LIVE_URL = 'https://hotel-weinberg-editor.netlify.app/de/kontakt.html';
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/kontakt.html';
     var html = '';
 
     html +=
