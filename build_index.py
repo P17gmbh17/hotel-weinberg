@@ -14,7 +14,8 @@ import json
 import re
 from urllib.parse import quote_plus
 
-BASE = "/sessions/magical-beautiful-knuth/mnt/HOTEL WEINBERG/HOTEL WEINBERG_WEB PAGE/HTML/"
+import os
+BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/index.json", encoding="utf-8") as f:
     ALL = json.load(f)

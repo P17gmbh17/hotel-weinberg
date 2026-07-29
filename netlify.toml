@@ -1,13 +1,16 @@
 # Hotel Weinberg – Netlify-Konfiguration
 #
-# Die Seite ist reines statisches HTML (kein Build-Schritt noetig): die
-# fertigen {lang}/*.html-Dateien werden lokal per build_*.py aus
-# content/*.json + Templates erzeugt und direkt committet. Netlify muss
-# also nichts bauen, nur den Ordner ausliefern.
-
+# Die {lang}/*.html-Dateien werden aus content/*.json + Templates per
+# build_*.py erzeugt. Das CMS (Decap/DecapBridge) schreibt beim Speichern
+# ABER NUR die JSON-Datei per Git-Commit - es fuehrt KEIN Build-Skript aus.
+# Deshalb muss Netlify bei jedem Deploy selbst alle build_*.py-Skripte
+# laufen lassen, sonst bleibt die Live-Seite auf dem alten HTML-Stand,
+# obwohl die JSON-Datei schon aktualisiert ist (Bug gefunden + behoben am
+# 2026-07-29: CMS-Aenderung "Familie Palma" landete in content/index.json,
+# aber die Live-Seite zeigte weiter "Familie Schrott").
 [build]
+  command = "python3 build_index.py && python3 build_zimmer.py && python3 build_geniessen.py && python3 build_kulinarik.py && python3 build_philosophie.py && python3 build_kontakt.py"
   publish = "."
-  # Kein Build-Command noetig - die HTML-Dateien liegen bereits fertig im Repo.
 
 [[headers]]
   for = "/*"
