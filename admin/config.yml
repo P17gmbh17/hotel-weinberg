@@ -1,0 +1,587 @@
+# Hotel Weinberg – CMS-Konfiguration (Decap CMS)
+#
+# backend: git-gateway ist die Produktions-Einstellung (fuer spaeter, wenn
+# die Seite bei Netlify liegt und mit der Weinberg-Domain verbunden ist).
+# local_backend: true sorgt dafuer, dass Decap CMS automatisch auf den
+# lokalen Test-Server (npx decap-server) umschaltet, wenn man die Seite
+# ueber "localhost" oeffnet - so kann man alles ohne Netlify/GitHub testen.
+
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+# Muss auf den GESAMTEN geteilten Bilderordner zeigen, nicht nur auf einen
+# Upload-Unterordner: die bestehenden Bilder liegen in mehreren Unterordnern
+# (assets/fotos/, assets/aktivitaeten/, assets/kulinarik/, ...) und werden
+# in content/index.json als "../assets/<unterordner>/<datei>" referenziert
+# (relativ zur jeweiligen {lang}/index.html). Nur wenn public_folder exakt
+# zu diesem Praefix passt, kann Decap CMS bestehende Bilder fuer die
+# Formular-Thumbnails und die Medienbibliothek korrekt finden. Neue Uploads
+# landen dadurch direkt im assets-Hauptordner (Unterordner kann man beim
+# Hochladen im Medien-Dialog trotzdem waehlen).
+media_folder: "assets"
+public_folder: "../assets"
+
+# i18n: DE/IT/EN als Sprach-Tabs im selben Formular, statt getrennter
+# Sammlungen. "single_file" ist die einzige i18n-Struktur, die Decap CMS
+# fuer Datei-Sammlungen (files:) unterstuetzt - deshalb liegen alle drei
+# Sprachen in EINER Datei (content/index.json) mit de/it/en als Top-Level-
+# Schluesseln, und build_index.py baut daraus alle drei Sprachversionen.
+i18n:
+  structure: single_file
+  locales: [de, it, en]
+  default_locale: de
+
+collections:
+  - name: "startseite"
+    label: "Startseite"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/index.json"
+        label: "Startseite (alle Sprachen)"
+        name: "index"
+        i18n: true
+        fields:
+
+          - label: "1 · Willkommen"
+            name: "willkommen"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Erster Textabschnitt direkt unter dem Video-Header, mit Bild rechts."
+            fields:
+              - { label: "Kicker (nicht editierbar)", name: "eyebrow", widget: "hidden", i18n: true }
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Einleitungssatz (fett)", name: "lede", widget: "text", i18n: true }
+              - { label: "Fließtext", name: "body", widget: "text", i18n: true }
+              - { label: "Button-Text", name: "cta_label", widget: "hidden", i18n: true }
+              - { label: "Bild (rechts neben dem Text)", name: "image", widget: "image", i18n: duplicate }
+
+          - label: "2 · Zimmer-Teaser"
+            name: "zimmer"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Dunkler Abschnitt, verlinkt zur Zimmer-Übersicht."
+            fields:
+              - { label: "Kicker (nicht editierbar)", name: "eyebrow", widget: "hidden", i18n: true }
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Einleitungssatz", name: "lede", widget: "text", i18n: true }
+              - { label: "Bild (links)", name: "image", widget: "image", i18n: duplicate }
+              - { label: "Button-Text", name: "cta_label", widget: "hidden", i18n: true }
+
+          - label: "3 · Genießen-Teaser"
+            name: "geniessen"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Garten, Pool & Frühstück – darunter 3 Bilder nebeneinander."
+            fields:
+              - { label: "Kicker (nicht editierbar)", name: "eyebrow", widget: "hidden", i18n: true }
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Einleitungssatz", name: "lede", widget: "text", i18n: true }
+              - label: "Bildergalerie (3 Bilder nebeneinander)"
+                name: "images"
+                widget: "list"
+                i18n: true
+                summary: "{{fields.alt}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text (Bildbeschreibung für Suchmaschinen)", name: "alt", widget: "string" }
+              - { label: "Button-Text", name: "cta_label", widget: "hidden", i18n: true }
+
+          - label: "4 · Aktivitäten-Teaser"
+            name: "aktivitaeten"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Dunkler Abschnitt mit Hintergrundbild, Filter-Buttons und Tipp-Kacheln pro Kategorie."
+            fields:
+              - { label: "Hintergrundbild", name: "background_image", widget: "image", i18n: duplicate }
+              - { label: "Kicker (nicht editierbar)", name: "eyebrow", widget: "hidden", i18n: true }
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Einleitungssatz", name: "lede", widget: "text", i18n: true }
+              - { label: "Button-Text", name: "cta_label", widget: "hidden", i18n: true }
+              - label: "Kategorien & Tipps"
+                name: "categories"
+                widget: "list"
+                i18n: true
+                summary: "{{fields.label}}"
+                hint: "Jede Kategorie ist ein Filter-Button (z. B. „Wandern“) mit 3 Tipp-Karten, die beim Klick als Popup erscheinen."
+                fields:
+                  - { label: "Interner Schlüssel (keine Leerzeichen, z. B. wandern)", name: "key", widget: "string", pattern: ['^[a-z0-9-]+$', "Nur Kleinbuchstaben, Zahlen und Bindestriche"] }
+                  - { label: "Anzeigename (Button-Text)", name: "label", widget: "string" }
+                  - label: "Tipps in dieser Kategorie"
+                    name: "tips"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - { label: "Titel", name: "title", widget: "string" }
+                      - { label: "Dauer (z. B. Kurz / Halbtags / Ganztags)", name: "meta", widget: "string" }
+                      - { label: "Bild", name: "image", widget: "image" }
+
+          - label: "5 · Kulinarik-Teaser"
+            name: "kulinarik"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "4 Kacheln mit Bild + Label, verlinken zur Kulinarik-Guide-Seite."
+            fields:
+              - { label: "Kicker (nicht editierbar)", name: "eyebrow", widget: "hidden", i18n: true }
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Einleitungssatz", name: "lede", widget: "text", i18n: true }
+              - label: "Kacheln"
+                name: "cards"
+                widget: "list"
+                i18n: true
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Beschriftung (z. B. „Pizza“)", name: "label", widget: "string" }
+                  - { label: "Alt-Text (Bildbeschreibung)", name: "alt", widget: "string" }
+              - { label: "Button-Text", name: "cta_label", widget: "hidden", i18n: true }
+
+          - label: "6 · CTA-Banner (vor dem Footer)"
+            name: "cta_banner"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Text", name: "text", widget: "string", i18n: true }
+
+          - label: "7 · Footer"
+            name: "footer"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            fields:
+              - { label: "Einleitungstext (neben dem Logo)", name: "intro", widget: "text", i18n: true }
+              - { label: "Copyright-Zeile", name: "copyright", widget: "string", i18n: true }
+
+          - { label: "Kontaktdaten (nicht editierbar)", name: "contact", widget: "hidden", i18n: duplicate }
+
+          - { label: "Jetzt anfragen-Button", name: "cta_book_label", widget: "hidden", i18n: true }
+          - { label: "Jetzt buchen-Button", name: "cta_buchen_label", widget: "hidden", i18n: true }
+          - { label: "8 · Scroll-Hinweis unten im Video-Header", name: "hero_scroll_label", widget: "string", i18n: true }
+          - { label: "Zweiter Hero-Button", name: "hero_cta_secondary_label", widget: "hidden", i18n: true }
+
+          - { label: "9 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true, hint: "Erscheint im Browser-Tab und bei Google als Titel." }
+          - { label: "10 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true, hint: "Der graue Text, den Google unter dem Titel anzeigt. Wird nicht auf der Seite selbst angezeigt." }
+
+  - name: "zimmer"
+    label: "Zimmer"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/zimmer.json"
+        label: "Zimmer (Übersicht + alle Kategorien, alle Sprachen)"
+        name: "zimmer"
+        i18n: true
+        fields:
+
+          - { label: "1 · Übersichtsseite: Überschrift im Video-Header", name: "hero_heading", widget: "string", i18n: true }
+          - { label: "2 · Übersichtsseite: Untertitel im Header", name: "hero_text", widget: "text", i18n: true }
+          - { label: "3 · Übersichtsseite: Überschrift über den Zimmerkarten", name: "overview_heading", widget: "string", i18n: true }
+
+          - label: "4 · Zimmerkategorien (Karten, Detailseiten, Galerie)"
+            name: "rooms"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.title}}"
+            hint: "Eine Karte pro Zimmerkategorie. Erscheint auf der Übersichtsseite UND erzeugt die eigene Detailseite (zimmer-<Schlüssel>.html)."
+            fields:
+              - { label: "Interner Schlüssel (nicht ändern - wird für Datei- und Linknamen verwendet)", name: "slug", widget: "string", pattern: ['^[a-z0-9-]+$', "Nur Kleinbuchstaben, Zahlen und Bindestriche"] }
+              - { label: "Titel (Detailseite, Bild-Beschreibung, verwandte Zimmer)", name: "title", widget: "string" }
+              - { label: "Titel auf der Karte, falls kürzer (sonst wie oben)", name: "card_title", widget: "string", hint: "Wird nur auf der Übersichtskarte angezeigt, z. B. bei langen Namen." }
+              - { label: "Kurzbeschreibung (Karte)", name: "teaser", widget: "string" }
+              - { label: "Bild (Karte + Header der Detailseite)", name: "image", widget: "image" }
+              - { label: "Preis (nur die Zahl, z. B. 63)", name: "price", widget: "string", pattern: ['^[0-9]+$', "Nur Zahlen"] }
+              - { label: "Fließtext (Detailseite)", name: "lede", widget: "text" }
+              - { label: "Meta-Beschreibung Detailseite (SEO)", name: "detail_meta_description", widget: "text" }
+              - label: "Bildergalerie (Detailseite, 5 Bilder)"
+                name: "gallery"
+                widget: "list"
+                field: { label: "Bild", name: "image", widget: "image" }
+              - { label: "Ausstattungs-Icons (nicht editierbar)", name: "amenities_html", widget: "hidden" }
+
+          - { label: "5 · Eyebrow Zimmerkategorie (über der Überschrift, alle Detailseiten)", name: "room_category_eyebrow", widget: "string", i18n: true }
+          - { label: "6 · Eyebrow Impressionen (über der Galerie, alle Detailseiten)", name: "gallery_eyebrow", widget: "string", i18n: true }
+          - { label: "7 · Überschrift Weitere Zimmerkategorien (alle Detailseiten)", name: "related_heading", widget: "string", i18n: true }
+          - { label: "Button-Text Entdecken, nicht editierbar (Karten + verwandte Zimmer)", name: "card_cta_label", widget: "hidden", i18n: true }
+
+          - { label: "8 · Übersichtsseite Slideshow: Eyebrow", name: "slideshow_eyebrow", widget: "string", i18n: true }
+          - { label: "9 · Übersichtsseite Slideshow: Überschrift", name: "slideshow_heading", widget: "string", i18n: true }
+
+          - { label: "10 · Übersichtsseite CTA-Banner: Überschrift", name: "cta_heading", widget: "string", i18n: true }
+          - { label: "11 · Übersichtsseite CTA-Banner: Text", name: "cta_text", widget: "string", i18n: true }
+          - { label: "Button-Text CTA-Banner, nicht editierbar", name: "cta_label", widget: "hidden", i18n: true }
+
+          - { label: "12 · Seitentitel Übersichtsseite (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true, hint: "Erscheint im Browser-Tab und bei Google als Titel." }
+          - { label: "13 · Meta-Beschreibung Übersichtsseite (SEO)", name: "meta_description", widget: "text", i18n: true }
+
+  - name: "geniessen"
+    label: "Genießen"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/geniessen.json"
+        label: "Genießen (alle Sprachen)"
+        name: "geniessen"
+        i18n: true
+        fields:
+
+          - { label: "1 · Video-Header: Überschrift", name: "hero_heading", widget: "string", i18n: true }
+          - { label: "2 · Video-Header: Untertitel", name: "hero_text", widget: "text", i18n: true }
+          - { label: "3 · Kicker über der Einleitung", name: "story_eyebrow", widget: "string", i18n: true }
+          - { label: "4 · Einleitungssatz", name: "story_lede", widget: "text", i18n: true }
+          - { label: "5 · Scroll-Hinweis (z. B. Los geht's)", name: "story_scroll_label", widget: "string", i18n: true }
+          - { label: "6 · Wort für Bildunterschriften-Leiste (z. B. Impressionen)", name: "impressions_prefix", widget: "string", i18n: true }
+
+          - label: "7 · Station 1 · Pool"
+            name: "pool"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Hintergrundbild", name: "background_image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "background_alt", widget: "string" }
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext", name: "lede", widget: "text" }
+              - label: "Häkchen-Liste"
+                name: "tick_list"
+                widget: "list"
+                field: { label: "Punkt", name: "item", widget: "string" }
+              - label: "Impressionen-Bilder (3)"
+                name: "impressions"
+                widget: "list"
+                summary: "{{fields.caption}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Beschriftung", name: "caption", widget: "string" }
+
+          - label: "8 · Station 2 · Garten"
+            name: "garten"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Hintergrundbild", name: "background_image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "background_alt", widget: "string" }
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext (fett)", name: "lede", widget: "text" }
+              - { label: "Fließtext (zusätzlich)", name: "body", widget: "text" }
+              - label: "Impressionen-Bilder (3)"
+                name: "impressions"
+                widget: "list"
+                summary: "{{fields.caption}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Beschriftung", name: "caption", widget: "string" }
+
+          - label: "9 · Station 3 · Frühstück"
+            name: "fruehstueck"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Hintergrundbild", name: "background_image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "background_alt", widget: "string" }
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext (fett)", name: "lede", widget: "text" }
+              - { label: "Fließtext Desktop (ausführlich)", name: "body_desktop", widget: "text" }
+              - { label: "Fließtext Mobile (kurz)", name: "body_mobile", widget: "text" }
+              - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
+              - label: "Impressionen-Bilder (2)"
+                name: "impressions"
+                widget: "list"
+                summary: "{{fields.caption}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Beschriftung", name: "caption", widget: "string" }
+
+          - label: "10 · Zimmer-Verlinkung"
+            name: "zimmer_link"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext", name: "lede", widget: "text" }
+              - { label: "Bild", name: "image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "alt", widget: "string" }
+              - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
+
+          - label: "11 · Kulinarik-Teaser"
+            name: "kulinarik_teaser"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext", name: "lede", widget: "text" }
+              - label: "Kacheln (4)"
+                name: "cards"
+                widget: "list"
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Beschriftung", name: "label", widget: "string" }
+              - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
+
+          - label: "12 · CTA-Banner"
+            name: "cta_banner"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
+
+          - { label: "13 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true }
+          - { label: "14 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true }
+
+  - name: "kulinarik"
+    label: "Kulinarik-Guide"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/kulinarik.json"
+        label: "Kulinarik-Guide (alle Sprachen)"
+        name: "kulinarik"
+        i18n: true
+        fields:
+
+          - { label: "1 · Seiten-Überschrift (Header)", name: "hero_heading", widget: "string", i18n: true }
+          - { label: "2 · Untertitel (Header)", name: "hero_text", widget: "text", i18n: true }
+
+          - label: "3 · Polaroid-Bilder im Header (5)"
+            name: "polaroids"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Alt-Text", name: "alt", widget: "string" }
+              - { label: "Beschriftung", name: "caption", widget: "string" }
+
+          - label: "4 · Restaurants / Lokale"
+            name: "cards"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.name}}"
+            hint: "Jede Karte ist ein Restaurant-Tipp. Reihenfolge = Reihenfolge auf der Seite."
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Ort / Adresse", name: "place", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
+              - label: "Kategorie-Tags (Anzeige, z. B. Restaurant, Pizza)"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Filter-Kategorie (restaurant / pizza / aperitivo - mehrere mit Leerzeichen trennen, nicht ändern ohne Grund)", name: "cat", widget: "string" }
+              - { label: "Filter-Entfernung (fuss / auto, nicht ändern ohne Grund)", name: "dist", widget: "string", pattern: ['^(fuss|auto)$', "Nur 'fuss' oder 'auto'"] }
+              - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Bild-Alt-Text", name: "img_alt", widget: "string" }
+              - { label: "Gehzeit (Text, z. B. ca. 5 Gehmin.)", name: "walk_time", widget: "string" }
+              - { label: "Fahrzeit (Text, z. B. ca. 2 Autominuten)", name: "drive_time", widget: "string" }
+              - { label: "Öffnungszeiten", name: "hours", widget: "text" }
+              - { label: "Telefonlink (tel:+39...)", name: "phone_href", widget: "string" }
+              - { label: "Button-Text Telefon (nicht editierbar)", name: "phone_label", widget: "hidden" }
+              - { label: "Website-Link", name: "website_href", widget: "string" }
+              - { label: "Button-Text Website (nicht editierbar)", name: "website_label", widget: "hidden" }
+
+          - { label: "5 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true }
+          - { label: "6 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true }
+
+  - name: "philosophie"
+    label: "Über uns / Philosophie"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/philosophie.json"
+        label: "Über uns / Philosophie (alle Sprachen)"
+        name: "philosophie"
+        i18n: true
+        fields:
+
+          - { label: "1 · Video-Header: Überschrift", name: "hero_heading", widget: "string", i18n: true }
+          - { label: "2 · Video-Header: Untertitel", name: "hero_text", widget: "text", i18n: true }
+
+          - label: "3 · Konzept & Geschichte"
+            name: "geschichte"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitungssatz (fett)", name: "lede", widget: "text" }
+              - { label: "Fließtext", name: "body", widget: "text" }
+              - { label: "Bild", name: "image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "alt", widget: "string" }
+
+          - label: "4 · Eure Gastgeber"
+            name: "gastgeber"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitungssatz", name: "lede", widget: "text" }
+              - label: "Team-Portraits (3)"
+                name: "team"
+                widget: "list"
+                summary: "{{fields.name}}"
+                hint: "Bild + handschriftlich wirkender Name pro Person."
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+
+          - label: "5 · Unsere Philosophie (dunkler Abschnitt)"
+            name: "philosophie"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Badge", name: "badge", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext", name: "lede", widget: "text" }
+
+          - label: "6 · Das Haus auf einen Blick (Ausstattung)"
+            name: "ausstattung"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - label: "Bilder-Slider (3)"
+                name: "slider"
+                widget: "list"
+                summary: "{{fields.alt}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+              - label: "Ausstattungsmerkmale (Liste mit Icons, Reihenfolge = Icon-Reihenfolge, nicht verändern)"
+                name: "amenities"
+                widget: "list"
+                hint: "8 Einträge. Nur den Text ändern - die Icons sind fest zugeordnet und richten sich nach der Position in der Liste."
+                field: { label: "Merkmal", name: "item", widget: "string" }
+
+          - label: "7 · Genießen-Verlinkung"
+            name: "geniessen_link"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Bild", name: "image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "alt", widget: "string" }
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext", name: "lede", widget: "text" }
+              - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
+
+          - label: "8 · CTA-Banner"
+            name: "cta_banner"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Button-Text Zimmer buchen (nicht editierbar)", name: "cta_label_book", widget: "hidden" }
+              - { label: "Button-Text Direkt anfragen (nicht editierbar)", name: "cta_label_contact", widget: "hidden" }
+
+          - { label: "9 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true }
+          - { label: "10 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true }
+
+  - name: "kontakt"
+    label: "Kontakt & Anfrage"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/kontakt.json"
+        label: "Kontakt & Anfrage (alle Sprachen)"
+        name: "kontakt"
+        i18n: true
+        fields:
+
+          - { label: "1 · Video-Header: Überschrift", name: "hero_heading", widget: "string", i18n: true }
+          - { label: "2 · Video-Header: Untertitel", name: "hero_text", widget: "text", i18n: true }
+          - { label: "Hintergrundbild", name: "hero_image", widget: "image", i18n: duplicate }
+          - { label: "Bild-Alt-Text", name: "hero_image_alt", widget: "string", i18n: true }
+
+          - label: "3 · Lage"
+            name: "lage"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitungssatz", name: "lede", widget: "text" }
+              - { label: "Adressliste mit Anfahrt (nicht editierbar)", name: "dl_html", widget: "hidden" }
+
+          - label: "4 · Verfügbarkeit & Anfrage"
+            name: "anfrage"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitungssatz", name: "lede", widget: "text" }
+
+          - label: "5 · Anfrageformular-Panel"
+            name: "booking_panel"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Hinweistext", name: "note", widget: "text" }
+
+          - { label: "Anfrageformular-Felder (nicht editierbar, steuert Formular-Funktion)", name: "booking_form_html", widget: "hidden", i18n: true }
+          - { label: "Kontakt-Leiste unter dem Formular (nicht editierbar)", name: "contact_strip_html", widget: "hidden", i18n: true }
+
+          - { label: "6 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true }
+          - { label: "7 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true }

@@ -1,0 +1,650 @@
+{
+  "de": {
+    "meta_title": "Kulinarik-Guide | Hotel Weinberg",
+    "meta_description": "Lokale Restaurant-Empfehlungen rund um Hotel Weinberg in St. Pauls und Eppan an der Weinstraße, filterbar nach Pizza, Restaurant, Aperitivo und mehr.",
+    "hero_heading": "Wo man rund um St. Pauls & Eppan gut isst",
+    "hero_text": "Wir kochen nicht mehr selbst, verraten euch aber gern, wohin wir zum Essen gehen: von der Pizza um die Ecke bis zum Aperitivo im historischen Ansitz.",
+    "polaroids": [
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-5.jpg",
+        "alt": "Regionales Gericht, modern angerichtet",
+        "caption": "Genuss in der Nachbarschaft"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-aperitivo.jpg",
+        "alt": "Aperitivo mit Spritz, Negroni und Oliven",
+        "caption": "Aperitivo-Stunde"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-4.jpg",
+        "alt": "Pizza Margherita",
+        "caption": "Pizza-Klassiker"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-2.jpg",
+        "alt": "Südtiroler Knödel mit Rindsbraten",
+        "caption": "Deftig &amp; regional"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-3.jpg",
+        "alt": "Geröstete Keschtn zum Törggelen",
+        "caption": "Törggelen-Zeit"
+      }
+    ],
+    "cards": [
+      {
+        "cat": "restaurant toerggelen",
+        "dist": "fuss",
+        "image": "https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg",
+        "img_alt": "Paulserhof, St. Pauls",
+        "tags": [
+          "Restaurant",
+          "Törggelen"
+        ],
+        "place": "St. Pauls · Unterrainer Straße 21",
+        "name": "Paulserhof",
+        "desc": "Traditionsgasthaus mit 700 Jahre altem Weinkeller mitten im Dorf, Südtiroler Klassiker mit mediterraner Note, seit über 60 Jahren beliebter Treffpunkt.",
+        "walk_time": "ca. 5 Gehmin.",
+        "drive_time": "ca. 2 Autominuten",
+        "hours": "Ganzjährig geöffnet · Reservierung empfohlen",
+        "phone_href": "tel:+390471662422",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.paulserhof.com/en/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "aperitivo restaurant",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/allegra.jpg",
+        "img_alt": "Allegra Weinbar, St. Pauls",
+        "tags": [
+          "Aperitivo",
+          "Weinbar"
+        ],
+        "place": "St. Pauls · Ansitz Schreckenstein",
+        "name": "Allegra",
+        "desc": "Mediterraner Flair trifft Südtiroler Tradition im historischen Ansitz, perfekt für Aperitif, feine Weine und saisonale Küche im idyllischen Innenhof.",
+        "walk_time": "ca. 5 Gehmin.",
+        "drive_time": "ca. 2 Autominuten",
+        "hours": "Di–Sa, 17:00–24:00 Uhr",
+        "phone_href": "tel:+393396241592",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.allegra-weinbar.it/de",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "pizza",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/liliane.jpg",
+        "img_alt": "Liliane Pizzeria Café Eisdiele, St. Pauls",
+        "tags": [
+          "Pizza",
+          "Café / Eisdiele"
+        ],
+        "place": "St. Pauls · Paulser Straße 10",
+        "name": "Liliane",
+        "desc": "Pizza aus dem Steinofen, hausgemachtes Eis und Café hinter mittelalterlichen Mauern, locker, familienfreundlich, auch Dinkel- und glutenfreie Pizza.",
+        "walk_time": "ca. 4 Gehmin.",
+        "drive_time": "ca. 2 Autominuten",
+        "hours": "Do–So bis 23:30 Uhr, Mo–Mi bis 24:00 Uhr · Pizza ab 17 Uhr",
+        "phone_href": "tel:+390471664300",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.liliane.it/de/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/guten-tropfen.jpg",
+        "img_alt": "Gasthof zum Guten Tropfen, St. Pauls",
+        "tags": [
+          "Restaurant",
+          "Pizza"
+        ],
+        "place": "St. Pauls · Paulser Straße 4",
+        "name": "Guten Tropfen",
+        "desc": "Gemütlicher Familiengasthof im Ortszentrum mit Pizzeria, einladendem Innenhof und Südtiroler Spezialitäten, seit Generationen in Familienhand.",
+        "walk_time": "ca. 4 Gehmin.",
+        "drive_time": "ca. 2 Autominuten",
+        "hours": "Reservierung empfohlen · Öffnungszeiten siehe Website",
+        "phone_href": "tel:+390471662223",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.gutentropfen.com",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "auto",
+        "image": "../assets/kulinarik/pfeffermuehle.jpg",
+        "img_alt": "Restaurant Pizzeria Pfeffermühle, St. Michael/Eppan",
+        "tags": [
+          "Restaurant",
+          "Pizza"
+        ],
+        "place": "St. Michael/Eppan · Circonvallazione",
+        "name": "Pfeffermühle",
+        "desc": "Der Treffpunkt für Genießer bei Bozen: Tatar-Klassiker und moderne Südtiroler Küche treffen auf Pizza aus dem Holzofen, umgeben von Obstgärten.",
+        "walk_time": "ca. 25 Gehmin.",
+        "drive_time": "ca. 6 Autominuten",
+        "hours": "11:45–14:00 &amp; 18:00–21:30 Uhr · Mi ganztägig &amp; Do mittags geschlossen",
+        "phone_href": "tel:+390471663057",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.pfeffermuehle.it/en/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant toerggelen",
+        "dist": "auto",
+        "image": "../assets/kulinarik/platzegg.jpg",
+        "img_alt": "Osteria Platzegg, St. Michael/Eppan",
+        "tags": [
+          "Restaurant",
+          "Südtiroler Küche"
+        ],
+        "place": "St. Michael/Eppan · Rathausplatz 1",
+        "name": "Platzegg",
+        "desc": "„Ehrlich, einfach, echt\": Herbert Hintner macht Südtiroler Klassiker und fast vergessene Regionalgerichte auf der Piazza von St. Michael wieder restaurantfein.",
+        "walk_time": "ca. 25 Gehmin.",
+        "drive_time": "ca. 6 Autominuten",
+        "hours": "Mo, Do–Sa 12–14 &amp; 18:30–21 Uhr · Mi 18:30–21 Uhr · So 12–14 Uhr · Di Ruhetag",
+        "phone_href": "tel:+390471058858",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.platzegg.com/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza aperitivo",
+        "dist": "auto",
+        "image": "../assets/kulinarik/meraner.jpg",
+        "img_alt": "Restaurant Pizzeria Meraner, St. Michael/Eppan",
+        "tags": [
+          "Restaurant",
+          "Pizza",
+          "Aperitivo"
+        ],
+        "place": "St. Michael/Eppan · Bergweg 19",
+        "name": "Meraner (Talele)",
+        "desc": "Pizza aus dem Holzofen, Grillklassiker und Südtiroler Küche in dritter Generation Familientradition, überdachte Terrasse ideal für Aperitif und laue Abende.",
+        "walk_time": "ca. 25 Gehmin.",
+        "drive_time": "ca. 6 Autominuten",
+        "hours": "Di–Sa 17–23 Uhr · So Pizza 17–21 Uhr · Mo Ruhetag · Sommer mittags geschlossen",
+        "phone_href": "tel:+390471664033",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.meraner.it/de",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "auto",
+        "image": "../assets/kulinarik/wiesenheim.jpg",
+        "img_alt": "Restaurant Pizzeria Wiesenheim, Unterrain/Eppan",
+        "tags": [
+          "Restaurant",
+          "Pizza"
+        ],
+        "place": "Unterrain/Eppan · Unterrainerstraße 48",
+        "name": "Wiesenheim",
+        "desc": "Mediterrane Küche mit Südtiroler Spezialitäten und Pizza aus dem Holzofen, in ruhiger Lage Richtung Frangart, gern besucht von Einheimischen.",
+        "walk_time": "ca. 30 Gehmin.",
+        "drive_time": "ca. 7 Autominuten",
+        "hours": "12:00–14:00 &amp; 17:30–21:15 Uhr (Pizza bis 22 Uhr) · So mittags nur Pizza · Do Ruhetag",
+        "phone_href": "tel:+390471637031",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.wiesenheim-bz.com/en",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant aperitivo",
+        "dist": "auto",
+        "image": "../assets/kulinarik/golfclub-eppan.jpg",
+        "img_alt": "The Grillhouse, Golfclub Eppan",
+        "tags": [
+          "Restaurant",
+          "Aperitivo"
+        ],
+        "place": "Frangart · Via Riva di Sotto 74",
+        "name": "The Grillhouse, Golfclub Eppan",
+        "desc": "Mediterrane Küche und saftige Steaks vom Holzkohlegrill direkt am Golfplatz, Show-Küche, Pizza aus dem Steinofen und große Weinauswahl in lockerer Atmosphäre.",
+        "walk_time": "ca. 35 Gehmin.",
+        "drive_time": "ca. 8 Autominuten",
+        "hours": "Restaurant Di–Sa 12–15 &amp; 19–23 Uhr · Pizza Di–Sa 17–23, So 17–21 Uhr",
+        "phone_href": "tel:+390471633495",
+        "phone_label": "Anrufen",
+        "website_href": "https://www.golfandcountry.it/en/restaurant/",
+        "website_label": "Website ↗"
+      }
+    ]
+  },
+  "it": {
+    "meta_title": "Guida Culinaria | Hotel Weinberg",
+    "meta_description": "Consigli su ristoranti locali intorno all'Hotel Weinberg a St. Paolo e Appiano sulla Strada del Vino, filtrabili per pizza, ristorante, aperitivo e altro.",
+    "hero_heading": "Dove si mangia bene tra St. Paolo &amp; Appiano",
+    "hero_text": "Non cuciniamo più noi, ma vi sveliamo volentieri dove andiamo a mangiare: dalla pizza dietro l'angolo all'aperitivo in un antico ansitz.",
+    "polaroids": [
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-5.jpg",
+        "alt": "Piatto regionale, presentazione moderna",
+        "caption": "Gusto nel vicinato"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-aperitivo.jpg",
+        "alt": "Aperitivo con Spritz, Negroni e olive",
+        "caption": "L'ora dell'aperitivo"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-4.jpg",
+        "alt": "Pizza Margherita",
+        "caption": "Classici della pizza"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-2.jpg",
+        "alt": "Canederli altoatesini con arrosto di manzo",
+        "caption": "Gusto deciso &amp; regionale"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-3.jpg",
+        "alt": "Castagne arrostite per il Törggelen",
+        "caption": "Stagione del Törggelen"
+      }
+    ],
+    "cards": [
+      {
+        "cat": "restaurant toerggelen",
+        "dist": "fuss",
+        "image": "https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg",
+        "img_alt": "Paulserhof, St. Paolo",
+        "tags": [
+          "Ristorante",
+          "Törggelen"
+        ],
+        "place": "St. Paolo · Unterrainer Straße 21",
+        "name": "Paulserhof",
+        "desc": "Locanda tradizionale con cantina di 700 anni nel cuore del paese, classici altoatesini con un tocco mediterraneo, punto d'incontro amato da oltre 60 anni.",
+        "walk_time": "circa 5 min a piedi",
+        "drive_time": "circa 2 min in auto",
+        "hours": "Aperto tutto l'anno · Prenotazione consigliata",
+        "phone_href": "tel:+390471662422",
+        "phone_label": "Chiama",
+        "website_href": "https://www.paulserhof.com/en/",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "aperitivo restaurant",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/allegra.jpg",
+        "img_alt": "Allegra Weinbar, St. Paolo",
+        "tags": [
+          "Aperitivo",
+          "Enoteca"
+        ],
+        "place": "St. Paolo · Ansitz Schreckenstein",
+        "name": "Allegra",
+        "desc": "Atmosfera mediterranea incontra la tradizione altoatesina in uno storico ansitz, perfetto per aperitivo, vini pregiati e cucina stagionale nell'idilliaco cortile interno.",
+        "walk_time": "circa 5 min a piedi",
+        "drive_time": "circa 2 min in auto",
+        "hours": "Mar–Sab, 17:00–24:00",
+        "phone_href": "tel:+393396241592",
+        "phone_label": "Chiama",
+        "website_href": "https://www.allegra-weinbar.it/de",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "pizza",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/liliane.jpg",
+        "img_alt": "Liliane Pizzeria Café Gelateria, St. Paolo",
+        "tags": [
+          "Pizza",
+          "Caffè / Gelateria"
+        ],
+        "place": "St. Paolo · Paulser Straße 10",
+        "name": "Liliane",
+        "desc": "Pizza dal forno a pietra, gelato fatto in casa e caffè tra mura medievali, informale, adatto alle famiglie, disponibile anche pizza con farro e senza glutine.",
+        "walk_time": "circa 4 min a piedi",
+        "drive_time": "circa 2 min in auto",
+        "hours": "Gio–Dom fino alle 23:30, Lun–Mer fino alle 24:00 · Pizza dalle 17:00",
+        "phone_href": "tel:+390471664300",
+        "phone_label": "Chiama",
+        "website_href": "https://www.liliane.it/de/",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/guten-tropfen.jpg",
+        "img_alt": "Gasthof zum Guten Tropfen, St. Paolo",
+        "tags": [
+          "Ristorante",
+          "Pizza"
+        ],
+        "place": "St. Paolo · Paulser Straße 4",
+        "name": "Guten Tropfen",
+        "desc": "Accogliente locanda familiare nel centro del paese, con pizzeria, invitante cortile interno e specialità altoatesine, gestita dalla stessa famiglia da generazioni.",
+        "walk_time": "circa 4 min a piedi",
+        "drive_time": "circa 2 min in auto",
+        "hours": "Prenotazione consigliata · orari sul sito web",
+        "phone_href": "tel:+390471662223",
+        "phone_label": "Chiama",
+        "website_href": "https://www.gutentropfen.com",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "auto",
+        "image": "../assets/kulinarik/pfeffermuehle.jpg",
+        "img_alt": "Restaurant Pizzeria Pfeffermühle, San Michele/Appiano",
+        "tags": [
+          "Ristorante",
+          "Pizza"
+        ],
+        "place": "San Michele/Appiano · Circonvallazione",
+        "name": "Pfeffermühle",
+        "desc": "Il punto d'incontro per i buongustai vicino a Bolzano: classici di tartare e cucina altoatesina moderna incontrano la pizza dal forno a legna, circondati da frutteti.",
+        "walk_time": "circa 25 min a piedi",
+        "drive_time": "circa 6 min in auto",
+        "hours": "11:45–14:00 &amp; 18:00–21:30 · chiuso mercoledì tutto il giorno &amp; giovedì a pranzo",
+        "phone_href": "tel:+390471663057",
+        "phone_label": "Chiama",
+        "website_href": "https://www.pfeffermuehle.it/en/",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "restaurant toerggelen",
+        "dist": "auto",
+        "image": "../assets/kulinarik/platzegg.jpg",
+        "img_alt": "Osteria Platzegg, San Michele/Appiano",
+        "tags": [
+          "Ristorante",
+          "Cucina altoatesina"
+        ],
+        "place": "San Michele/Appiano · Piazza Municipio 1",
+        "name": "Platzegg",
+        "desc": "\"Onesto, semplice, autentico\": Herbert Hintner reinterpreta con stile da ristorante i classici altoatesini e piatti regionali quasi dimenticati, sulla piazza di San Michele.",
+        "walk_time": "circa 25 min a piedi",
+        "drive_time": "circa 6 min in auto",
+        "hours": "Lun, Gio–Sab 12–14 &amp; 18:30–21 · Mer 18:30–21 · Dom 12–14 · Mar chiuso",
+        "phone_href": "tel:+390471058858",
+        "phone_label": "Chiama",
+        "website_href": "https://www.platzegg.com/",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "restaurant pizza aperitivo",
+        "dist": "auto",
+        "image": "../assets/kulinarik/meraner.jpg",
+        "img_alt": "Restaurant Pizzeria Meraner, San Michele/Appiano",
+        "tags": [
+          "Ristorante",
+          "Pizza",
+          "Aperitivo"
+        ],
+        "place": "San Michele/Appiano · Bergweg 19",
+        "name": "Meraner (Talele)",
+        "desc": "Pizza dal forno a legna, classici alla griglia e cucina altoatesina in terza generazione, terrazza coperta ideale per l'aperitivo e le serate tiepide.",
+        "walk_time": "circa 25 min a piedi",
+        "drive_time": "circa 6 min in auto",
+        "hours": "Mar–Sab 17–23 · Dom pizza 17–21 · Lun chiuso · in estate chiuso a pranzo",
+        "phone_href": "tel:+390471664033",
+        "phone_label": "Chiama",
+        "website_href": "https://www.meraner.it/de",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "auto",
+        "image": "../assets/kulinarik/wiesenheim.jpg",
+        "img_alt": "Restaurant Pizzeria Wiesenheim, Unterrain/Appiano",
+        "tags": [
+          "Ristorante",
+          "Pizza"
+        ],
+        "place": "Unterrain/Appiano · Unterrainerstraße 48",
+        "name": "Wiesenheim",
+        "desc": "Cucina mediterranea con specialità altoatesine e pizza dal forno a legna, in posizione tranquilla verso Frangarto, molto frequentato dagli abitanti del posto.",
+        "walk_time": "circa 30 min a piedi",
+        "drive_time": "circa 7 min in auto",
+        "hours": "12:00–14:00 &amp; 17:30–21:15 (pizza fino alle 22) · domenica a pranzo solo pizza · giovedì chiuso",
+        "phone_href": "tel:+390471637031",
+        "phone_label": "Chiama",
+        "website_href": "https://www.wiesenheim-bz.com/en",
+        "website_label": "Sito web ↗"
+      },
+      {
+        "cat": "restaurant aperitivo",
+        "dist": "auto",
+        "image": "../assets/kulinarik/golfclub-eppan.jpg",
+        "img_alt": "The Grillhouse, Golfclub Appiano",
+        "tags": [
+          "Ristorante",
+          "Aperitivo"
+        ],
+        "place": "Frangarto · Via Riva di Sotto 74",
+        "name": "The Grillhouse, Golfclub Appiano",
+        "desc": "Cucina mediterranea e succulente bistecche alla griglia a carbone direttamente sul campo da golf, cucina a vista, pizza dal forno a pietra e ampia carta dei vini in atmosfera rilassata.",
+        "walk_time": "circa 35 min a piedi",
+        "drive_time": "circa 8 min in auto",
+        "hours": "Ristorante mar–sab 12–15 &amp; 19–23 · Pizza mar–sab 17–23, dom 17–21",
+        "phone_href": "tel:+390471633495",
+        "phone_label": "Chiama",
+        "website_href": "https://www.golfandcountry.it/en/restaurant/",
+        "website_label": "Sito web ↗"
+      }
+    ]
+  },
+  "en": {
+    "meta_title": "Culinary Guide | Hotel Weinberg",
+    "meta_description": "Local restaurant recommendations around Hotel Weinberg in St. Pauls and Appiano on the Wine Route, filterable by pizza, restaurant, aperitivo and more.",
+    "hero_heading": "Where to eat well around St. Pauls &amp; Appiano",
+    "hero_text": "We don't cook ourselves anymore, but we're happy to share where we go to eat: from the pizzeria around the corner to aperitivo in a historic manor.",
+    "polaroids": [
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-5.jpg",
+        "alt": "Regional dish, modern presentation",
+        "caption": "Great food in the neighbourhood"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-aperitivo.jpg",
+        "alt": "Aperitivo with Spritz, Negroni and olives",
+        "caption": "Aperitivo hour"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-4.jpg",
+        "alt": "Pizza Margherita",
+        "caption": "Pizza classics"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-2.jpg",
+        "alt": "South Tyrolean dumplings with beef roast",
+        "caption": "Hearty &amp; regional"
+      },
+      {
+        "image": "../assets/kulinarik/header/polaroid-dish-3.jpg",
+        "alt": "Roasted chestnuts for Törggelen",
+        "caption": "Törggelen season"
+      }
+    ],
+    "cards": [
+      {
+        "cat": "restaurant toerggelen",
+        "dist": "fuss",
+        "image": "https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg",
+        "img_alt": "Paulserhof, St. Pauls",
+        "tags": [
+          "Restaurant",
+          "Törggelen"
+        ],
+        "place": "St. Pauls · Unterrainer Straße 21",
+        "name": "Paulserhof",
+        "desc": "A traditional inn with a 700-year-old wine cellar right in the village, South Tyrolean classics with a Mediterranean touch, a popular meeting spot for over 60 years.",
+        "walk_time": "approx. 5 min walk",
+        "drive_time": "approx. 2 min drive",
+        "hours": "Open year-round · reservation recommended",
+        "phone_href": "tel:+390471662422",
+        "phone_label": "Call",
+        "website_href": "https://www.paulserhof.com/en/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "aperitivo restaurant",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/allegra.jpg",
+        "img_alt": "Allegra Weinbar, St. Pauls",
+        "tags": [
+          "Aperitivo",
+          "Wine Bar"
+        ],
+        "place": "St. Pauls · Ansitz Schreckenstein",
+        "name": "Allegra",
+        "desc": "Mediterranean flair meets South Tyrolean tradition in a historic manor house, perfect for aperitivo, fine wines and seasonal cuisine in an idyllic inner courtyard.",
+        "walk_time": "approx. 5 min walk",
+        "drive_time": "approx. 2 min drive",
+        "hours": "Tue–Sat, 5pm–midnight",
+        "phone_href": "tel:+393396241592",
+        "phone_label": "Call",
+        "website_href": "https://www.allegra-weinbar.it/de",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "pizza",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/liliane.jpg",
+        "img_alt": "Liliane Pizzeria Café Ice Cream Parlour, St. Pauls",
+        "tags": [
+          "Pizza",
+          "Café / Ice Cream"
+        ],
+        "place": "St. Pauls · Paulser Straße 10",
+        "name": "Liliane",
+        "desc": "Stone-oven pizza, homemade ice cream and coffee behind medieval walls, relaxed, family-friendly, spelt and gluten-free pizza also available.",
+        "walk_time": "approx. 4 min walk",
+        "drive_time": "approx. 2 min drive",
+        "hours": "Thu–Sun until 11:30pm, Mon–Wed until midnight · pizza from 5pm",
+        "phone_href": "tel:+390471664300",
+        "phone_label": "Call",
+        "website_href": "https://www.liliane.it/de/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "fuss",
+        "image": "../assets/kulinarik/guten-tropfen.jpg",
+        "img_alt": "Gasthof zum Guten Tropfen, St. Pauls",
+        "tags": [
+          "Restaurant",
+          "Pizza"
+        ],
+        "place": "St. Pauls · Paulser Straße 4",
+        "name": "Guten Tropfen",
+        "desc": "A cosy family-run inn in the village centre with a pizzeria, welcoming courtyard and South Tyrolean specialities, in family hands for generations.",
+        "walk_time": "approx. 4 min walk",
+        "drive_time": "approx. 2 min drive",
+        "hours": "Reservation recommended · see website for opening hours",
+        "phone_href": "tel:+390471662223",
+        "phone_label": "Call",
+        "website_href": "https://www.gutentropfen.com",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "auto",
+        "image": "../assets/kulinarik/pfeffermuehle.jpg",
+        "img_alt": "Restaurant Pizzeria Pfeffermühle, St. Michael/Appiano",
+        "tags": [
+          "Restaurant",
+          "Pizza"
+        ],
+        "place": "St. Michael/Appiano · Circonvallazione",
+        "name": "Pfeffermühle",
+        "desc": "The meeting point for foodies near Bolzano: steak tartare classics and modern South Tyrolean cuisine meet wood-fired pizza, surrounded by orchards.",
+        "walk_time": "approx. 25 min walk",
+        "drive_time": "approx. 6 min drive",
+        "hours": "11:45am–2pm &amp; 6pm–9:30pm · closed all day Wed &amp; Thu lunchtime",
+        "phone_href": "tel:+390471663057",
+        "phone_label": "Call",
+        "website_href": "https://www.pfeffermuehle.it/en/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant toerggelen",
+        "dist": "auto",
+        "image": "../assets/kulinarik/platzegg.jpg",
+        "img_alt": "Osteria Platzegg, St. Michael/Appiano",
+        "tags": [
+          "Restaurant",
+          "South Tyrolean Cuisine"
+        ],
+        "place": "St. Michael/Appiano · Rathausplatz 1",
+        "name": "Platzegg",
+        "desc": "\"Honest, simple, authentic\": Herbert Hintner turns South Tyrolean classics and nearly forgotten regional dishes into restaurant-worthy fare on the piazza of St. Michael.",
+        "walk_time": "approx. 25 min walk",
+        "drive_time": "approx. 6 min drive",
+        "hours": "Mon, Thu–Sat 12–2pm &amp; 6:30–9pm · Wed 6:30–9pm · Sun 12–2pm · closed Tue",
+        "phone_href": "tel:+390471058858",
+        "phone_label": "Call",
+        "website_href": "https://www.platzegg.com/",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza aperitivo",
+        "dist": "auto",
+        "image": "../assets/kulinarik/meraner.jpg",
+        "img_alt": "Restaurant Pizzeria Meraner, St. Michael/Appiano",
+        "tags": [
+          "Restaurant",
+          "Pizza",
+          "Aperitivo"
+        ],
+        "place": "St. Michael/Appiano · Bergweg 19",
+        "name": "Meraner (Talele)",
+        "desc": "Wood-fired pizza, grill classics and South Tyrolean cuisine, third-generation family tradition, a covered terrace ideal for aperitivo and mild evenings.",
+        "walk_time": "approx. 25 min walk",
+        "drive_time": "approx. 6 min drive",
+        "hours": "Tue–Sat 5–11pm · Sun pizza 5–9pm · closed Mon · closed at lunchtime in summer",
+        "phone_href": "tel:+390471664033",
+        "phone_label": "Call",
+        "website_href": "https://www.meraner.it/de",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant pizza",
+        "dist": "auto",
+        "image": "../assets/kulinarik/wiesenheim.jpg",
+        "img_alt": "Restaurant Pizzeria Wiesenheim, Unterrain/Appiano",
+        "tags": [
+          "Restaurant",
+          "Pizza"
+        ],
+        "place": "Unterrain/Appiano · Unterrainerstraße 48",
+        "name": "Wiesenheim",
+        "desc": "Mediterranean cuisine with South Tyrolean specialities and wood-fired pizza, in a quiet location towards Frangarto, a favourite with locals.",
+        "walk_time": "approx. 30 min walk",
+        "drive_time": "approx. 7 min drive",
+        "hours": "12–2pm &amp; 5:30–9:15pm (pizza until 10pm) · Sun lunch pizza only · closed Thu",
+        "phone_href": "tel:+390471637031",
+        "phone_label": "Call",
+        "website_href": "https://www.wiesenheim-bz.com/en",
+        "website_label": "Website ↗"
+      },
+      {
+        "cat": "restaurant aperitivo",
+        "dist": "auto",
+        "image": "../assets/kulinarik/golfclub-eppan.jpg",
+        "img_alt": "The Grillhouse, Golfclub Appiano",
+        "tags": [
+          "Restaurant",
+          "Aperitivo"
+        ],
+        "place": "Frangarto · Via Riva di Sotto 74",
+        "name": "The Grillhouse, Golfclub Appiano",
+        "desc": "Mediterranean cuisine and juicy charcoal-grilled steaks right on the golf course, show kitchen, stone-oven pizza and a large wine selection in a relaxed atmosphere.",
+        "walk_time": "approx. 35 min walk",
+        "drive_time": "approx. 8 min drive",
+        "hours": "Restaurant Tue–Sat 12–3pm &amp; 7–11pm · Pizza Tue–Sat 5–11pm, Sun 5–9pm",
+        "phone_href": "tel:+390471633495",
+        "phone_label": "Call",
+        "website_href": "https://www.golfandcountry.it/en/restaurant/",
+        "website_label": "Website ↗"
+      }
+    ]
+  }
+}

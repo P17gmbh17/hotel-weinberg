@@ -1,0 +1,77 @@
+{
+  "de": {
+    "meta_title": "Kontakt & Anfrage | Hotel Weinberg",
+    "meta_description": "Hotel Weinberg St. Pauls/Eppan, Lage, Kontakt und unverbindliche Zimmeranfrage.",
+    "hero_heading": "Wir freuen uns auf euch",
+    "hero_text": "Schreibt uns, ruft an, oder schickt eine Anfrage – ganz persönlich, ohne Umwege.",
+    "hero_image": "../assets/fotos/header-kontakt-nacht.png",
+    "hero_image_alt": "Hotel Weinberg bei Nacht, beleuchteter Eingang",
+    "lage": {
+      "eyebrow": "Lage",
+      "heading": "St. Pauls an der Südtiroler Weinstraße",
+      "lede": "1,5 km vom Ortszentrum von Eppan, 5 km von der Autobahnausfahrt Bozen Süd, mitten in den Weinbergen, mit weitem Blick auf die Dolomiten.",
+      "dl_html": "<dl>\n          <dt>Adresse</dt><dd>Luziafeldweg 3, 39050 St. Pauls/Eppan (BZ), Südtirol</dd>\n          <dt>Telefon</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>E-Mail</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Anfahrt</dt><dd>5 km ab Ausfahrt Bozen Süd, Radweg Bozen–Kaltern direkt vorbei</dd>\n          <dt>Sprachen</dt><dd>Deutsch, Italienisch, Englisch</dd>\n        </dl>"
+    },
+    "anfrage": {
+      "eyebrow": "Verfügbarkeit &amp; Anfrage",
+      "heading": "Jetzt anfragen",
+      "lede": "Sichert euch euren Wunschtermin, unverbindlich und persönlich."
+    },
+    "booking_panel": {
+      "heading": "Anfrageformular",
+      "note": "Schlichtes Anfrageformular für die erste Kontaktaufnahme, kein Echtzeit-Preisrechner."
+    },
+    "booking_form_html": "<form onsubmit=\"return false;\">\n        <div class=\"form-row thirds\">\n          <div class=\"field\"><label for=\"anreise\">Anreise</label><input type=\"date\" id=\"anreise\" name=\"anreise\"></div>\n          <div class=\"field\"><label for=\"abreise\">Abreise</label><input type=\"date\" id=\"abreise\" name=\"abreise\"></div>\n          <div class=\"field\">\n            <label for=\"gaeste\">Gäste</label>\n            <select id=\"gaeste\" name=\"gaeste\">\n              <option>1 Erwachsener</option>\n              <option selected>2 Erwachsene</option>\n              <option>2 Erwachsene + Kinder</option>\n              <option>Familie / Gruppe</option>\n            </select>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"field\"><label for=\"name\">Name</label><input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Vor- und Nachname\"></div>\n          <div class=\"field\"><label for=\"email\">E-Mail</label><input type=\"email\" id=\"email\" name=\"email\" placeholder=\"name@email.com\"></div>\n        </div>\n        <div class=\"field\" style=\"margin-bottom: 18px;\">\n          <label for=\"nachricht\">Nachricht</label>\n          <textarea id=\"nachricht\" name=\"nachricht\" placeholder=\"Wunschzimmer, besondere Anliegen …\"></textarea>\n        </div>\n        <button type=\"submit\" class=\"btn btn--primary\">Anfrage senden</button>\n      </form>",
+    "contact_strip_html": "<div class=\"contact-strip\">\n        <div><span class=\"label\">Telefon</span><a href=\"tel:+390471662326\">+39 0471 662326</a></div>\n        <div><span class=\"label\">E-Mail</span><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></div>\n        <div><span class=\"label\">Adresse</span>Luziafeldweg 3, 39050 St. Pauls/Eppan</div>\n      </div>"
+  },
+  "it": {
+    "meta_title": "Contatti & Richiesta | Hotel Weinberg",
+    "meta_description": "Hotel Weinberg St. Paolo/Appiano, posizione, contatti e richiesta camera non vincolante.",
+    "hero_heading": "Non vediamo l'ora di conoscervi",
+    "hero_text": "Scriveteci, chiamateci o mandateci una richiesta – in modo personale, senza giri di parole.",
+    "hero_image": "../assets/fotos/header-kontakt-nacht.png",
+    "hero_image_alt": "Hotel Weinberg di notte, ingresso illuminato",
+    "lage": {
+      "eyebrow": "Posizione",
+      "heading": "St. Paolo, sulla Strada del Vino altoatesina",
+      "lede": "1,5 km dal centro di Appiano, 5 km dall'uscita autostradale di Bolzano Sud, tra i vigneti, con ampia vista sulle Dolomiti.",
+      "dl_html": "<dl>\n          <dt>Indirizzo</dt><dd>Luziafeldweg 3, 39050 St. Paolo/Appiano (BZ), Alto Adige</dd>\n          <dt>Telefono</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>E-Mail</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Come arrivare</dt><dd>5 km dall'uscita Bolzano Sud, pista ciclabile Bolzano–Caldaro proprio accanto</dd>\n          <dt>Lingue</dt><dd>Tedesco, italiano, inglese</dd>\n        </dl>"
+    },
+    "anfrage": {
+      "eyebrow": "Disponibilità &amp; Richiesta",
+      "heading": "Richiedi ora",
+      "lede": "Assicuratevi la data desiderata, in modo non vincolante e personale."
+    },
+    "booking_panel": {
+      "heading": "Modulo di richiesta",
+      "note": "Semplice modulo di richiesta per il primo contatto, non è un calcolatore di prezzi in tempo reale."
+    },
+    "booking_form_html": "<form onsubmit=\"return false;\">\n        <div class=\"form-row thirds\">\n          <div class=\"field\"><label for=\"anreise\">Arrivo</label><input type=\"date\" id=\"anreise\" name=\"anreise\"></div>\n          <div class=\"field\"><label for=\"abreise\">Partenza</label><input type=\"date\" id=\"abreise\" name=\"abreise\"></div>\n          <div class=\"field\">\n            <label for=\"gaeste\">Ospiti</label>\n            <select id=\"gaeste\" name=\"gaeste\">\n              <option>1 adulto</option>\n              <option selected>2 adulti</option>\n              <option>2 adulti + bambini</option>\n              <option>Famiglia / gruppo</option>\n            </select>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"field\"><label for=\"name\">Nome</label><input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Nome e cognome\"></div>\n          <div class=\"field\"><label for=\"email\">E-Mail</label><input type=\"email\" id=\"email\" name=\"email\" placeholder=\"nome@email.com\"></div>\n        </div>\n        <div class=\"field\" style=\"margin-bottom: 18px;\">\n          <label for=\"nachricht\">Messaggio</label>\n          <textarea id=\"nachricht\" name=\"nachricht\" placeholder=\"Camera desiderata, richieste particolari …\"></textarea>\n        </div>\n        <button type=\"submit\" class=\"btn btn--primary\">Invia richiesta</button>\n      </form>",
+    "contact_strip_html": "<div class=\"contact-strip\">\n        <div><span class=\"label\">Telefono</span><a href=\"tel:+390471662326\">+39 0471 662326</a></div>\n        <div><span class=\"label\">E-Mail</span><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></div>\n        <div><span class=\"label\">Indirizzo</span>Luziafeldweg 3, 39050 St. Paolo/Appiano</div>\n      </div>"
+  },
+  "en": {
+    "meta_title": "Contact & Enquiry | Hotel Weinberg",
+    "meta_description": "Hotel Weinberg St. Pauls/Appiano, location, contact and a no-obligation room enquiry.",
+    "hero_heading": "We look forward to having you",
+    "hero_text": "Write to us, call us, or send an enquiry – personal, no detours.",
+    "hero_image": "../assets/fotos/header-kontakt-nacht.png",
+    "hero_image_alt": "Hotel Weinberg at night, illuminated entrance",
+    "lage": {
+      "eyebrow": "Location",
+      "heading": "St. Pauls on the South Tyrolean Wine Route",
+      "lede": "1.5 km from the centre of Appiano, 5 km from the Bolzano South motorway exit, right among the vineyards, with wide views of the Dolomites.",
+      "dl_html": "<dl>\n          <dt>Address</dt><dd>Luziafeldweg 3, 39050 St. Pauls/Appiano (BZ), South Tyrol</dd>\n          <dt>Phone</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>Email</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Getting here</dt><dd>5 km from the Bolzano South exit, the Bolzano–Caldaro cycle path passes right by</dd>\n          <dt>Languages</dt><dd>German, Italian, English</dd>\n        </dl>"
+    },
+    "anfrage": {
+      "eyebrow": "Availability &amp; Enquiry",
+      "heading": "Enquire now",
+      "lede": "Secure your preferred dates, no obligation, and personal."
+    },
+    "booking_panel": {
+      "heading": "Enquiry form",
+      "note": "A simple enquiry form for first contact, not a real-time price calculator."
+    },
+    "booking_form_html": "<form onsubmit=\"return false;\">\n        <div class=\"form-row thirds\">\n          <div class=\"field\"><label for=\"anreise\">Arrival</label><input type=\"date\" id=\"anreise\" name=\"anreise\"></div>\n          <div class=\"field\"><label for=\"abreise\">Departure</label><input type=\"date\" id=\"abreise\" name=\"abreise\"></div>\n          <div class=\"field\">\n            <label for=\"gaeste\">Guests</label>\n            <select id=\"gaeste\" name=\"gaeste\">\n              <option>1 adult</option>\n              <option selected>2 adults</option>\n              <option>2 adults + children</option>\n              <option>Family / group</option>\n            </select>\n          </div>\n        </div>\n        <div class=\"form-row\">\n          <div class=\"field\"><label for=\"name\">Name</label><input type=\"text\" id=\"name\" name=\"name\" placeholder=\"First and last name\"></div>\n          <div class=\"field\"><label for=\"email\">Email</label><input type=\"email\" id=\"email\" name=\"email\" placeholder=\"name@email.com\"></div>\n        </div>\n        <div class=\"field\" style=\"margin-bottom: 18px;\">\n          <label for=\"nachricht\">Message</label>\n          <textarea id=\"nachricht\" name=\"nachricht\" placeholder=\"Preferred room, special requests …\"></textarea>\n        </div>\n        <button type=\"submit\" class=\"btn btn--primary\">Send enquiry</button>\n      </form>",
+    "contact_strip_html": "<div class=\"contact-strip\">\n        <div><span class=\"label\">Phone</span><a href=\"tel:+390471662326\">+39 0471 662326</a></div>\n        <div><span class=\"label\">Email</span><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></div>\n        <div><span class=\"label\">Address</span>Luziafeldweg 3, 39050 St. Pauls/Appiano</div>\n      </div>"
+  }
+}

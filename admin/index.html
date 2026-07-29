@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Weinberg – Inhalte bearbeiten</title>
+  <style>
+    /* Bilder im Bearbeitungsformular (links) klein & einheitlich als
+       Thumbnail zeigen statt in voller Groesse. Attribut-Selektor
+       ([class*="..."]), weil Decap CMS seine CSS-Klassen dynamisch mit
+       Hashes generiert, aber die lesbaren Namensteile (z.B. "ImageControl")
+       darin erhaelt. */
+    [class*="ImageControl"] img,
+    [class*="ImageUploadControl"] img,
+    [class*="control-pane"] img {
+      max-width: 90px !important;
+      max-height: 90px !important;
+      width: auto !important;
+      height: auto !important;
+      object-fit: cover !important;
+      border-radius: 8px !important;
+      border: 1px solid rgba(0,0,0,0.12) !important;
+    }
+
+    /* Alle Hauptsektionen einheitlich im CD-Gold/Bronze-Ton (--olive aus
+       styles.css) statt der frueheren Regenbogen-Farben pro Sektion. */
+    [class*="control-pane"] > [class*="ObjectControl"] {
+      border-left: 5px solid #898453;
+      background: #fbf9f3;
+      border-radius: 6px;
+      margin-bottom: 6px;
+    }
+
+    /* Dunkelgruener Weinberg-Hintergrund (--green-dark aus styles.css)
+       fuers gesamte CMS. Der eigentliche Formular-/Vorschau-Inhalt bleibt
+       hell (fuer Lesbarkeit), nur die Chrome-Bereiche (oberste Leiste,
+       Seitenhintergrund aussenrum) werden dunkelgruen. Attribut-Selektoren,
+       da Decaps Klassen gehasht sind. */
+    html, body {
+      background: #233721 !important;
+    }
+    [class*="AppHeader" i],
+    [class*="TopBarContainer" i],
+    [class*="Toolbar" i],
+    nav[class] {
+      background: #233721 !important;
+      border-color: rgba(255,255,255,0.12) !important;
+    }
+    [class*="AppHeader" i] *,
+    [class*="TopBarContainer" i] *,
+    [class*="Toolbar" i] * {
+      color: #f5f1e6 !important;
+    }
+
+    /* Logo mittig in der obersten Navi-Leiste. Die Leiste selbst bleibt
+       Decaps eigenes Element (position: relative wird ihr per JS unten
+       zugewiesen); das Logo liegt absolut zentriert darueber, ohne Klicks
+       auf die eigentlichen Toolbar-Buttons zu blockieren. */
+    #weinbergCmsLogo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 28px;
+      z-index: 99999;
+      pointer-events: none;
+    }
+
+    /* Sammlungs-Uebersicht: die Karte pro Sammlung (bisher ein kleines,
+       leeres weisses Rechteck) auf volle Breite ziehen - genauso breit wie
+       die weisse Kopfzeile ("ÜBER UNS / PHILOSOPHIE" etc.) darueber - und
+       oben eine echte Live-Vorschau der veroeffentlichten Seite als
+       verkleinertes iframe einbetten (statt eines statischen Thumbnails).
+       Klasse .weinberg-card-link/-preview wird per JS unten vergeben, NICHT
+       ueber Decaps eigene (gehashte) Klassennamen - dadurch unabhaengig von
+       der Decap-Version. */
+    .weinberg-card-link {
+      width: 100% !important;
+      max-width: 690px !important;
+      display: block !important;
+    }
+    .weinberg-card-preview {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 8px 8px 0 0;
+      background: #fff;
+      border-bottom: 1px solid rgba(35,55,33,0.12);
+    }
+    .weinberg-card-preview iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 0;
+      pointer-events: none;
+      transform-origin: top left;
+    }
+  </style>
+</head>
+<body>
+  <!-- Decap CMS (frueher Netlify CMS) laedt sich selbst und liest config.yml
+       aus demselben Ordner -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <!-- Eigene Vorschau, damit die Vorschau rechts wie die echte Seite aussieht -->
+  <script src="preview.js"></script>
+  <script>
+    // Logo mittig in die oberste Navi-Leiste einfuegen. Decap rendert seine
+    // Oberflaeche asynchron und baut die Toolbar bei Navigation neu auf -
+    // deshalb per Intervall pruefen, ob die Leiste schon existiert UND ob
+    // unser Logo noch drin haengt (falls Decap sie neu rendert, fuegen wir
+    // es erneut ein statt uns einmalig zu verlassen).
+    (function () {
+      function ensureLogo() {
+        var bar = document.querySelector('[class*="AppHeader" i], [class*="TopBarContainer" i], [class*="Toolbar" i], nav[class]');
+        if (!bar) return;
+        if (bar.querySelector('#weinbergCmsLogo')) return;
+        var style = window.getComputedStyle(bar);
+        if (style.position === 'static') {
+          bar.style.position = 'relative';
+        }
+        var img = document.createElement('img');
+        img.id = 'weinbergCmsLogo';
+        img.src = '/assets/logo/logo-horizontal-white.png';
+        img.alt = 'Hotel Weinberg';
+        bar.appendChild(img);
+      }
+      window.addEventListener('load', function () {
+        ensureLogo();
+        setInterval(ensureLogo, 1000);
+      });
+    })();
+  </script>
+  <script>
+    // ABGESCHALTET (2026-07-29): "Immer nur eine Hauptsektion offen" per
+    // automatischem Klick auf Geschwister-Sektionen. Live-Test hat gezeigt,
+    // dass dieser Mechanismus in der aktuellen Decap-Version zu einer
+    // ECHTEN ENDLOSSCHLEIFE fuehren kann (Tab friert komplett ein): die
+    // einzige verfuegbare Methode, um "ist diese Sektion gerade
+    // aufgeklappt?" zu pruefen (Anzahl Kind-Elemente), liefert IMMER
+    // "true", egal ob auf- oder zugeklappt. Dadurch klickt eine Sektion A
+    // automatisch ihre Geschwister B zu, B klickt (ueber denselben
+    // Mechanismus) wiederum A zu, und das pingpongt ohne Ende. Bis es einen
+    // zuverlaessigen Weg gibt, den echten Auf-/Zu-Zustand zu erkennen,
+    // bleibt dieses Feature deaktiviert - Nutzer klappen Sektionen manuell
+    // zu, das aufgeklappte Formular ist zwar laenger, aber sicher.
+  </script>
+  <script>
+    // Live-HTML-Vorschau in der Sammlungs-Uebersicht: statt einer leeren
+    // weissen Karte pro Sammlung wird oben ein verkleinertes iframe der
+    // aktuell veroeffentlichten Live-Seite eingebettet (echtes HTML, kein
+    // statisches JPG-Thumbnail), die Karte selbst auf volle Breite gezogen.
+    // Erkennung ueber den Link-href zur jeweiligen Sammlung (robust, da
+    // unabhaengig von Decaps internen/gehashten CSS-Klassennamen).
+    (function () {
+      var LIVE_BASE = 'https://benevolent-cranachan-01009f.netlify.app/de/';
+      var PAGE_FILES = {
+        startseite: 'index.html',
+        zimmer: 'zimmer.html',
+        geniessen: 'geniessen.html',
+        kulinarik: 'kulinarik.html',
+        philosophie: 'philosophie.html',
+        kontakt: 'kontakt.html',
+      };
+      // "Kamera"-Groesse: wir laden die Seite in dieser Breite und skalieren
+      // sie per CSS-transform auf die tatsaechliche Kartenbreite herunter.
+      // Die Karte selbst bekommt eine FESTE Hoehe (CARD_H) statt frei mit
+      // hochzuskalieren - sonst wird die Karte bei voller Breite riesig und
+      // darunter bleibt viel leere Flaeche. NAV_CROP blendet die Navi-Leiste
+      // der Live-Seite aus (nach oben verschoben, per translateY, VOR dem
+      // Skalieren), damit man direkt den eigentlichen Seiteninhalt sieht.
+      var CAM_W = 1400;
+      var CARD_H = 500;
+      var NAV_CROP = 150;
+
+      function sizeFrame(wrap, iframe) {
+        // wrap selbst messen (nicht das Eltern-Element): wrap erbt seine
+        // Breite von .weinberg-card-link, das per CSS auf max. 690px
+        // gedeckelt ist - der Eltern-Grid/Flex-Container koennte aber breiter
+        // sein, was sonst zu einer falschen (zu grossen) Skalierung fuehrt.
+        var containerWidth = wrap.clientWidth;
+        if (!containerWidth) return;
+        var scale = containerWidth / CAM_W;
+        var camH = NAV_CROP + Math.ceil(CARD_H / scale);
+        iframe.style.width = CAM_W + 'px';
+        iframe.style.height = camH + 'px';
+        iframe.style.transform = 'scale(' + scale + ') translateY(-' + NAV_CROP + 'px)';
+        wrap.style.height = CARD_H + 'px';
+      }
+
+      // Manche Decap-Versionen packen die Karte in ein Grid/Flex-Layout mit
+      // fester Spaltenbreite (z.B. minmax(240px, 1fr)) - dann reicht es
+      // nicht, das direkte Elternelement auf display:block zu setzen, weil
+      // die Spaltenbreite vom GRID-CONTAINER (evtl. 1-2 Ebenen hoeher)
+      // vorgegeben wird. Wir laufen daher etwas nach oben, hoeren aber beim
+      // ERSTEN gefundenen Grid/Flex auf - sonst blockifiziert man versehent-
+      // lich auch aeussere Seiten-Layout-Container (fuehrte zuvor zu einer
+      // riesigen leeren Flaeche unterhalb der Karte).
+      function widenAncestors(el) {
+        var node = el.parentElement;
+        var hops = 0;
+        while (node && hops < 4) {
+          var cs = window.getComputedStyle(node);
+          if (cs.display === 'grid' || cs.display === 'inline-grid' || cs.display === 'flex' || cs.display === 'inline-flex') {
+            // Dieses Element traegt oft auch den weissen Karten-Hintergrund
+            // selbst (nicht der <a>-Link darin) - deshalb hier ZUSAETZLICH
+            // die 690px-Deckelung setzen, sonst bleibt der weisse "Rahmen"
+            // breiter als der eigentliche (bereits gedeckelte) Inhalt.
+            node.style.setProperty('display', 'block', 'important');
+            node.style.setProperty('width', '100%', 'important');
+            node.style.setProperty('max-width', '690px', 'important');
+            return;
+          }
+          node = node.parentElement;
+          hops++;
+        }
+      }
+
+      function ensureCardPreviews() {
+        Object.keys(PAGE_FILES).forEach(function (coll) {
+          var links = document.querySelectorAll('a[href*="#/collections/' + coll + '/entries/"]');
+          links.forEach(function (link) {
+            link.classList.add('weinberg-card-link');
+            widenAncestors(link);
+
+            var wrap = link.querySelector('.weinberg-card-preview');
+            if (!wrap) {
+              wrap = document.createElement('div');
+              wrap.className = 'weinberg-card-preview';
+              var iframe = document.createElement('iframe');
+              iframe.src = LIVE_BASE + PAGE_FILES[coll];
+              iframe.setAttribute('loading', 'lazy');
+              iframe.setAttribute('scrolling', 'no');
+              iframe.setAttribute('title', coll + ' Live-Vorschau');
+              wrap.appendChild(iframe);
+              link.insertBefore(wrap, link.firstChild);
+            }
+            sizeFrame(wrap, wrap.querySelector('iframe'));
+          });
+        });
+      }
+
+      window.addEventListener('load', function () {
+        ensureCardPreviews();
+        setInterval(ensureCardPreviews, 1000);
+        window.addEventListener('resize', ensureCardPreviews);
+        window.addEventListener('hashchange', function () {
+          setTimeout(ensureCardPreviews, 50);
+        });
+      });
+    })();
+  </script>
+  <script>
+    // Aktive Sektion in der Vorschau (rechts) markieren + dorthin scrollen,
+    // wenn links im Formular eine aufklappbare Sektion (z.B.
+    // "3 · Genießen-Teaser") angeklickt wird. Gematcht wird ueber den
+    // TITEL-Text (nicht die Nummer!): im Formular zaehlt JEDES Feld einzeln
+    // mit, waehrend preview.js mehrere Felder oft zu einem Block
+    // zusammenfasst - dadurch laufen die Nummern in den meisten Sammlungen
+    // auseinander (z.B. Formular "10 · Zimmer-Verlinkung" vs. Vorschau-
+    // Block Nummer 5). Der Titel-Wortlaut ist der stabile gemeinsame Anker.
+    //
+    // WICHTIG (per Live-Debugging am 2026-07-29 herausgefunden): eine
+    // einmalig von aussen gesetzte CSS-Klasse auf dem Vorschau-Sektor wird
+    // nicht zuverlaessig beibehalten - mal weil Decap die Vorschau neu
+    // rendert (baut preview.js's sector()-HTML frisch aus
+    // window.__weinbergActiveSectionTitle neu auf), mal weil (bei reinem
+    // Auf-/Zuklappen ohne Datenaenderung) GAR KEIN Re-Render stattfindet und
+    // die Klasse dadurch nie gesetzt wird. Deshalb: statt auf EINEN
+    // richtigen Zeitpunkt zu warten, wird die Markierung per Dauerschleife
+    // (alle 300ms) immer wieder neu durchgesetzt - sowohl fuer den Fall
+    // "Re-Render hat sie entfernt" als auch "Re-Render hat nie stattgefunden
+    // und sie wurde nie gesetzt". Selbstheilend, unabhaengig vom genauen
+    // Decap-Render-Timing.
+    //
+    // Funktioniert nur fuer aufklappbare Feld-/Objekt-Sektionen (Decaps
+    // "ControlTopbar", per Live-Inspektion am 2026-07-29 bestaetigt - die
+    // urspruenglich angenommene Klasse "ObjectWidgetTopBar" existierte in
+    // dieser Decap-Version gar nicht).
+    (function () {
+      function normalizeTitle(s) {
+        return String(s || '').toLowerCase().replace(/[^a-z0-9äöüß]+/g, '');
+      }
+
+      // Sucht rekursiv (Hauptdokument + verschachtelte iframes, bis zu 3
+      // Ebenen tief) nach einem Dokument, das unsere Vorschau-Sektoren
+      // enthaelt. Per Live-Inspektion bestaetigt: Decap rendert die
+      // Vorschau in einem gleichen-Origin-iframe mit id="preview-pane".
+      function findPreviewDoc(root, depth) {
+        depth = depth || 0;
+        try {
+          if (root.querySelector && root.querySelector('.cms-sector[data-sector-title]')) {
+            return root;
+          }
+        } catch (e) {}
+        if (depth >= 3) return null;
+        var frames = root.querySelectorAll ? root.querySelectorAll('iframe') : [];
+        for (var i = 0; i < frames.length; i++) {
+          try {
+            var inner = frames[i].contentDocument;
+            if (inner) {
+              var found = findPreviewDoc(inner, depth + 1);
+              if (found) return found;
+            }
+          } catch (e) {
+            // Cross-Origin oder noch nicht geladen - ignorieren.
+          }
+        }
+        return null;
+      }
+
+      function findSectorByTitle(doc, normTitle) {
+        var all = doc.querySelectorAll('.cms-sector[data-sector-title]');
+        var target = null;
+        Array.prototype.forEach.call(all, function (el) {
+          if (el.getAttribute('data-sector-title') === normTitle) target = el;
+        });
+        if (!target && normTitle) {
+          Array.prototype.forEach.call(all, function (el) {
+            if (target) return;
+            var t = el.getAttribute('data-sector-title') || '';
+            if (t && (normTitle.indexOf(t) !== -1 || t.indexOf(normTitle) !== -1)) target = el;
+          });
+        }
+        return target;
+      }
+
+      function scrollToActive(normTitle, attemptsLeft) {
+        attemptsLeft = attemptsLeft === undefined ? 20 : attemptsLeft;
+        var doc = findPreviewDoc(document);
+        var target = doc ? findSectorByTitle(doc, normTitle) : null;
+        if (target && target.scrollIntoView) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          return;
+        }
+        if (attemptsLeft > 0) {
+          setTimeout(function () { scrollToActive(normTitle, attemptsLeft - 1); }, 120);
+        }
+      }
+
+      // Dauerschleife: setzt bei jedem Tick die "aktiv"-Klasse gemaess dem
+      // aktuellen window.__weinbergActiveSectionTitle - egal ob/wann Decap
+      // zuletzt neu gerendert hat. Rein additiv/entfernend per classList,
+      // ruft NIRGENDS .click() auf - kann also keine Klick-Kaskade ausloesen.
+      setInterval(function () {
+        var normTitle = window.__weinbergActiveSectionTitle;
+        if (!normTitle) return;
+        var doc = findPreviewDoc(document);
+        if (!doc) return;
+        var all = doc.querySelectorAll('.cms-sector[data-sector-title]');
+        var target = findSectorByTitle(doc, normTitle);
+        Array.prototype.forEach.call(all, function (el) {
+          el.classList.toggle('cms-sector--active', el === target);
+        });
+      }, 300);
+
+      var TOPBAR_SELECTOR = '[class*="ControlTopbar" i]';
+      // Nur bei "object field" / "list field" reagieren (siehe ausfuehrliche
+      // Begruendung im "nur eine Sektion offen"-Skript oben) - sonst kann
+      // ein Klick auf ein simples Text-/Bildfeld ueber die Geschwister-
+      // Kollaps-Kaskade indirekt ein VOELLIG anderes Feld als "aktiv"
+      // markieren.
+      var COLLAPSIBLE_TYPES = { 'object field': true, 'list field': true };
+
+      document.addEventListener('click', function (e) {
+        var topBar = e.target.closest(TOPBAR_SELECTOR);
+        if (!topBar) return;
+        var control = topBar.parentElement;
+        var ariaLabel = control && control.getAttribute && control.getAttribute('aria-label');
+        if (!ariaLabel || !COLLAPSIBLE_TYPES[ariaLabel]) return;
+        // Fuehrende "Zahl · " abschneiden, Rest ist der Titel-Wortlaut.
+        var rawTitle = (topBar.textContent || '').replace(/^\s*\d+\s*·\s*/, '');
+        var normTitle = normalizeTitle(rawTitle);
+        if (!normTitle) return;
+        window.__weinbergActiveSectionTitle = normTitle;
+        setTimeout(function () { scrollToActive(normTitle); }, 150);
+      }, true);
+    })();
+  </script>
+</body>
+</html>

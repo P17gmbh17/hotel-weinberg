@@ -1,0 +1,227 @@
+{
+  "de": {
+    "meta_title": "Genießen | Hotel Weinberg",
+    "meta_description": "Pool, Frühstück unter Palmen und ein Ausblick auf die Erneuerung des Hauses, Genießen im Hotel Weinberg St. Pauls.",
+    "hero_heading": "Frühstück unter Palmen, Ruhe am Pool",
+    "hero_text": "Drei Lieblingsorte des Hauses: ein duftendes Frühstück, schattige Ruhe im Garten, ein Pool zum Verweilen.",
+    "story_eyebrow": "Drei Stationen",
+    "story_lede": "Scrollt weiter und begleitet uns auf einem kurzen Rundgang, vom Pool über den Garten bis zum Frühstückstisch.",
+    "story_scroll_label": "Los geht's",
+    "impressions_prefix": "Impressionen",
+    "pool": {
+      "eyebrow": "Pool",
+      "heading": "Ruhe am Wasser",
+      "lede": "Nach einer ausgedehnten Berg-, Rad- oder Motorradtour lädt unser Freischwimmbad mit Liegewiese zum Entspannen ein.",
+      "background_image": "../assets/fotos/pool.jpg",
+      "background_alt": "Pool im Hotel Weinberg mit Blick auf die Weinberge",
+      "tick_list": ["Freischwimmbad mit Liegewiese", "Kinderspielplatz", "Sonnenliegen &amp; schattige Plätze", "Blick auf Weinberge &amp; Dolomiten"],
+      "impressions": [
+        { "image": "../assets/fotos/hotel-detail-pool-alt.png", "alt": "Entspannen am Pool, Hotel Weinberg", "caption": "Entspannen" },
+        { "image": "../assets/fotos/pool.jpg", "alt": "Poolbereich mit Liegewiese und Weinbergblick", "caption": "Liegewiese" },
+        { "image": "../assets/fotos/detail1.jpg", "alt": "Blick über Pool und Weinberge von oben", "caption": "Von oben" }
+      ]
+    },
+    "garten": {
+      "eyebrow": "Garten",
+      "heading": "Grün, ruhig, mediterran",
+      "lede": "Palmen, Reben und schattige Sitzecken, unser Garten ist der ruhige Mittelpunkt des Hauses.",
+      "body": "Ob mit einem Glas Südtiroler Wein am Abend oder morgens mit Kaffee: Im Garten lässt sich der Tag von beiden Seiten genießen.",
+      "background_image": "../assets/fotos/gartenlounge.jpg",
+      "background_alt": "Gartenlounge des Hotel Weinberg unter Palmen",
+      "impressions": [
+        { "image": "../assets/fotos/garten-palme.jpg", "alt": "Palmenblatt im Garten des Hotel Weinberg", "caption": "Palmenblatt" },
+        { "image": "../assets/fotos/garten.jpg", "alt": "Garten des Hotel Weinberg", "caption": "Garten" },
+        { "image": "../assets/kulinarik/header/polaroid-aperitivo.jpg", "alt": "Aperitivo am Abend", "caption": "Aperitivo" }
+      ]
+    },
+    "fruehstueck": {
+      "eyebrow": "Frühstück",
+      "heading": "Es braucht nicht viel, um glücklich zu sein",
+      "lede": "Reichhaltiges Frühstücksbuffet im lichtdurchfluteten Raum mit Panoramablick oder im Freien unter Palmen.",
+      "background_image": "../assets/fotos/fruehstuecksraum.jpg",
+      "background_alt": "Frühstücksraum im Hotel Weinberg mit Blick auf die Dolomiten",
+      "body_desktop": "Frisch zubereitete Wurst- und Käseplatten mit Zitrone, hausgebackenes Brot und Kaffee sowie Espresso frisch zubereitet, auf Wunsch auch Eier nach Wahl direkt aus der Küche. Ein eigenes Restaurant führen wir derzeit nicht. Für Mittag- und Abendessen empfehlen wir euch gerne unsere Lieblingsplätze in der Umgebung.",
+      "body_mobile": "Frische Wurst- und Käseplatten, hausgebackenes Brot und frisch zubereiteter Kaffee. Für Mittag und Abend empfehlen wir gerne unsere Lieblingsplätze in der Umgebung.",
+      "cta_label": "Zum Kulinarik-Guide →",
+      "impressions": [
+        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Frühstückstisch mit Kaffee und Gebäck", "caption": "Am Tisch" },
+        { "image": "../assets/fotos/fruehstuecksraum.jpg", "alt": "Frühstücksraum mit Panoramablick", "caption": "Panoramablick" }
+      ]
+    },
+    "zimmer_link": {
+      "eyebrow": "Weitergehen",
+      "heading": "Zimmer: Ankommen, durchatmen, bleiben",
+      "lede": "Nach Pool, Garten und Frühstück wartet ein ruhiges Zimmer mit Blick auf Weinberge oder Dolomiten, der Rückzugsort für alles, was der Tag gebracht hat.",
+      "image": "../assets/fotos/hotel-detail-zimmer.png",
+      "alt": "Bett mit frischer Wäsche in einem Doppelzimmer",
+      "cta_label": "Zimmer entdecken →"
+    },
+    "kulinarik_teaser": {
+      "eyebrow": "Kulinarik-Guide",
+      "heading": "Gut essen rund um St. Pauls &amp; Eppan",
+      "lede": "Wir führen keine eigene Küche mehr. Dafür kennen wir die besten Adressen in der Nachbarschaft. Vom Törggelen bis zum Aperitivo.",
+      "cards": [
+        { "image": "../assets/kulinarik/allegra.jpg", "label": "Allegra" },
+        { "image": "../assets/kulinarik/liliane.jpg", "label": "Liliane" },
+        { "image": "../assets/kulinarik/pfeffermuehle.jpg", "label": "Pfeffermühle" },
+        { "image": "../assets/kulinarik/platzegg.jpg", "label": "Platzegg" }
+      ],
+      "cta_label": "Alle Empfehlungen ansehen"
+    },
+    "cta_banner": {
+      "heading": "Lust auf ein paar ruhige Tage?",
+      "text": "Schreibt uns eure Wunschtermine. Wir melden uns persönlich zurück.",
+      "cta_label": "Jetzt anfragen"
+    }
+  },
+  "it": {
+    "meta_title": "Relax | Hotel Weinberg",
+    "meta_description": "Piscina, colazione sotto le palme e uno sguardo al rinnovamento della casa, il relax all'Hotel Weinberg St. Paolo.",
+    "hero_heading": "Colazione sotto le palme, quiete in piscina",
+    "hero_text": "Tre luoghi del cuore: una colazione profumata, l'ombra del giardino, una piscina in cui perdersi.",
+    "story_eyebrow": "Tre tappe",
+    "story_lede": "Continuate a scorrere e accompagnateci in un breve giro, dalla piscina al giardino fino al tavolo della colazione.",
+    "story_scroll_label": "Iniziamo",
+    "impressions_prefix": "Impressioni",
+    "pool": {
+      "eyebrow": "Piscina",
+      "heading": "Quiete sull'acqua",
+      "lede": "Dopo un'escursione in montagna, in bici o in moto, la nostra piscina scoperta con prato solarium invita al relax.",
+      "background_image": "../assets/fotos/pool.jpg",
+      "background_alt": "Piscina dell'Hotel Weinberg con vista sui vigneti",
+      "tick_list": ["Piscina scoperta con prato solarium", "Parco giochi per bambini", "Lettini &amp; angoli d'ombra", "Vista sui vigneti &amp; sulle Dolomiti"],
+      "impressions": [
+        { "image": "../assets/fotos/hotel-detail-pool-alt.png", "alt": "Relax in piscina, Hotel Weinberg", "caption": "Relax" },
+        { "image": "../assets/fotos/pool.jpg", "alt": "Zona piscina con prato solarium e vista sui vigneti", "caption": "Prato solarium" },
+        { "image": "../assets/fotos/detail1.jpg", "alt": "Vista dall'alto su piscina e vigneti", "caption": "Dall'alto" }
+      ]
+    },
+    "garten": {
+      "eyebrow": "Giardino",
+      "heading": "Verde, tranquillo, mediterraneo",
+      "lede": "Palme, viti e angoli ombreggiati, il nostro giardino è il cuore tranquillo della casa.",
+      "body": "Che sia con un bicchiere di vino altoatesino la sera o con un caffè al mattino: in giardino la giornata si può godere da entrambi i lati.",
+      "background_image": "../assets/fotos/gartenlounge.jpg",
+      "background_alt": "Lounge del giardino dell'Hotel Weinberg sotto le palme",
+      "impressions": [
+        { "image": "../assets/fotos/garten-palme.jpg", "alt": "Foglia di palma nel giardino dell'Hotel Weinberg", "caption": "Foglia di palma" },
+        { "image": "../assets/fotos/garten.jpg", "alt": "Giardino dell'Hotel Weinberg", "caption": "Giardino" },
+        { "image": "../assets/kulinarik/header/polaroid-aperitivo.jpg", "alt": "Aperitivo la sera", "caption": "Aperitivo" }
+      ]
+    },
+    "fruehstueck": {
+      "eyebrow": "Colazione",
+      "heading": "Non serve molto per essere felici",
+      "lede": "Ricca colazione a buffet nella luminosa sala con vista panoramica o all'aperto sotto le palme.",
+      "background_image": "../assets/fotos/fruehstuecksraum.jpg",
+      "background_alt": "Sala colazione dell'Hotel Weinberg con vista sulle Dolomiti",
+      "body_desktop": "Taglieri di salumi e formaggi freschi con limone, pane sfornato in casa e caffè ed espresso preparati al momento, su richiesta anche le uova come preferite direttamente dalla cucina. Al momento non gestiamo più un nostro ristorante. Per pranzo e cena vi consigliamo volentieri i nostri locali preferiti nei dintorni.",
+      "body_mobile": "Taglieri di salumi e formaggi freschi, pane fatto in casa e caffè preparato al momento. Per pranzo e cena vi consigliamo i nostri locali preferiti nei dintorni.",
+      "cta_label": "Alla Guida Culinaria →",
+      "impressions": [
+        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Tavolo della colazione con caffè e dolci", "caption": "A tavola" },
+        { "image": "../assets/fotos/fruehstuecksraum.jpg", "alt": "Sala colazione con vista panoramica", "caption": "Vista panoramica" }
+      ]
+    },
+    "zimmer_link": {
+      "eyebrow": "Continuate a scoprire",
+      "heading": "Camere: arrivare, respirare, restare",
+      "lede": "Dopo piscina, giardino e colazione vi aspetta una camera tranquilla con vista sui vigneti o sulle Dolomiti, il rifugio per tutto ciò che la giornata ha portato.",
+      "image": "../assets/fotos/hotel-detail-zimmer.png",
+      "alt": "Letto con biancheria fresca in una camera doppia",
+      "cta_label": "Scopri le camere →"
+    },
+    "kulinarik_teaser": {
+      "eyebrow": "Guida Culinaria",
+      "heading": "Dove mangiare bene tra St. Paolo &amp; Appiano",
+      "lede": "Non gestiamo più una nostra cucina, ma conosciamo i migliori indirizzi del vicinato. Dal Törggelen all'aperitivo.",
+      "cards": [
+        { "image": "../assets/kulinarik/allegra.jpg", "label": "Allegra" },
+        { "image": "../assets/kulinarik/liliane.jpg", "label": "Liliane" },
+        { "image": "../assets/kulinarik/pfeffermuehle.jpg", "label": "Pfeffermühle" },
+        { "image": "../assets/kulinarik/platzegg.jpg", "label": "Platzegg" }
+      ],
+      "cta_label": "Vedi tutti i consigli"
+    },
+    "cta_banner": {
+      "heading": "Voglia di qualche giorno di relax?",
+      "text": "Scriveteci le vostre date desiderate. Vi risponderemo personalmente.",
+      "cta_label": "Richiedi ora"
+    }
+  },
+  "en": {
+    "meta_title": "Enjoy | Hotel Weinberg",
+    "meta_description": "Pool, breakfast under palm trees and a glimpse of the house's renewal, Enjoy at Hotel Weinberg St. Pauls.",
+    "hero_heading": "Breakfast under palm trees, peace by the pool",
+    "hero_text": "Three favourite corners of the house: a fragrant breakfast, shade in the garden, a pool to linger by.",
+    "story_eyebrow": "Three stops",
+    "story_lede": "Keep scrolling and join us on a short tour, from the pool, through the garden, to the breakfast table.",
+    "story_scroll_label": "Let's go",
+    "impressions_prefix": "Highlights",
+    "pool": {
+      "eyebrow": "Pool",
+      "heading": "Peace by the water",
+      "lede": "After a long hike, bike ride or motorcycle tour, our outdoor pool with sunbathing lawn invites you to unwind.",
+      "background_image": "../assets/fotos/pool.jpg",
+      "background_alt": "Pool at Hotel Weinberg with vineyard views",
+      "tick_list": ["Outdoor pool with sunbathing lawn", "Children's playground", "Sun loungers &amp; shady spots", "Views of vineyards &amp; the Dolomites"],
+      "impressions": [
+        { "image": "../assets/fotos/hotel-detail-pool-alt.png", "alt": "Relaxing by the pool, Hotel Weinberg", "caption": "Relaxing" },
+        { "image": "../assets/fotos/pool.jpg", "alt": "Pool area with sunbathing lawn and vineyard views", "caption": "Sunbathing lawn" },
+        { "image": "../assets/fotos/detail1.jpg", "alt": "View over the pool and vineyards from above", "caption": "From above" }
+      ]
+    },
+    "garten": {
+      "eyebrow": "Garden",
+      "heading": "Green, calm, Mediterranean",
+      "lede": "Palm trees, vines and shady corners, our garden is the quiet heart of the house.",
+      "body": "Whether with a glass of South Tyrolean wine in the evening or coffee in the morning: in the garden, the day can be enjoyed from both ends.",
+      "background_image": "../assets/fotos/gartenlounge.jpg",
+      "background_alt": "Garden lounge at Hotel Weinberg beneath the palm trees",
+      "impressions": [
+        { "image": "../assets/fotos/garten-palme.jpg", "alt": "Palm leaf in the garden of Hotel Weinberg", "caption": "Palm leaf" },
+        { "image": "../assets/fotos/garten.jpg", "alt": "Garden at Hotel Weinberg", "caption": "Garden" },
+        { "image": "../assets/kulinarik/header/polaroid-aperitivo.jpg", "alt": "Evening aperitivo", "caption": "Aperitivo" }
+      ]
+    },
+    "fruehstueck": {
+      "eyebrow": "Breakfast",
+      "heading": "It doesn't take much to be happy",
+      "lede": "Generous breakfast buffet in the light-flooded room with panoramic views, or outside beneath the palms.",
+      "background_image": "../assets/fotos/fruehstuecksraum.jpg",
+      "background_alt": "Breakfast room at Hotel Weinberg with views of the Dolomites",
+      "body_desktop": "Fresh cured meat and cheese platters with lemon, home-baked bread, and coffee and espresso freshly prepared, eggs cooked to order straight from the kitchen on request. We no longer run our own restaurant. For lunch and dinner, we're happy to recommend our favourite places nearby.",
+      "body_mobile": "Fresh cured meat and cheese platters, home-baked bread and freshly prepared coffee. For lunch and dinner, we're happy to recommend our favourite places nearby.",
+      "cta_label": "To the Culinary Guide →",
+      "impressions": [
+        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Breakfast table with coffee and pastries", "caption": "At the table" },
+        { "image": "../assets/fotos/fruehstuecksraum.jpg", "alt": "Breakfast room with panoramic views", "caption": "Panoramic views" }
+      ]
+    },
+    "zimmer_link": {
+      "eyebrow": "Keep exploring",
+      "heading": "Rooms: arrive, breathe, stay",
+      "lede": "After pool, garden and breakfast, a quiet room with views of vineyards or the Dolomites awaits, a retreat for everything the day has brought.",
+      "image": "../assets/fotos/hotel-detail-zimmer.png",
+      "alt": "Bed with fresh linen in a double room",
+      "cta_label": "Discover rooms →"
+    },
+    "kulinarik_teaser": {
+      "eyebrow": "Culinary Guide",
+      "heading": "Great food around St. Pauls &amp; Appiano",
+      "lede": "We no longer run our own kitchen, but we know the best addresses in the neighbourhood. From Törggelen to aperitivo.",
+      "cards": [
+        { "image": "../assets/kulinarik/allegra.jpg", "label": "Allegra" },
+        { "image": "../assets/kulinarik/liliane.jpg", "label": "Liliane" },
+        { "image": "../assets/kulinarik/pfeffermuehle.jpg", "label": "Pfeffermühle" },
+        { "image": "../assets/kulinarik/platzegg.jpg", "label": "Platzegg" }
+      ],
+      "cta_label": "See all recommendations"
+    },
+    "cta_banner": {
+      "heading": "Feel like a few quiet days?",
+      "text": "Send us your preferred dates. We'll get back to you personally.",
+      "cta_label": "Enquire now"
+    }
+  }
+}

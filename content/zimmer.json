@@ -1,0 +1,272 @@
+{
+  "de": {
+    "meta_title": "Zimmer | Hotel Weinberg",
+    "meta_description": "Zimmer im Hotel Weinberg St. Pauls, gemütlich, mit Blick auf Weinberge oder Dolomiten, ab 63 € pro Person und Nacht inkl. Frühstück.",
+    "hero_heading": "Zimmer mit Charakter",
+    "hero_text": "Gemütlich eingerichtete Zimmer mit Balkon oder kleinem Garten und Blick auf Weinberge oder Dolomiten.",
+    "overview_heading": "Unsere Zimmerkategorien",
+    "gallery_eyebrow": "Impressionen",
+    "room_category_eyebrow": "Zimmerkategorie",
+    "slideshow_eyebrow": "Wohnen",
+    "slideshow_heading": "Ankommen, durchatmen, bleiben",
+    "cta_heading": "Euer Zimmer wartet",
+    "cta_text": "Prüft Verfügbarkeit und schickt uns eure Wunschtermine.",
+    "cta_label": "Jetzt anfragen",
+    "rooms": [
+      {
+        "slug": "balkon",
+        "title": "Doppelzimmer mit Balkon",
+        "card_title": "Doppelzimmer mit Balkon",
+        "teaser": "Blick auf die Dolomiten oder die Weinberge.",
+        "image": "../assets/fotos/zimmer1.jpg",
+        "price": "63",
+        "detail_meta_description": "Doppelzimmer mit Balkon im Hotel Weinberg St. Pauls, Blick auf die Dolomiten oder Weinberge, ab 63 € p. P. inkl. Frühstück.",
+        "lede": "Ein helles Doppelzimmer mit eigenem Balkon, Blick auf die Dolomiten oder die Weinberge, ideal um den Tag ausklingen zu lassen.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/terrasse.jpg",
+          "../assets/fotos/garten-palme.jpg",
+          "../assets/fotos/detail1.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Dusche/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"Flachbild-TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefon\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "garten",
+        "title": "Doppelzimmer mit kleinem Garten",
+        "card_title": "Doppelzimmer mit kl. Garten",
+        "teaser": "Zimmer im Parterre mit direktem Gartenzugang.",
+        "image": "../assets/fotos/zimmer2.jpg",
+        "price": "63",
+        "detail_meta_description": "Doppelzimmer mit kleinem Garten im Hotel Weinberg St. Pauls, Parterre mit direktem Gartenzugang, ab 63 € p. P. inkl. Frühstück.",
+        "lede": "Zimmer im Parterre mit direktem Zugang zum eigenen kleinen Garten, ruhig gelegen und ideal für alle, die morgens gern gleich draußen sind.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/gartenlounge.jpg",
+          "../assets/fotos/garten.jpg",
+          "../assets/fotos/garten-palme.jpg",
+          "../assets/fotos/terrasse.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Dusche/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefon\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "ohne-balkon",
+        "title": "Doppelzimmer ohne Balkon",
+        "card_title": "Doppelzimmer ohne Balkon",
+        "teaser": "Ruhig gelegen, ohne Balkon.",
+        "image": "../assets/fotos/zimmer3.jpg",
+        "price": "63",
+        "detail_meta_description": "Doppelzimmer ohne Balkon im Hotel Weinberg St. Pauls, ruhig gelegen, ab 63 € p. P. inkl. Frühstück.",
+        "lede": "Ruhig gelegenes Doppelzimmer ohne Balkon, gemütlich eingerichtet und ideal für alle, die vor allem einen ruhigen Rückzugsort suchen.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/lobby-heute.jpg",
+          "../assets/fotos/detail1.jpg",
+          "../assets/fotos/fruehstuecksraum.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Dusche/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"Flachbild-TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefon\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "einzelzimmer",
+        "title": "Einzelzimmer",
+        "card_title": "Einzelzimmer",
+        "teaser": "Ohne Balkon, ideal für Alleinreisende.",
+        "image": "../assets/fotos/zimmer4.jpg",
+        "price": "63",
+        "detail_meta_description": "Einzelzimmer im Hotel Weinberg St. Pauls, ideal für Alleinreisende, ab 63 € p. P. inkl. Frühstück.",
+        "lede": "Kompaktes Einzelzimmer ohne Balkon, ideal für Alleinreisende, die einen ruhigen, gemütlichen Rückzugsort suchen.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/detail1.jpg",
+          "../assets/fotos/lobby-heute.jpg",
+          "../assets/fotos/eingang.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Dusche/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"Flachbild-TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefon\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      }
+    ],
+    "related_heading": "Weitere Zimmerkategorien",
+    "card_cta_label": "Entdecken"
+  },
+  "it": {
+    "meta_title": "Camere | Hotel Weinberg",
+    "meta_description": "Camere all'Hotel Weinberg St. Paolo, accoglienti, con vista sui vigneti o sulle Dolomiti, a partire da 63 € a persona a notte, colazione inclusa.",
+    "hero_heading": "Camere con carattere",
+    "hero_text": "Camere arredate con gusto, con balcone o piccolo giardino e vista sui vigneti o sulle Dolomiti.",
+    "overview_heading": "Le nostre categorie di camere",
+    "gallery_eyebrow": "Immagini",
+    "room_category_eyebrow": "Categoria camera",
+    "slideshow_eyebrow": "Soggiorno",
+    "slideshow_heading": "Arrivare, respirare, restare",
+    "cta_heading": "La vostra camera vi aspetta",
+    "cta_text": "Verificate la disponibilità e inviateci le vostre date desiderate.",
+    "cta_label": "Richiedi ora",
+    "rooms": [
+      {
+        "slug": "balkon",
+        "title": "Camera doppia con balcone",
+        "card_title": "Camera doppia con balcone",
+        "teaser": "Vista sulle Dolomiti o sui vigneti.",
+        "image": "../assets/fotos/zimmer1.jpg",
+        "price": "63",
+        "detail_meta_description": "Camera doppia con balcone all'Hotel Weinberg St. Paolo, vista sulle Dolomiti o sui vigneti, a partire da 63 € a persona, colazione inclusa.",
+        "lede": "Luminosa camera doppia con balcone privato, vista sulle Dolomiti o sui vigneti, ideale per godersi la fine della giornata.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/terrasse.jpg",
+          "../assets/fotos/garten-palme.jpg",
+          "../assets/fotos/detail1.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Doccia/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"TV a schermo piatto\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Cassaforte\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefono\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "garten",
+        "title": "Camera doppia con piccolo giardino",
+        "card_title": "Camera doppia con giardino",
+        "teaser": "Camera al piano terra con accesso diretto al giardino.",
+        "image": "../assets/fotos/zimmer2.jpg",
+        "price": "63",
+        "detail_meta_description": "Camera doppia con piccolo giardino all'Hotel Weinberg St. Paolo, piano terra con accesso diretto al giardino, a partire da 63 €, colazione inclusa.",
+        "lede": "Camera al piano terra con accesso diretto al proprio piccolo giardino, posizione tranquilla, ideale per chi ama uscire subito all'aperto al mattino.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/gartenlounge.jpg",
+          "../assets/fotos/garten.jpg",
+          "../assets/fotos/garten-palme.jpg",
+          "../assets/fotos/terrasse.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Doccia/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Cassaforte\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefono\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "ohne-balkon",
+        "title": "Camera doppia senza balcone",
+        "card_title": "Camera doppia senza balcone",
+        "teaser": "Posizione tranquilla, senza balcone.",
+        "image": "../assets/fotos/zimmer3.jpg",
+        "price": "63",
+        "detail_meta_description": "Camera doppia senza balcone all'Hotel Weinberg St. Paolo, posizione tranquilla, a partire da 63 €, colazione inclusa.",
+        "lede": "Camera doppia in posizione tranquilla, senza balcone, arredata con gusto e ideale per chi cerca soprattutto un rifugio silenzioso.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/lobby-heute.jpg",
+          "../assets/fotos/detail1.jpg",
+          "../assets/fotos/fruehstuecksraum.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Doccia/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"TV a schermo piatto\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Cassaforte\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefono\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "einzelzimmer",
+        "title": "Camera singola",
+        "card_title": "Camera singola",
+        "teaser": "Senza balcone, ideale per chi viaggia da solo.",
+        "image": "../assets/fotos/zimmer4.jpg",
+        "price": "63",
+        "detail_meta_description": "Camera singola all'Hotel Weinberg St. Paolo, ideale per chi viaggia da solo, a partire da 63 €, colazione inclusa.",
+        "lede": "Camera singola compatta, senza balcone, ideale per chi viaggia da solo e cerca un rifugio tranquillo e accogliente.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/detail1.jpg",
+          "../assets/fotos/lobby-heute.jpg",
+          "../assets/fotos/eingang.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Doccia/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"TV a schermo piatto\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Cassaforte\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Telefono\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      }
+    ],
+    "related_heading": "Altre categorie di camere",
+    "card_cta_label": "Scopri"
+  },
+  "en": {
+    "meta_title": "Rooms | Hotel Weinberg",
+    "meta_description": "Rooms at Hotel Weinberg St. Pauls, cosy, with views of vineyards or the Dolomites, from €63 per person per night including breakfast.",
+    "hero_heading": "Rooms with character",
+    "hero_text": "Cosily furnished rooms with a balcony or small garden, and views of vineyards or the Dolomites.",
+    "overview_heading": "Our Room Categories",
+    "gallery_eyebrow": "Gallery",
+    "room_category_eyebrow": "Room category",
+    "slideshow_eyebrow": "Stay",
+    "slideshow_heading": "Arrive, breathe, stay",
+    "cta_heading": "Your room is waiting",
+    "cta_text": "Check availability and send us your preferred dates.",
+    "cta_label": "Enquire now",
+    "rooms": [
+      {
+        "slug": "balkon",
+        "title": "Double room with balcony",
+        "card_title": "Double room with balcony",
+        "teaser": "Views of the Dolomites or the vineyards.",
+        "image": "../assets/fotos/zimmer1.jpg",
+        "price": "63",
+        "detail_meta_description": "Double room with balcony at Hotel Weinberg St. Pauls, views of the Dolomites or vineyards, from €63 per person incl. breakfast.",
+        "lede": "A bright double room with its own balcony, views of the Dolomites or the vineyards, perfect for winding down at the end of the day.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/terrasse.jpg",
+          "../assets/fotos/garten-palme.jpg",
+          "../assets/fotos/detail1.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Shower/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"Flat-screen TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Phone\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "garten",
+        "title": "Double room with small garden",
+        "card_title": "Double room with garden",
+        "teaser": "Ground-floor room with direct garden access.",
+        "image": "../assets/fotos/zimmer2.jpg",
+        "price": "63",
+        "detail_meta_description": "Double room with small garden at Hotel Weinberg St. Pauls, ground floor with direct garden access, from €63 per person incl. breakfast.",
+        "lede": "Ground-floor room with direct access to its own small garden, quietly located and ideal for anyone who likes stepping outside first thing in the morning.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/gartenlounge.jpg",
+          "../assets/fotos/garten.jpg",
+          "../assets/fotos/garten-palme.jpg",
+          "../assets/fotos/terrasse.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Shower/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Phone\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "ohne-balkon",
+        "title": "Double room without balcony",
+        "card_title": "Double room without balcony",
+        "teaser": "Quiet location, without balcony.",
+        "image": "../assets/fotos/zimmer3.jpg",
+        "price": "63",
+        "detail_meta_description": "Double room without balcony at Hotel Weinberg St. Pauls, quiet location, from €63 per person incl. breakfast.",
+        "lede": "A quietly located double room without a balcony, cosily furnished and ideal for those seeking a peaceful retreat above all.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/lobby-heute.jpg",
+          "../assets/fotos/detail1.jpg",
+          "../assets/fotos/fruehstuecksraum.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Shower/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"Flat-screen TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Phone\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      },
+      {
+        "slug": "einzelzimmer",
+        "title": "Single room",
+        "card_title": "Single room",
+        "teaser": "Without balcony, ideal for solo travellers.",
+        "image": "../assets/fotos/zimmer4.jpg",
+        "price": "63",
+        "detail_meta_description": "Single room at Hotel Weinberg St. Pauls, ideal for solo travellers, from €63 per person incl. breakfast.",
+        "lede": "A compact single room without a balcony, ideal for solo travellers looking for a quiet, cosy retreat.",
+        "gallery": [
+          "../assets/fotos/hotel-detail-zimmer.png",
+          "../assets/fotos/aussicht-tal.jpg",
+          "../assets/fotos/detail1.jpg",
+          "../assets/fotos/lobby-heute.jpg",
+          "../assets/fotos/eingang.jpg"
+        ],
+        "amenities_html": "\n            <span title=\"Shower/WC\"><svg viewBox=\"0 0 24 24\"><path d=\"M8 7a4 4 0 0 1 8 0\"/><rect x=\"7.5\" y=\"7\" width=\"9\" height=\"2\" rx=\"1\"/><circle cx=\"9\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"12\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"15.2\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"9\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"15\" cy=\"18.4\" r=\"0.8\" fill=\"currentColor\" stroke=\"none\"/></svg></span>\n            <span title=\"Flat-screen TV\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"12\" rx=\"1.5\"/><path d=\"M8 20h8\"/><path d=\"M12 17v3\"/></svg></span>\n            <span title=\"Safe\"><svg viewBox=\"0 0 24 24\"><path d=\"M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z\"/><path d=\"M10.3 12.2v-1.4a1.7 1.7 0 0 1 3.4 0v1.4\"/><rect x=\"9.7\" y=\"12.2\" width=\"4.6\" height=\"3.6\" rx=\"0.8\"/></svg></span>\n            <span title=\"Phone\"><svg viewBox=\"0 0 24 24\"><path d=\"M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z\"/></svg></span>"
+      }
+    ],
+    "related_heading": "Other room categories",
+    "card_cta_label": "Discover"
+  }
+}

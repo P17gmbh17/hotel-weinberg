@@ -1,0 +1,284 @@
+{
+  "de": {
+    "meta_title": "Hotel Weinberg | St. Pauls | Eppan | Südtirol",
+    "meta_description": "Hotel Weinberg in St. Pauls/Eppan, persönlich geführtes Haus mitten in den Weinbergen der Südtiroler Weinstraße, mit Blick auf die Dolomiten.",
+    "cta_book_label": "Jetzt anfragen",
+    "cta_buchen_label": "Jetzt buchen",
+    "hero_scroll_label": "Entdecken",
+    "hero_cta_secondary_label": "Zimmer entdecken",
+    "contact": {
+      "phone_display": "+39 0471 662326",
+      "email": "info@hotelweinberg.eu",
+      "address_street": "Luziafeldweg 3",
+      "address_zip_city": "39050 St. Pauls/Eppan"
+    },
+    "willkommen": {
+      "eyebrow": "Willkommen",
+      "heading": "Familie Schrott heißt euch willkommen",
+      "lede": "Umgeben von Weinreben liegt das Hotel Weinberg in St. Pauls an der Südtiroler Weinstraße: dort, wo das milde mediterrane Klima Palmen, Wein und Weite zusammenbringt.",
+      "body": "Bei uns findet ihr keinen Prunk, dafür ehrliche Gastfreundschaft, ein reichhaltiges Frühstücksbuffet und einen Blick, der bis zu den fernen Gipfeln der Dolomiten reicht. Ein kleines Haus mit großem Garten, persönlich geführt, seit Jahren ein ruhiger Rückzugsort für Rad-, Motorrad- und Wanderfreunde.",
+      "cta_label": "Mehr über uns →",
+      "image": "../assets/fotos/familie/familienfoto.jpg"
+    },
+    "zimmer": {
+      "eyebrow": "02 · Wohnen",
+      "heading": "Zimmer: ankommen, durchatmen, bleiben",
+      "lede": "Ruhige Zimmer mit Blick auf Weinberge oder Dolomiten, in unterschiedlichen Kategorien, vom gemütlichen Doppelzimmer bis zur Suite mit Balkon.",
+      "image": "../assets/fotos/zimmer1.jpg",
+      "cta_label": "Zimmer entdecken →"
+    },
+    "geniessen": {
+      "eyebrow": "03 · Genießen",
+      "heading": "Garten, Pool &amp; Frühstück",
+      "lede": "Drei Lieblingsorte des Hauses: schattige Ruhe unter Palmen, ein Pool zum Verweilen und ein reichhaltiges Frühstück mit Blick auf die Dolomiten.",
+      "images": [
+        { "image": "../assets/fotos/garten-palme.jpg", "alt": "Garten mit Palmen, Hotel Weinberg" },
+        { "image": "../assets/fotos/hotel-detail-pool.png", "alt": "Pool, Hotel Weinberg" },
+        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Frühstück, Hotel Weinberg" }
+      ],
+      "cta_label": "Genießen entdecken →"
+    },
+    "aktivitaeten": {
+      "eyebrow": "04 · Aktiv",
+      "heading": "Wandern, Biken, Golf: direkt vor der Tür",
+      "lede": "Filtert nach eurer Lieblingsaktivität und landet direkt bei passenden Tipps, Routen und Ausflugszielen rund um St. Pauls und Eppan.",
+      "background_image": "../assets/aktivitaeten/wandern-hero.webp",
+      "cta_label": "Aktivitäten entdecken →",
+      "categories": [
+        { "key": "wandern", "label": "Wandern", "tips": [
+          { "title": "Drei-Burgen-Wanderung", "meta": "Halbtags", "image": "../assets/aktivitaeten/burgen-wanderung.jpg" },
+          { "title": "Montiggler Wald mit Seen", "meta": "Halbtags", "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg" },
+          { "title": "Roen-Gipfeltour", "meta": "Ganztags", "image": "../assets/aktivitaeten/wanderung-roen.jpg" }
+        ]},
+        { "key": "bike", "label": "Bike", "tips": [
+          { "title": "Wein &amp; Bike am Kalterer See", "meta": "Kurz", "image": "../assets/aktivitaeten/bike-kalterer-see.jpg" },
+          { "title": "Etschtal-Radweg nach Meran", "meta": "Ganztags", "image": "../assets/aktivitaeten/radtour-meran.jpg" },
+          { "title": "Mitterbergerrunde", "meta": "Halbtags", "image": "../assets/aktivitaeten/mitterberger-runde.webp" }
+        ]},
+        { "key": "golf", "label": "Golf", "tips": [
+          { "title": "Golfclub Eppan „Blue Monster\"", "meta": "Halbtags", "image": "../assets/aktivitaeten/golfclub-eppan.jpg" },
+          { "title": "Trainingscenter Freudenstein", "meta": "Kurz", "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg" },
+          { "title": "Golfclub Dolomiti", "meta": "Ganztags", "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg" }
+        ]},
+        { "key": "kultur", "label": "Kultur", "tips": [
+          { "title": "Schloss Hocheppan", "meta": "Kurz", "image": "../assets/aktivitaeten/burg-hocheppan.jpg" },
+          { "title": "MMM Firmian", "meta": "Halbtags", "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg" },
+          { "title": "Kellerei St. Pauls", "meta": "Kurz", "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg" }
+        ]},
+        { "key": "badespass", "label": "Badespaß", "tips": [
+          { "title": "Kalterer See", "meta": "Halbtags", "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg" },
+          { "title": "Montiggler Seen", "meta": "Halbtags", "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg" },
+          { "title": "Ausflug Gardasee", "meta": "Ganztags", "image": "../assets/aktivitaeten/gardasee.jpg" }
+        ]}
+      ]
+    },
+    "kulinarik": {
+      "eyebrow": "05 · Kulinarik",
+      "heading": "Gut essen rund um St. Pauls &amp; Eppan",
+      "lede": "Südtiroler Klassiker, Pizza aus dem Holzofen und Aperitivo im Innenhof. Wir kennen die besten Adressen in der Nachbarschaft.",
+      "cards": [
+        { "image": "../assets/kulinarik/platzegg.jpg", "label": "Südtiroler Küche", "alt": "Südtiroler Küche, Osteria Platzegg" },
+        { "image": "../assets/kulinarik/liliane.jpg", "label": "Pizza", "alt": "Pizza, Liliane St. Pauls" },
+        { "image": "../assets/kulinarik/allegra.jpg", "label": "Aperitivo", "alt": "Aperitivo, Allegra Weinbar" },
+        { "image": "../assets/kulinarik/pfeffermuehle.jpg", "label": "Restaurant", "alt": "Restaurant, Pfeffermühle" }
+      ],
+      "cta_label": "Entdecke unsere Tipps für dein kulinarisches Erlebnis →"
+    },
+    "cta_banner": {
+      "heading": "Bereit für Urlaub in den Weinbergen?",
+      "text": "Schreibt uns eure Wunschtermine. Wir melden uns persönlich zurück."
+    },
+    "footer": {
+      "intro": "Ein kleines, persönlich geführtes Haus mitten in den Weinbergen von St. Pauls an der Südtiroler Weinstraße.",
+      "copyright": "© 2026 Hotel Weinberg, St. Pauls/Eppan"
+    }
+  },
+  "it": {
+    "meta_title": "Hotel Weinberg | St. Paolo | Appiano | Alto Adige",
+    "meta_description": "Hotel Weinberg a St. Paolo/Appiano, struttura a conduzione familiare tra i vigneti della Strada del Vino altoatesina, con vista sulle Dolomiti.",
+    "cta_book_label": "Richiedi ora",
+    "cta_buchen_label": "Prenota ora",
+    "hero_scroll_label": "Scopri",
+    "hero_cta_secondary_label": "Scopri le camere",
+    "contact": {
+      "phone_display": "+39 0471 662326",
+      "email": "info@hotelweinberg.eu",
+      "address_street": "Luziafeldweg 3",
+      "address_zip_city": "39050 St. Paolo/Appiano"
+    },
+    "willkommen": {
+      "eyebrow": "Benvenuti",
+      "heading": "La Famiglia Schrott vi dà il benvenuto",
+      "lede": "Circondato dai vigneti, l'Hotel Weinberg si trova a St. Paolo, sulla Strada del Vino altoatesina: dove il clima mite e mediterraneo unisce palme, vino e ampi orizzonti.",
+      "body": "Da noi non troverete sfarzo, ma un'ospitalità sincera, una ricca colazione a buffet e una vista che arriva fino alle vette lontane delle Dolomiti. Una piccola casa con un grande giardino, gestita personalmente da anni, un rifugio tranquillo per gli amanti della bici, della moto e delle escursioni.",
+      "cta_label": "Scopri di più su di noi →",
+      "image": "../assets/fotos/familie/familienfoto.jpg"
+    },
+    "zimmer": {
+      "eyebrow": "02 · Soggiorno",
+      "heading": "Camere: arrivare, respirare, restare",
+      "lede": "Camere tranquille con vista sui vigneti o sulle Dolomiti, in diverse categorie, dalla accogliente camera doppia alla suite con balcone.",
+      "image": "../assets/fotos/zimmer1.jpg",
+      "cta_label": "Scopri le camere →"
+    },
+    "geniessen": {
+      "eyebrow": "03 · Relax",
+      "heading": "Giardino, piscina &amp; colazione",
+      "lede": "Tre luoghi del cuore della casa: quiete ombrosa sotto le palme, una piscina in cui rilassarsi e una ricca colazione con vista sulle Dolomiti.",
+      "images": [
+        { "image": "../assets/fotos/garten-palme.jpg", "alt": "Giardino con palme, Hotel Weinberg" },
+        { "image": "../assets/fotos/hotel-detail-pool.png", "alt": "Piscina, Hotel Weinberg" },
+        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Colazione, Hotel Weinberg" }
+      ],
+      "cta_label": "Scopri il relax →"
+    },
+    "aktivitaeten": {
+      "eyebrow": "04 · Attivi",
+      "heading": "Escursioni, bici, golf: a due passi",
+      "lede": "Filtrate per la vostra attività preferita e trovate subito consigli, percorsi e mete per escursioni intorno a St. Paolo e Appiano.",
+      "background_image": "../assets/aktivitaeten/wandern-hero.webp",
+      "cta_label": "Scopri le attività →",
+      "categories": [
+        { "key": "wandern", "label": "Escursioni", "tips": [
+          { "title": "Sentiero delle Tre Castella", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/burgen-wanderung.jpg" },
+          { "title": "Bosco di Monticolo con i laghi", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg" },
+          { "title": "Tour del Roen", "meta": "Giornata intera", "image": "../assets/aktivitaeten/wanderung-roen.jpg" }
+        ]},
+        { "key": "bike", "label": "Bici", "tips": [
+          { "title": "Vino &amp; bici al Lago di Caldaro", "meta": "Breve", "image": "../assets/aktivitaeten/bike-kalterer-see.jpg" },
+          { "title": "Pista ciclabile Val d'Adige, Merano", "meta": "Giornata intera", "image": "../assets/aktivitaeten/radtour-meran.jpg" },
+          { "title": "Anello del Mitterberg", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/mitterberger-runde.webp" }
+        ]},
+        { "key": "golf", "label": "Golf", "tips": [
+          { "title": "Golfclub Appiano \"Blue Monster\"", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/golfclub-eppan.jpg" },
+          { "title": "Centro di allenamento Freudenstein", "meta": "Breve", "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg" },
+          { "title": "Golfclub Dolomiti", "meta": "Giornata intera", "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg" }
+        ]},
+        { "key": "kultur", "label": "Cultura", "tips": [
+          { "title": "Castello di Hocheppan", "meta": "Breve", "image": "../assets/aktivitaeten/burg-hocheppan.jpg" },
+          { "title": "MMM Firmian", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg" },
+          { "title": "Cantina di St. Paolo", "meta": "Breve", "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg" }
+        ]},
+        { "key": "badespass", "label": "Balneazione", "tips": [
+          { "title": "Lago di Caldaro", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg" },
+          { "title": "Laghi di Monticolo", "meta": "Mezza giornata", "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg" },
+          { "title": "Gita al Lago di Garda", "meta": "Giornata intera", "image": "../assets/aktivitaeten/gardasee.jpg" }
+        ]}
+      ]
+    },
+    "kulinarik": {
+      "eyebrow": "05 · Gusto",
+      "heading": "Dove mangiare bene tra St. Paolo &amp; Appiano",
+      "lede": "Classici altoatesini, pizza al forno a legna e aperitivo in un cortile storico. Conosciamo i migliori indirizzi del vicinato.",
+      "cards": [
+        { "image": "../assets/kulinarik/platzegg.jpg", "label": "Cucina altoatesina", "alt": "Cucina altoatesina, Osteria Platzegg" },
+        { "image": "../assets/kulinarik/liliane.jpg", "label": "Pizza", "alt": "Pizza, Liliane St. Paolo" },
+        { "image": "../assets/kulinarik/allegra.jpg", "label": "Aperitivo", "alt": "Aperitivo, Allegra Weinbar" },
+        { "image": "../assets/kulinarik/pfeffermuehle.jpg", "label": "Ristorante", "alt": "Ristorante, Pfeffermühle" }
+      ],
+      "cta_label": "Scopri i nostri consigli per la tua esperienza culinaria →"
+    },
+    "cta_banner": {
+      "heading": "Pronti per una vacanza tra i vigneti?",
+      "text": "Scriveteci le vostre date desiderate. Vi risponderemo personalmente."
+    },
+    "footer": {
+      "intro": "Una piccola struttura a conduzione familiare tra i vigneti di St. Paolo, sulla Strada del Vino altoatesina.",
+      "copyright": "© 2026 Hotel Weinberg, St. Paolo/Appiano"
+    }
+  },
+  "en": {
+    "meta_title": "Hotel Weinberg | St. Pauls | Appiano | South Tyrol",
+    "meta_description": "Hotel Weinberg in St. Pauls/Appiano, a family-run house among the vineyards of the South Tyrolean Wine Route, with views of the Dolomites.",
+    "cta_book_label": "Enquire now",
+    "cta_buchen_label": "Book now",
+    "hero_scroll_label": "Discover",
+    "hero_cta_secondary_label": "Discover rooms",
+    "contact": {
+      "phone_display": "+39 0471 662326",
+      "email": "info@hotelweinberg.eu",
+      "address_street": "Luziafeldweg 3",
+      "address_zip_city": "39050 St. Pauls/Appiano"
+    },
+    "willkommen": {
+      "eyebrow": "Welcome",
+      "heading": "The Schrott family welcomes you",
+      "lede": "Surrounded by vineyards, Hotel Weinberg sits in St. Pauls on the South Tyrolean Wine Route: where the mild, Mediterranean climate brings together palm trees, wine and wide open views.",
+      "body": "With us you won't find grandeur, but honest hospitality, a generous breakfast buffet and a view that reaches all the way to the distant peaks of the Dolomites. A small house with a big garden, personally run for years, a quiet retreat for cyclists, motorcyclists and hikers alike.",
+      "cta_label": "More about us →",
+      "image": "../assets/fotos/familie/familienfoto.jpg"
+    },
+    "zimmer": {
+      "eyebrow": "02 · Stay",
+      "heading": "Rooms: arrive, breathe, stay",
+      "lede": "Quiet rooms with views of the vineyards or the Dolomites, in different categories, from the cosy double room to the suite with balcony.",
+      "image": "../assets/fotos/zimmer1.jpg",
+      "cta_label": "Discover rooms →"
+    },
+    "geniessen": {
+      "eyebrow": "03 · Enjoy",
+      "heading": "Garden, pool &amp; breakfast",
+      "lede": "Three favourite spots of the house: shady peace beneath the palms, a pool to linger by, and a generous breakfast with views of the Dolomites.",
+      "images": [
+        { "image": "../assets/fotos/garten-palme.jpg", "alt": "Garden with palm trees, Hotel Weinberg" },
+        { "image": "../assets/fotos/hotel-detail-pool.png", "alt": "Pool, Hotel Weinberg" },
+        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Breakfast, Hotel Weinberg" }
+      ],
+      "cta_label": "Discover Enjoy →"
+    },
+    "aktivitaeten": {
+      "eyebrow": "04 · Active",
+      "heading": "Hiking, biking, golf: right on the doorstep",
+      "lede": "Filter by your favourite activity and land straight on matching tips, routes and destinations around St. Pauls and Appiano.",
+      "background_image": "../assets/aktivitaeten/wandern-hero.webp",
+      "cta_label": "Discover activities →",
+      "categories": [
+        { "key": "wandern", "label": "Hiking", "tips": [
+          { "title": "Three Castles hike", "meta": "Half-day", "image": "../assets/aktivitaeten/burgen-wanderung.jpg" },
+          { "title": "Montiggl forest with its lakes", "meta": "Half-day", "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg" },
+          { "title": "Mount Roen summit tour", "meta": "Full day", "image": "../assets/aktivitaeten/wanderung-roen.jpg" }
+        ]},
+        { "key": "bike", "label": "Biking", "tips": [
+          { "title": "Wine &amp; biking at Lake Caldaro", "meta": "Short", "image": "../assets/aktivitaeten/bike-kalterer-see.jpg" },
+          { "title": "Adige Valley cycle path to Merano", "meta": "Full day", "image": "../assets/aktivitaeten/radtour-meran.jpg" },
+          { "title": "Mitterberg loop", "meta": "Half-day", "image": "../assets/aktivitaeten/mitterberger-runde.webp" }
+        ]},
+        { "key": "golf", "label": "Golf", "tips": [
+          { "title": "Golf Club Eppan \"Blue Monster\"", "meta": "Half-day", "image": "../assets/aktivitaeten/golfclub-eppan.jpg" },
+          { "title": "Freudenstein training centre", "meta": "Short", "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg" },
+          { "title": "Golf Club Dolomiti", "meta": "Full day", "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg" }
+        ]},
+        { "key": "kultur", "label": "Culture", "tips": [
+          { "title": "Hocheppan Castle", "meta": "Short", "image": "../assets/aktivitaeten/burg-hocheppan.jpg" },
+          { "title": "MMM Firmian", "meta": "Half-day", "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg" },
+          { "title": "St. Pauls winery", "meta": "Short", "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg" }
+        ]},
+        { "key": "badespass", "label": "Swimming", "tips": [
+          { "title": "Lake Caldaro", "meta": "Half-day", "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg" },
+          { "title": "Montiggl Lakes", "meta": "Half-day", "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg" },
+          { "title": "Day trip to Lake Garda", "meta": "Full day", "image": "../assets/aktivitaeten/gardasee.jpg" }
+        ]}
+      ]
+    },
+    "kulinarik": {
+      "eyebrow": "05 · Cuisine",
+      "heading": "Great food around St. Pauls &amp; Appiano",
+      "lede": "South Tyrolean classics, wood-fired pizza and aperitivo in a historic courtyard. We know the best addresses in the neighbourhood.",
+      "cards": [
+        { "image": "../assets/kulinarik/platzegg.jpg", "label": "South Tyrolean Cuisine", "alt": "South Tyrolean cuisine, Osteria Platzegg" },
+        { "image": "../assets/kulinarik/liliane.jpg", "label": "Pizza", "alt": "Pizza, Liliane St. Pauls" },
+        { "image": "../assets/kulinarik/allegra.jpg", "label": "Aperitivo", "alt": "Aperitivo, Allegra Weinbar" },
+        { "image": "../assets/kulinarik/pfeffermuehle.jpg", "label": "Restaurant", "alt": "Restaurant, Pfeffermühle" }
+      ],
+      "cta_label": "Discover our tips for your culinary experience →"
+    },
+    "cta_banner": {
+      "heading": "Ready for a holiday among the vineyards?",
+      "text": "Send us your preferred dates. We'll get back to you personally."
+    },
+    "footer": {
+      "intro": "A small, personally run house among the vineyards of St. Pauls on the South Tyrolean Wine Route.",
+      "copyright": "© 2026 Hotel Weinberg, St. Pauls/Appiano"
+    }
+  }
+}

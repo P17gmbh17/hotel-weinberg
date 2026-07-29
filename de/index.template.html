@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-cms="de.meta_title">{{meta_title}}</title>
+<meta name="description" content="{{meta_description}}" data-cms-meta="meta_description">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css?v=1785314872">
+</head>
+<body class="has-mobile-action-bar">
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap site-header__inner">
+    <a href="index.html" class="brand">
+      <img src="../assets/logo/logo-horizontal-white.png" alt="Hotel Weinberg, Mediterranean Living" class="brand__lockup" id="navLockup">
+    </a>
+    <nav class="main-nav">
+      <a href="philosophie.html">Über uns</a>
+      <a href="zimmer.html">Zimmer</a>
+      <a href="geniessen.html">Genießen</a>
+      <a href="aktivitaeten.html">Aktivitäten</a>
+      <a href="kulinarik.html">Kulinarik-Guide</a>
+      <a href="zimmer.html#anfrage" class="btn btn--primary" data-cms="cta_buchen_label">{{cta_buchen_label}}</a>
+      <div class="nav-meta">
+      {{FRAGMENT_NAV_ICONS}}
+      <span class="lang-switch">
+        <button type="button" class="lang-switch__current">DE</button>
+        <span class="lang-switch__menu">
+          <span class="lang-switch__option is-active">DE</span>
+          <a href="../it/index.html" class="lang-switch__option">IT</a>
+          <a href="../en/index.html" class="lang-switch__option">EN</a>
+        </span>
+      </span>
+      </div>
+      <div class="nav-tips" id="navTips"></div>
+    </nav>
+    <button class="nav-toggle" aria-label="Menü">☰</button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hotel">
+  <video class="hero__bg-video hero__bg-video--desktop" muted loop playsinline preload="none" poster="../assets/Video/hero-poster-16-9.jpg">
+    <source src="../assets/Video/web-video-16-9.mp4" type="video/mp4">
+  </video>
+  <video class="hero__bg-video hero__bg-video--mobile" muted loop playsinline preload="none" poster="../assets/Video/hero-poster-9-16.jpg">
+    <source src="../assets/Video/web-video-9-16.mp4" type="video/mp4">
+  </video>
+  <div class="wrap hero__content">
+    <div class="hero__logo-lockup fade-in-load fade-in-load--1">
+      <img src="../assets/logo/icon-white.png" alt="" class="hero__icon">
+      <img src="../assets/logo/wordmark-white.png" alt="Hotel Weinberg, Mediterranean Living" class="hero__wordmark">
+    </div>
+    <div class="hero__ctas fade-in-load fade-in-load--3">
+      <a href="kontakt.html#anfrage" class="btn btn--primary" data-cms="cta_book_label">{{cta_book_label}}</a>
+      <a href="zimmer.html" class="btn btn--ghost" data-cms="hero_cta_secondary_label">{{hero_cta_secondary_label}}</a>
+    </div>
+  </div>
+  <div class="hero__scroll"><span class="line"></span><span data-cms="hero_scroll_label">{{hero_scroll_label}}</span></div>
+  <div class="curtain" data-curtain-auto>
+    <div class="curtain__panel curtain__panel--left"></div>
+    <div class="curtain__panel curtain__panel--right"></div>
+    <img src="../assets/logo/icon-white.png" alt="" class="curtain__icon">
+  </div>
+</section>
+
+<!-- ============ KURZ-WILLKOMMEN ============ -->
+<section class="section" id="willkommen">
+  <div class="wrap grid-2">
+    <div class="col-text">
+      <span class="eyebrow" data-cms="willkommen.eyebrow">{{willkommen.eyebrow}}</span>
+      <h2 class="reveal" data-cms="willkommen.heading">{{willkommen.heading}}</h2>
+      <p class="lede reveal reveal--d1" data-cms="willkommen.lede">{{willkommen.lede}}</p>
+      <p data-cms="willkommen.body">{{willkommen.body}}</p>
+      <a href="philosophie.html" class="btn btn--dark" style="margin-top:8px;" data-cms="willkommen.cta_label">{{willkommen.cta_label}}</a>
+    </div>
+    <div class="col-img img-frame">
+      <img src="{{willkommen.image}}" alt="Familie Schrott, Hotel Weinberg" data-cms="willkommen.image">
+    </div>
+  </div>
+</section>
+
+<!-- ============ BAUKASTEN · ZIMMER ============ -->
+<section class="section section--dark">
+  <div class="wrap grid-2 reverse">
+    <div class="col-img img-frame">
+      <img src="{{zimmer.image}}" alt="Zimmer im Hotel Weinberg" data-cms="zimmer.image">
+    </div>
+    <div class="col-text">
+      <span class="eyebrow" data-cms="zimmer.eyebrow">{{zimmer.eyebrow}}</span>
+      <h2 class="reveal" data-cms="zimmer.heading">{{zimmer.heading}}</h2>
+      <p class="lede reveal reveal--d1" data-cms="zimmer.lede">{{zimmer.lede}}</p>
+      <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:8px;">
+        <a href="zimmer.html" class="btn btn--dark" data-cms="zimmer.cta_label">{{zimmer.cta_label}}</a>
+        <a href="kontakt.html#anfrage" class="btn btn--primary" data-cms="cta_buchen_label">{{cta_buchen_label}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BAUKASTEN · GENIESSEN ============ -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow" data-cms="geniessen.eyebrow">{{geniessen.eyebrow}}</span>
+    <h2 class="reveal" data-cms="geniessen.heading">{{geniessen.heading}}</h2>
+    <p class="lede reveal reveal--d1" style="max-width:640px;" data-cms="geniessen.lede">{{geniessen.lede}}</p>
+    {{FRAGMENT_GENIESSEN_IMAGES}}
+    <a href="geniessen.html" class="btn btn--dark" style="margin-top:32px;" data-cms="geniessen.cta_label">{{geniessen.cta_label}}</a>
+  </div>
+</section>
+
+<!-- ============ BAUKASTEN · AKTIVITÄTEN ============ -->
+<section class="activities-teaser">
+  <img class="bg" src="{{aktivitaeten.background_image}}" alt="Wandern und Aktivitäten rund um Eppan" data-cms="aktivitaeten.background_image">
+  <div class="wrap">
+    <span class="eyebrow" data-cms="aktivitaeten.eyebrow">{{aktivitaeten.eyebrow}}</span>
+    <h2 class="reveal" data-cms="aktivitaeten.heading">{{aktivitaeten.heading}}</h2>
+    <p class="lede reveal reveal--d1" style="max-width:600px;" data-cms="aktivitaeten.lede">{{aktivitaeten.lede}}</p>
+    {{FRAGMENT_AKTIVITAETEN_FILTER_NAV}}
+    <a href="aktivitaeten.html" class="btn btn--primary" style="margin-top:30px;" data-cms="aktivitaeten.cta_label">{{aktivitaeten.cta_label}}</a>
+  </div>
+</section>
+
+<!-- ============ AKTIVITÄTEN-FILTER POPUP ============ -->
+<div class="activity-modal" id="activityModal" aria-hidden="true">
+  <div class="activity-modal__backdrop" data-modal-close></div>
+  <div class="activity-modal__panel">
+    <button class="activity-modal__close" data-modal-close aria-label="Schließen">&times;</button>
+    <span class="activity-modal__tag" id="modalTag"></span>
+    <div class="discover-more__tips" id="modalTips"></div>
+    <a href="#" class="btn btn--primary" id="modalCta">Mehr Tipps entdecken →</a>
+  </div>
+</div>
+
+<!-- ============ BAUKASTEN · KULINARIK-GUIDE ============ -->
+<section class="section section--alt">
+  <div class="wrap">
+    <span class="eyebrow" data-cms="kulinarik.eyebrow">{{kulinarik.eyebrow}}</span>
+    <h2 class="reveal" data-cms="kulinarik.heading">{{kulinarik.heading}}</h2>
+    <p class="lede reveal reveal--d1" style="max-width:640px;" data-cms="kulinarik.lede">{{kulinarik.lede}}</p>
+    {{FRAGMENT_KULINARIK_GRID}}
+    <a href="kulinarik.html" class="btn btn--dark" style="margin-top:36px;" data-cms="kulinarik.cta_label">{{kulinarik.cta_label}}</a>
+  </div>
+</section>
+
+<!-- ============ CTA BANNER ============ -->
+<section class="cta-banner">
+  <div class="wrap wrap--narrow">
+    <h2 class="reveal" data-cms="cta_banner.heading">{{cta_banner.heading}}</h2>
+    <p data-cms="cta_banner.text">{{cta_banner.text}}</p>
+    <a href="kontakt.html#anfrage" class="btn btn--primary" data-cms="cta_book_label">{{cta_book_label}}</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="../assets/logo/logo-horizontal-white.png" alt="Hotel Weinberg, Mediterranean Living" style="height:41px; margin-bottom:16px;">
+        <p data-cms="footer.intro">{{footer.intro}}</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="philosophie.html">Über uns</a></li>
+          <li><a href="aktivitaeten.html">Aktivitäten</a></li>
+          <li><a href="zimmer.html">Zimmer</a></li>
+          <li><a href="geniessen.html">Genießen</a></li>
+          <li><a href="kulinarik.html">Kulinarik-Guide</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        {{FRAGMENT_FOOTER_CONTACT}}
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="cookie-einstellungen.html">Cookie-Einstellungen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-cms="footer.copyright">{{footer.copyright}}</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const header = document.getElementById('siteHeader');
+  const navLockup = document.getElementById('navLockup');
+  const filterBar = document.querySelector('.filter-bar');
+  let lastScrollY = window.scrollY;
+  let wasScrolled = null;
+  function updateHeaderHeight() {
+    document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+  }
+  function syncHeader() {
+    if (document.querySelector('.main-nav.is-open')) return;
+    const y = window.scrollY;
+    const scrolled = y > 40;
+    if (scrolled !== wasScrolled) {
+      header.classList.toggle('is-scrolled', scrolled);
+      if (navLockup) navLockup.src = scrolled ? '../assets/logo/logo-horizontal-olive.png' : '../assets/logo/logo-horizontal-white.png';
+      wasScrolled = scrolled;
+      updateHeaderHeight();
+      setTimeout(updateHeaderHeight, 360);
+    }
+    if (y <= 0) {
+    header.classList.remove('hide');
+    if (filterBar) filterBar.classList.remove('filter-bar--hidden');
+    } else if (y > lastScrollY) {
+    header.classList.add('hide');
+    if (filterBar) filterBar.classList.add('filter-bar--hidden');
+    } else {
+    header.classList.remove('hide');
+    if (filterBar) filterBar.classList.remove('filter-bar--hidden');
+    }
+    lastScrollY = y;
+  }
+  let scrollTicking = false;
+  window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+      window.requestAnimationFrame(() => { syncHeader(); scrollTicking = false; });
+      scrollTicking = true;
+    }
+  }, { passive: true });
+  window.addEventListener('resize', updateHeaderHeight);
+  updateHeaderHeight();
+  syncHeader();
+
+  const navToggle = document.querySelector('.nav-toggle');
+  const mainNav = document.querySelector('.main-nav');
+  if (navToggle && mainNav) {
+    navToggle.addEventListener('click', () => {
+      const open = mainNav.classList.toggle('is-open');
+      navToggle.classList.toggle('is-open', open);
+      navToggle.textContent = open ? '' : '\u2630';
+      if (open) {
+        header.classList.remove('hide');
+        window.__navScrollY = window.scrollY;
+        document.body.style.position = 'fixed';
+        document.body.style.top = '-' + window.__navScrollY + 'px';
+        document.body.style.width = '100%';
+      } else {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        window.scrollTo(0, window.__navScrollY || 0);
+      }
+    });
+    mainNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      mainNav.classList.remove('is-open');
+      navToggle.classList.remove('is-open');
+      navToggle.textContent = '\u2630';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      window.scrollTo(0, window.__navScrollY || 0);
+    }));
+  }
+
+  /* ---- Aktivit\u00e4ten-Filter Popup ---- */
+  const activityModal = document.getElementById('activityModal');
+  const modalTag = document.getElementById('modalTag');
+  const modalTips = document.getElementById('modalTips');
+  const modalCta = document.getElementById('modalCta');
+  const activityData = {{FRAGMENT_ACTIVITY_DATA_JS}};
+  function openActivityModal(cat) {
+    const data = activityData[cat];
+    if (!data || !activityModal) return;
+    modalTag.textContent = data.label;
+    modalTips.innerHTML = data.tips.map(t =>
+      `<div class="discover-more__tip"><img class="discover-more__tip-img" src="${t.img}" alt="${t.title}"><span class="discover-more__tip-caption"><span class="discover-more__tip-title">${t.title}</span><span class="discover-more__tip-meta">${t.meta}</span></span></div>`
+    ).join('');
+    modalCta.href = `aktivitaeten.html?cat=${cat}#filterBar`;
+    activityModal.classList.add('is-open');
+    activityModal.setAttribute('aria-hidden', 'false');
+  }
+  function closeActivityModal() {
+    if (!activityModal) return;
+    activityModal.classList.remove('is-open');
+    activityModal.setAttribute('aria-hidden', 'true');
+  }
+  document.querySelectorAll('.activities-teaser__filter a').forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const url = new URL(a.href, location.href);
+      const cat = url.searchParams.get('cat');
+      openActivityModal(cat);
+    });
+  });
+  document.querySelectorAll('[data-modal-close]').forEach(el => el.addEventListener('click', closeActivityModal));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeActivityModal(); });
+
+  /* ---- Reveal-on-Scroll für Headlines & Fließtext ---- */
+  const revealEls = document.querySelectorAll('.reveal');
+  if (revealEls.length) {
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    revealEls.forEach(el => revealObserver.observe(el));
+  }
+
+  /* ---- Hero-Hintergrundvideo: passendes Format laden & abspielen ---- */
+  (function () {
+    var desktopVid = document.querySelector('.hero__bg-video--desktop');
+    var mobileVid = document.querySelector('.hero__bg-video--mobile');
+    if (!desktopVid || !mobileVid) return;
+    var mq = window.matchMedia('(max-width: 620px)');
+    var current = null;
+    function startVideo(v) {
+      if (current === v) return;
+      if (current) { current.pause(); }
+      current = v;
+      if (v.readyState === 0) { v.load(); }
+      var p = v.play();
+      if (p && p.catch) { p.catch(function () {}); }
+    }
+    function sync() { startVideo(mq.matches ? mobileVid : desktopVid); }
+    sync();
+    if (mq.addEventListener) { mq.addEventListener('change', sync); }
+    else if (mq.addListener) { mq.addListener(sync); }
+  })();
+</script>
+<script src="../assets/nav-tips.js"></script>
+
+<!-- ============ MOBILE-AKTIONSLEISTE (fix) ============ -->
+<div class="mobile-action-bar">
+  {{FRAGMENT_MOBILE_ICONS}}
+  <a href="zimmer.html#anfrage" class="btn btn--primary" data-cms="cta_buchen_label">{{cta_buchen_label}}</a>
+</div>
+</body>
+</html>

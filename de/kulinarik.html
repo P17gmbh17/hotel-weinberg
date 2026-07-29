@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kulinarik-Guide | Hotel Weinberg</title>
+<meta name="description" content="Lokale Restaurant-Empfehlungen rund um Hotel Weinberg in St. Pauls und Eppan an der Weinstraße, filterbar nach Pizza, Restaurant, Aperitivo und mehr.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css?v=1785314872">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap site-header__inner">
+    <a href="index.html" class="brand">
+      <img src="../assets/logo/logo-horizontal-white.png" alt="Hotel Weinberg, Mediterranean Living" class="brand__lockup" id="navLockup">
+    </a>
+    <nav class="main-nav">
+      <a href="philosophie.html">Über uns</a>
+      <a href="zimmer.html">Zimmer</a>
+      <a href="geniessen.html">Genießen</a>
+      <a href="aktivitaeten.html">Aktivitäten</a>
+      <a href="kulinarik.html" class="is-active">Kulinarik-Guide</a>
+      <a href="zimmer.html#anfrage" class="btn btn--primary">Jetzt buchen</a>
+      <div class="nav-meta">
+      <span class="nav-icons">
+        <a href="tel:+390471662326" aria-label="Anrufen" title="+39 0471 662326"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg></a>
+        <a href="mailto:info@hotelweinberg.eu?subject=Zimmeranfrage%20Hotel%20Weinberg&body=Liebe%20Familie%20Schrott%2C%0D%0A%0D%0Aich%20interessiere%20mich%20f%C3%BCr%20folgenden%20Aufenthalt%3A%0D%0A%0D%0AAnreise%3A%20%0D%0AAbreise%3A%20%0D%0AAnzahl%20Personen%3A%20%0D%0AZimmerkategorie%3A%20%0D%0A%0D%0AHerzliche%20Gr%C3%BC%C3%9Fe" aria-label="E-Mail schreiben" title="info@hotelweinberg.eu"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M4 6.5l8 6 8-6"/></svg></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Hotel+Weinberg+Luziafeldweg+3+39050+St.+Pauls+Eppan" target="_blank" rel="noopener" aria-label="Auf Google Maps ansehen" title="Luziafeldweg 3, St. Pauls/Eppan"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11.6C19 5.3 15.9 2 12 2S5 5.3 5 9.4C5 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg></a>
+      </span>
+      <span class="lang-switch">
+        <button type="button" class="lang-switch__current">DE</button>
+        <span class="lang-switch__menu">
+          <span class="lang-switch__option is-active">DE</span>
+          <a href="../it/kulinarik.html" class="lang-switch__option">IT</a>
+          <a href="../en/kulinarik.html" class="lang-switch__option">EN</a>
+        </span>
+      </span>
+      </div>
+      <div class="nav-tips" id="navTips"></div>
+    </nav>
+    <button class="nav-toggle" aria-label="Menü">☰</button>
+  </div>
+</header>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="wrap page-hero__inner">
+    <div>
+      <h1 class="fade-in-load fade-in-load--2" data-cms="hero_heading">Wo man rund um St. Pauls & Eppan gut isst</h1>
+      <p class="fade-in-load fade-in-load--3" data-cms="hero_text">Wir kochen nicht mehr selbst, verraten euch aber gern, wohin wir zum Essen gehen: von der Pizza um die Ecke bis zum Aperitivo im historischen Ansitz.</p>
+    </div>
+    <div class="page-hero__polaroids">
+      <div class="polaroid">
+        <img src="../assets/kulinarik/header/polaroid-dish-5.jpg" alt="Regionales Gericht, modern angerichtet">
+        <span>Genuss in der Nachbarschaft</span>
+      </div>
+      <div class="polaroid">
+        <img src="../assets/kulinarik/header/polaroid-aperitivo.jpg" alt="Aperitivo mit Spritz, Negroni und Oliven">
+        <span>Aperitivo-Stunde</span>
+      </div>
+      <div class="polaroid">
+        <img src="../assets/kulinarik/header/polaroid-dish-4.jpg" alt="Pizza Margherita">
+        <span>Pizza-Klassiker</span>
+      </div>
+      <div class="polaroid">
+        <img src="../assets/kulinarik/header/polaroid-dish-2.jpg" alt="Südtiroler Knödel mit Rindsbraten">
+        <span>Deftig &amp; regional</span>
+      </div>
+      <div class="polaroid">
+        <img src="../assets/kulinarik/header/polaroid-dish-3.jpg" alt="Geröstete Keschtn zum Törggelen">
+        <span>Törggelen-Zeit</span>
+      </div>
+    </div>
+  </div>
+  <div class="curtain" data-curtain-auto>
+    <div class="curtain__panel curtain__panel--left"></div>
+    <div class="curtain__panel curtain__panel--right"></div>
+    <img src="../assets/logo/icon-white.png" alt="" class="curtain__icon">
+  </div>
+</section>
+
+<!-- ============ FILTER BAR ============ -->
+<div class="filter-bar">
+  <div class="filter-bar__inner">
+  <div class="wrap">
+    <div class="filter-group" id="categoryFilters">
+      <span class="filter-label">Art</span>
+      <button class="filter-btn is-active" data-filter="cat" data-value="alle">Alle</button>
+      <button class="filter-btn" data-filter="cat" data-value="restaurant">Restaurant</button>
+      <button class="filter-btn" data-filter="cat" data-value="pizza">Pizza</button>
+      <button class="filter-btn" data-filter="cat" data-value="aperitivo">Aperitivo</button>
+    </div>
+    <div class="filter-group" id="distanceFilters">
+      <span class="filter-label">Entfernung</span>
+      <button class="filter-btn is-active" data-filter="dist" data-value="alle">Alle</button>
+      <button class="filter-btn" data-filter="dist" data-value="fuss">Zu Fuß erreichbar</button>
+      <button class="filter-btn" data-filter="dist" data-value="auto">Mit dem Auto</button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- ============ GUIDE GRID ============ -->
+<div class="wrap">
+  <div class="guide-grid" id="guideGrid">
+
+    <article class="guide-card" data-cat="restaurant toerggelen" data-dist="fuss">
+      <div class="guide-card__img"><img src="https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg" alt="Paulserhof, St. Pauls"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Törggelen</span></div>
+        <span class="place">St. Pauls · Unterrainer Straße 21</span>
+        <h3>Paulserhof</h3>
+        <p class="desc">Traditionsgasthaus mit 700 Jahre altem Weinkeller mitten im Dorf, Südtiroler Klassiker mit mediterraner Note, seit über 60 Jahren beliebter Treffpunkt.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 5 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 2 Autominuten</span>
+        </div>
+        <div class="hours">Ganzjährig geöffnet · Reservierung empfohlen</div>
+        <div class="actions">
+          <a href="tel:+390471662422">Anrufen</a>
+          <a href="https://www.paulserhof.com/en/" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="aperitivo restaurant" data-dist="fuss">
+      <div class="guide-card__img"><img src="../assets/kulinarik/allegra.jpg" alt="Allegra Weinbar, St. Pauls"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Aperitivo</span><span class="tag">Weinbar</span></div>
+        <span class="place">St. Pauls · Ansitz Schreckenstein</span>
+        <h3>Allegra</h3>
+        <p class="desc">Mediterraner Flair trifft Südtiroler Tradition im historischen Ansitz, perfekt für Aperitif, feine Weine und saisonale Küche im idyllischen Innenhof.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 5 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 2 Autominuten</span>
+        </div>
+        <div class="hours">Di–Sa, 17:00–24:00 Uhr</div>
+        <div class="actions">
+          <a href="tel:+393396241592">Anrufen</a>
+          <a href="https://www.allegra-weinbar.it/de" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="pizza" data-dist="fuss">
+      <div class="guide-card__img"><img src="../assets/kulinarik/liliane.jpg" alt="Liliane Pizzeria Café Eisdiele, St. Pauls"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Pizza</span><span class="tag">Café / Eisdiele</span></div>
+        <span class="place">St. Pauls · Paulser Straße 10</span>
+        <h3>Liliane</h3>
+        <p class="desc">Pizza aus dem Steinofen, hausgemachtes Eis und Café hinter mittelalterlichen Mauern, locker, familienfreundlich, auch Dinkel- und glutenfreie Pizza.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 4 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 2 Autominuten</span>
+        </div>
+        <div class="hours">Do–So bis 23:30 Uhr, Mo–Mi bis 24:00 Uhr · Pizza ab 17 Uhr</div>
+        <div class="actions">
+          <a href="tel:+390471664300">Anrufen</a>
+          <a href="https://www.liliane.it/de/" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="restaurant pizza" data-dist="fuss">
+      <div class="guide-card__img"><img src="../assets/kulinarik/guten-tropfen.jpg" alt="Gasthof zum Guten Tropfen, St. Pauls"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Pizza</span></div>
+        <span class="place">St. Pauls · Paulser Straße 4</span>
+        <h3>Guten Tropfen</h3>
+        <p class="desc">Gemütlicher Familiengasthof im Ortszentrum mit Pizzeria, einladendem Innenhof und Südtiroler Spezialitäten, seit Generationen in Familienhand.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 4 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 2 Autominuten</span>
+        </div>
+        <div class="hours">Reservierung empfohlen · Öffnungszeiten siehe Website</div>
+        <div class="actions">
+          <a href="tel:+390471662223">Anrufen</a>
+          <a href="https://www.gutentropfen.com" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="restaurant pizza" data-dist="auto">
+      <div class="guide-card__img"><img src="../assets/kulinarik/pfeffermuehle.jpg" alt="Restaurant Pizzeria Pfeffermühle, St. Michael/Eppan"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Pizza</span></div>
+        <span class="place">St. Michael/Eppan · Circonvallazione</span>
+        <h3>Pfeffermühle</h3>
+        <p class="desc">Der Treffpunkt für Genießer bei Bozen: Tatar-Klassiker und moderne Südtiroler Küche treffen auf Pizza aus dem Holzofen, umgeben von Obstgärten.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 25 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 6 Autominuten</span>
+        </div>
+        <div class="hours">11:45–14:00 &amp; 18:00–21:30 Uhr · Mi ganztägig &amp; Do mittags geschlossen</div>
+        <div class="actions">
+          <a href="tel:+390471663057">Anrufen</a>
+          <a href="https://www.pfeffermuehle.it/en/" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="restaurant toerggelen" data-dist="auto">
+      <div class="guide-card__img"><img src="../assets/kulinarik/platzegg.jpg" alt="Osteria Platzegg, St. Michael/Eppan"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Südtiroler Küche</span></div>
+        <span class="place">St. Michael/Eppan · Rathausplatz 1</span>
+        <h3>Platzegg</h3>
+        <p class="desc">„Ehrlich, einfach, echt": Herbert Hintner macht Südtiroler Klassiker und fast vergessene Regionalgerichte auf der Piazza von St. Michael wieder restaurantfein.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 25 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 6 Autominuten</span>
+        </div>
+        <div class="hours">Mo, Do–Sa 12–14 &amp; 18:30–21 Uhr · Mi 18:30–21 Uhr · So 12–14 Uhr · Di Ruhetag</div>
+        <div class="actions">
+          <a href="tel:+390471058858">Anrufen</a>
+          <a href="https://www.platzegg.com/" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="restaurant pizza aperitivo" data-dist="auto">
+      <div class="guide-card__img"><img src="../assets/kulinarik/meraner.jpg" alt="Restaurant Pizzeria Meraner, St. Michael/Eppan"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Pizza</span><span class="tag">Aperitivo</span></div>
+        <span class="place">St. Michael/Eppan · Bergweg 19</span>
+        <h3>Meraner (Talele)</h3>
+        <p class="desc">Pizza aus dem Holzofen, Grillklassiker und Südtiroler Küche in dritter Generation Familientradition, überdachte Terrasse ideal für Aperitif und laue Abende.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 25 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 6 Autominuten</span>
+        </div>
+        <div class="hours">Di–Sa 17–23 Uhr · So Pizza 17–21 Uhr · Mo Ruhetag · Sommer mittags geschlossen</div>
+        <div class="actions">
+          <a href="tel:+390471664033">Anrufen</a>
+          <a href="https://www.meraner.it/de" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="restaurant pizza" data-dist="auto">
+      <div class="guide-card__img"><img src="../assets/kulinarik/wiesenheim.jpg" alt="Restaurant Pizzeria Wiesenheim, Unterrain/Eppan"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Pizza</span></div>
+        <span class="place">Unterrain/Eppan · Unterrainerstraße 48</span>
+        <h3>Wiesenheim</h3>
+        <p class="desc">Mediterrane Küche mit Südtiroler Spezialitäten und Pizza aus dem Holzofen, in ruhiger Lage Richtung Frangart, gern besucht von Einheimischen.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 30 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 7 Autominuten</span>
+        </div>
+        <div class="hours">12:00–14:00 &amp; 17:30–21:15 Uhr (Pizza bis 22 Uhr) · So mittags nur Pizza · Do Ruhetag</div>
+        <div class="actions">
+          <a href="tel:+390471637031">Anrufen</a>
+          <a href="https://www.wiesenheim-bz.com/en" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="guide-card" data-cat="restaurant aperitivo" data-dist="auto">
+      <div class="guide-card__img"><img src="../assets/kulinarik/golfclub-eppan.jpg" alt="The Grillhouse, Golfclub Eppan"></div>
+      <div class="guide-card__body">
+        <div class="guide-card__tags"><span class="tag">Restaurant</span><span class="tag">Aperitivo</span></div>
+        <span class="place">Frangart · Via Riva di Sotto 74</span>
+        <h3>The Grillhouse, Golfclub Eppan</h3>
+        <p class="desc">Mediterrane Küche und saftige Steaks vom Holzkohlegrill direkt am Golfplatz, Show-Küche, Pizza aus dem Steinofen und große Weinauswahl in lockerer Atmosphäre.</p>
+        <div class="meta-row">
+          <span><svg viewBox="0 0 24 24"><circle cx="13.2" cy="4.3" r="1.5" fill="currentColor" stroke="none"/><path d="M11 8.2l-1.3 4.5 2.3 1.6-.7 5.4"/><path d="M13.3 8.6l1.4 3.6-2 2.2 2.6 2"/><path d="M9.7 10.6l-2.9 1.8"/></svg> ca. 35 Gehmin.</span>
+          <span><svg class="icon-fill" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z"/><circle cx="7.2" cy="17.5" r="2.3"/><circle cx="16.8" cy="17.5" r="2.3"/></svg> ca. 8 Autominuten</span>
+        </div>
+        <div class="hours">Restaurant Di–Sa 12–15 &amp; 19–23 Uhr · Pizza Di–Sa 17–23, So 17–21 Uhr</div>
+        <div class="actions">
+          <a href="tel:+390471633495">Anrufen</a>
+          <a href="https://www.golfandcountry.it/en/restaurant/" target="_blank" rel="noopener">Website ↗</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="../assets/logo/logo-horizontal-white.png" alt="Hotel Weinberg, Mediterranean Living" style="height:41px; margin-bottom:16px;">
+        <p>Ein kleines, persönlich geführtes Haus mitten in den Weinbergen von St. Pauls an der Südtiroler Weinstraße.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="philosophie.html">Über uns</a></li>
+          <li><a href="aktivitaeten.html">Aktivitäten</a></li>
+          <li><a href="zimmer.html">Zimmer</a></li>
+          <li><a href="geniessen.html">Genießen</a></li>
+          <li><a href="kulinarik.html">Kulinarik-Guide</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Luziafeldweg 3</li>
+          <li>39050 St. Pauls/Eppan</li>
+          <li><a href="tel:+390471662326">+39 0471 662326</a></li>
+          <li><a href="mailto:info@hotelweinberg.eu">info@hotelweinberg.eu</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="cookie-einstellungen.html">Cookie-Einstellungen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Hotel Weinberg, St. Pauls/Eppan</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const header = document.getElementById('siteHeader');
+  const navLockup = document.getElementById('navLockup');
+  const filterBar = document.querySelector('.filter-bar');
+  const guideGrid = document.getElementById('guideGrid');
+  function filterBarMayHide() {
+    if (!guideGrid) return true;
+    return guideGrid.getBoundingClientRect().top <= -window.innerHeight;
+  }
+  let lastScrollY = window.scrollY;
+  let wasScrolled = null;
+  function updateHeaderHeight() {
+    document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+  }
+  function syncHeader() {
+    if (document.querySelector('.main-nav.is-open')) return;
+    const y = window.scrollY;
+    const scrolled = y > 40;
+    if (scrolled !== wasScrolled) {
+      header.classList.toggle('is-scrolled', scrolled);
+      if (navLockup) navLockup.src = scrolled ? '../assets/logo/logo-horizontal-olive.png' : '../assets/logo/logo-horizontal-white.png';
+      wasScrolled = scrolled;
+      updateHeaderHeight();
+      setTimeout(updateHeaderHeight, 360);
+    }
+    if (y <= 0) {
+    header.classList.remove('hide');
+    if (filterBar) { filterBar.classList.remove('filter-bar--hidden'); filterBar.classList.remove('filter-bar--flush'); }
+    } else if (y > lastScrollY) {
+    header.classList.add('hide');
+    if (filterBar) {
+      if (filterBarMayHide()) {
+        filterBar.classList.add('filter-bar--hidden');
+        filterBar.classList.remove('filter-bar--flush');
+      } else {
+        filterBar.classList.remove('filter-bar--hidden');
+        filterBar.classList.add('filter-bar--flush');
+      }
+    }
+    } else {
+    header.classList.remove('hide');
+    if (filterBar) { filterBar.classList.remove('filter-bar--hidden'); filterBar.classList.remove('filter-bar--flush'); }
+    }
+    lastScrollY = y;
+  }
+  let scrollTicking = false;
+  window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+      window.requestAnimationFrame(() => { syncHeader(); scrollTicking = false; });
+      scrollTicking = true;
+    }
+  }, { passive: true });
+  window.addEventListener('resize', updateHeaderHeight);
+  updateHeaderHeight();
+  syncHeader();
+
+  const navToggle = document.querySelector('.nav-toggle');
+  const mainNav = document.querySelector('.main-nav');
+  if (navToggle && mainNav) {
+    navToggle.addEventListener('click', () => {
+      const open = mainNav.classList.toggle('is-open');
+      navToggle.classList.toggle('is-open', open);
+      navToggle.textContent = open ? '' : '\u2630';
+      if (open) {
+        header.classList.remove('hide');
+        window.__navScrollY = window.scrollY;
+        document.body.style.position = 'fixed';
+        document.body.style.top = '-' + window.__navScrollY + 'px';
+        document.body.style.width = '100%';
+      } else {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        window.scrollTo(0, window.__navScrollY || 0);
+      }
+    });
+    mainNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      mainNav.classList.remove('is-open');
+      navToggle.classList.remove('is-open');
+      navToggle.textContent = '\u2630';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      window.scrollTo(0, window.__navScrollY || 0);
+    }));
+  }
+
+  const state = { cat: 'alle', dist: 'alle' };
+  const cards = document.querySelectorAll('.guide-card');
+
+  function applyFilters() {
+    cards.forEach(card => {
+      const cats = card.dataset.cat.split(' ');
+      const dist = card.dataset.dist;
+      const catOk = state.cat === 'alle' || cats.includes(state.cat);
+      const distOk = state.dist === 'alle' || dist === state.dist;
+      card.hidden = !(catOk && distOk);
+    });
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.filter;
+      state[group] = btn.dataset.value;
+      document.querySelectorAll(`.filter-btn[data-filter="${group}"]`).forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      applyFilters();
+      if (guideGrid) guideGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+</script>
+<script>
+  document.querySelectorAll('.subpage-hero video.bg, .page-hero video.bg').forEach(function (v) {
+    var p = v.play();
+    if (p && p.catch) { p.catch(function () {}); }
+  });
+</script>
+<script src="../assets/nav-tips.js"></script>
+</body>
+</html>
