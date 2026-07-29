@@ -1,0 +1,24 @@
+# Hotel Weinberg – Netlify-Konfiguration
+#
+# Die Seite ist reines statisches HTML (kein Build-Schritt noetig): die
+# fertigen {lang}/*.html-Dateien werden lokal per build_*.py aus
+# content/*.json + Templates erzeugt und direkt committet. Netlify muss
+# also nichts bauen, nur den Ordner ausliefern.
+
+[build]
+  publish = "."
+  # Kein Build-Command noetig - die HTML-Dateien liegen bereits fertig im Repo.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Assets (Bilder/Videos) aendern sich selten unter demselben Dateinamen -
+# lange Cache-Zeit fuer schnellere Ladezeiten.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
