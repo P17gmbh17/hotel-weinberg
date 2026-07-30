@@ -469,6 +469,84 @@ var WeinbergPhilosophiePreview = createClass({
   },
 });
 
+var WeinbergAktivitaetenPreview = createClass({
+  render: function () {
+    var data = this.props.entry.get('data').toJS() || {};
+    var chapters = data.chapters || [];
+    var guideCards = data.guide_cards || [];
+
+    var LIVE_URL = 'https://hotel-weinberg.netlify.app/de/aktivitaeten.html';
+    var html = '';
+
+    html +=
+      '<section class="cms-sector cms-sector--live">' +
+        '<div class="cms-sector__label">Referenz · aktuelle Live-Seite' +
+          '<a href="' + LIVE_URL + '" target="_blank" rel="noopener" class="cms-live-link">In neuem Tab öffnen ↗</a>' +
+        '</div>' +
+        '<iframe src="' + LIVE_URL + '" class="cms-live-frame" title="Live-Seite"></iframe>' +
+      '</section>';
+
+    html += sector('1–4', 'Header & Einleitung',
+      '<h3 class="cms-heading">' + esc(data.hero_heading) + '</h3>' +
+      '<p class="cms-lede">' + esc(data.hero_text) + '</p>' +
+      '<div class="cms-eyebrow">' + esc(data.story_eyebrow) + '</div>' +
+      '<p class="cms-body">' + esc(data.story_lede) + '</p>'
+    );
+
+    var chaptersHtml = chapters.map(function (ch, i) {
+      var tips = (ch.tips || []).map(function (t) { return thumb(t.image, t.title + (t.meta ? ' · ' + t.meta : ''), 60); }).join('');
+      return (
+        '<div class="cms-category">' +
+          '<div class="cms-category__label">' + esc(ch.num) + ' · ' + esc(ch.eyebrow) + '</div>' +
+          '<div class="cms-row">' + thumb(ch.bg_image, 'Hintergrund', 80) + '</div>' +
+          '<h3 class="cms-heading">' + esc(ch.heading) + '</h3>' +
+          '<p class="cms-lede">' + esc(ch.lede) + '</p>' +
+          '<p class="cms-body">' + esc(ch.body) + '</p>' +
+          '<div class="cms-row cms-row--wrap">' + tips + '</div>' +
+        '</div>'
+      );
+    }).join('');
+    html += sector('5', 'Die 5 Kapitel', chaptersHtml);
+
+    html += sector('6–7', 'Filter-Leiste',
+      '<p class="cms-meta"><b>' + esc(data.filter_art_label) + ':</b> ' + esc(data.filter_cat_alle_label) + ', ' +
+        (data.filter_cats || []).map(function (c) { return esc(c.label); }).join(', ') + '</p>' +
+      '<p class="cms-meta"><b>' + esc(data.filter_zeit_label) + ':</b> ' + esc(data.filter_zeit_alle_label) + ', ' +
+        (data.filter_zeiten || []).map(function (z) { return esc(z.label); }).join(', ') + '</p>'
+    );
+
+    var cardsHtml = guideCards.map(function (c, i) {
+      var tags = (c.tags || []).join(' · ');
+      return (
+        '<div class="cms-category">' +
+          '<div class="cms-category__label">' + (i + 1) + ' · ' + esc(c.title) + '</div>' +
+          '<div class="cms-row">' + thumb(c.image, '', 64) +
+            '<span class="cms-meta">' + esc(c.place) + '<br>' + esc(tags) + ' · ' + esc(c.zeit) + '</span>' +
+          '</div>' +
+          '<p class="cms-body">' + esc(c.desc) + '</p>' +
+          '<p class="cms-meta">' + esc(c.hours) + '</p>' +
+        '</div>'
+      );
+    }).join('');
+    html += sector('8', 'Aktivitäten-Karten (22)', cardsHtml);
+
+    html += sector('9', 'CTA-Banner',
+      '<h3 class="cms-heading">' + esc(data.cta_heading) + '</h3>' +
+      '<p class="cms-lede">' + esc(data.cta_text) + '</p>'
+    );
+
+    html += sector('10–11', 'Seitentitel & SEO',
+      '<p class="cms-meta"><b>Seitentitel:</b> ' + esc(data.meta_title) + '</p>' +
+      '<p class="cms-meta"><b>Meta-Beschreibung:</b> ' + esc(data.meta_description) + '</p>'
+    );
+
+    return h('div', {
+      className: 'cms-preview-root',
+      dangerouslySetInnerHTML: { __html: html },
+    });
+  },
+});
+
 var WeinbergKontaktPreview = createClass({
   render: function () {
     var data = this.props.entry.get('data').toJS() || {};
@@ -564,6 +642,7 @@ CMS.registerPreviewTemplate('startseite', WeinbergIndexPreview);
 CMS.registerPreviewTemplate('index', WeinbergIndexPreview);
 CMS.registerPreviewTemplate('zimmer', WeinbergZimmerPreview);
 CMS.registerPreviewTemplate('geniessen', WeinbergGeniessenPreview);
+CMS.registerPreviewTemplate('aktivitaeten', WeinbergAktivitaetenPreview);
 CMS.registerPreviewTemplate('kulinarik', WeinbergKulinarikPreview);
 CMS.registerPreviewTemplate('philosophie', WeinbergPhilosophiePreview);
 CMS.registerPreviewTemplate('kontakt', WeinbergKontaktPreview);

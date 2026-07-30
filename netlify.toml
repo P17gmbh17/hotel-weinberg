@@ -9,7 +9,7 @@
 # 2026-07-29: CMS-Aenderung "Familie Palma" landete in content/index.json,
 # aber die Live-Seite zeigte weiter "Familie Schrott").
 [build]
-  command = "python3 build_index.py && python3 build_zimmer.py && python3 build_geniessen.py && python3 build_kulinarik.py && python3 build_philosophie.py && python3 build_kontakt.py"
+  command = "python3 build_index.py && python3 build_zimmer.py && python3 build_geniessen.py && python3 build_kulinarik.py && python3 build_philosophie.py && python3 build_kontakt.py && python3 build_aktivitaeten.py"
   publish = "."
 
 [[headers]]

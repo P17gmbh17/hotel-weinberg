@@ -381,6 +381,104 @@ collections:
           - { label: "13 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true }
           - { label: "14 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true }
 
+  - name: "aktivitaeten"
+    label: "Aktivitäten"
+    i18n:
+      structure: single_file
+      locales: [de, it, en]
+    files:
+      - file: "content/aktivitaeten.json"
+        label: "Aktivitäten (alle Sprachen)"
+        name: "aktivitaeten"
+        i18n: true
+        fields:
+
+          - { label: "1 · Video-Header: Überschrift", name: "hero_heading", widget: "string", i18n: true }
+          - { label: "2 · Video-Header: Untertitel", name: "hero_text", widget: "text", i18n: true }
+          - { label: "3 · Kicker über der Einleitung", name: "story_eyebrow", widget: "string", i18n: true }
+          - { label: "4 · Einleitungssatz", name: "story_lede", widget: "text", i18n: true }
+          - { label: 'Button-Text „Entdecke mehr" (nicht editierbar, gilt für alle 5 Kapitel)', name: "discover_more_label", widget: "hidden", i18n: true }
+
+          - label: "5 · Die 5 Kapitel (Wandern, Bike, Golf, Kultur, Badespaß)"
+            name: "chapters"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.eyebrow}}"
+            hint: "Reihenfolge nicht ändern - Fortschritts-Pfad und Filter-Kategorien sind darauf abgestimmt. Jedes Kapitel hat einen Vollbild-Abschnitt beim Scrollen plus 3 Tipp-Kacheln darunter."
+            fields:
+              - { label: "Interner Schlüssel (nicht ändern)", name: "key", widget: "hidden" }
+              - { label: "Nummer (nicht ändern)", name: "num", widget: "hidden" }
+              - { label: "Hintergrundbild", name: "bg_image", widget: "image" }
+              - { label: "Bild-Alt-Text", name: "bg_alt", widget: "string" }
+              - { label: 'Kicker (z. B. „Wandern")', name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitungssatz (fett)", name: "lede", widget: "text" }
+              - { label: "Fließtext", name: "body", widget: "text" }
+              - label: "Tipp-Kacheln (3, erscheinen unter dem Kapitel)"
+                name: "tips"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Dauer (z. B. Halbtags / Ganztags)", name: "meta", widget: "string" }
+
+          - { label: '6 · Filter „Art": Label', name: "filter_art_label", widget: "string", i18n: true }
+          - { label: 'Filter „Art": Button-Text „Alle"', name: "filter_cat_alle_label", widget: "string", i18n: true }
+          - label: 'Filter „Art": Kategorien (Buttons)'
+            name: "filter_cats"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.label}}"
+            hint: "Reihenfolge/Werte nicht ändern - müssen zu den Kategorien der Kapitel und Karten passen."
+            fields:
+              - { label: "Interner Wert (nicht ändern)", name: "value", widget: "hidden" }
+              - { label: "Anzeigename", name: "label", widget: "string" }
+
+          - { label: '7 · Filter „Zeitaufwand": Label', name: "filter_zeit_label", widget: "string", i18n: true }
+          - { label: 'Filter „Zeitaufwand": Button-Text „Alle"', name: "filter_zeit_alle_label", widget: "string", i18n: true }
+          - label: 'Filter „Zeitaufwand": Optionen (Buttons)'
+            name: "filter_zeiten"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.label}}"
+            hint: "Reihenfolge/Werte nicht ändern - müssen zu den Karten passen."
+            fields:
+              - { label: "Interner Wert (nicht ändern)", name: "value", widget: "hidden" }
+              - { label: "Anzeigename", name: "label", widget: "string" }
+
+          - label: "8 · Aktivitäten-Karten (22)"
+            name: "guide_cards"
+            widget: "list"
+            i18n: true
+            summary: "{{fields.title}}"
+            hint: "Jede Karte ist ein Ausflugstipp im Karteikarten-Raster unten auf der Seite, filterbar nach Art und Zeitaufwand."
+            fields:
+              - { label: "Interner Kommentar (nicht editierbar)", name: "comment", widget: "hidden" }
+              - { label: 'Filter-Kategorie(n) (Werte mit Leerzeichen trennen, z. B. „wandern kultur" - nicht ändern ohne Grund)', name: "cat", widget: "string" }
+              - { label: "Filter-Zeitaufwand (kurz / halbtags / ganztags - nicht ändern ohne Grund)", name: "zeit", widget: "string", pattern: ['^(kurz|halbtags|ganztags)$', "Nur 'kurz', 'halbtags' oder 'ganztags'"] }
+              - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Bild-Alt-Text", name: "alt", widget: "string" }
+              - label: "Anzeige-Tags (2, z. B. Wandern / Kultur)"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Ort / Startpunkt", name: "place", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
+              - { label: "Info-Zeile 1 (Icons + Text, nicht editierbar)", name: "meta_row_1_html", widget: "hidden" }
+              - { label: "Info-Zeile 2 (Icons + Text, nicht editierbar)", name: "meta_row_2_html", widget: "hidden" }
+              - { label: "Öffnungszeiten / Saison", name: "hours", widget: "text" }
+              - { label: "Buttons (Route/Anrufen/Website, nicht editierbar)", name: "actions_html", widget: "hidden" }
+
+          - { label: "9 · CTA-Banner: Überschrift", name: "cta_heading", widget: "string", i18n: true }
+          - { label: "9 · CTA-Banner: Text", name: "cta_text", widget: "string", i18n: true }
+          - { label: "CTA-Banner: Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden", i18n: true }
+
+          - { label: "10 · Seitentitel (Browser-Tab, SEO)", name: "meta_title", widget: "string", i18n: true }
+          - { label: "11 · Meta-Beschreibung (SEO)", name: "meta_description", widget: "text", i18n: true }
+
   - name: "kulinarik"
     label: "Kulinarik-Guide"
     i18n:

@@ -1,0 +1,1799 @@
+{
+  "de": {
+    "meta_title": "Aktivitäten | Hotel Weinberg",
+    "meta_description": "Wandern, Biken, Golf, Kultur und Umgebung rund um Hotel Weinberg in St. Pauls/Eppan, Drei-Burgen-Wanderung, Golfclub Eppan, Kalterer See, Montiggler Seen und mehr.",
+    "hero_heading": "Wandern, Biken, Genießen:<br>direkt vor der Tür",
+    "hero_text": "Burgen, Seen und Weinberge liegen direkt vor der Tür, mitten in Südtirols schönster Ferienregion.",
+    "story_eyebrow": "Fünf Welten",
+    "story_lede": "Scrollt weiter durch Wandern, Bike, Golf, Kultur und die Umgebung, am Ende findet ihr alle Tipps als Karteikarten, filterbar nach Art und Zeitaufwand.",
+    "discover_more_label": "Entdecke mehr →",
+    "chapters": [
+      {
+        "key": "wandern",
+        "num": "01",
+        "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "bg_alt": "Wanderweg bei Eppan",
+        "eyebrow": "Wandern",
+        "heading": "Burgen, Wälder und Blütentäler",
+        "lede": "Von der Drei-Burgen-Wanderung über Hocheppan, Boymont und Korb bis zum blühenden Frühlingstal zwischen den Montiggler Seen und dem Kalterer See, die Wanderwege beginnen direkt vor der Haustür.",
+        "body": "Auch die historische Mendel-Standseilbahn mit dem Gipfel des Roen, die Ruine Leuchtenburg über dem Kalterer See und der beschauliche Kreuzweg zur Gleifkirche mit Aussichtspunkt Kreuzstein sind in 10 bis 25 Fahrminuten erreichbar.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Drei-Burgen-Wanderung",
+            "title": "Drei-Burgen-Wanderung",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "alt": "Montiggler Wald mit Seen",
+            "title": "Montiggler Wald mit Seen",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+            "alt": "Roen-Gipfeltour",
+            "title": "Roen-Gipfeltour",
+            "meta": "Ganztags"
+          }
+        ]
+      },
+      {
+        "key": "bike",
+        "num": "02",
+        "bg_image": "../assets/aktivitaeten/bike-tour.webp",
+        "bg_alt": "Biken in Eppan",
+        "eyebrow": "Bike",
+        "heading": "Auf zwei Rädern durch die Weinberge",
+        "lede": "Der Bahntrassenradweg Bozen–Eppan–Kaltern führt direkt an den Weinbergen des Hotels vorbei, flach, familientauglich und mit Weitblick auf die Dolomiten.",
+        "body": "Wer weiter will, folgt dem Etschtal-Radweg bis nach Meran oder dreht die Mitterbergerrunde von Eppan über den Kalterer See und Auer zurück nach Bozen, fast durchgehend flach, entlang Obstwiesen und historischer Ansitze.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+            "alt": "Wein &amp; Bike am Kalterer See",
+            "title": "Wein &amp; Bike am Kalterer See",
+            "meta": "Kurz"
+          },
+          {
+            "image": "../assets/aktivitaeten/radtour-meran.jpg",
+            "alt": "Etschtal-Radweg nach Meran",
+            "title": "Etschtal-Radweg nach Meran",
+            "meta": "Ganztags"
+          },
+          {
+            "image": "../assets/aktivitaeten/mitterberger-runde.webp",
+            "alt": "Mitterbergerrunde",
+            "title": "Mitterbergerrunde",
+            "meta": "Halbtags"
+          }
+        ]
+      },
+      {
+        "key": "golf",
+        "num": "03",
+        "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "bg_alt": "Golfclub Eppan Blue Monster von oben",
+        "eyebrow": "Golf",
+        "heading": "Abschlag mit Schlossblick",
+        "lede": "Der Golfclub Eppan „Blue Monster\" liegt nur wenige Fahrminuten entfernt, ein 9-Loch-Platz mit Seen und Bergblick, direkt daneben das Trainingscenter Schloss Freudenstein mit Kurzplatz, Driving Range und Putting Green.",
+        "body": "Für längere Runden sind die 9-Loch-Anlage in Lana und der 18-Loch-Platz Dolomiti auf der Mendel in rund 30–45 Fahrminuten erreichbar.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+            "alt": "Golfclub Eppan „Blue Monster\"",
+            "title": "Golfclub Eppan „Blue Monster\"",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+            "alt": "Trainingscenter Freudenstein",
+            "title": "Trainingscenter Freudenstein",
+            "meta": "Kurz"
+          },
+          {
+            "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+            "alt": "Golfclub Dolomiti",
+            "title": "Golfclub Dolomiti",
+            "meta": "Ganztags"
+          }
+        ]
+      },
+      {
+        "key": "kultur",
+        "num": "04",
+        "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "bg_alt": "Burgkapelle Hocheppan",
+        "eyebrow": "Kultur",
+        "heading": "Drei Burgen, tausend Jahre Geschichte",
+        "lede": "Schloss Hocheppan mit seiner romanischen Burgkapelle, Schloss Boymont und Schloss Korb prägen die Silhouette über den Weinbergen.",
+        "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen. Und gleich nebenan, in St. Pauls, öffnet die Kellerei St. Pauls ihre Türen: zur Weinführung durch das Paulsnerfeld oder zur „Preclarus\"-Führung durch den Sektbunker aus dem Zweiten Weltkrieg.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Schloss Hocheppan",
+            "title": "Schloss Hocheppan",
+            "meta": "Kurz"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "alt": "Kellerei St. Pauls",
+            "title": "Kellerei St. Pauls",
+            "meta": "Kurz"
+          }
+        ]
+      },
+      {
+        "key": "badespass",
+        "num": "05",
+        "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
+        "bg_alt": "Montiggler See",
+        "eyebrow": "Badespaß",
+        "heading": "Seen zum Verweilen",
+        "lede": "Die Montiggler Seen mit freiem Zugang und der Kalterer See mit seinen Badestränden liegen beide in rund 15–20 Fahrminuten, ideal für einen Nachmittag am Wasser.",
+        "body": "Wer einen ganzen Tag investieren will, fährt über den Mendelpass oder durchs Etschtal an den Gardasee, Riva del Garda und Torbole mit Seepromenade, Windsurfern und der Bergbahn auf den Monte Baldo.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+            "alt": "Kalterer See",
+            "title": "Kalterer See",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "alt": "Montiggler Seen",
+            "title": "Montiggler Seen",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/gardasee.jpg",
+            "alt": "Ausflug Gardasee",
+            "title": "Ausflug Gardasee",
+            "meta": "Ganztags"
+          }
+        ]
+      }
+    ],
+    "filter_art_label": "Art",
+    "filter_cat_alle_label": "Alle",
+    "filter_cats": [
+      {
+        "value": "wandern",
+        "label": "Wandern"
+      },
+      {
+        "value": "bike",
+        "label": "Bike"
+      },
+      {
+        "value": "golf",
+        "label": "Golf"
+      },
+      {
+        "value": "kultur",
+        "label": "Kultur"
+      },
+      {
+        "value": "badespass",
+        "label": "Badespaß"
+      }
+    ],
+    "filter_zeit_label": "Zeitaufwand",
+    "filter_zeit_alle_label": "Alle",
+    "filter_zeiten": [
+      {
+        "value": "kurz",
+        "label": "Kurz (bis 2 Std.)"
+      },
+      {
+        "value": "halbtags",
+        "label": "Halbtags"
+      },
+      {
+        "value": "ganztags",
+        "label": "Ganztags"
+      }
+    ],
+    "guide_cards": [
+      {
+        "comment": "Drei-Burgen-Wanderung",
+        "cat": "wandern kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+        "alt": "Drei-Burgen-Wanderung Hocheppan",
+        "tags": [
+          "Wandern",
+          "Kultur"
+        ],
+        "place": "Start: Schloss Korb, Eppan",
+        "title": "Drei-Burgen-Wanderung",
+        "desc": "Gemütliche Familientour über den Burgenweg Nr. 9 zu Schloss Hocheppan mit romanischer Burgkapelle, weiter zu Schloss Boymont und zurück über Schloss Korb.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2,5–3 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · Burgkapelle ca. 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 8 km · ca. 250 Hm</span>",
+        "hours": "Ganzjährig begehbar · leicht, familientauglich",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/hike-to-the-three-castles-of-appiano/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Schloss Hocheppan",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "alt": "Schloss Hocheppan mit Burgkapelle",
+        "tags": [
+          "Kultur",
+          "Burg"
+        ],
+        "place": "Missionsweg 8, Eppan",
+        "title": "Schloss Hocheppan &amp; Burgkapelle",
+        "desc": "Die besterhaltene Burg Südtirols mit der romanischen Burgkapelle und ihren Fresken aus dem 12. Jh., die Kapelle ist nur im Rahmen einer kunsthistorischen Führung zugänglich, unten in der Burgschenke gibt's Südtiroler Küche mit Panoramablick.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. + kurzer Fußweg</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> Führung ca. 30 Min., Besuch ca. 1–1,5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Burgkapelle/Führung ca. 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Führungen 11:00–16:30, je nach Saison Do–Mo</span>",
+        "hours": "Saison ab 28. März bis November · Burgschenke tgl. 10–18 Uhr, Mi Ruhetag",
+        "actions_html": "<a href=\"https://hocheppan.it/en/opening-times\" target=\"_blank\" rel=\"noopener\">Öffnungszeiten ↗</a>"
+      },
+      {
+        "comment": "Schloss Boymont",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "alt": "Schloss Boymont bei Eppan",
+        "tags": [
+          "Kultur",
+          "Burg"
+        ],
+        "place": "Hocheppaner Weg 5, Eppan",
+        "title": "Schloss Boymont",
+        "desc": "1977 restaurierte Burgruine mit gut erhaltenen Mauern und stimmungsvollem Innenhof, heute mit Jausenstation, ideal für eine Rast im Schatten der alten Gemäuer auf halber Strecke der Burgenwanderung.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 45 Min. Besuch</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Eintritt Burgruine auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Ostern–November, Di–So 10–18 Uhr</span>",
+        "hours": "Jausenstation im Burghof",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/castles/boymont-castle/\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Frühlingstal",
+        "cat": "wandern badespass",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/fruehlingstal.jpg",
+        "alt": "Frühlingstal bei Eppan",
+        "tags": [
+          "Wandern",
+          "Familie"
+        ],
+        "place": "Start: Großer Montiggler See",
+        "title": "Frühlingstal zum Kalterer See",
+        "desc": "Leichte Wanderung entlang des Angelbachs durch blütenreiche Laub- und Mischwälder, zwischen Montiggler See und Kalterer See, im zeitigen Frühjahr ein Blütenmeer aus Märzenbechern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15–18 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2,5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 10 km · flach</span>",
+        "hours": "Leicht, familientauglich · schönste Zeit: Feb.–Apr.",
+        "actions_html": "<a href=\"https://www.suedtirolerland.it/de/freizeit-aktiv/berge-wandern/in-suedtirols-sueden/durch-das-fruehlingstal-zum-kalterer-see/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Montiggler Wald mit Seen",
+        "cat": "wandern",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+        "alt": "Montiggler Wald mit Seen",
+        "tags": [
+          "Wandern",
+          "Familie"
+        ],
+        "place": "Start: Schreckbichl oder Großer Montiggler See",
+        "title": "Montiggler Wald mit Seen",
+        "desc": "Schattige Waldwege durch den Montiggler Wald, vorbei am Großen und Kleinen Montiggler See, mit kurzem Abstecher zum Aussichtspunkt Wilder-Mann-Bühel, ruhig, flach und ganzjährig ein beliebtes Naherholungsgebiet.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15–20 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2–2,5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 6–8 km · flach</span>",
+        "hours": "Ganzjährig begehbar · leicht, familientauglich",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/montiggl-forest\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Radweg Überetsch",
+        "cat": "bike",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+        "alt": "Radweg Überetsch, Eppan",
+        "tags": [
+          "Bike",
+          "Familie"
+        ],
+        "place": "Bahntrassenradweg Bozen–Eppan–Kaltern",
+        "title": "Wein &amp; Bike am Kalterer See",
+        "desc": "Fast flacher Radweg auf ehemaliger Bahntrasse, führt direkt an den Weinbergen des Hotels vorbei bis zum Kalterer See, ideal auch mit Kindern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> direkt ab Hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5 Std. einfach</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · E-Bike-Verleih ab ca. 25 €/Tag</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 18 km · flach</span>",
+        "hours": "Ganzjährig befahrbar",
+        "actions_html": "<a href=\"https://www.suedtirolerland.it/en/leisure-activities/mountain-biking-and-cycling/cycle-paths-in-south-tyrol/oltradige/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Etschtal-Radweg",
+        "cat": "bike",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/radtour-meran.jpg",
+        "alt": "Etschtal-Radweg Richtung Meran",
+        "tags": [
+          "Bike",
+          "Ganztagestour"
+        ],
+        "place": "Bozen – Sigmundskron – Lana – Meran",
+        "title": "Etschtal-Radweg nach Meran",
+        "desc": "Entspannte, fast durchgehend flache Tour am Fluss entlang, vorbei an Obstwiesen, historischen Ansitzen und Schloss Sigmundskron bis nach Meran.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. zum Etschtalradweg</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 3–4 Std. einfach</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · Rückfahrt mit Zug möglich</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 45 km · flach</span>",
+        "hours": "Ganzjährig befahrbar",
+        "actions_html": "<a href=\"https://www.outdooractive.com/en/route/bike-riding/bolzano-and-environs/bolzano-to-meran-etsch-valley-cycling-delight/805780694/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Trainingscenter Schloss Freudenstein",
+        "cat": "golf",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "alt": "Trainingscenter Schloss Freudenstein",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Unterrain, Eppan · Matschatscherstraße 6",
+        "title": "Trainingscenter Schloss Freudenstein",
+        "desc": "4-Loch-Kurzplatz, 240 m Driving Range mit 16 Abschlägen und großzügiges Putting Green, umgeben von Weinbergen, mit Bar und Golfsimulator für Schlechtwettertage.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ab ca. 1 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Greenfee ca. 20 € · Range-Tageskarte ca. 15 €</span>\n          <span>⛳ 4 Loch + Übungsanlage</span>",
+        "hours": "Saisonal geöffnet · Schlägerverleih möglich",
+        "actions_html": "<a href=\"tel:+390471166 0056\">Anrufen</a>\n          <a href=\"https://www.golfandcountry.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Golfclub Eppan Blue Monster",
+        "cat": "golf",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "alt": "Golfclub Eppan Blue Monster",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Via Riva di Sotto 74, Eppan",
+        "title": "Golfclub Eppan „Blue Monster\"",
+        "desc": "9-Loch-Platz (Par 35) von Golfarchitekt Thomas C. Himmel, 2015 eröffnet, benannt nach den zahlreichen Wasserhindernissen, umgeben von Apfelwiesen und mit 4-Sterne-Superior-Klassifizierung.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2,5–3 Std. (9 Loch)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Greenfee 9 Loch 60 € · 18 Loch 100 €</span>\n          <span>⛳ 9 Loch, Par 35</span>",
+        "hours": "Saisonal geöffnet · Golfschule &amp; Simulator vor Ort",
+        "actions_html": "<a href=\"https://www.golfandcountry.it/en/the-blue-monster-golfclub-eppan/\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Golfclub Lana",
+        "cat": "golf",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "alt": "Golfclub Lana Gutshof Brandis",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Brandisweg 13, Lana",
+        "title": "Golfclub Lana „Gutshof Brandis\"",
+        "desc": "9-Loch-Anlage (Par 35, 2.793 m) unterhalb der Burgruine Brandis bei Meran, gestaltet vom englischen Platzarchitekten Michael Pinner, malerische Lage mit Blick auf die Texelgruppe.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 30–35 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2,5–3 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Greenfee auf Anfrage</span>\n          <span>⛳ 9 Loch, Par 35</span>",
+        "hours": "Saisonal geöffnet",
+        "actions_html": "<a href=\"https://www.golfclublana.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Golfclub Dolomiti Sarnonico",
+        "cat": "golf",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+        "alt": "Golfclub Dolomiti Sarnonico auf der Mendel",
+        "tags": [
+          "Golf",
+          "Ganztagestour"
+        ],
+        "place": "Sarnonico, Alta Val di Non (Mendel)",
+        "title": "Golfclub Dolomiti (Sernonico/Mendel)",
+        "desc": "18-Loch-Platz auf 900 m Höhe, 1991 eröffnet, eine der anspruchsvollsten Anlagen der Alpen, umgeben von Wäldern, Obstwiesen und Bergdörfern jenseits des Mendelpasses.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 40–45 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 4–5 Std. (18 Loch)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Greenfee auf Anfrage</span>\n          <span>⛳ 18 Loch + 4 Übungslöcher</span>",
+        "hours": "Saisonal geöffnet · Golfschule vor Ort",
+        "actions_html": "<a href=\"https://www.dolomitigolf.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Kalterer See",
+        "cat": "badespass",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+        "alt": "Kalterer See",
+        "tags": [
+          "Badespaß",
+          "Baden"
+        ],
+        "place": "Kaltern an der Weinstraße",
+        "title": "Kalterer See",
+        "desc": "Einer der wärmsten Badeseen der Alpen, umgeben von Weinbergen, vier Badeanlagen mit Liegewiese, Steg und Blick auf den Mendelkamm.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> frei wählbar</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Eintritt an den Badeanlagen ca. 4–6 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Wassertemperatur bis 28°C im Sommer</span>",
+        "hours": "Badesaison Mai–September",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/nature-and-landscape/lakes-and-waters/lake-caldaro/\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Montiggler Seen",
+        "cat": "badespass wandern",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+        "alt": "Montiggler Seen",
+        "tags": [
+          "Badespaß",
+          "Baden"
+        ],
+        "place": "Montiggler Wald, Eppan",
+        "title": "Montiggler Seen",
+        "desc": "Großer und Kleiner Montiggler See mitten im Montiggler Wald, freier Seezugang an zahlreichen Stellen, dazu eine Liegewiese mit Schwimmbad-Charakter.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15–20 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> frei wählbar</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> freier Seezugang · Liegewiese ca. 4 €/3 € (Kind)</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Liegewiese 9–18 Uhr</span>",
+        "hours": "Badesaison Mai–September",
+        "actions_html": "<a href=\"https://www.suedtirol-kompakt.com/montiggler-seen/\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "MMM Firmian",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+        "alt": "MMM Firmian, Schloss Sigmundskron",
+        "tags": [
+          "Kultur",
+          "Museum"
+        ],
+        "place": "Schloss Sigmundskron, bei Bozen",
+        "title": "MMM Firmian: Messner Mountain Museum",
+        "desc": "Reinhold Messners Hauptmuseum in der über 1.000 Jahre alten Burg Sigmundskron, Bergsteigergeschichte, Kunst und ein fantastischer Blick auf Bozen und das Etschtal.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 20–25 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2 Std. inkl. Anfahrt</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> 15 € Erw. · 6 € Kinder (6–18) · Familie 34 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Mitte März–Anfang Nov., Do Ruhetag</span>",
+        "hours": "10:00–18:00 Uhr, letzter Einlass 17:00 Uhr",
+        "actions_html": "<a href=\"https://www.messner-mountain-museum.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Mendel-Wanderung",
+        "cat": "wandern kultur",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "alt": "Mendelbahn zur Mendel-Wanderung",
+        "tags": [
+          "Wandern",
+          "Ganztagestour"
+        ],
+        "place": "Start: St. Anton, Kaltern",
+        "title": "Mendel-Standseilbahn &amp; Wanderung",
+        "desc": "Mit der historischen, steilsten Standseilbahn Europas hinauf auf die Mendel (1.363 m), von dort Wanderung über Enzianhütte und Malga Romeno zur Überetscher Hütte mit Blick bis zu den Dolomiten.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 20–25 Fahrmin. nach St. Anton/Kaltern</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 4:20 Std. Wanderzeit</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Standseilbahn ca. 8–10 € · Wanderung kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 15,2 km · +539 Hm/−531 Hm</span>",
+        "hours": "Mendelbahn ganzjährig, außer saisonaler Revision",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/from-the-mendola-pass-to-the-oltradige-mountain-hut/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Roen",
+        "cat": "wandern",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "alt": "Roen, höchster Gipfel des Mendelkamms",
+        "tags": [
+          "Wandern",
+          "Ganztagestour"
+        ],
+        "place": "Start: Mendelpass / Bergstation Kabinenbahn",
+        "title": "Roen, Gipfeltour über dem Kalterer See",
+        "desc": "Von der Mendelpasshöhe oder der Bergstation der Kabinenbahn hinauf auf den höchsten Gipfel des Mendelkamms (2.116 m), Rundblick auf Dolomiten, Adamello, Ortler und bis zu den Drei­tausendern des Alpenhauptkamms.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 25–30 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 4–5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · Kabinenbahn ca. 10 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 12 km · ca. 700 Hm</span>",
+        "hours": "Mai–Oktober · konditionell anspruchsvoller",
+        "actions_html": "<a href=\"https://www.kalterersee.com/en/highlights/nature-and-landscape/mount-roen/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Leuchtenburg",
+        "cat": "wandern badespass",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.jpg",
+        "alt": "Ruine Leuchtenburg über dem Kalterer See",
+        "tags": [
+          "Wandern",
+          "Familie"
+        ],
+        "place": "Start: Ostufer Kalterer See, bei Klughammer",
+        "title": "Leuchtenburg, Ruine über dem Kalterer See",
+        "desc": "Kurzer, leichter Aufstieg vom Kalterer See zur eindrucksvoll gelegenen Burgruine Leuchtenburg (um 1200 erbaut, 576 m) mit Fresken aus dem 15. Jh. und weitem Blick über das Etschtal. Wer mag, geht weiter zu den Rosszähnen und den Warmlöchern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15–18 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 3 km · ca. 200 Hm</span>",
+        "hours": "Ganzjährig begehbar · leicht, familientauglich",
+        "actions_html": "<a href=\"https://bergparadiese.de/wanderung-kalterer-see-leuchtenburg-kaltern\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Gleifkirche & Kreuzstein",
+        "cat": "wandern kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/gleif-kirche.jpg",
+        "alt": "Gleifkirche bei Eppan",
+        "tags": [
+          "Wandern",
+          "Kultur"
+        ],
+        "place": "Start: St. Michael, Eppan",
+        "title": "Eppan Berg, Gleifkirche &amp; Kreuzstein",
+        "desc": "Über den Kreuzweg mit neun Kapellen hinauf zur barocken Gleifkirche (1720, 555 m) mit Blick auf Bozen, Schlern und Latemar, weiter zum Aussichtspunkt Kreuzstein mit Wettterkreuz und urigem Landgasthof.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5–10 Fahrmin. oder zu Fuß ab St. Michael</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 5 km · leicht</span>",
+        "hours": "Ganzjährig begehbar · leicht, familientauglich",
+        "actions_html": "<a href=\"https://salto.bz/de/article/26012019/zur-gleifkirche-eppan\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Mitterbergerrunde",
+        "cat": "bike",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/mitterberger-runde.webp",
+        "alt": "Mitterbergerrunde bei Eppan",
+        "tags": [
+          "Bike",
+          "Rundtour"
+        ],
+        "place": "Start: St. Michael, Eppan",
+        "title": "Mitterbergerrunde, Eppan · Auer · Bozen",
+        "desc": "Rundtour auf durchgehend asphaltierten Radwegen: von Eppan über die alte Bahntrasse nach Kaltern, hinunter zum Kalterer See und nach Auer, dann auf dem Etschtal-Radweg über Sigmundskron nach Bozen und über die alte Bahntrasse zurück nach Eppan.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> direkt ab Hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 3–4 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 45 km · flach, asphaltiert</span>",
+        "hours": "Ganzjährig befahrbar",
+        "actions_html": "<a href=\"https://www.outdooractive.com/de/route/radtour/suedtiroler-weinstrasse/genussrunde-um-den-mitterberg/23696950/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Kellerei St. Pauls Weinführung",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+        "alt": "Weinberge der Kellerei St. Pauls",
+        "tags": [
+          "Kultur",
+          "Wein"
+        ],
+        "place": "Kellerei St. Pauls, St. Pauls/Eppan",
+        "title": "Kellerei St. Pauls, Weinführung &amp; Verkostung",
+        "desc": "Spaziergang durch das Paulsnerfeld mit Einblick in die Geschichte der 1907 gegründeten Genossenschaft und ihre Weinberge zwischen 300 und 700 m Höhe, gefolgt von einer geführten Verkostung in der Vinothek, nur wenige Gehminuten vom Hotel entfernt.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5 Fahrmin. bzw. zu Fuß</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5–2 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ca. 15–20 € p.P.</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> Anmeldung erforderlich</span>",
+        "hours": "Saisonal, nach Voranmeldung",
+        "actions_html": "<a href=\"https://www.stpauls.wine/en/shop-events/wine-seminar-guided-tours/\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Kellerei St. Pauls Preclarus Bunker",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/preclarus-bunker-fuehrung.webp",
+        "alt": "Sektbunker der Kellerei St. Pauls",
+        "tags": [
+          "Kultur",
+          "Wein"
+        ],
+        "place": "Kellerei St. Pauls, St. Pauls/Eppan",
+        "title": "Kellerei St. Pauls „Preclarus\", Führung durch den Bunker",
+        "desc": "Weinspaziergang durch das Paulsnerfeld zum historischen Bunker aus dem Zweiten Weltkrieg (1937/38 erbaut). Seit 1979 reift hier bei konstant 12–14°C der Praeclarus-Sekt zwischen meterdicken Mauern, Rüttelpulten und Kammern. Inklusive Verkostung.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5 Fahrmin. bzw. zu Fuß</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2–2,5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ca. 16 € p.P. (WinePass −50 %)</span>\n          <span>🍾 Dienstags 15:30 Uhr · Anmeldung nötig</span>",
+        "hours": "Saisonal, nach Voranmeldung",
+        "actions_html": "<a href=\"https://www.praeclarus.it/en/\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Gardasee Tagesausflug",
+        "cat": "badespass",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/gardasee.jpg",
+        "alt": "Riva del Garda am Gardasee",
+        "tags": [
+          "Badespaß",
+          "Ganztagestour"
+        ],
+        "place": "Riva del Garda &amp; Torbole",
+        "title": "Tagesausflug an den Gardasee",
+        "desc": "Über den Mendelpass oder das Etschtal in gut 1,5–2 Std. an den Nordrand des Gardasees, Seepromenade und Altstadt in Riva del Garda, Windsurfer in Torbole und die Bergbahn auf den Monte Baldo mit Panoramablick.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 1,5–2 Std. Fahrzeit</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ganztägig</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> nur Anfahrt · Bergbahn Monte Baldo ca. 24 € retour</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Baden, Windsurfen, Wandern</span>",
+        "hours": "Ganzjährig, Badesaison Mai–September",
+        "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      }
+    ],
+    "cta_heading": "Aktiv-Urlaub direkt an der Weinstraße",
+    "cta_text": "Fragt uns nach Tipps, Leihrädern und Routenvorschlägen. Wir kennen die Umgebung wie unseren Garten.",
+    "cta_label": "Jetzt anfragen"
+  },
+  "it": {
+    "meta_title": "Attività | Hotel Weinberg",
+    "meta_description": "Escursioni, bici, golf, cultura e dintorni vicino all'Hotel Weinberg a St. Paolo/Appiano, sentiero delle Tre Castella, Golfclub Appiano, Lago di Caldaro, Laghi di Monticolo e altro.",
+    "hero_heading": "Escursioni, bici, relax:<br>a due passi",
+    "hero_text": "Castelli, laghi e vigneti proprio davanti alla porta, nel cuore di una delle più belle regioni vacanziere dell'Alto Adige.",
+    "story_eyebrow": "Cinque mondi",
+    "story_lede": "Continuate a scorrere tra escursioni, bici, golf, cultura e dintorni, alla fine troverete tutti i consigli come schede, filtrabili per tipo e tempo necessario.",
+    "discover_more_label": "Scopri di più →",
+    "chapters": [
+      {
+        "key": "wandern",
+        "num": "01",
+        "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "bg_alt": "Sentiero escursionistico vicino ad Appiano",
+        "eyebrow": "Escursioni",
+        "heading": "Castelli, boschi e valli in fiore",
+        "lede": "Dal sentiero delle Tre Castella tra Hocheppan, Boymont e Korb fino alla fiorita Frühlingstal tra i Laghi di Monticolo e il Lago di Caldaro, i sentieri iniziano proprio davanti a casa.",
+        "body": "Anche la storica funicolare della Mendola con la vetta del Roen, la rovina di Leuchtenburg sopra il Lago di Caldaro e la tranquilla via crucis verso la Chiesa di Gleif con il belvedere Kreuzstein sono raggiungibili in 10-25 minuti d'auto.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Sentiero delle Tre Castella",
+            "title": "Sentiero delle Tre Castella",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "alt": "Bosco di Monticolo con i laghi",
+            "title": "Bosco di Monticolo con i laghi",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+            "alt": "Tour del Roen",
+            "title": "Tour del Roen",
+            "meta": "Giornata intera"
+          }
+        ]
+      },
+      {
+        "key": "bike",
+        "num": "02",
+        "bg_image": "../assets/aktivitaeten/bike-tour.webp",
+        "bg_alt": "In bici ad Appiano",
+        "eyebrow": "Bici",
+        "heading": "Due ruote tra i vigneti",
+        "lede": "La pista ciclabile sull'ex sedime ferroviario Bolzano–Appiano–Caldaro passa proprio accanto ai vigneti dell'hotel, piatta, adatta alle famiglie e con ampia vista sulle Dolomiti.",
+        "body": "Chi vuole proseguire segue la pista ciclabile della Val d'Adige fino a Merano, oppure percorre l'anello del Mitterberg da Appiano attraverso il Lago di Caldaro e Ora fino a Bolzano, quasi sempre pianeggiante, tra frutteti e antichi masi.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+            "alt": "Vino &amp; bici al Lago di Caldaro",
+            "title": "Vino &amp; bici al Lago di Caldaro",
+            "meta": "Breve"
+          },
+          {
+            "image": "../assets/aktivitaeten/radtour-meran.jpg",
+            "alt": "Pista ciclabile Val d'Adige, Merano",
+            "title": "Pista ciclabile Val d'Adige, Merano",
+            "meta": "Giornata intera"
+          },
+          {
+            "image": "../assets/aktivitaeten/mitterberger-runde.webp",
+            "alt": "Anello del Mitterberg",
+            "title": "Anello del Mitterberg",
+            "meta": "Mezza giornata"
+          }
+        ]
+      },
+      {
+        "key": "golf",
+        "num": "03",
+        "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "bg_alt": "Golfclub Appiano Blue Monster dall'alto",
+        "eyebrow": "Golf",
+        "heading": "Tee-off con vista sul castello",
+        "lede": "Il Golfclub Appiano \"Blue Monster\" si trova a pochi minuti d'auto, un campo da 9 buche con laghi e vista sulle montagne, accanto il centro di allenamento Schloss Freudenstein con campo pratica, driving range e putting green.",
+        "body": "Per round più lunghi, l'impianto da 9 buche di Lana e il campo da 18 buche Dolomiti sulla Mendola sono raggiungibili in circa 30-45 minuti d'auto.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+            "alt": "Golfclub Appiano \"Blue Monster\"",
+            "title": "Golfclub Appiano \"Blue Monster\"",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+            "alt": "Centro di allenamento Freudenstein",
+            "title": "Centro di allenamento Freudenstein",
+            "meta": "Breve"
+          },
+          {
+            "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+            "alt": "Golfclub Dolomiti",
+            "title": "Golfclub Dolomiti",
+            "meta": "Giornata intera"
+          }
+        ]
+      },
+      {
+        "key": "kultur",
+        "num": "04",
+        "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "bg_alt": "Cappella del castello di Hocheppan",
+        "eyebrow": "Cultura",
+        "heading": "Tre castelli, mille anni di storia",
+        "lede": "Il castello di Hocheppan con la sua cappella romanica, il castello di Boymont e il castello di Korb segnano la silhouette sopra i vigneti.",
+        "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano. E proprio accanto, a St. Paolo, la Cantina di St. Paolo apre le sue porte: per una visita guidata tra i vigneti del Paulsnerfeld o per il tour \"Preclarus\" nel bunker spumantistico della Seconda Guerra Mondiale.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Castello di Hocheppan",
+            "title": "Castello di Hocheppan",
+            "meta": "Breve"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "alt": "Cantina di St. Paolo",
+            "title": "Cantina di St. Paolo",
+            "meta": "Breve"
+          }
+        ]
+      },
+      {
+        "key": "badespass",
+        "num": "05",
+        "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
+        "bg_alt": "Lago di Monticolo",
+        "eyebrow": "Balneazione",
+        "heading": "Laghi in cui rilassarsi",
+        "lede": "I Laghi di Monticolo con accesso libero e il Lago di Caldaro con le sue spiagge si trovano entrambi a circa 15-20 minuti d'auto, ideali per un pomeriggio in riva all'acqua.",
+        "body": "Chi vuole dedicare un'intera giornata può passare per il Passo della Mendola o per la Val d'Adige fino al Lago di Garda, Riva del Garda e Torbole con lungolago, windsurfisti e la funivia sul Monte Baldo.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+            "alt": "Lago di Caldaro",
+            "title": "Lago di Caldaro",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "alt": "Laghi di Monticolo",
+            "title": "Laghi di Monticolo",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/gardasee.jpg",
+            "alt": "Gita al Lago di Garda",
+            "title": "Gita al Lago di Garda",
+            "meta": "Giornata intera"
+          }
+        ]
+      }
+    ],
+    "filter_art_label": "Tipo",
+    "filter_cat_alle_label": "Tutte",
+    "filter_cats": [
+      {
+        "value": "wandern",
+        "label": "Escursioni"
+      },
+      {
+        "value": "bike",
+        "label": "Bici"
+      },
+      {
+        "value": "golf",
+        "label": "Golf"
+      },
+      {
+        "value": "kultur",
+        "label": "Cultura"
+      },
+      {
+        "value": "badespass",
+        "label": "Balneazione"
+      }
+    ],
+    "filter_zeit_label": "Tempo necessario",
+    "filter_zeit_alle_label": "Tutte",
+    "filter_zeiten": [
+      {
+        "value": "kurz",
+        "label": "Breve (fino a 2 ore)"
+      },
+      {
+        "value": "halbtags",
+        "label": "Mezza giornata"
+      },
+      {
+        "value": "ganztags",
+        "label": "Giornata intera"
+      }
+    ],
+    "guide_cards": [
+      {
+        "comment": "Drei-Burgen-Wanderung",
+        "cat": "wandern kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+        "alt": "Sentiero delle Tre Castella, Hocheppan",
+        "tags": [
+          "Escursioni",
+          "Cultura"
+        ],
+        "place": "Partenza: Castello di Korb, Appiano",
+        "title": "Sentiero delle Tre Castella",
+        "desc": "Piacevole tour per famiglie lungo il sentiero dei castelli n. 9 fino al castello di Hocheppan con la cappella romanica, proseguendo verso il castello di Boymont e ritorno passando per il castello di Korb.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2,5–3 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · cappella del castello circa 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 8 km · circa 250 m di dislivello</span>",
+        "hours": "Percorribile tutto l'anno · facile, adatto alle famiglie",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/hike-to-the-three-castles-of-appiano/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Schloss Hocheppan",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "alt": "Castello di Hocheppan con la cappella",
+        "tags": [
+          "Cultura",
+          "Castello"
+        ],
+        "place": "Missionsweg 8, Appiano",
+        "title": "Castello di Hocheppan &amp; cappella",
+        "desc": "Il castello meglio conservato dell'Alto Adige, con la cappella romanica e i suoi affreschi del XII secolo, la cappella è accessibile solo con una visita guidata storico-artistica, e sotto, nella locanda del castello, si gusta cucina altoatesina con vista panoramica.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto + breve tratto a piedi</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> visita guidata circa 30 min, visita circa 1–1,5 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> cappella/visita guidata circa 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> visite guidate 11:00–16:30, secondo la stagione gio–lun</span>",
+        "hours": "Stagione dal 28 marzo a novembre · locanda tutti i giorni 10–18, mercoledì chiuso",
+        "actions_html": "<a href=\"https://hocheppan.it/en/opening-times\" target=\"_blank\" rel=\"noopener\">Orari di apertura ↗</a>"
+      },
+      {
+        "comment": "Schloss Boymont",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "alt": "Castello di Boymont vicino ad Appiano",
+        "tags": [
+          "Cultura",
+          "Castello"
+        ],
+        "place": "Hocheppaner Weg 5, Appiano",
+        "title": "Castello di Boymont",
+        "desc": "Rovina di castello restaurata nel 1977, con mura ben conservate e un suggestivo cortile interno, oggi con una stazione di ristoro, ideale per una sosta all'ombra delle antiche mura a metà del sentiero dei castelli.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 45 min di visita</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso alla rovina su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Pasqua–novembre, mar–dom 10–18</span>",
+        "hours": "Stazione di ristoro nel cortile del castello",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/castles/boymont-castle/\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Frühlingstal",
+        "cat": "wandern badespass",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/fruehlingstal.jpg",
+        "alt": "Frühlingstal vicino ad Appiano",
+        "tags": [
+          "Escursioni",
+          "Famiglia"
+        ],
+        "place": "Partenza: Lago Grande di Monticolo",
+        "title": "Frühlingstal fino al Lago di Caldaro",
+        "desc": "Facile escursione lungo il rio Angelbach attraverso boschi di latifoglie e misti ricchi di fioriture, tra il Lago di Monticolo e il Lago di Caldaro, a inizio primavera un mare di fiori di bucaneve primaverile.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15–18 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2,5 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 10 km · pianeggiante</span>",
+        "hours": "Facile, adatto alle famiglie · periodo migliore: feb.–apr.",
+        "actions_html": "<a href=\"https://www.suedtirolerland.it/de/freizeit-aktiv/berge-wandern/in-suedtirols-sueden/durch-das-fruehlingstal-zum-kalterer-see/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Montiggler Wald mit Seen",
+        "cat": "wandern",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+        "alt": "Bosco di Monticolo con i laghi",
+        "tags": [
+          "Escursioni",
+          "Famiglia"
+        ],
+        "place": "Partenza: Schreckbichl o Lago Grande di Monticolo",
+        "title": "Bosco di Monticolo con i laghi",
+        "desc": "Sentieri ombreggiati nel bosco di Monticolo, passando per il Lago Grande e il Lago Piccolo di Monticolo, con una breve deviazione al belvedere Wilder-Mann-Bühel, tranquillo, pianeggiante e apprezzata meta ricreativa tutto l'anno.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15–20 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2–2,5 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 6–8 km · pianeggiante</span>",
+        "hours": "Percorribile tutto l'anno · facile, adatto alle famiglie",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/montiggl-forest\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Radweg Überetsch",
+        "cat": "bike",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+        "alt": "Pista ciclabile dell'Oltradige, Appiano",
+        "tags": [
+          "Bici",
+          "Famiglia"
+        ],
+        "place": "Pista ciclabile ex ferrovia Bolzano–Appiano–Caldaro",
+        "title": "Vino &amp; bici al Lago di Caldaro",
+        "desc": "Pista ciclabile quasi pianeggiante su un ex tracciato ferroviario, passa direttamente accanto ai vigneti dell'hotel fino al Lago di Caldaro, ideale anche con i bambini.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> direttamente dall'hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5 ore di sola andata</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · noleggio e-bike da circa 25 €/giorno</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 18 km · pianeggiante</span>",
+        "hours": "Percorribile tutto l'anno",
+        "actions_html": "<a href=\"https://www.suedtirolerland.it/en/leisure-activities/mountain-biking-and-cycling/cycle-paths-in-south-tyrol/oltradige/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Etschtal-Radweg",
+        "cat": "bike",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/radtour-meran.jpg",
+        "alt": "Pista ciclabile della Val d'Adige verso Merano",
+        "tags": [
+          "Bici",
+          "Giornata intera"
+        ],
+        "place": "Bolzano – Sigmundskron – Lana – Merano",
+        "title": "Pista ciclabile della Val d'Adige verso Merano",
+        "desc": "Tour rilassante, quasi sempre pianeggiante, lungo il fiume, passando per frutteti, antichi masi e il castello di Sigmundskron fino a Merano.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto alla pista ciclabile della Val d'Adige</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 3–4 ore di sola andata</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · ritorno possibile in treno</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 45 km · pianeggiante</span>",
+        "hours": "Percorribile tutto l'anno",
+        "actions_html": "<a href=\"https://www.outdooractive.com/en/route/bike-riding/bolzano-and-environs/bolzano-to-meran-etsch-valley-cycling-delight/805780694/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Trainingscenter Schloss Freudenstein",
+        "cat": "golf",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "alt": "Centro di allenamento Schloss Freudenstein",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Unterrain, Appiano · Matschatscherstraße 6",
+        "title": "Centro di allenamento Schloss Freudenstein",
+        "desc": "Campo pratica di 4 buche, driving range di 240 m con 16 postazioni e un ampio putting green, circondato da vigneti, con bar e simulatore di golf per le giornate di brutto tempo.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> a partire da circa 1 ora</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee circa 20 € · giornaliero range circa 15 €</span>\n          <span>⛳ 4 buche + campo pratica</span>",
+        "hours": "Aperto stagionalmente · noleggio bastoni disponibile",
+        "actions_html": "<a href=\"tel:+390471166 0056\">Chiama</a>\n          <a href=\"https://www.golfandcountry.it\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Golfclub Eppan Blue Monster",
+        "cat": "golf",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "alt": "Golfclub Appiano Blue Monster",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Via Riva di Sotto 74, Appiano",
+        "title": "Golfclub Appiano \"Blue Monster\"",
+        "desc": "Campo da 9 buche (Par 35) dell'architetto Thomas C. Himmel, aperto nel 2015, chiamato così per i numerosi ostacoli d'acqua, circondato da meleti e con classificazione 4 stelle superior.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2,5–3 ore (9 buche)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee 9 buche 60 € · 18 buche 100 €</span>\n          <span>⛳ 9 buche, Par 35</span>",
+        "hours": "Aperto stagionalmente · scuola di golf &amp; simulatore in loco",
+        "actions_html": "<a href=\"https://www.golfandcountry.it/en/the-blue-monster-golfclub-eppan/\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Golfclub Lana",
+        "cat": "golf",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "alt": "Golfclub Lana Gutshof Brandis",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Brandisweg 13, Lana",
+        "title": "Golfclub Lana \"Gutshof Brandis\"",
+        "desc": "Impianto da 9 buche (Par 35, 2.793 m) sotto la rovina del castello di Brandis vicino a Merano, disegnato dall'architetto di campi inglese Michael Pinner, posizione pittoresca con vista sul Gruppo di Tessa.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 30–35 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2,5–3 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee su richiesta</span>\n          <span>⛳ 9 buche, Par 35</span>",
+        "hours": "Aperto stagionalmente",
+        "actions_html": "<a href=\"https://www.golfclublana.it\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Golfclub Dolomiti Sarnonico",
+        "cat": "golf",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+        "alt": "Golfclub Dolomiti Sarnonico sulla Mendola",
+        "tags": [
+          "Golf",
+          "Giornata intera"
+        ],
+        "place": "Sarnonico, Alta Val di Non (Mendola)",
+        "title": "Golfclub Dolomiti (Sarnonico/Mendola)",
+        "desc": "Campo da 18 buche a 900 m di altitudine, aperto nel 1991, uno degli impianti più impegnativi delle Alpi, circondato da boschi, frutteti e villaggi di montagna oltre il Passo della Mendola.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 40–45 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 4–5 ore (18 buche)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee su richiesta</span>\n          <span>⛳ 18 buche + 4 buche pratica</span>",
+        "hours": "Aperto stagionalmente · scuola di golf in loco",
+        "actions_html": "<a href=\"https://www.dolomitigolf.it\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Kalterer See",
+        "cat": "badespass",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+        "alt": "Lago di Caldaro",
+        "tags": [
+          "Balneazione",
+          "Bagno"
+        ],
+        "place": "Caldaro sulla Strada del Vino",
+        "title": "Lago di Caldaro",
+        "desc": "Uno dei laghi balneabili più caldi delle Alpi, circondato da vigneti, quattro stabilimenti balneari con prato solarium, pontile e vista sul Gruppo della Mendola.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> a piacere</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso agli stabilimenti balneari circa 4–6 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> temperatura dell'acqua fino a 28°C in estate</span>",
+        "hours": "Stagione balneare maggio–settembre",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/nature-and-landscape/lakes-and-waters/lake-caldaro/\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Montiggler Seen",
+        "cat": "badespass wandern",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+        "alt": "Laghi di Monticolo",
+        "tags": [
+          "Balneazione",
+          "Bagno"
+        ],
+        "place": "Bosco di Monticolo, Appiano",
+        "title": "Laghi di Monticolo",
+        "desc": "Lago Grande e Lago Piccolo di Monticolo nel cuore del bosco di Monticolo, accesso libero al lago in numerosi punti, oltre a un prato solarium con carattere di piscina naturale.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15–20 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> a piacere</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> accesso libero al lago · prato solarium circa 4 €/3 € (bambini)</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> prato solarium 9–18</span>",
+        "hours": "Stagione balneare maggio–settembre",
+        "actions_html": "<a href=\"https://www.suedtirol-kompakt.com/montiggler-seen/\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "MMM Firmian",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+        "alt": "MMM Firmian, castello di Sigmundskron",
+        "tags": [
+          "Cultura",
+          "Museo"
+        ],
+        "place": "Castello di Sigmundskron, vicino a Bolzano",
+        "title": "MMM Firmian: Messner Mountain Museum",
+        "desc": "Il museo principale di Reinhold Messner nel castello di Sigmundskron, vecchio di oltre 1.000 anni, storia dell'alpinismo, arte e una vista fantastica su Bolzano e la Val d'Adige.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 20–25 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2 ore incl. trasferimento</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> 15 € adulti · 6 € bambini (6–18) · famiglia 34 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> metà marzo–inizio nov., giovedì chiuso</span>",
+        "hours": "10:00–18:00, ultimo ingresso ore 17:00",
+        "actions_html": "<a href=\"https://www.messner-mountain-museum.it\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Mendel-Wanderung",
+        "cat": "wandern kultur",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "alt": "Funicolare della Mendola per l'escursione",
+        "tags": [
+          "Escursioni",
+          "Giornata intera"
+        ],
+        "place": "Partenza: St. Antonio, Caldaro",
+        "title": "Funicolare della Mendola &amp; escursione",
+        "desc": "Con la storica funicolare più ripida d'Europa fino alla Mendola (1.363 m), da lì escursione passando per il rifugio Enzian e Malga Romeno fino al rifugio Überetscher, con vista fino alle Dolomiti.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 20–25 min in auto fino a St. Antonio/Caldaro</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 4:20 ore di cammino</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> funicolare circa 8–10 € · escursione gratuita</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 15,2 km · +539 m/−531 m di dislivello</span>",
+        "hours": "Funicolare della Mendola aperta tutto l'anno, salvo revisione stagionale",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/from-the-mendola-pass-to-the-oltradige-mountain-hut/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Roen",
+        "cat": "wandern",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "alt": "Roen, la vetta più alta del Gruppo della Mendola",
+        "tags": [
+          "Escursioni",
+          "Giornata intera"
+        ],
+        "place": "Partenza: Passo della Mendola / stazione a monte della cabinovia",
+        "title": "Roen, tour alla vetta sopra il Lago di Caldaro",
+        "desc": "Dal Passo della Mendola o dalla stazione a monte della cabinovia fino alla vetta più alta del Gruppo della Mendola (2.116 m), vista a 360° su Dolomiti, Adamello, Ortles e fino ai tremila del crinale alpino principale.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 25–30 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 4–5 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · cabinovia circa 10 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 12 km · circa 700 m di dislivello</span>",
+        "hours": "Maggio–ottobre · impegnativo dal punto di vista fisico",
+        "actions_html": "<a href=\"https://www.kalterersee.com/en/highlights/nature-and-landscape/mount-roen/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Leuchtenburg",
+        "cat": "wandern badespass",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.jpg",
+        "alt": "Rovina di Leuchtenburg sopra il Lago di Caldaro",
+        "tags": [
+          "Escursioni",
+          "Famiglia"
+        ],
+        "place": "Partenza: sponda est del Lago di Caldaro, presso Klughammer",
+        "title": "Leuchtenburg, rovina sopra il Lago di Caldaro",
+        "desc": "Breve e facile salita dal Lago di Caldaro fino alla suggestiva rovina di Leuchtenburg (costruita intorno al 1200, 576 m) con affreschi del XV secolo e ampia vista sulla Val d'Adige. Chi vuole può proseguire verso i Rosszähne e i Warmlöcher.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15–18 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1 ora</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 3 km · circa 200 m di dislivello</span>",
+        "hours": "Percorribile tutto l'anno · facile, adatto alle famiglie",
+        "actions_html": "<a href=\"https://bergparadiese.de/wanderung-kalterer-see-leuchtenburg-kaltern\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Gleifkirche & Kreuzstein",
+        "cat": "wandern kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/gleif-kirche.jpg",
+        "alt": "Chiesa di Gleif vicino ad Appiano",
+        "tags": [
+          "Escursioni",
+          "Cultura"
+        ],
+        "place": "Partenza: San Michele, Appiano",
+        "title": "Monte di Appiano, Chiesa di Gleif &amp; Kreuzstein",
+        "desc": "Attraverso la via crucis con nove cappelle fino alla barocca Chiesa di Gleif (1720, 555 m) con vista su Bolzano, Sciliar e Latemar, proseguendo fino al belvedere Kreuzstein con croce panoramica e una rustica locanda.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5–10 min in auto o a piedi da San Michele</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 5 km · facile</span>",
+        "hours": "Percorribile tutto l'anno · facile, adatto alle famiglie",
+        "actions_html": "<a href=\"https://salto.bz/de/article/26012019/zur-gleifkirche-eppan\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Mitterbergerrunde",
+        "cat": "bike",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/mitterberger-runde.webp",
+        "alt": "Anello del Mitterberg vicino ad Appiano",
+        "tags": [
+          "Bici",
+          "Anello"
+        ],
+        "place": "Partenza: San Michele, Appiano",
+        "title": "Anello del Mitterberg, Appiano · Ora · Bolzano",
+        "desc": "Tour ad anello su piste ciclabili interamente asfaltate: da Appiano lungo l'antico tracciato ferroviario fino a Caldaro, scendendo al Lago di Caldaro e proseguendo per Ora, poi sulla pista ciclabile della Val d'Adige attraverso Sigmundskron fino a Bolzano e di nuovo per l'antico tracciato ferroviario fino ad Appiano.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> direttamente dall'hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 3–4 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 45 km · pianeggiante, asfaltato</span>",
+        "hours": "Percorribile tutto l'anno",
+        "actions_html": "<a href=\"https://www.outdooractive.com/de/route/radtour/suedtiroler-weinstrasse/genussrunde-um-den-mitterberg/23696950/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Kellerei St. Pauls Weinführung",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+        "alt": "Vigneti della Cantina di St. Paolo",
+        "tags": [
+          "Cultura",
+          "Vino"
+        ],
+        "place": "Cantina di St. Paolo, St. Paolo/Appiano",
+        "title": "Cantina di St. Paolo, visita guidata &amp; degustazione",
+        "desc": "Passeggiata attraverso il Paulsnerfeld con uno sguardo alla storia della cooperativa fondata nel 1907 e ai suoi vigneti tra 300 e 700 m di altitudine, seguita da una degustazione guidata in enoteca, a pochi minuti a piedi dall'hotel.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5 min in auto o a piedi</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5–2 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> circa 15–20 € a persona</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> prenotazione necessaria</span>",
+        "hours": "Stagionale, su prenotazione",
+        "actions_html": "<a href=\"https://www.stpauls.wine/en/shop-events/wine-seminar-guided-tours/\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Kellerei St. Pauls Preclarus Bunker",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/preclarus-bunker-fuehrung.webp",
+        "alt": "Bunker spumantistico della Cantina di St. Paolo",
+        "tags": [
+          "Cultura",
+          "Vino"
+        ],
+        "place": "Cantina di St. Paolo, St. Paolo/Appiano",
+        "title": "Cantina di St. Paolo \"Preclarus\", visita al bunker",
+        "desc": "Passeggiata tra i vigneti del Paulsnerfeld fino allo storico bunker della Seconda Guerra Mondiale (costruito nel 1937/38). Dal 1979 qui matura a 12–14°C costanti lo spumante Preclarus, tra mura spesse un metro, tavoli di remuage e camere. Degustazione inclusa.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5 min in auto o a piedi</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2–2,5 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> circa 16 € a persona (WinePass −50%)</span>\n          <span>🍾 martedì ore 15:30 · prenotazione necessaria</span>",
+        "hours": "Stagionale, su prenotazione",
+        "actions_html": "<a href=\"https://www.praeclarus.it/en/\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Gardasee Tagesausflug",
+        "cat": "badespass",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/gardasee.jpg",
+        "alt": "Riva del Garda sul Lago di Garda",
+        "tags": [
+          "Balneazione",
+          "Giornata intera"
+        ],
+        "place": "Riva del Garda &amp; Torbole",
+        "title": "Gita di un giorno al Lago di Garda",
+        "desc": "Attraverso il Passo della Mendola o la Val d'Adige in circa 1,5–2 ore fino alla sponda nord del Lago di Garda, lungolago e centro storico a Riva del Garda, windsurfisti a Torbole e la funivia sul Monte Baldo con vista panoramica.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 1,5–2 ore di viaggio</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> giornata intera</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> solo il viaggio · funivia Monte Baldo circa 24 € andata/ritorno</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> bagno, windsurf, escursioni</span>",
+        "hours": "Tutto l'anno, stagione balneare maggio–settembre",
+        "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      }
+    ],
+    "cta_heading": "Vacanza attiva direttamente sulla Strada del Vino",
+    "cta_text": "Chiedeteci consigli, biciclette a noleggio e proposte di percorsi. Conosciamo i dintorni come il nostro giardino.",
+    "cta_label": "Richiedi ora"
+  },
+  "en": {
+    "meta_title": "Activities | Hotel Weinberg",
+    "meta_description": "Hiking, biking, golf, culture and surroundings near Hotel Weinberg in St. Pauls/Eppan, the Three Castles trail, Golf Club Eppan, Lake Caldaro, Montiggl Lakes and more.",
+    "hero_heading": "Hiking, biking, relaxing:<br>right on the doorstep",
+    "hero_text": "Castles, lakes and vineyards right on your doorstep, at the heart of one of South Tyrol's most beautiful holiday regions.",
+    "story_eyebrow": "Five worlds",
+    "story_lede": "Scroll on through hiking, biking, golf, culture and the surrounding area, at the end you'll find every tip as a filterable card, sorted by type and time needed.",
+    "discover_more_label": "Discover more →",
+    "chapters": [
+      {
+        "key": "wandern",
+        "num": "01",
+        "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "bg_alt": "Hiking trail near Eppan",
+        "eyebrow": "Hiking",
+        "heading": "Castles, forests and blossoming valleys",
+        "lede": "From the Three Castles trail linking Hocheppan, Boymont and Korb to the blossoming Frühlingstal between the Montiggl Lakes and Lake Caldaro, the trails start right at the door.",
+        "body": "The historic Mendel funicular with its Mount Roen summit, the Leuchtenburg ruin above Lake Caldaro, and the quiet Way of the Cross up to the Gleif church with its Kreuzstein lookout are all within a 10-25 minute drive.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Three Castles hike",
+            "title": "Three Castles hike",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "alt": "Montiggl forest with its lakes",
+            "title": "Montiggl forest with its lakes",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+            "alt": "Mount Roen summit tour",
+            "title": "Mount Roen summit tour",
+            "meta": "Full day"
+          }
+        ]
+      },
+      {
+        "key": "bike",
+        "num": "02",
+        "bg_image": "../assets/aktivitaeten/bike-tour.webp",
+        "bg_alt": "Biking in Eppan",
+        "eyebrow": "Biking",
+        "heading": "Two wheels through the vineyards",
+        "lede": "The cycle path along the former Bolzano–Eppan–Kaltern railway line runs right past the hotel's own vineyards, flat, family-friendly, with sweeping views of the Dolomites.",
+        "body": "Those wanting to go further can follow the Adige Valley cycle path all the way to Merano, or ride the Mitterberg loop from Eppan via Lake Caldaro and Auer to Bolzano, nearly all flat, through orchards and old farmsteads.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+            "alt": "Wine &amp; biking at Lake Caldaro",
+            "title": "Wine &amp; biking at Lake Caldaro",
+            "meta": "Short"
+          },
+          {
+            "image": "../assets/aktivitaeten/radtour-meran.jpg",
+            "alt": "Adige Valley cycle path to Merano",
+            "title": "Adige Valley cycle path to Merano",
+            "meta": "Full day"
+          },
+          {
+            "image": "../assets/aktivitaeten/mitterberger-runde.webp",
+            "alt": "Mitterberg loop",
+            "title": "Mitterberg loop",
+            "meta": "Half-day"
+          }
+        ]
+      },
+      {
+        "key": "golf",
+        "num": "03",
+        "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "bg_alt": "Golf Club Eppan Blue Monster from above",
+        "eyebrow": "Golf",
+        "heading": "Tee off with a view of the castle",
+        "lede": "Golf Club Eppan \"Blue Monster\" is just a few minutes' drive away, a 9-hole course with water hazards and mountain views, next to the Schloss Freudenstein training centre with its practice course, driving range and putting green.",
+        "body": "For longer rounds, the 9-hole course in Lana and the 18-hole Golf Club Dolomiti on Mendel Pass are within about a 30-45 minute drive.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+            "alt": "Golf Club Eppan \"Blue Monster\"",
+            "title": "Golf Club Eppan \"Blue Monster\"",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+            "alt": "Freudenstein training centre",
+            "title": "Freudenstein training centre",
+            "meta": "Short"
+          },
+          {
+            "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+            "alt": "Golf Club Dolomiti",
+            "title": "Golf Club Dolomiti",
+            "meta": "Full day"
+          }
+        ]
+      },
+      {
+        "key": "kultur",
+        "num": "04",
+        "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "bg_alt": "Hocheppan Castle chapel",
+        "eyebrow": "Culture",
+        "heading": "Three castles, a thousand years of history",
+        "lede": "Hocheppan Castle with its Romanesque chapel, Boymont Castle and Korb Castle line the ridge above the vineyards.",
+        "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano. And right next door in St. Pauls, the St. Pauls winery opens its doors: for a guided walk through the Paulsnerfeld vineyards or the \"Preclarus\" tour through its WWII sparkling-wine bunker.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Hocheppan Castle",
+            "title": "Hocheppan Castle",
+            "meta": "Short"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "alt": "St. Pauls winery",
+            "title": "St. Pauls winery",
+            "meta": "Short"
+          }
+        ]
+      },
+      {
+        "key": "badespass",
+        "num": "05",
+        "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
+        "bg_alt": "Montiggl Lake",
+        "eyebrow": "Swimming",
+        "heading": "Lakes to unwind by",
+        "lede": "The freely accessible Montiggl Lakes and Lake Caldaro with its beach lidos are both about 15-20 minutes away by car, perfect for an afternoon by the water.",
+        "body": "For a full day out, drive over Mendel Pass or through the Adige Valley to Lake Garda, Riva del Garda and Torbole with their lakeside promenades, windsurfers and the Monte Baldo cable car.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+            "alt": "Lake Caldaro",
+            "title": "Lake Caldaro",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "alt": "Montiggl Lakes",
+            "title": "Montiggl Lakes",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/gardasee.jpg",
+            "alt": "Day trip to Lake Garda",
+            "title": "Day trip to Lake Garda",
+            "meta": "Full day"
+          }
+        ]
+      }
+    ],
+    "filter_art_label": "Type",
+    "filter_cat_alle_label": "All",
+    "filter_cats": [
+      {
+        "value": "wandern",
+        "label": "Hiking"
+      },
+      {
+        "value": "bike",
+        "label": "Biking"
+      },
+      {
+        "value": "golf",
+        "label": "Golf"
+      },
+      {
+        "value": "kultur",
+        "label": "Culture"
+      },
+      {
+        "value": "badespass",
+        "label": "Swimming"
+      }
+    ],
+    "filter_zeit_label": "Time needed",
+    "filter_zeit_alle_label": "All",
+    "filter_zeiten": [
+      {
+        "value": "kurz",
+        "label": "Short (up to 2 hrs)"
+      },
+      {
+        "value": "halbtags",
+        "label": "Half-day"
+      },
+      {
+        "value": "ganztags",
+        "label": "Full day"
+      }
+    ],
+    "guide_cards": [
+      {
+        "comment": "Drei-Burgen-Wanderung",
+        "cat": "wandern kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+        "alt": "Three Castles trail, Hocheppan",
+        "tags": [
+          "Hiking",
+          "Culture"
+        ],
+        "place": "Start: Korb Castle, Eppan",
+        "title": "Three Castles Hike",
+        "desc": "A pleasant family-friendly walk along castle trail no. 9 to Hocheppan Castle with its Romanesque chapel, continuing on to Boymont Castle and back past Korb Castle.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2.5–3 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · castle chapel approx. €3</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 8 km · approx. 250 m elevation gain</span>",
+        "hours": "Open year-round · easy, family-friendly",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/hike-to-the-three-castles-of-appiano/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Schloss Hocheppan",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "alt": "Hocheppan Castle with its chapel",
+        "tags": [
+          "Culture",
+          "Castle"
+        ],
+        "place": "Missionsweg 8, Eppan",
+        "title": "Hocheppan Castle &amp; Chapel",
+        "desc": "South Tyrol's best-preserved castle, with a Romanesque chapel and 12th-century frescoes, the chapel is only accessible on a guided art-history tour, and below it the castle inn serves South Tyrolean cuisine with panoramic views.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive + short walk</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> tour approx. 30 min, visit approx. 1–1.5 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> chapel/tour approx. €3</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> guided tours 11:00–16:30, Thu–Mon depending on season</span>",
+        "hours": "Season late March–November · inn open daily 10–18, closed Wednesdays",
+        "actions_html": "<a href=\"https://hocheppan.it/en/opening-times\" target=\"_blank\" rel=\"noopener\">Opening hours ↗</a>"
+      },
+      {
+        "comment": "Schloss Boymont",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "alt": "Boymont Castle near Eppan",
+        "tags": [
+          "Culture",
+          "Castle"
+        ],
+        "place": "Hocheppaner Weg 5, Eppan",
+        "title": "Boymont Castle",
+        "desc": "A castle ruin restored in 1977, with well-preserved walls and an atmospheric inner courtyard, today home to a refreshment stop, perfect for a shady break beneath the old walls halfway along the castle trail.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 45 min visit</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ruin entry by donation</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Easter–November, Tue–Sun 10–18</span>",
+        "hours": "Refreshment stop in the castle courtyard",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/castles/boymont-castle/\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Frühlingstal",
+        "cat": "wandern badespass",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/fruehlingstal.jpg",
+        "alt": "Frühlingstal near Eppan",
+        "tags": [
+          "Hiking",
+          "Family"
+        ],
+        "place": "Start: Great Montiggl Lake",
+        "title": "Frühlingstal to Lake Caldaro",
+        "desc": "An easy walk along the Angelbach stream through deciduous and mixed forest rich in wildflowers, between the Montiggl Lakes and Lake Caldaro, an early-spring sea of snowflake blossoms.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15–18 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2.5 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 10 km · flat</span>",
+        "hours": "Easy, family-friendly · best season: Feb.–Apr.",
+        "actions_html": "<a href=\"https://www.suedtirolerland.it/de/freizeit-aktiv/berge-wandern/in-suedtirols-sueden/durch-das-fruehlingstal-zum-kalterer-see/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Montiggler Wald mit Seen",
+        "cat": "wandern",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+        "alt": "Montiggl forest with its lakes",
+        "tags": [
+          "Hiking",
+          "Family"
+        ],
+        "place": "Start: Schreckbichl or Great Montiggl Lake",
+        "title": "Montiggl Forest with its Lakes",
+        "desc": "Shaded trails through Montiggl forest, past the Great and Small Montiggl Lakes, with a short detour to the Wilder-Mann-Bühel viewpoint, quiet, flat and a popular year-round destination.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15–20 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2–2.5 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 6–8 km · flat</span>",
+        "hours": "Open year-round · easy, family-friendly",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/montiggl-forest\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Radweg Überetsch",
+        "cat": "bike",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+        "alt": "Überetsch cycle path, Eppan",
+        "tags": [
+          "Biking",
+          "Family"
+        ],
+        "place": "Former Bolzano–Eppan–Kaltern railway cycle path",
+        "title": "Wine &amp; Biking at Lake Caldaro",
+        "desc": "A nearly flat cycle path on a former railway line, running right past the hotel's own vineyards to Lake Caldaro, great for families too.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> directly from the hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5 hrs one way</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · e-bike rental approx. €25/day</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 18 km · flat</span>",
+        "hours": "Open year-round",
+        "actions_html": "<a href=\"https://www.suedtirolerland.it/en/leisure-activities/mountain-biking-and-cycling/cycle-paths-in-south-tyrol/oltradige/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Etschtal-Radweg",
+        "cat": "bike",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/radtour-meran.jpg",
+        "alt": "Adige Valley cycle path to Merano",
+        "tags": [
+          "Biking",
+          "Full day"
+        ],
+        "place": "Bolzano – Sigmundskron – Lana – Merano",
+        "title": "Adige Valley Cycle Path to Merano",
+        "desc": "A relaxed, nearly flat tour along the river, past orchards, old farmsteads and Sigmundskron Castle all the way to Merano.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive to the Adige Valley cycle path</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 3–4 hrs one way</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · return possible by train</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 45 km · flat</span>",
+        "hours": "Open year-round",
+        "actions_html": "<a href=\"https://www.outdooractive.com/en/route/bike-riding/bolzano-and-environs/bolzano-to-meran-etsch-valley-cycling-delight/805780694/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Trainingscenter Schloss Freudenstein",
+        "cat": "golf",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "alt": "Schloss Freudenstein training centre",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Unterrain, Eppan · Matschatscherstraße 6",
+        "title": "Schloss Freudenstein Training Centre",
+        "desc": "A 4-hole practice course, 240 m driving range with 16 bays and a large putting green, set among vineyards, with a bar and golf simulator for bad-weather days.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> from approx. 1 hr</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee approx. €20 · daily range pass approx. €15</span>\n          <span>⛳ 4 holes + practice course</span>",
+        "hours": "Seasonal opening · club rental available",
+        "actions_html": "<a href=\"tel:+390471166 0056\">Call</a>\n          <a href=\"https://www.golfandcountry.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Golfclub Eppan Blue Monster",
+        "cat": "golf",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "alt": "Golf Club Eppan Blue Monster",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Via Riva di Sotto 74, Eppan",
+        "title": "Golf Club Eppan \"Blue Monster\"",
+        "desc": "A 9-hole course (Par 35) by architect Thomas C. Himmel, opened in 2015, named for its many water hazards, surrounded by apple orchards and rated 4-star superior.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2.5–3 hrs (9 holes)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee 9 holes €60 · 18 holes €100</span>\n          <span>⛳ 9 holes, Par 35</span>",
+        "hours": "Seasonal opening · golf school &amp; simulator on site",
+        "actions_html": "<a href=\"https://www.golfandcountry.it/en/the-blue-monster-golfclub-eppan/\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Golfclub Lana",
+        "cat": "golf",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "alt": "Golf Club Lana Gutshof Brandis",
+        "tags": [
+          "Golf"
+        ],
+        "place": "Brandisweg 13, Lana",
+        "title": "Golf Club Lana \"Gutshof Brandis\"",
+        "desc": "A 9-hole course (Par 35, 2,793 m) below the Brandis Castle ruin near Merano, designed by English course architect Michael Pinner, a picturesque setting with views of the Texel Group.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 30–35 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2.5–3 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee on request</span>\n          <span>⛳ 9 holes, Par 35</span>",
+        "hours": "Seasonal opening",
+        "actions_html": "<a href=\"https://www.golfclublana.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Golfclub Dolomiti Sarnonico",
+        "cat": "golf",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+        "alt": "Golf Club Dolomiti Sarnonico on Mendel Pass",
+        "tags": [
+          "Golf",
+          "Full day"
+        ],
+        "place": "Sarnonico, Upper Val di Non (Mendel Pass)",
+        "title": "Golf Club Dolomiti (Sarnonico/Mendel Pass)",
+        "desc": "An 18-hole course at 900 m altitude, opened in 1991, one of the most challenging courses in the Alps, surrounded by forests, orchards and mountain villages beyond Mendel Pass.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 40–45 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 4–5 hrs (18 holes)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> green fee on request</span>\n          <span>⛳ 18 holes + 4-hole practice course</span>",
+        "hours": "Seasonal opening · golf school on site",
+        "actions_html": "<a href=\"https://www.dolomitigolf.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Kalterer See",
+        "cat": "badespass",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+        "alt": "Lake Caldaro",
+        "tags": [
+          "Swimming",
+          "Lake"
+        ],
+        "place": "Kaltern on the Wine Route",
+        "title": "Lake Caldaro",
+        "desc": "One of the warmest bathing lakes in the Alps, surrounded by vineyards, four lidos with sunbathing lawns, jetties and views of the Mendel range.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> as long as you like</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> lido entry approx. €4–6</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> water temperature up to 28°C in summer</span>",
+        "hours": "Swimming season May–September",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/nature-and-landscape/lakes-and-waters/lake-caldaro/\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Montiggler Seen",
+        "cat": "badespass wandern",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+        "alt": "Montiggl Lakes",
+        "tags": [
+          "Swimming",
+          "Lake"
+        ],
+        "place": "Montiggl Forest, Eppan",
+        "title": "Montiggl Lakes",
+        "desc": "The Great and Small Montiggl Lakes deep in Montiggl forest, free lake access at many points, plus a sunbathing lawn with a natural-pool feel.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15–20 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> as long as you like</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free lake access · sunbathing lawn approx. €4/€3 (children)</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> sunbathing lawn 9–18</span>",
+        "hours": "Swimming season May–September",
+        "actions_html": "<a href=\"https://www.suedtirol-kompakt.com/montiggler-seen/\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "MMM Firmian",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+        "alt": "MMM Firmian, Sigmundskron Castle",
+        "tags": [
+          "Culture",
+          "Museum"
+        ],
+        "place": "Sigmundskron Castle, near Bolzano",
+        "title": "MMM Firmian: Messner Mountain Museum",
+        "desc": "Reinhold Messner's flagship museum in Sigmundskron Castle, over 1,000 years old, mountaineering history, art and a fantastic view over Bolzano and the Adige Valley.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 20–25 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2 hrs incl. travel</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> €15 adults · €6 children (6–18) · family €34</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> mid-March–early Nov., closed Thursdays</span>",
+        "hours": "10:00–18:00, last admission 17:00",
+        "actions_html": "<a href=\"https://www.messner-mountain-museum.it\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Mendel-Wanderung",
+        "cat": "wandern kultur",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "alt": "Mendel funicular for the hike",
+        "tags": [
+          "Hiking",
+          "Full day"
+        ],
+        "place": "Start: St. Anton, Kaltern",
+        "title": "Mendel Funicular &amp; Hike",
+        "desc": "Ride Europe's steepest historic funicular up to Mendel Pass (1,363 m), then hike past the Enzian hut and Romeno alpine pasture to the Überetscher hut, with views reaching the Dolomites.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 20–25 min drive to St. Anton/Kaltern</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 4:20 hrs of walking</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> funicular approx. €8–10 · hike free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 15.2 km · +539 m/−531 m elevation</span>",
+        "hours": "Mendel funicular open year-round, except seasonal maintenance",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/from-the-mendola-pass-to-the-oltradige-mountain-hut/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Roen",
+        "cat": "wandern",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "alt": "Mount Roen, the highest peak of the Mendel range",
+        "tags": [
+          "Hiking",
+          "Full day"
+        ],
+        "place": "Start: Mendel Pass / cable car mountain station",
+        "title": "Mount Roen, Summit Hike above Lake Caldaro",
+        "desc": "From Mendel Pass or the cable car's mountain station up to the highest peak of the Mendel range (2,116 m), a 360° view over the Dolomites, Adamello, Ortles and out to the peaks of the main Alpine ridge.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 25–30 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 4–5 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · cable car approx. €10</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 12 km · approx. 700 m elevation gain</span>",
+        "hours": "May–October · physically demanding",
+        "actions_html": "<a href=\"https://www.kalterersee.com/en/highlights/nature-and-landscape/mount-roen/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Leuchtenburg",
+        "cat": "wandern badespass",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.jpg",
+        "alt": "Leuchtenburg ruin above Lake Caldaro",
+        "tags": [
+          "Hiking",
+          "Family"
+        ],
+        "place": "Start: eastern shore of Lake Caldaro, near Klughammer",
+        "title": "Leuchtenburg, Ruin above Lake Caldaro",
+        "desc": "A short, easy climb from Lake Caldaro up to the striking Leuchtenburg ruin (built around 1200, 576 m) with 15th-century frescoes and broad views over the Adige Valley. Those who want to continue can head on to the Rosszähne and Warmlöcher.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15–18 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1 hr</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 3 km · approx. 200 m elevation gain</span>",
+        "hours": "Open year-round · easy, family-friendly",
+        "actions_html": "<a href=\"https://bergparadiese.de/wanderung-kalterer-see-leuchtenburg-kaltern\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Gleifkirche & Kreuzstein",
+        "cat": "wandern kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/gleif-kirche.jpg",
+        "alt": "Gleif church near Eppan",
+        "tags": [
+          "Hiking",
+          "Culture"
+        ],
+        "place": "Start: St. Michael, Eppan",
+        "title": "Eppan Mountain, Gleif Church &amp; Kreuzstein",
+        "desc": "Follow the Way of the Cross with its nine chapels up to the baroque Gleif church (1720, 555 m) with views over Bolzano, the Sciliar and the Latemar, continue on to the Kreuzstein viewpoint with its summit cross and a rustic inn.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5–10 min drive or walk from St. Michael</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 5 km · easy</span>",
+        "hours": "Open year-round · easy, family-friendly",
+        "actions_html": "<a href=\"https://salto.bz/de/article/26012019/zur-gleifkirche-eppan\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Mitterbergerrunde",
+        "cat": "bike",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/mitterberger-runde.webp",
+        "alt": "Mitterberg loop near Eppan",
+        "tags": [
+          "Biking",
+          "Loop"
+        ],
+        "place": "Start: St. Michael, Eppan",
+        "title": "Mitterberg Loop, Eppan · Auer · Bolzano",
+        "desc": "A fully paved loop tour: from Eppan along the old railway line to Kaltern, down to Lake Caldaro and on to Auer, then along the Adige Valley cycle path via Sigmundskron to Bolzano, and back along the old railway line to Eppan.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> directly from the hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 3–4 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 45 km · flat, paved</span>",
+        "hours": "Open year-round",
+        "actions_html": "<a href=\"https://www.outdooractive.com/de/route/radtour/suedtiroler-weinstrasse/genussrunde-um-den-mitterberg/23696950/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Kellerei St. Pauls Weinführung",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+        "alt": "St. Pauls winery vineyards",
+        "tags": [
+          "Culture",
+          "Wine"
+        ],
+        "place": "St. Pauls winery, St. Pauls/Eppan",
+        "title": "St. Pauls Winery, Guided Tour &amp; Tasting",
+        "desc": "A walk through the Paulsnerfeld vineyards with a look at the history of the cooperative founded in 1907 and its vines between 300 and 700 m altitude, followed by a guided tasting in the wine shop, just a few minutes' walk from the hotel.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5 min drive or walk</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5–2 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> approx. €15–20 per person</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> booking required</span>",
+        "hours": "Seasonal, by reservation",
+        "actions_html": "<a href=\"https://www.stpauls.wine/en/shop-events/wine-seminar-guided-tours/\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Kellerei St. Pauls Preclarus Bunker",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/preclarus-bunker-fuehrung.webp",
+        "alt": "St. Pauls winery sparkling-wine bunker",
+        "tags": [
+          "Culture",
+          "Wine"
+        ],
+        "place": "St. Pauls winery, St. Pauls/Eppan",
+        "title": "St. Pauls Winery \"Preclarus\", Bunker Tour",
+        "desc": "A walk through the Paulsnerfeld vineyards to a historic WWII bunker (built 1937/38). Since 1979 home to the Preclarus sparkling wine, ageing at a constant 12–14°C among metre-thick walls, riddling tables and chambers. Tasting included.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5 min drive or walk</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2–2.5 hrs</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> approx. €16 per person (WinePass −50%)</span>\n          <span>🍾 Tuesdays 15:30 · booking required</span>",
+        "hours": "Seasonal, by reservation",
+        "actions_html": "<a href=\"https://www.praeclarus.it/en/\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Gardasee Tagesausflug",
+        "cat": "badespass",
+        "zeit": "ganztags",
+        "image": "../assets/aktivitaeten/gardasee.jpg",
+        "alt": "Riva del Garda on Lake Garda",
+        "tags": [
+          "Swimming",
+          "Full day"
+        ],
+        "place": "Riva del Garda &amp; Torbole",
+        "title": "Day Trip to Lake Garda",
+        "desc": "Via Mendel Pass or the Adige Valley in about 1.5–2 hours to the northern shore of Lake Garda, lakeside promenade and old town in Riva del Garda, windsurfers in Torbole, and the Monte Baldo cable car with panoramic views.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 1.5–2 hrs travel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> full day</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> travel only · Monte Baldo cable car approx. €24 return</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> swimming, windsurfing, hiking</span>",
+        "hours": "Year-round, swimming season May–September",
+        "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      }
+    ],
+    "cta_heading": "An active holiday, right on the Wine Route",
+    "cta_text": "Ask us for tips, bike rentals and route suggestions. We know the surrounding area like our own garden.",
+    "cta_label": "Enquire now"
+  }
+}
