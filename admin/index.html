@@ -95,6 +95,27 @@
       pointer-events: none;
       transform-origin: top left;
     }
+
+    /* Dropdown-Menues (z.B. "Publish ▾" -> "Publish now", Konto-Symbol
+       oben rechts -> "Log Out"): Decap rendert diese als eigene, HELLE
+       Flaechen, die aber im DOM oft innerhalb der Kopfzeile verschachtelt
+       sind - dadurch erben sie die helle Schriftfarbe der Toolbar-Regel
+       weiter oben (fuer die dunkelgruene Kopfzeile gedacht) und werden auf
+       ihrem eigenen hellen Hintergrund unsichtbar ("weiss auf weiss").
+       Hier fuer alle gaengigen Decap-Dropdown-/Menu-Klassenmuster die
+       Schrift explizit in CD-Dunkelgruen erzwingen - steht spaeter im
+       Stylesheet, gewinnt also bei gleicher Spezifitaet gegen die Regel
+       oben. */
+    [class*="Dropdown" i],
+    [class*="Dropdown" i] *,
+    [class*="MenuList" i],
+    [class*="MenuList" i] *,
+    [role="menu"],
+    [role="menu"] *,
+    [class*="SubActionsList" i],
+    [class*="SubActionsList" i] * {
+      color: #23371f !important;
+    }
   </style>
 </head>
 <body>
