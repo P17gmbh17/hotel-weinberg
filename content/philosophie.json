@@ -54,6 +54,18 @@
         {
           "image": "../assets/fotos/bar-model-2026.jpg",
           "alt": "Aperitivo an der Bar, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "alt": "Wasseroberfläche des Pools im Sonnenlicht, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.jpg",
+          "alt": "Frühstücksbuffet mit frischem Obst und Beeren, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.jpg",
+          "alt": "Luftaufnahme der Weinbergreihen rund um das Hotel Weinberg"
         }
       ],
       "amenities": [
@@ -145,6 +157,18 @@
         {
           "image": "../assets/fotos/bar-model-2026.jpg",
           "alt": "Aperitivo al bar, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "alt": "Superficie della piscina nella luce del sole, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.jpg",
+          "alt": "Buffet della colazione con frutta fresca e bacche, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.jpg",
+          "alt": "Veduta aerea dei filari di vigneto intorno all'Hotel Weinberg"
         }
       ],
       "amenities": [
@@ -236,6 +260,18 @@
         {
           "image": "../assets/fotos/bar-model-2026.jpg",
           "alt": "Aperitivo at the bar, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "alt": "Pool water surface in the sunlight, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.jpg",
+          "alt": "Breakfast buffet with fresh fruit and berries, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.jpg",
+          "alt": "Aerial view of the vineyard rows surrounding Hotel Weinberg"
         }
       ],
       "amenities": [
