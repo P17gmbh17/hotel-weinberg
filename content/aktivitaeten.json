@@ -2,7 +2,7 @@
   "de": {
     "meta_title": "Aktivitäten | Hotel Weinberg",
     "meta_description": "Wandern, Biken, Golf, Kultur und Umgebung rund um Hotel Weinberg in St. Pauls/Eppan, Drei-Burgen-Wanderung, Golfclub Eppan, Kalterer See, Montiggler Seen und mehr.",
-    "hero_heading": "Wandern, Biken, Genießen:<br>direkt vor der Tür",
+    "hero_heading": "Wandern, Biken, Genießen:<br>direkt vor der Tür",
     "hero_text": "Burgen, Seen und Weinberge liegen direkt vor der Tür, mitten in Südtirols schönster Ferienregion.",
     "story_eyebrow": "Fünf Welten",
     "story_lede": "Scrollt weiter durch Wandern, Bike, Golf, Kultur und die Umgebung, am Ende findet ihr alle Tipps als Karteikarten, filterbar nach Art und Zeitaufwand.",
@@ -14,7 +14,7 @@
         "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
         "bg_alt": "Wanderweg bei Eppan",
         "eyebrow": "Wandern",
-        "heading": "Burgen, Wälder und Blütentäler",
+        "heading": "Burgen, Wälder und Blütentäler",
         "lede": "Von der Drei-Burgen-Wanderung über Hocheppan, Boymont und Korb bis zum blühenden Frühlingstal zwischen den Montiggler Seen und dem Kalterer See, die Wanderwege beginnen direkt vor der Haustür.",
         "body": "Auch die historische Mendel-Standseilbahn mit dem Gipfel des Roen, die Ruine Leuchtenburg über dem Kalterer See und der beschauliche Kreuzweg zur Gleifkirche mit Aussichtspunkt Kreuzstein sind in 10 bis 25 Fahrminuten erreichbar.",
         "tips": [
@@ -44,7 +44,7 @@
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "Biken in Eppan",
         "eyebrow": "Bike",
-        "heading": "Auf zwei Rädern durch die Weinberge",
+        "heading": "Auf zwei Rädern durch die Weinberge",
         "lede": "Der Bahntrassenradweg Bozen–Eppan–Kaltern führt direkt an den Weinbergen des Hotels vorbei, flach, familientauglich und mit Weitblick auf die Dolomiten.",
         "body": "Wer weiter will, folgt dem Etschtal-Radweg bis nach Meran oder dreht die Mitterbergerrunde von Eppan über den Kalterer See und Auer zurück nach Bozen, fast durchgehend flach, entlang Obstwiesen und historischer Ansitze.",
         "tips": [
@@ -74,7 +74,7 @@
         "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
         "bg_alt": "Golfclub Eppan Blue Monster von oben",
         "eyebrow": "Golf",
-        "heading": "Abschlag mit Schlossblick",
+        "heading": "Abschlag mit Schlossblick",
         "lede": "Der Golfclub Eppan „Blue Monster\" liegt nur wenige Fahrminuten entfernt, ein 9-Loch-Platz mit Seen und Bergblick, direkt daneben das Trainingscenter Schloss Freudenstein mit Kurzplatz, Driving Range und Putting Green.",
         "body": "Für längere Runden sind die 9-Loch-Anlage in Lana und der 18-Loch-Platz Dolomiti auf der Mendel in rund 30–45 Fahrminuten erreichbar.",
         "tips": [
@@ -104,7 +104,7 @@
         "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
         "bg_alt": "Burgkapelle Hocheppan",
         "eyebrow": "Kultur",
-        "heading": "Drei Burgen, tausend Jahre Geschichte",
+        "heading": "Drei Burgen, tausend Jahre Geschichte",
         "lede": "Schloss Hocheppan mit seiner romanischen Burgkapelle, Schloss Boymont und Schloss Korb prägen die Silhouette über den Weinbergen.",
         "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen. Und gleich nebenan, in St. Pauls, öffnet die Kellerei St. Pauls ihre Türen: zur Weinführung durch das Paulsnerfeld oder zur „Preclarus\"-Führung durch den Sektbunker aus dem Zweiten Weltkrieg.",
         "tips": [
@@ -134,7 +134,7 @@
         "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
         "bg_alt": "Montiggler See",
         "eyebrow": "Badespaß",
-        "heading": "Seen zum Verweilen",
+        "heading": "Seen zum Verweilen",
         "lede": "Die Montiggler Seen mit freiem Zugang und der Kalterer See mit seinen Badestränden liegen beide in rund 15–20 Fahrminuten, ideal für einen Nachmittag am Wasser.",
         "body": "Wer einen ganzen Tag investieren will, fährt über den Mendelpass oder durchs Etschtal an den Gardasee, Riva del Garda und Torbole mit Seepromenade, Windsurfern und der Bergbahn auf den Monte Baldo.",
         "tips": [
@@ -594,14 +594,14 @@
         "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       }
     ],
-    "cta_heading": "Aktiv-Urlaub direkt an der Weinstraße",
+    "cta_heading": "Aktiv-Urlaub direkt an der Weinstraße",
     "cta_text": "Fragt uns nach Tipps, Leihrädern und Routenvorschlägen. Wir kennen die Umgebung wie unseren Garten.",
     "cta_label": "Jetzt anfragen"
   },
   "it": {
     "meta_title": "Attività | Hotel Weinberg",
     "meta_description": "Escursioni, bici, golf, cultura e dintorni vicino all'Hotel Weinberg a St. Paolo/Appiano, sentiero delle Tre Castella, Golfclub Appiano, Lago di Caldaro, Laghi di Monticolo e altro.",
-    "hero_heading": "Escursioni, bici, relax:<br>a due passi",
+    "hero_heading": "Escursioni, bici, relax:<br>a due passi",
     "hero_text": "Castelli, laghi e vigneti proprio davanti alla porta, nel cuore di una delle più belle regioni vacanziere dell'Alto Adige.",
     "story_eyebrow": "Cinque mondi",
     "story_lede": "Continuate a scorrere tra escursioni, bici, golf, cultura e dintorni, alla fine troverete tutti i consigli come schede, filtrabili per tipo e tempo necessario.",
@@ -613,7 +613,7 @@
         "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
         "bg_alt": "Sentiero escursionistico vicino ad Appiano",
         "eyebrow": "Escursioni",
-        "heading": "Castelli, boschi e valli in fiore",
+        "heading": "Castelli, boschi e valli in fiore",
         "lede": "Dal sentiero delle Tre Castella tra Hocheppan, Boymont e Korb fino alla fiorita Frühlingstal tra i Laghi di Monticolo e il Lago di Caldaro, i sentieri iniziano proprio davanti a casa.",
         "body": "Anche la storica funicolare della Mendola con la vetta del Roen, la rovina di Leuchtenburg sopra il Lago di Caldaro e la tranquilla via crucis verso la Chiesa di Gleif con il belvedere Kreuzstein sono raggiungibili in 10-25 minuti d'auto.",
         "tips": [
@@ -643,7 +643,7 @@
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "In bici ad Appiano",
         "eyebrow": "Bici",
-        "heading": "Due ruote tra i vigneti",
+        "heading": "Due ruote tra i vigneti",
         "lede": "La pista ciclabile sull'ex sedime ferroviario Bolzano–Appiano–Caldaro passa proprio accanto ai vigneti dell'hotel, piatta, adatta alle famiglie e con ampia vista sulle Dolomiti.",
         "body": "Chi vuole proseguire segue la pista ciclabile della Val d'Adige fino a Merano, oppure percorre l'anello del Mitterberg da Appiano attraverso il Lago di Caldaro e Ora fino a Bolzano, quasi sempre pianeggiante, tra frutteti e antichi masi.",
         "tips": [
@@ -673,7 +673,7 @@
         "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
         "bg_alt": "Golfclub Appiano Blue Monster dall'alto",
         "eyebrow": "Golf",
-        "heading": "Tee-off con vista sul castello",
+        "heading": "Tee-off con vista sul castello",
         "lede": "Il Golfclub Appiano \"Blue Monster\" si trova a pochi minuti d'auto, un campo da 9 buche con laghi e vista sulle montagne, accanto il centro di allenamento Schloss Freudenstein con campo pratica, driving range e putting green.",
         "body": "Per round più lunghi, l'impianto da 9 buche di Lana e il campo da 18 buche Dolomiti sulla Mendola sono raggiungibili in circa 30-45 minuti d'auto.",
         "tips": [
@@ -703,7 +703,7 @@
         "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
         "bg_alt": "Cappella del castello di Hocheppan",
         "eyebrow": "Cultura",
-        "heading": "Tre castelli, mille anni di storia",
+        "heading": "Tre castelli, mille anni di storia",
         "lede": "Il castello di Hocheppan con la sua cappella romanica, il castello di Boymont e il castello di Korb segnano la silhouette sopra i vigneti.",
         "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano. E proprio accanto, a St. Paolo, la Cantina di St. Paolo apre le sue porte: per una visita guidata tra i vigneti del Paulsnerfeld o per il tour \"Preclarus\" nel bunker spumantistico della Seconda Guerra Mondiale.",
         "tips": [
@@ -733,7 +733,7 @@
         "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
         "bg_alt": "Lago di Monticolo",
         "eyebrow": "Balneazione",
-        "heading": "Laghi in cui rilassarsi",
+        "heading": "Laghi in cui rilassarsi",
         "lede": "I Laghi di Monticolo con accesso libero e il Lago di Caldaro con le sue spiagge si trovano entrambi a circa 15-20 minuti d'auto, ideali per un pomeriggio in riva all'acqua.",
         "body": "Chi vuole dedicare un'intera giornata può passare per il Passo della Mendola o per la Val d'Adige fino al Lago di Garda, Riva del Garda e Torbole con lungolago, windsurfisti e la funivia sul Monte Baldo.",
         "tips": [
@@ -1193,14 +1193,14 @@
         "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       }
     ],
-    "cta_heading": "Vacanza attiva direttamente sulla Strada del Vino",
+    "cta_heading": "Vacanza attiva direttamente sulla Strada del Vino",
     "cta_text": "Chiedeteci consigli, biciclette a noleggio e proposte di percorsi. Conosciamo i dintorni come il nostro giardino.",
     "cta_label": "Richiedi ora"
   },
   "en": {
     "meta_title": "Activities | Hotel Weinberg",
     "meta_description": "Hiking, biking, golf, culture and surroundings near Hotel Weinberg in St. Pauls/Eppan, the Three Castles trail, Golf Club Eppan, Lake Caldaro, Montiggl Lakes and more.",
-    "hero_heading": "Hiking, biking, relaxing:<br>right on the doorstep",
+    "hero_heading": "Hiking, biking, relaxing:<br>right on the doorstep",
     "hero_text": "Castles, lakes and vineyards right on your doorstep, at the heart of one of South Tyrol's most beautiful holiday regions.",
     "story_eyebrow": "Five worlds",
     "story_lede": "Scroll on through hiking, biking, golf, culture and the surrounding area, at the end you'll find every tip as a filterable card, sorted by type and time needed.",
@@ -1212,7 +1212,7 @@
         "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
         "bg_alt": "Hiking trail near Eppan",
         "eyebrow": "Hiking",
-        "heading": "Castles, forests and blossoming valleys",
+        "heading": "Castles, forests and blossoming valleys",
         "lede": "From the Three Castles trail linking Hocheppan, Boymont and Korb to the blossoming Frühlingstal between the Montiggl Lakes and Lake Caldaro, the trails start right at the door.",
         "body": "The historic Mendel funicular with its Mount Roen summit, the Leuchtenburg ruin above Lake Caldaro, and the quiet Way of the Cross up to the Gleif church with its Kreuzstein lookout are all within a 10-25 minute drive.",
         "tips": [
@@ -1242,7 +1242,7 @@
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "Biking in Eppan",
         "eyebrow": "Biking",
-        "heading": "Two wheels through the vineyards",
+        "heading": "Two wheels through the vineyards",
         "lede": "The cycle path along the former Bolzano–Eppan–Kaltern railway line runs right past the hotel's own vineyards, flat, family-friendly, with sweeping views of the Dolomites.",
         "body": "Those wanting to go further can follow the Adige Valley cycle path all the way to Merano, or ride the Mitterberg loop from Eppan via Lake Caldaro and Auer to Bolzano, nearly all flat, through orchards and old farmsteads.",
         "tips": [
@@ -1272,7 +1272,7 @@
         "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
         "bg_alt": "Golf Club Eppan Blue Monster from above",
         "eyebrow": "Golf",
-        "heading": "Tee off with a view of the castle",
+        "heading": "Tee off with a view of the castle",
         "lede": "Golf Club Eppan \"Blue Monster\" is just a few minutes' drive away, a 9-hole course with water hazards and mountain views, next to the Schloss Freudenstein training centre with its practice course, driving range and putting green.",
         "body": "For longer rounds, the 9-hole course in Lana and the 18-hole Golf Club Dolomiti on Mendel Pass are within about a 30-45 minute drive.",
         "tips": [
@@ -1302,7 +1302,7 @@
         "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
         "bg_alt": "Hocheppan Castle chapel",
         "eyebrow": "Culture",
-        "heading": "Three castles, a thousand years of history",
+        "heading": "Three castles, a thousand years of history",
         "lede": "Hocheppan Castle with its Romanesque chapel, Boymont Castle and Korb Castle line the ridge above the vineyards.",
         "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano. And right next door in St. Pauls, the St. Pauls winery opens its doors: for a guided walk through the Paulsnerfeld vineyards or the \"Preclarus\" tour through its WWII sparkling-wine bunker.",
         "tips": [
@@ -1332,7 +1332,7 @@
         "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
         "bg_alt": "Montiggl Lake",
         "eyebrow": "Swimming",
-        "heading": "Lakes to unwind by",
+        "heading": "Lakes to unwind by",
         "lede": "The freely accessible Montiggl Lakes and Lake Caldaro with its beach lidos are both about 15-20 minutes away by car, perfect for an afternoon by the water.",
         "body": "For a full day out, drive over Mendel Pass or through the Adige Valley to Lake Garda, Riva del Garda and Torbole with their lakeside promenades, windsurfers and the Monte Baldo cable car.",
         "tips": [
@@ -1792,7 +1792,7 @@
         "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       }
     ],
-    "cta_heading": "An active holiday, right on the Wine Route",
+    "cta_heading": "An active holiday, right on the Wine Route",
     "cta_text": "Ask us for tips, bike rentals and route suggestions. We know the surrounding area like our own garden.",
     "cta_label": "Enquire now"
   }

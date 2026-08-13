@@ -2,14 +2,14 @@
   "de": {
     "meta_title": "Zimmer | Hotel Weinberg",
     "meta_description": "Zimmer im Hotel Weinberg St. Pauls, gemütlich, mit Blick auf Weinberge oder Dolomiten, ab 63 € pro Person und Nacht inkl. Frühstück.",
-    "hero_heading": "Zimmer mit Charakter",
+    "hero_heading": "Zimmer mit Charakter",
     "hero_text": "Gemütlich eingerichtete Zimmer mit Balkon oder kleinem Garten und Blick auf Weinberge oder Dolomiten.",
-    "overview_heading": "Unsere Zimmerkategorien",
+    "overview_heading": "Unsere Zimmerkategorien",
     "gallery_eyebrow": "Impressionen",
     "room_category_eyebrow": "Zimmerkategorie",
     "slideshow_eyebrow": "Wohnen",
-    "slideshow_heading": "Ankommen, durchatmen, bleiben",
-    "cta_heading": "Euer Zimmer wartet",
+    "slideshow_heading": "Ankommen, durchatmen, bleiben",
+    "cta_heading": "Euer Zimmer wartet",
     "cta_text": "Prüft Verfügbarkeit und schickt uns eure Wunschtermine.",
     "cta_label": "Jetzt anfragen",
     "rooms": [
@@ -98,7 +98,7 @@
         ]
       }
     ],
-    "related_heading": "Weitere Zimmerkategorien",
+    "related_heading": "Weitere Zimmerkategorien",
     "card_cta_label": "Entdecken",
     "slideshow_images": [
       "../assets/fotos/zimmer-slide-balkon-2026.jpg",
@@ -111,14 +111,14 @@
   "it": {
     "meta_title": "Camere | Hotel Weinberg",
     "meta_description": "Camere all'Hotel Weinberg St. Paolo, accoglienti, con vista sui vigneti o sulle Dolomiti, a partire da 63 € a persona a notte, colazione inclusa.",
-    "hero_heading": "Camere con carattere",
+    "hero_heading": "Camere con carattere",
     "hero_text": "Camere arredate con gusto, con balcone o piccolo giardino e vista sui vigneti o sulle Dolomiti.",
-    "overview_heading": "Le nostre categorie di camere",
+    "overview_heading": "Le nostre categorie di camere",
     "gallery_eyebrow": "Immagini",
     "room_category_eyebrow": "Categoria camera",
     "slideshow_eyebrow": "Soggiorno",
-    "slideshow_heading": "Arrivare, respirare, restare",
-    "cta_heading": "La vostra camera vi aspetta",
+    "slideshow_heading": "Arrivare, respirare, restare",
+    "cta_heading": "La vostra camera vi aspetta",
     "cta_text": "Verificate la disponibilità e inviateci le vostre date desiderate.",
     "cta_label": "Richiedi ora",
     "rooms": [
@@ -207,7 +207,7 @@
         ]
       }
     ],
-    "related_heading": "Altre categorie di camere",
+    "related_heading": "Altre categorie di camere",
     "card_cta_label": "Scopri",
     "slideshow_images": [
       "../assets/fotos/zimmer-slide-balkon-2026.jpg",
@@ -220,14 +220,14 @@
   "en": {
     "meta_title": "Rooms | Hotel Weinberg",
     "meta_description": "Rooms at Hotel Weinberg St. Pauls, cosy, with views of vineyards or the Dolomites, from €63 per person per night including breakfast.",
-    "hero_heading": "Rooms with character",
+    "hero_heading": "Rooms with character",
     "hero_text": "Cosily furnished rooms with a balcony or small garden, and views of vineyards or the Dolomites.",
-    "overview_heading": "Our Room Categories",
+    "overview_heading": "Our Room Categories",
     "gallery_eyebrow": "Gallery",
     "room_category_eyebrow": "Room category",
     "slideshow_eyebrow": "Stay",
-    "slideshow_heading": "Arrive, breathe, stay",
-    "cta_heading": "Your room is waiting",
+    "slideshow_heading": "Arrive, breathe, stay",
+    "cta_heading": "Your room is waiting",
     "cta_text": "Check availability and send us your preferred dates.",
     "cta_label": "Enquire now",
     "rooms": [
@@ -316,7 +316,7 @@
         ]
       }
     ],
-    "related_heading": "Other room categories",
+    "related_heading": "Other room categories",
     "card_cta_label": "Discover",
     "slideshow_images": [
       "../assets/fotos/zimmer-slide-balkon-2026.jpg",

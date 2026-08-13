@@ -2,7 +2,7 @@
   "de": {
     "meta_title": "Genießen | Hotel Weinberg",
     "meta_description": "Pool, Frühstück unter Palmen und ein Ausblick auf die Erneuerung des Hauses, Genießen im Hotel Weinberg St. Pauls.",
-    "hero_heading": "Frühstück unter Palmen, Ruhe am Pool",
+    "hero_heading": "Frühstück unter Palmen, Ruhe am Pool",
     "hero_text": "Drei Lieblingsorte des Hauses: ein duftendes Frühstück, schattige Ruhe im Garten, ein Pool zum Verweilen.",
     "story_eyebrow": "Vier Stationen",
     "story_lede": "Scrollt weiter und begleitet uns auf einem kurzen Rundgang, vom Pool über den Garten und den Frühstückstisch bis zur Bar.",
@@ -10,7 +10,7 @@
     "impressions_prefix": "Impressionen",
     "pool": {
       "eyebrow": "Pool",
-      "heading": "Ruhe am Wasser",
+      "heading": "Ruhe am Wasser",
       "lede": "Nach einer ausgedehnten Berg-, Rad- oder Motorradtour lädt unser Freischwimmbad mit Liegewiese zum Entspannen ein.",
       "background_image": "../assets/fotos/pool-hero-2026.jpg",
       "background_alt": "Pool im Hotel Weinberg mit Blick auf die Weinberge",
@@ -41,7 +41,7 @@
     },
     "garten": {
       "eyebrow": "Garten",
-      "heading": "Grün, ruhig, mediterran",
+      "heading": "Grün, ruhig, mediterran",
       "lede": "Palmen, Reben und schattige Sitzecken, unser Garten ist der ruhige Mittelpunkt des Hauses.",
       "body": "Ob mit einem Glas Südtiroler Wein am Abend oder morgens mit Kaffee: Im Garten lässt sich der Tag von beiden Seiten genießen.",
       "background_image": "../assets/fotos/garten-terrasse-morgen-2026.jpg",
@@ -66,7 +66,7 @@
     },
     "fruehstueck": {
       "eyebrow": "Frühstück",
-      "heading": "Es braucht nicht viel, um glücklich zu sein",
+      "heading": "Es braucht nicht viel, um glücklich zu sein",
       "lede": "Reichhaltiges Frühstücksbuffet im lichtdurchfluteten Raum mit Panoramablick oder im Freien unter Palmen.",
       "background_image": "../assets/fotos/fruehstuecksraum-2026.jpg",
       "background_alt": "Frühstücksraum im Hotel Weinberg mit Blick auf die Dolomiten",
@@ -94,7 +94,7 @@
     },
     "zimmer_link": {
       "eyebrow": "Weitergehen",
-      "heading": "Zimmer: Ankommen, durchatmen, bleiben",
+      "heading": "Zimmer: Ankommen, durchatmen, bleiben",
       "lede": "Nach Pool, Garten und Frühstück wartet ein ruhiges Zimmer mit Blick auf Weinberge oder Dolomiten, der Rückzugsort für alles, was der Tag gebracht hat.",
       "image": "../assets/fotos/zimmer-balkon-2026.jpg",
       "alt": "Bett mit frischer Wäsche in einem Doppelzimmer",
@@ -102,7 +102,7 @@
     },
     "kulinarik_teaser": {
       "eyebrow": "Kulinarik-Guide",
-      "heading": "Gut essen rund um St. Pauls &amp; Eppan",
+      "heading": "Gut essen rund um St. Pauls &amp; Eppan",
       "lede": "Wir führen keine eigene Küche mehr. Dafür kennen wir die besten Adressen in der Nachbarschaft. Vom Törggelen bis zum Aperitivo.",
       "cards": [
         {
@@ -125,13 +125,13 @@
       "cta_label": "Alle Empfehlungen ansehen"
     },
     "cta_banner": {
-      "heading": "Lust auf ein paar ruhige Tage?",
+      "heading": "Lust auf ein paar ruhige Tage?",
       "text": "Schreibt uns eure Wunschtermine. Wir melden uns persönlich zurück.",
       "cta_label": "Jetzt anfragen"
     },
     "bar": {
       "eyebrow": "Bar",
-      "heading": "Cocktailstunde an der Bar",
+      "heading": "Cocktailstunde an der Bar",
       "lede": "Unsere neue Bar ist der perfekte Ausklang des Tages.",
       "body": "Mara stellt für euch eine eigene Aperitivo- und Cocktailkarte zusammen – von klassisch bis kreativ, immer mit einem Lächeln gemixt.",
       "background_image": "../assets/fotos/bar-location-2026.jpg",
@@ -158,7 +158,7 @@
   "it": {
     "meta_title": "Relax | Hotel Weinberg",
     "meta_description": "Piscina, colazione sotto le palme e uno sguardo al rinnovamento della casa, il relax all'Hotel Weinberg St. Paolo.",
-    "hero_heading": "Colazione sotto le palme, quiete in piscina",
+    "hero_heading": "Colazione sotto le palme, quiete in piscina",
     "hero_text": "Tre luoghi del cuore: una colazione profumata, l'ombra del giardino, una piscina in cui perdersi.",
     "story_eyebrow": "Quattro tappe",
     "story_lede": "Continuate a scorrere e accompagnateci in un breve giro, dalla piscina al giardino, al tavolo della colazione, fino al bar.",
@@ -166,7 +166,7 @@
     "impressions_prefix": "Impressioni",
     "pool": {
       "eyebrow": "Piscina",
-      "heading": "Quiete sull'acqua",
+      "heading": "Quiete sull'acqua",
       "lede": "Dopo un'escursione in montagna, in bici o in moto, la nostra piscina scoperta con prato solarium invita al relax.",
       "background_image": "../assets/fotos/pool-hero-2026.jpg",
       "background_alt": "Piscina dell'Hotel Weinberg con vista sui vigneti",
@@ -197,7 +197,7 @@
     },
     "garten": {
       "eyebrow": "Giardino",
-      "heading": "Verde, tranquillo, mediterraneo",
+      "heading": "Verde, tranquillo, mediterraneo",
       "lede": "Palme, viti e angoli ombreggiati, il nostro giardino è il cuore tranquillo della casa.",
       "body": "Che sia con un bicchiere di vino altoatesino la sera o con un caffè al mattino: in giardino la giornata si può godere da entrambi i lati.",
       "background_image": "../assets/fotos/garten-terrasse-morgen-2026.jpg",
@@ -222,7 +222,7 @@
     },
     "fruehstueck": {
       "eyebrow": "Colazione",
-      "heading": "Non serve molto per essere felici",
+      "heading": "Non serve molto per essere felici",
       "lede": "Ricca colazione a buffet nella luminosa sala con vista panoramica o all'aperto sotto le palme.",
       "background_image": "../assets/fotos/fruehstuecksraum-2026.jpg",
       "background_alt": "Sala colazione dell'Hotel Weinberg con vista sulle Dolomiti",
@@ -250,7 +250,7 @@
     },
     "zimmer_link": {
       "eyebrow": "Continuate a scoprire",
-      "heading": "Camere: arrivare, respirare, restare",
+      "heading": "Camere: arrivare, respirare, restare",
       "lede": "Dopo piscina, giardino e colazione vi aspetta una camera tranquilla con vista sui vigneti o sulle Dolomiti, il rifugio per tutto ciò che la giornata ha portato.",
       "image": "../assets/fotos/zimmer-balkon-2026.jpg",
       "alt": "Letto con biancheria fresca in una camera doppia",
@@ -258,7 +258,7 @@
     },
     "kulinarik_teaser": {
       "eyebrow": "Guida Culinaria",
-      "heading": "Dove mangiare bene tra St. Paolo &amp; Appiano",
+      "heading": "Dove mangiare bene tra St. Paolo &amp; Appiano",
       "lede": "Non gestiamo più una nostra cucina, ma conosciamo i migliori indirizzi del vicinato. Dal Törggelen all'aperitivo.",
       "cards": [
         {
@@ -281,13 +281,13 @@
       "cta_label": "Vedi tutti i consigli"
     },
     "cta_banner": {
-      "heading": "Voglia di qualche giorno di relax?",
+      "heading": "Voglia di qualche giorno di relax?",
       "text": "Scriveteci le vostre date desiderate. Vi risponderemo personalmente.",
       "cta_label": "Richiedi ora"
     },
     "bar": {
       "eyebrow": "Bar",
-      "heading": "L'ora del cocktail al bar",
+      "heading": "L'ora del cocktail al bar",
       "lede": "Il nostro nuovo bar è il modo perfetto per chiudere la giornata.",
       "body": "Mara prepara per voi una propria carta di aperitivi e cocktail – dai classici alle creazioni originali, sempre miscelati con un sorriso.",
       "background_image": "../assets/fotos/bar-location-2026.jpg",
@@ -314,7 +314,7 @@
   "en": {
     "meta_title": "Enjoy | Hotel Weinberg",
     "meta_description": "Pool, breakfast under palm trees and a glimpse of the house's renewal, Enjoy at Hotel Weinberg St. Pauls.",
-    "hero_heading": "Breakfast under palm trees, peace by the pool",
+    "hero_heading": "Breakfast under palm trees, peace by the pool",
     "hero_text": "Three favourite corners of the house: a fragrant breakfast, shade in the garden, a pool to linger by.",
     "story_eyebrow": "Four stops",
     "story_lede": "Keep scrolling and join us on a short tour, from the pool, through the garden and the breakfast table, to the bar.",
@@ -322,7 +322,7 @@
     "impressions_prefix": "Highlights",
     "pool": {
       "eyebrow": "Pool",
-      "heading": "Peace by the water",
+      "heading": "Peace by the water",
       "lede": "After a long hike, bike ride or motorcycle tour, our outdoor pool with sunbathing lawn invites you to unwind.",
       "background_image": "../assets/fotos/pool-hero-2026.jpg",
       "background_alt": "Pool at Hotel Weinberg with vineyard views",
@@ -353,7 +353,7 @@
     },
     "garten": {
       "eyebrow": "Garden",
-      "heading": "Green, calm, Mediterranean",
+      "heading": "Green, calm, Mediterranean",
       "lede": "Palm trees, vines and shady corners, our garden is the quiet heart of the house.",
       "body": "Whether with a glass of South Tyrolean wine in the evening or coffee in the morning: in the garden, the day can be enjoyed from both ends.",
       "background_image": "../assets/fotos/garten-terrasse-morgen-2026.jpg",
@@ -378,7 +378,7 @@
     },
     "fruehstueck": {
       "eyebrow": "Breakfast",
-      "heading": "It doesn't take much to be happy",
+      "heading": "It doesn't take much to be happy",
       "lede": "Generous breakfast buffet in the light-flooded room with panoramic views, or outside beneath the palms.",
       "background_image": "../assets/fotos/fruehstuecksraum-2026.jpg",
       "background_alt": "Breakfast room at Hotel Weinberg with views of the Dolomites",
@@ -406,7 +406,7 @@
     },
     "zimmer_link": {
       "eyebrow": "Keep exploring",
-      "heading": "Rooms: arrive, breathe, stay",
+      "heading": "Rooms: arrive, breathe, stay",
       "lede": "After pool, garden and breakfast, a quiet room with views of vineyards or the Dolomites awaits, a retreat for everything the day has brought.",
       "image": "../assets/fotos/zimmer-balkon-2026.jpg",
       "alt": "Bed with fresh linen in a double room",
@@ -414,7 +414,7 @@
     },
     "kulinarik_teaser": {
       "eyebrow": "Culinary Guide",
-      "heading": "Great food around St. Pauls &amp; Appiano",
+      "heading": "Great food around St. Pauls &amp; Appiano",
       "lede": "We no longer run our own kitchen, but we know the best addresses in the neighbourhood. From Törggelen to aperitivo.",
       "cards": [
         {
@@ -437,13 +437,13 @@
       "cta_label": "See all recommendations"
     },
     "cta_banner": {
-      "heading": "Feel like a few quiet days?",
+      "heading": "Feel like a few quiet days?",
       "text": "Send us your preferred dates. We'll get back to you personally.",
       "cta_label": "Enquire now"
     },
     "bar": {
       "eyebrow": "Bar",
-      "heading": "Cocktail hour at the bar",
+      "heading": "Cocktail hour at the bar",
       "lede": "Our new bar is the perfect way to end the day.",
       "body": "Mara puts together her own aperitivo and cocktail menu for you – from classics to creative twists, always mixed with a smile.",
       "background_image": "../assets/fotos/bar-location-2026.jpg",

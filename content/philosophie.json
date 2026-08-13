@@ -2,11 +2,11 @@
   "de": {
     "meta_title": "Über uns & Philosophie | Hotel Weinberg",
     "meta_description": "Familie Schrott, die Geschichte des Hauses und die Philosophie 'Mediterranean Living', Hotel Weinberg in St. Pauls/Eppan.",
-    "hero_heading": "Mediterranean Living in St. Pauls",
+    "hero_heading": "Mediterranean Living in St. Pauls",
     "hero_text": "Ein kleines Haus, ein großer Garten, viele Palmen – und eine Familie, die euch persönlich empfängt.",
     "geschichte": {
       "eyebrow": "Konzept &amp; Geschichte",
-      "heading": "Persönlich geführt, seit Generationen",
+      "heading": "Persönlich geführt, seit Generationen",
       "lede": "Umgeben von Weinreben liegt das Hotel Weinberg in St. Pauls an der Südtiroler Weinstraße: dort, wo das milde mediterrane Klima Palmen, Wein und Weite zusammenbringt.",
       "body": "Wir sind kein großes Resort. Bei uns kennt man sich, man grüßt sich über den Gartenzaun, und das Frühstück schmeckt nach echten, regionalen Zutaten. Ein Haus mit Geschichte, das wir Schritt für Schritt behutsam erneuern, ohne dabei seinen persönlichen Charakter zu verlieren.",
       "image": "../assets/fotos/familie/familienfoto.jpg",
@@ -14,7 +14,7 @@
     },
     "gastgeber": {
       "eyebrow": "Eure Gastgeber",
-      "heading": "Familie Schrott präsentiert sich",
+      "heading": "Familie Schrott präsentiert sich",
       "lede": "Wir freuen uns, euch persönlich zu empfangen, mit einem offenen Ohr für Wünsche und einem Gespür dafür, wann man einfach in Ruhe lassen sollte.",
       "team": [
         {
@@ -36,12 +36,12 @@
     },
     "philosophie": {
       "badge": "Unsere Philosophie",
-      "heading": "Was „Mediterranean Living\" für uns bedeutet",
+      "heading": "Was „Mediterranean Living\" für uns bedeutet",
       "lede": "Palmen statt Prunk. Ruhe statt Rummel. Ein Glas Südtiroler Wein am Abend, der Blick zu den Dolomiten, das Zirpen der Grillen im Garten. Mediterranes Lebensgefühl, wie es an der Südtiroler Weinstraße zuhause ist: einfach, ehrlich und mit offenen Armen."
     },
     "ausstattung": {
       "eyebrow": "Ausstattung",
-      "heading": "Das Haus auf einen Blick",
+      "heading": "Das Haus auf einen Blick",
       "slider": [
         {
           "image": "../assets/fotos/zimmer-detail-bett-2026.jpg",
@@ -71,12 +71,12 @@
       "image": "../assets/fotos/pool-hero-2026.jpg",
       "alt": "Pool, Garten und Frühstück bei Hotel Weinberg",
       "eyebrow": "Weitergehen",
-      "heading": "Genießen: Pool, Garten &amp; Frühstück",
+      "heading": "Genießen: Pool, Garten &amp; Frühstück",
       "lede": "Nach dem Ankommen beginnt das eigentliche Genießen: am Pool unter Palmen, im schattigen Garten und morgens beim ausgiebigen Frühstück mit Blick auf die Dolomiten.",
       "cta_label": "Genießen entdecken →"
     },
     "cta_banner": {
-      "heading": "Lernt uns persönlich kennen",
+      "heading": "Lernt uns persönlich kennen",
       "text": "Schreibt uns eure Wunschtermine. Wir melden uns persönlich zurück.",
       "cta_label_book": "Jetzt Zimmer buchen",
       "cta_label_contact": "Direkt anfragen"
@@ -85,11 +85,11 @@
   "it": {
     "meta_title": "Chi siamo & Filosofia | Hotel Weinberg",
     "meta_description": "Famiglia Schrott, la storia della casa e la filosofia 'Mediterranean Living', Hotel Weinberg a St. Paolo/Appiano.",
-    "hero_heading": "Mediterranean Living a St. Paolo",
+    "hero_heading": "Mediterranean Living a St. Paolo",
     "hero_text": "Una piccola casa, un grande giardino, tante palme – e una famiglia che vi accoglie di persona.",
     "geschichte": {
       "eyebrow": "Storia &amp; Filosofia",
-      "heading": "Gestione familiare, da generazioni",
+      "heading": "Gestione familiare, da generazioni",
       "lede": "Circondato dai vigneti, l'Hotel Weinberg si trova a St. Paolo, sulla Strada del Vino altoatesina: dove il clima mite e mediterraneo unisce palme, vino e ampi orizzonti.",
       "body": "Non siamo un grande resort. Da noi ci si conosce, ci si saluta oltre lo steccato del giardino, e la colazione ha il sapore di ingredienti veri e regionali. Una casa con una storia, che rinnoviamo passo dopo passo con cura, senza mai perdere il suo carattere personale.",
       "image": "../assets/fotos/familie/familienfoto.jpg",
@@ -97,7 +97,7 @@
     },
     "gastgeber": {
       "eyebrow": "I vostri padroni di casa",
-      "heading": "La Famiglia Schrott si presenta",
+      "heading": "La Famiglia Schrott si presenta",
       "lede": "Siamo felici di accogliervi di persona, con un orecchio attento ai vostri desideri e la sensibilità di sapere quando lasciarvi semplicemente in pace.",
       "team": [
         {
@@ -119,12 +119,12 @@
     },
     "philosophie": {
       "badge": "La nostra filosofia",
-      "heading": "Cosa significa per noi \"Mediterranean Living\"",
+      "heading": "Cosa significa per noi \"Mediterranean Living\"",
       "lede": "Palme invece di sfarzo. Quiete invece di frenesia. Un bicchiere di vino altoatesino la sera, lo sguardo verso le Dolomiti, il frinire dei grilli in giardino. Uno stile di vita mediterraneo, di casa sulla Strada del Vino altoatesina: semplice, sincero e a braccia aperte."
     },
     "ausstattung": {
       "eyebrow": "Dotazioni",
-      "heading": "La casa in breve",
+      "heading": "La casa in breve",
       "slider": [
         {
           "image": "../assets/fotos/zimmer-detail-bett-2026.jpg",
@@ -154,12 +154,12 @@
       "image": "../assets/fotos/pool-hero-2026.jpg",
       "alt": "Piscina, giardino e colazione all'Hotel Weinberg",
       "eyebrow": "Continuate a scoprire",
-      "heading": "Relax: piscina, giardino &amp; colazione",
+      "heading": "Relax: piscina, giardino &amp; colazione",
       "lede": "Dopo l'arrivo inizia il vero relax: in piscina sotto le palme, nel giardino ombreggiato e al mattino con un'abbondante colazione con vista sulle Dolomiti.",
       "cta_label": "Scopri il relax →"
     },
     "cta_banner": {
-      "heading": "Venite a conoscerci di persona",
+      "heading": "Venite a conoscerci di persona",
       "text": "Scriveteci le vostre date desiderate. Vi risponderemo personalmente.",
       "cta_label_book": "Prenota una camera",
       "cta_label_contact": "Richiedi direttamente"
@@ -168,11 +168,11 @@
   "en": {
     "meta_title": "About us & Philosophy | Hotel Weinberg",
     "meta_description": "The Schrott family, the story of the house and the 'Mediterranean Living' philosophy, Hotel Weinberg in St. Pauls/Appiano.",
-    "hero_heading": "Mediterranean Living in St. Pauls",
+    "hero_heading": "Mediterranean Living in St. Pauls",
     "hero_text": "A small house, a big garden, plenty of palm trees – and a family who welcomes you personally.",
     "geschichte": {
       "eyebrow": "Concept &amp; History",
-      "heading": "Personally run, for generations",
+      "heading": "Personally run, for generations",
       "lede": "Surrounded by vineyards, Hotel Weinberg sits in St. Pauls on the South Tyrolean Wine Route: where the mild, Mediterranean climate brings together palm trees, wine and wide open views.",
       "body": "We're not a big resort. Here, people know each other, greet one another over the garden fence, and breakfast tastes of real, regional ingredients. A house with history, which we're carefully renewing step by step, without ever losing its personal character.",
       "image": "../assets/fotos/familie/familienfoto.jpg",
@@ -180,7 +180,7 @@
     },
     "gastgeber": {
       "eyebrow": "Your hosts",
-      "heading": "Meet the Schrott family",
+      "heading": "Meet the Schrott family",
       "lede": "We're happy to welcome you personally, with an open ear for your wishes and a sense for when to simply leave you in peace.",
       "team": [
         {
@@ -202,12 +202,12 @@
     },
     "philosophie": {
       "badge": "Our philosophy",
-      "heading": "What \"Mediterranean Living\" means to us",
+      "heading": "What \"Mediterranean Living\" means to us",
       "lede": "Palm trees instead of grandeur. Peace instead of hustle. A glass of South Tyrolean wine in the evening, the view of the Dolomites, the chirping of crickets in the garden. A Mediterranean way of life, at home on the South Tyrolean Wine Route: simple, honest, and with open arms."
     },
     "ausstattung": {
       "eyebrow": "Facilities",
-      "heading": "The house at a glance",
+      "heading": "The house at a glance",
       "slider": [
         {
           "image": "../assets/fotos/zimmer-detail-bett-2026.jpg",
@@ -237,12 +237,12 @@
       "image": "../assets/fotos/pool-hero-2026.jpg",
       "alt": "Pool, garden and breakfast at Hotel Weinberg",
       "eyebrow": "Keep exploring",
-      "heading": "Enjoy: pool, garden &amp; breakfast",
+      "heading": "Enjoy: pool, garden &amp; breakfast",
       "lede": "After arriving, the real enjoyment begins: by the pool beneath the palms, in the shady garden, and in the morning over a generous breakfast with views of the Dolomites.",
       "cta_label": "Discover Enjoy →"
     },
     "cta_banner": {
-      "heading": "Get to know us in person",
+      "heading": "Get to know us in person",
       "text": "Send us your preferred dates. We'll get back to you personally.",
       "cta_label_book": "Book a room now",
       "cta_label_contact": "Enquire directly"
