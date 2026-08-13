@@ -17,15 +17,15 @@
       "lede": "Drei Lieblingsorte des Hauses: schattige Ruhe unter Palmen, ein Pool zum Verweilen und ein reichhaltiges Frühstück mit Blick auf die Dolomiten.",
       "images": [
         {
-          "image": "../assets/fotos/garten-palme.jpg",
+          "image": "../assets/fotos/garten-palme-2026.jpg",
           "alt": "Garten mit Palmen, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/hotel-detail-pool.png",
+          "image": "../assets/fotos/pool-hero-2026.jpg",
           "alt": "Pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/hotel-detail-fruehstueck.jpg",
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
           "alt": "Frühstück, Hotel Weinberg"
         }
       ],
@@ -185,7 +185,7 @@
       "eyebrow": "02 · Wohnen",
       "heading": "Zimmer: ankommen, durchatmen, bleiben",
       "lede": "Ruhige Zimmer mit Blick auf Weinberge oder Dolomiten, in unterschiedlichen Kategorien, vom gemütlichen Doppelzimmer bis zur Suite mit Balkon.",
-      "image": "../assets/fotos/zimmer1.jpg",
+      "image": "../assets/fotos/zimmer-balkon-2026.jpg",
       "cta_label": "Zimmer entdecken →"
     },
     "meta_title": "Hotel Weinberg | St. Pauls | Eppan | Südtirol",
@@ -216,15 +216,15 @@
       "lede": "Tre luoghi del cuore della casa: quiete ombrosa sotto le palme, una piscina in cui rilassarsi e una ricca colazione con vista sulle Dolomiti.",
       "images": [
         {
-          "image": "../assets/fotos/garten-palme.jpg",
+          "image": "../assets/fotos/garten-palme-2026.jpg",
           "alt": "Giardino con palme, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/hotel-detail-pool.png",
+          "image": "../assets/fotos/pool-hero-2026.jpg",
           "alt": "Piscina, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/hotel-detail-fruehstueck.jpg",
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
           "alt": "Colazione, Hotel Weinberg"
         }
       ],
@@ -384,7 +384,7 @@
       "eyebrow": "02 · Soggiorno",
       "heading": "Camere: arrivare, respirare, restare",
       "lede": "Camere tranquille con vista sui vigneti o sulle Dolomiti, in diverse categorie, dalla accogliente camera doppia alla suite con balcone.",
-      "image": "../assets/fotos/zimmer1.jpg",
+      "image": "../assets/fotos/zimmer-balkon-2026.jpg",
       "cta_label": "Scopri le camere →"
     },
     "meta_title": "Hotel Weinberg | St. Paolo | Appiano | Alto Adige",
@@ -415,15 +415,15 @@
       "lede": "Three favourite spots of the house: shady peace beneath the palms, a pool to linger by, and a generous breakfast with views of the Dolomites.",
       "images": [
         {
-          "image": "../assets/fotos/garten-palme.jpg",
+          "image": "../assets/fotos/garten-palme-2026.jpg",
           "alt": "Garden with palm trees, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/hotel-detail-pool.png",
+          "image": "../assets/fotos/pool-hero-2026.jpg",
           "alt": "Pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/hotel-detail-fruehstueck.jpg",
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
           "alt": "Breakfast, Hotel Weinberg"
         }
       ],
@@ -583,7 +583,7 @@
       "eyebrow": "02 · Stay",
       "heading": "Rooms: arrive, breathe, stay",
       "lede": "Quiet rooms with views of the vineyards or the Dolomites, in different categories, from the cosy double room to the suite with balcony.",
-      "image": "../assets/fotos/zimmer1.jpg",
+      "image": "../assets/fotos/zimmer-balkon-2026.jpg",
       "cta_label": "Discover rooms →"
     },
     "meta_title": "Hotel Weinberg | St. Pauls | Appiano | South Tyrol",

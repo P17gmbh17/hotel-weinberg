@@ -17,9 +17,21 @@
       "heading": "Familie Schrott präsentiert sich",
       "lede": "Wir freuen uns, euch persönlich zu empfangen, mit einem offenen Ohr für Wünsche und einem Gespür dafür, wann man einfach in Ruhe lassen sollte.",
       "team": [
-        { "image": "../assets/fotos/familie/felix.jpg", "alt": "Felix, Familie Schrott", "name": "Felix" },
-        { "image": "../assets/fotos/familie/mara.jpg", "alt": "Mara, Familie Schrott", "name": "Mara" },
-        { "image": "../assets/fotos/familie/nelly.jpg", "alt": "Nelly, Familie Schrott", "name": "Nelly" }
+        {
+          "image": "../assets/fotos/familie/felix.jpg",
+          "alt": "Felix, Familie Schrott",
+          "name": "Felix"
+        },
+        {
+          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "alt": "Mara, Familie Schrott",
+          "name": "Mara"
+        },
+        {
+          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "alt": "Nelly, Familie Schrott",
+          "name": "Nelly"
+        }
       ]
     },
     "philosophie": {
@@ -31,9 +43,18 @@
       "eyebrow": "Ausstattung",
       "heading": "Das Haus auf einen Blick",
       "slider": [
-        { "image": "../assets/fotos/hotel-detail-pool.png", "alt": "Entspannen am Pool, Hotel Weinberg" },
-        { "image": "../assets/fotos/hotel-detail-zimmer.png", "alt": "Bett mit frischer Wäsche in einem Doppelzimmer" },
-        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Frühstückstisch mit Kaffee, Gebäck und frischen Zutaten" }
+        {
+          "image": "../assets/fotos/pool-hero-2026.jpg",
+          "alt": "Entspannen am Pool, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/zimmer-detail-2026.jpg",
+          "alt": "Bett mit frischer Wäsche in einem Doppelzimmer"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
+          "alt": "Frühstückstisch mit Kaffee, Gebäck und frischen Zutaten"
+        }
       ],
       "amenities": [
         "Persönlich geführt von Familie Schrott",
@@ -47,7 +68,7 @@
       ]
     },
     "geniessen_link": {
-      "image": "../assets/fotos/hotel-detail-pool-alt.png",
+      "image": "../assets/fotos/pool-hero-2026.jpg",
       "alt": "Pool, Garten und Frühstück bei Hotel Weinberg",
       "eyebrow": "Weitergehen",
       "heading": "Genießen: Pool, Garten &amp; Frühstück",
@@ -79,9 +100,21 @@
       "heading": "La Famiglia Schrott si presenta",
       "lede": "Siamo felici di accogliervi di persona, con un orecchio attento ai vostri desideri e la sensibilità di sapere quando lasciarvi semplicemente in pace.",
       "team": [
-        { "image": "../assets/fotos/familie/felix.jpg", "alt": "Felix, Famiglia Schrott", "name": "Felix" },
-        { "image": "../assets/fotos/familie/mara.jpg", "alt": "Mara, Famiglia Schrott", "name": "Mara" },
-        { "image": "../assets/fotos/familie/nelly.jpg", "alt": "Nelly, Famiglia Schrott", "name": "Nelly" }
+        {
+          "image": "../assets/fotos/familie/felix.jpg",
+          "alt": "Felix, Famiglia Schrott",
+          "name": "Felix"
+        },
+        {
+          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "alt": "Mara, Famiglia Schrott",
+          "name": "Mara"
+        },
+        {
+          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "alt": "Nelly, Famiglia Schrott",
+          "name": "Nelly"
+        }
       ]
     },
     "philosophie": {
@@ -93,9 +126,18 @@
       "eyebrow": "Dotazioni",
       "heading": "La casa in breve",
       "slider": [
-        { "image": "../assets/fotos/hotel-detail-pool.png", "alt": "Relax in piscina, Hotel Weinberg" },
-        { "image": "../assets/fotos/hotel-detail-zimmer.png", "alt": "Letto con biancheria fresca in una camera doppia" },
-        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Tavolo della colazione con caffè, dolci e ingredienti freschi" }
+        {
+          "image": "../assets/fotos/pool-hero-2026.jpg",
+          "alt": "Relax in piscina, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/zimmer-detail-2026.jpg",
+          "alt": "Letto con biancheria fresca in una camera doppia"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
+          "alt": "Tavolo della colazione con caffè, dolci e ingredienti freschi"
+        }
       ],
       "amenities": [
         "Gestione personale della Famiglia Schrott",
@@ -109,7 +151,7 @@
       ]
     },
     "geniessen_link": {
-      "image": "../assets/fotos/hotel-detail-pool-alt.png",
+      "image": "../assets/fotos/pool-hero-2026.jpg",
       "alt": "Piscina, giardino e colazione all'Hotel Weinberg",
       "eyebrow": "Continuate a scoprire",
       "heading": "Relax: piscina, giardino &amp; colazione",
@@ -141,9 +183,21 @@
       "heading": "Meet the Schrott family",
       "lede": "We're happy to welcome you personally, with an open ear for your wishes and a sense for when to simply leave you in peace.",
       "team": [
-        { "image": "../assets/fotos/familie/felix.jpg", "alt": "Felix, Schrott family", "name": "Felix" },
-        { "image": "../assets/fotos/familie/mara.jpg", "alt": "Mara, Schrott family", "name": "Mara" },
-        { "image": "../assets/fotos/familie/nelly.jpg", "alt": "Nelly, Schrott family", "name": "Nelly" }
+        {
+          "image": "../assets/fotos/familie/felix.jpg",
+          "alt": "Felix, Schrott family",
+          "name": "Felix"
+        },
+        {
+          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "alt": "Mara, Schrott family",
+          "name": "Mara"
+        },
+        {
+          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "alt": "Nelly, Schrott family",
+          "name": "Nelly"
+        }
       ]
     },
     "philosophie": {
@@ -155,9 +209,18 @@
       "eyebrow": "Facilities",
       "heading": "The house at a glance",
       "slider": [
-        { "image": "../assets/fotos/hotel-detail-pool.png", "alt": "Relaxing by the pool, Hotel Weinberg" },
-        { "image": "../assets/fotos/hotel-detail-zimmer.png", "alt": "Bed with fresh linen in a double room" },
-        { "image": "../assets/fotos/hotel-detail-fruehstueck.jpg", "alt": "Breakfast table with coffee, pastries and fresh ingredients" }
+        {
+          "image": "../assets/fotos/pool-hero-2026.jpg",
+          "alt": "Relaxing by the pool, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/zimmer-detail-2026.jpg",
+          "alt": "Bed with fresh linen in a double room"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
+          "alt": "Breakfast table with coffee, pastries and fresh ingredients"
+        }
       ],
       "amenities": [
         "Personally run by the Schrott family",
@@ -171,7 +234,7 @@
       ]
     },
     "geniessen_link": {
-      "image": "../assets/fotos/hotel-detail-pool-alt.png",
+      "image": "../assets/fotos/pool-hero-2026.jpg",
       "alt": "Pool, garden and breakfast at Hotel Weinberg",
       "eyebrow": "Keep exploring",
       "heading": "Enjoy: pool, garden &amp; breakfast",
