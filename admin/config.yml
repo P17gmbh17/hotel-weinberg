@@ -341,7 +341,7 @@ collections:
               - { label: "Fließtext Desktop (ausführlich)", name: "body_desktop", widget: "text" }
               - { label: "Fließtext Mobile (kurz)", name: "body_mobile", widget: "text" }
               - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
-              - label: "Impressionen-Bilder (2)"
+              - label: "Impressionen-Bilder (3)"
                 name: "impressions"
                 widget: "list"
                 summary: "{{fields.caption}}"

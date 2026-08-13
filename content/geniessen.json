@@ -4,8 +4,8 @@
     "meta_description": "Pool, Frühstück unter Palmen und ein Ausblick auf die Erneuerung des Hauses, Genießen im Hotel Weinberg St. Pauls.",
     "hero_heading": "Frühstück unter Palmen, Ruhe am Pool",
     "hero_text": "Drei Lieblingsorte des Hauses: ein duftendes Frühstück, schattige Ruhe im Garten, ein Pool zum Verweilen.",
-    "story_eyebrow": "Drei Stationen",
-    "story_lede": "Scrollt weiter und begleitet uns auf einem kurzen Rundgang, vom Pool über den Garten bis zum Frühstückstisch.",
+    "story_eyebrow": "Vier Stationen",
+    "story_lede": "Scrollt weiter und begleitet uns auf einem kurzen Rundgang, vom Pool über den Garten und den Frühstückstisch bis zur Bar.",
     "story_scroll_label": "Los geht's",
     "impressions_prefix": "Impressionen",
     "pool": {
@@ -80,9 +80,10 @@
           "caption": "Am Tisch"
         },
         {
-          "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
-          "alt": "Frühstücksraum mit Panoramablick",
-          "caption": "Panoramablick"
+          "image": "../assets/fotos/fruehstueck-panoramablick-2026.jpg",
+          "alt": "Frühstück mit Kaffee und Panoramablick, Hotel Weinberg",
+          "caption": "Panoramablick",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
@@ -133,8 +134,8 @@
       "heading": "Cocktailstunde an der Bar",
       "lede": "Unsere neue Bar ist der perfekte Ausklang des Tages.",
       "body": "Mara stellt für euch eine eigene Aperitivo- und Cocktailkarte zusammen – von klassisch bis kreativ, immer mit einem Lächeln gemixt.",
-      "background_image": "../assets/fotos/bar-hero-2026.jpg",
-      "background_alt": "Bar im Hotel Weinberg, Cocktail wird gemixt",
+      "background_image": "../assets/fotos/bar-location-2026.jpg",
+      "background_alt": "Bar im Hotel Weinberg",
       "impressions": [
         {
           "image": "../assets/fotos/bar-mojito-2026.jpg",
@@ -145,6 +146,11 @@
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara mixt einen Cocktail an der Bar",
           "caption": "Handwerk mit Herz"
+        },
+        {
+          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
+          "alt": "Gast genießt einen Cocktail an der Bar",
+          "caption": "Zeit zu zweit"
         }
       ]
     }
@@ -154,8 +160,8 @@
     "meta_description": "Piscina, colazione sotto le palme e uno sguardo al rinnovamento della casa, il relax all'Hotel Weinberg St. Paolo.",
     "hero_heading": "Colazione sotto le palme, quiete in piscina",
     "hero_text": "Tre luoghi del cuore: una colazione profumata, l'ombra del giardino, una piscina in cui perdersi.",
-    "story_eyebrow": "Tre tappe",
-    "story_lede": "Continuate a scorrere e accompagnateci in un breve giro, dalla piscina al giardino fino al tavolo della colazione.",
+    "story_eyebrow": "Quattro tappe",
+    "story_lede": "Continuate a scorrere e accompagnateci in un breve giro, dalla piscina al giardino, al tavolo della colazione, fino al bar.",
     "story_scroll_label": "Iniziamo",
     "impressions_prefix": "Impressioni",
     "pool": {
@@ -230,9 +236,10 @@
           "caption": "A tavola"
         },
         {
-          "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
-          "alt": "Sala colazione con vista panoramica",
-          "caption": "Vista panoramica"
+          "image": "../assets/fotos/fruehstueck-panoramablick-2026.jpg",
+          "alt": "Colazione con caffè e vista panoramica, Hotel Weinberg",
+          "caption": "Vista panoramica",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
@@ -283,8 +290,8 @@
       "heading": "L'ora del cocktail al bar",
       "lede": "Il nostro nuovo bar è il modo perfetto per chiudere la giornata.",
       "body": "Mara prepara per voi una propria carta di aperitivi e cocktail – dai classici alle creazioni originali, sempre miscelati con un sorriso.",
-      "background_image": "../assets/fotos/bar-hero-2026.jpg",
-      "background_alt": "Bar dell’Hotel Weinberg, cocktail in preparazione",
+      "background_image": "../assets/fotos/bar-location-2026.jpg",
+      "background_alt": "Bar dell’Hotel Weinberg",
       "impressions": [
         {
           "image": "../assets/fotos/bar-mojito-2026.jpg",
@@ -295,6 +302,11 @@
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara prepara un cocktail al bar",
           "caption": "Artigianalità con passione"
+        },
+        {
+          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
+          "alt": "Un’ospite gusta un cocktail al bar",
+          "caption": "Un momento di piacere"
         }
       ]
     }
@@ -304,8 +316,8 @@
     "meta_description": "Pool, breakfast under palm trees and a glimpse of the house's renewal, Enjoy at Hotel Weinberg St. Pauls.",
     "hero_heading": "Breakfast under palm trees, peace by the pool",
     "hero_text": "Three favourite corners of the house: a fragrant breakfast, shade in the garden, a pool to linger by.",
-    "story_eyebrow": "Three stops",
-    "story_lede": "Keep scrolling and join us on a short tour, from the pool, through the garden, to the breakfast table.",
+    "story_eyebrow": "Four stops",
+    "story_lede": "Keep scrolling and join us on a short tour, from the pool, through the garden and the breakfast table, to the bar.",
     "story_scroll_label": "Let's go",
     "impressions_prefix": "Highlights",
     "pool": {
@@ -380,9 +392,10 @@
           "caption": "At the table"
         },
         {
-          "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
-          "alt": "Breakfast room with panoramic views",
-          "caption": "Panoramic views"
+          "image": "../assets/fotos/fruehstueck-panoramablick-2026.jpg",
+          "alt": "Breakfast with coffee and panoramic view, Hotel Weinberg",
+          "caption": "Panoramic view",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
@@ -433,8 +446,8 @@
       "heading": "Cocktail hour at the bar",
       "lede": "Our new bar is the perfect way to end the day.",
       "body": "Mara puts together her own aperitivo and cocktail menu for you – from classics to creative twists, always mixed with a smile.",
-      "background_image": "../assets/fotos/bar-hero-2026.jpg",
-      "background_alt": "Bar at Hotel Weinberg, cocktail being mixed",
+      "background_image": "../assets/fotos/bar-location-2026.jpg",
+      "background_alt": "Bar at Hotel Weinberg",
       "impressions": [
         {
           "image": "../assets/fotos/bar-mojito-2026.jpg",
@@ -445,6 +458,11 @@
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara mixing a cocktail at the bar",
           "caption": "Crafted with care"
+        },
+        {
+          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
+          "alt": "A guest enjoying a cocktail at the bar",
+          "caption": "A moment to enjoy"
         }
       ]
     }
