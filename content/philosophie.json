@@ -23,7 +23,7 @@
           "name": "Felix"
         },
         {
-          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "image": "../assets/fotos/mara-garten-2026.jpg",
           "alt": "Mara, Familie Schrott",
           "name": "Mara"
         },
@@ -44,16 +44,16 @@
       "heading": "Das Haus auf einen Blick",
       "slider": [
         {
-          "image": "../assets/fotos/pool-hero-2026.jpg",
+          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
           "alt": "Entspannen am Pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/zimmer-detail-2026.jpg",
+          "image": "../assets/fotos/zimmer-detail-bett-2026.jpg",
           "alt": "Bett mit frischer Wäsche in einem Doppelzimmer"
         },
         {
-          "image": "../assets/fotos/fruehstueck-2026.jpg",
-          "alt": "Frühstückstisch mit Kaffee, Gebäck und frischen Zutaten"
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Aperitivo an der Bar, Hotel Weinberg"
         }
       ],
       "amenities": [
@@ -106,7 +106,7 @@
           "name": "Felix"
         },
         {
-          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "image": "../assets/fotos/mara-garten-2026.jpg",
           "alt": "Mara, Famiglia Schrott",
           "name": "Mara"
         },
@@ -127,16 +127,16 @@
       "heading": "La casa in breve",
       "slider": [
         {
-          "image": "../assets/fotos/pool-hero-2026.jpg",
+          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
           "alt": "Relax in piscina, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/zimmer-detail-2026.jpg",
+          "image": "../assets/fotos/zimmer-detail-bett-2026.jpg",
           "alt": "Letto con biancheria fresca in una camera doppia"
         },
         {
-          "image": "../assets/fotos/fruehstueck-2026.jpg",
-          "alt": "Tavolo della colazione con caffè, dolci e ingredienti freschi"
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Aperitivo al bar, Hotel Weinberg"
         }
       ],
       "amenities": [
@@ -189,7 +189,7 @@
           "name": "Felix"
         },
         {
-          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "image": "../assets/fotos/mara-garten-2026.jpg",
           "alt": "Mara, Schrott family",
           "name": "Mara"
         },
@@ -210,16 +210,16 @@
       "heading": "The house at a glance",
       "slider": [
         {
-          "image": "../assets/fotos/pool-hero-2026.jpg",
+          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
           "alt": "Relaxing by the pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/zimmer-detail-2026.jpg",
+          "image": "../assets/fotos/zimmer-detail-bett-2026.jpg",
           "alt": "Bed with fresh linen in a double room"
         },
         {
-          "image": "../assets/fotos/fruehstueck-2026.jpg",
-          "alt": "Breakfast table with coffee, pastries and fresh ingredients"
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Aperitivo at the bar, Hotel Weinberg"
         }
       ],
       "amenities": [

@@ -46,14 +46,19 @@
 
 <!-- ============ 1) HEADER-BILD ============ -->
 <section class="section room-detail-top">
-  <div class="room-detail-hero">
-    <img src="../assets/fotos/zimmer-einzel-2026.jpg" alt="Einzelzimmer">
+  <div class="room-detail-hero" id="roomHeroCarousel">
+    <img class="room-detail-hero__img is-active" src="../assets/fotos/zimmer-einzel-2026.jpg" alt="Einzelzimmer" data-slide="0">
+    <img class="room-detail-hero__img" src="../assets/fotos/bad-2026.jpg" alt="Einzelzimmer" data-slide="1">
+    <img class="room-detail-hero__img" src="../assets/fotos/bad-winkel2-2026.jpg" alt="Einzelzimmer" data-slide="2">
+    <img class="room-detail-hero__img" src="../assets/fotos/zimmer-slide-handtuecher-2026.jpg" alt="Einzelzimmer" data-slide="3">
+    <img class="room-detail-hero__img" src="../assets/fotos/zimmer-slide-sessel-2026.jpg" alt="Einzelzimmer" data-slide="4">
     <div class="room-detail-hero__caption">
       <div class="inner">
         <span class="eyebrow" data-cms="room_category_eyebrow">Zimmerkategorie</span>
         <h1 class="reveal">Einzelzimmer</h1>
       </div>
     </div>
+    <button type="button" class="room-detail-hero__next" aria-label="Nächstes Bild"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
   </div>
 </section>
 
@@ -78,11 +83,11 @@
     <span class="eyebrow" data-cms="gallery_eyebrow">Impressionen</span>
   </div>
   <div class="room-gallery" id="roomGallery">
-    <div class="room-gallery__slide"><img src="../assets/fotos/hotel-detail-zimmer.png" alt="Einzelzimmer" draggable="false"></div>
-    <div class="room-gallery__slide"><img src="../assets/fotos/aussicht-tal.jpg" alt="Einzelzimmer" draggable="false"></div>
-    <div class="room-gallery__slide"><img src="../assets/fotos/detail1.jpg" alt="Einzelzimmer" draggable="false"></div>
-    <div class="room-gallery__slide"><img src="../assets/fotos/lobby-heute.jpg" alt="Einzelzimmer" draggable="false"></div>
-    <div class="room-gallery__slide"><img src="../assets/fotos/eingang.jpg" alt="Einzelzimmer" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/drone-gebaeude-2026.jpg" alt="Einzelzimmer" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/fruehstuecksraum-2026.jpg" alt="Einzelzimmer" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-detail-lesen2-2026.jpg" alt="Einzelzimmer" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-detail-bett-2026.jpg" alt="Einzelzimmer" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/garten-weg-2026.jpg" alt="Einzelzimmer" draggable="false"></div>
   </div>
   <div class="room-gallery-dots" id="roomGalleryDots">
     <button class="is-active" data-slide="0" aria-label="Bild 1"></button>
@@ -212,6 +217,21 @@
       window.addEventListener('load', syncBackVisibility);
       syncBackVisibility();
     }
+  })();
+
+  /* ---- Zimmer-Header: dezentes Bild-Karussell (Bad + Details) ---- */
+  (function () {
+    const hero = document.getElementById('roomHeroCarousel');
+    if (!hero) return;
+    const imgs = hero.querySelectorAll('.room-detail-hero__img');
+    const btn = hero.querySelector('.room-detail-hero__next');
+    if (!btn || imgs.length < 2) return;
+    let current = 0;
+    btn.addEventListener('click', function () {
+      imgs[current].classList.remove('is-active');
+      current = (current + 1) % imgs.length;
+      imgs[current].classList.add('is-active');
+    });
   })();
 
   const header = document.getElementById('siteHeader');

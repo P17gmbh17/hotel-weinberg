@@ -230,6 +230,12 @@ collections:
                 name: "gallery"
                 widget: "list"
                 field: { label: "Bild", name: "image", widget: "image" }
+              - label: "Zusätzliche Header-Bilder (Bad, Details) fürs Klick-Karussell"
+                name: "hero_extra"
+                widget: "list"
+                required: false
+                hint: "Erscheinen nach dem Hauptbild oben, durchklickbar per Pfeil unten rechts im Header."
+                field: { label: "Bild", name: "image", widget: "image" }
               - { label: "Ausstattungs-Icons (nicht editierbar)", name: "amenities_html", widget: "hidden" }
 
           - { label: "5 · Eyebrow Zimmerkategorie (über der Überschrift, alle Detailseiten)", name: "room_category_eyebrow", widget: "string", i18n: true }
@@ -239,6 +245,11 @@ collections:
 
           - { label: "8 · Übersichtsseite Slideshow: Eyebrow", name: "slideshow_eyebrow", widget: "string", i18n: true }
           - { label: "9 · Übersichtsseite Slideshow: Überschrift", name: "slideshow_heading", widget: "string", i18n: true }
+          - label: "9b · Übersichtsseite Slideshow: Bilder"
+            name: "slideshow_images"
+            widget: "list"
+            hint: "Frei wählbare Bilder für den großen Slider auf der Zimmer-Übersichtsseite (Details & emotionale Aufnahmen, keine Wiederholung der Zimmerkategorien)."
+            field: { label: "Bild", name: "image", widget: "image" }
 
           - { label: "10 · Übersichtsseite CTA-Banner: Überschrift", name: "cta_heading", widget: "string", i18n: true }
           - { label: "11 · Übersichtsseite CTA-Banner: Text", name: "cta_text", widget: "string", i18n: true }

@@ -577,6 +577,28 @@ body.nav-locked { overflow: hidden; }
 
 .room-detail-hero { position: relative; max-width: 1100px; margin: 0 auto; overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 16 / 9; }
 .room-detail-hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.room-detail-hero__img { position: absolute; inset: 0; z-index: 0; opacity: 0; transition: opacity 0.5s ease; }
+.room-detail-hero__img.is-active { opacity: 1; z-index: 1; }
+.room-detail-hero__next {
+  position: absolute; z-index: 3;
+  right: 20px; bottom: 20px;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(15,22,13,0.45);
+  backdrop-filter: blur(2px);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+.room-detail-hero__next:hover { opacity: 1; background: rgba(15,22,13,0.65); }
+.room-detail-hero__next svg { width: 16px; height: 16px; display: block; }
+.room-detail-hero__next svg path { fill: none; stroke: #fff; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 620px) {
+  .room-detail-hero__next { right: 12px; bottom: 12px; width: 36px; height: 36px; }
+  .room-detail-hero__next svg { width: 14px; height: 14px; }
+}
 .room-detail-hero::after {
   content: "";
   position: absolute; inset: 0;
