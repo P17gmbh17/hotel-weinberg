@@ -149,8 +149,9 @@
         },
         {
           "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
-          "alt": "Mara mixt einen Cocktail, während ein Gast an der Bar wartet",
-          "caption": "Zeit zu zweit"
+          "alt": "Gast genießt einen Cocktail an der Bar",
+          "caption": "Aperitivo-Moment",
+          "position": "right"
         }
       ]
     }
@@ -305,8 +306,9 @@
         },
         {
           "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
-          "alt": "Mara prepara un cocktail mentre un ospite aspetta al bar",
-          "caption": "Un momento di piacere"
+          "alt": "Ospite gusta un cocktail al bar",
+          "caption": "Momento aperitivo",
+          "position": "right"
         }
       ]
     }
@@ -461,8 +463,9 @@
         },
         {
           "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
-          "alt": "Mara mixes a cocktail while a guest waits at the bar",
-          "caption": "A moment to enjoy"
+          "alt": "Guest enjoying a cocktail at the bar",
+          "caption": "Aperitivo moment",
+          "position": "right"
         }
       ]
     }
