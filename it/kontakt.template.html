@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/styles.css?v=1785314872">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 
@@ -232,60 +233,22 @@
     revealEls.forEach(el => revealObserver.observe(el));
   }
 </script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-  const HW_MAP_STYLE = [
-  {"featureType":"all","elementType":"all","stylers":[{"visibility":"on"}]},
-  {"featureType":"all","elementType":"labels","stylers":[{"visibility":"off"},{"saturation":"-100"}]},
-  {"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40},{"visibility":"off"}]},
-  {"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"off"},{"color":"#000000"},{"lightness":16}]},
-  {"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
-  {"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},
-  {"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},
-  {"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},
-  {"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#4d6059"}]},
-  {"featureType":"landscape","elementType":"geometry.stroke","stylers":[{"color":"#4d6059"}]},
-  {"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"color":"#4d6059"}]},
-  {"featureType":"poi","elementType":"geometry","stylers":[{"lightness":21}]},
-  {"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#4d6059"}]},
-  {"featureType":"poi","elementType":"geometry.stroke","stylers":[{"color":"#4d6059"}]},
-  {"featureType":"road","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#7f8d89"}]},
-  {"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"}]},
-  {"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"},{"lightness":17}]},
-  {"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#7f8d89"},{"lightness":29},{"weight":0.2}]},
-  {"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},
-  {"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"}]},
-  {"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#7f8d89"}]},
-  {"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},
-  {"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"#7f8d89"}]},
-  {"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#7f8d89"}]},
-  {"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},
-  {"featureType":"water","elementType":"all","stylers":[{"color":"#2b3638"},{"visibility":"on"}]},
-  {"featureType":"water","elementType":"geometry","stylers":[{"color":"#2b3638"},{"lightness":17}]},
-  {"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#24282b"}]},
-  {"featureType":"water","elementType":"geometry.stroke","stylers":[{"color":"#24282b"}]},
-  {"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},
-  {"featureType":"water","elementType":"labels.text","stylers":[{"visibility":"off"}]},
-  {"featureType":"water","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},
-  {"featureType":"water","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},
-  {"featureType":"water","elementType":"labels.icon","stylers":[{"visibility":"off"}]}
-];
   function initAnreiseMap() {
-    const el = document.getElementById('anreiseMap');
-    if (!el || !window.google) return;
-    const fallback = { lat: 46.4589, lng: 11.2622 };
-    const map = new google.maps.Map(el, {
-      center: fallback, zoom: 14, styles: HW_MAP_STYLE,
-      disableDefaultUI: true, zoomControl: true,
-    });
-    const geocoder = new google.maps.Geocoder();
-    geocoder.geocode({ address: 'Luziafeldweg 3, 39050 St. Pauls, Eppan, Italien' }, function (results, status) {
-      const pos = (status === 'OK' && results[0]) ? results[0].geometry.location : fallback;
-      map.setCenter(pos);
-      new google.maps.Marker({ position: pos, map: map });
-    });
+    var el = document.getElementById('anreiseMap');
+    if (!el || !window.L) return;
+    var pos = [46.4589, 11.2622];
+    var map = L.map(el, { zoomControl: true, scrollWheelZoom: false }).setView(pos, 15);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OpenStreetMap &copy; CARTO',
+      subdomains: 'abcd', maxZoom: 19
+    }).addTo(map);
+    var icon = L.divIcon({ className: 'hw-map-pin', html: '<span></span>', iconSize: [22, 22], iconAnchor: [11, 22] });
+    L.marker(pos, { icon: icon }).addTo(map);
   }
+  document.addEventListener('DOMContentLoaded', initAnreiseMap);
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_MAPS_API_KEY_HIER_EINFUEGEN&callback=initAnreiseMap" async defer></script>
 <script src="../assets/nav-tips.js"></script>
 </body>
 </html>
