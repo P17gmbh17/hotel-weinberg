@@ -1051,6 +1051,11 @@ body.nav-locked { overflow: hidden; }
 .subpage-hero .bg {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2;
 }
+.subpage-hero .bg--mobile { display: none; }
+@media (max-width: 620px) {
+  .subpage-hero .bg--desktop { display: none; }
+  .subpage-hero .bg--mobile { display: block; }
+}
 .subpage-hero .wrap { position: relative; z-index: 1; text-align: center; }
 .subpage-hero h1 { color: var(--white); font-size: clamp(2.2rem, 5vw, 3.4rem); }
 .subpage-hero p { max-width: 560px; margin: 0 auto; color: #eee7d5; font-size: 1.05rem; }
