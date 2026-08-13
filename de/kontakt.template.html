@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/styles.css?v=1785314872">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 
@@ -71,10 +70,32 @@
       <div>
         {{FRAGMENT_DL}}
       </div>
-      <div class="anreise-map">
-        <div id="anreiseMap" style="width:100%; height:100%;"></div>
-        <a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Luziafeldweg+3+39050+St+Pauls+Eppan" target="_blank" rel="noopener">Karte öffnen ↗</a>
-      </div>
+      <a class="anreise-map" href="https://www.google.com/maps/search/?api=1&query=Luziafeldweg+3+39050+St+Pauls+Eppan" target="_blank" rel="noopener" aria-label="Standort auf Google Maps öffnen">
+        <svg class="anreise-map__art" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" focusable="false">
+          <rect width="480" height="420" fill="#233721"/>
+          <g stroke="#6e6a41" stroke-width="1.4" opacity="0.35">
+            <line x1="10" y1="360" x2="120" y2="270"/>
+            <line x1="35" y1="380" x2="145" y2="290"/>
+            <line x1="60" y1="400" x2="170" y2="310"/>
+            <line x1="85" y1="420" x2="195" y2="330"/>
+            <line x1="110" y1="440" x2="220" y2="350"/>
+            <line x1="290" y1="70" x2="380" y2="10"/>
+            <line x1="315" y1="90" x2="405" y2="30"/>
+            <line x1="340" y1="110" x2="430" y2="50"/>
+            <line x1="365" y1="130" x2="455" y2="70"/>
+          </g>
+          <path d="M -10 330 C 90 300, 160 265, 230 232 S 380 155, 500 118" stroke="#898453" stroke-width="3" fill="none" opacity="0.6"/>
+          <path d="M 60 -10 C 100 60, 140 120, 210 168 S 320 262, 300 430" stroke="#898453" stroke-width="2.2" fill="none" opacity="0.42"/>
+          <path d="M 240 208 C 262 258, 302 298, 382 328 S 462 362, 492 402" stroke="#a89a63" stroke-width="2" fill="none" opacity="0.4"/>
+          <circle cx="240" cy="208" r="72" fill="none" stroke="#e9e0c9" stroke-width="1" stroke-dasharray="4 6" opacity="0.28"/>
+          <g transform="translate(240,208)">
+            <path d="M0,-34 C18,-34 32,-20 32,-2 C32,22 0,46 0,46 C0,46 -32,22 -32,-2 C-32,-20 -18,-34 0,-34 Z" fill="#e9e0c9"/>
+            <circle cx="0" cy="-4" r="11" fill="#233721"/>
+          </g>
+          <text x="240" y="288" text-anchor="middle" fill="#e9e0c9" font-family="'Tenor Sans', sans-serif" font-size="13" letter-spacing="2" opacity="0.85">ST. PAULS / EPPAN</text>
+        </svg>
+        <span class="anreise-map__cta">Karte öffnen ↗</span>
+      </a>
     </div>
   </div>
 </section>
@@ -232,22 +253,6 @@
     }, { threshold: 0.2 });
     revealEls.forEach(el => revealObserver.observe(el));
   }
-</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-  function initAnreiseMap() {
-    var el = document.getElementById('anreiseMap');
-    if (!el || !window.L) return;
-    var pos = [46.4589, 11.2622];
-    var map = L.map(el, { zoomControl: true, scrollWheelZoom: false }).setView(pos, 15);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap &copy; CARTO',
-      subdomains: 'abcd', maxZoom: 19
-    }).addTo(map);
-    var icon = L.divIcon({ className: 'hw-map-pin', html: '<span></span>', iconSize: [22, 22], iconAnchor: [11, 22] });
-    L.marker(pos, { icon: icon }).addTo(map);
-  }
-  document.addEventListener('DOMContentLoaded', initAnreiseMap);
 </script>
 <script src="../assets/nav-tips.js"></script>
 </body>
