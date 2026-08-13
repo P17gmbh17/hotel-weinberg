@@ -74,15 +74,15 @@
 <!-- ============ KURZ-WILLKOMMEN ============ -->
 <section class="section" id="willkommen">
   <div class="wrap grid-2">
+    <div class="col-img img-frame">
+      <img src="../assets/fotos/familie/familienfoto.jpg" alt="Familie Schrott, Hotel Weinberg" data-cms="willkommen.image">
+    </div>
     <div class="col-text">
       <span class="eyebrow" data-cms="willkommen.eyebrow">Willkommen</span>
       <h2 class="reveal" data-cms="willkommen.heading">Familie Schrott heißt euch willkommen</h2>
       <p class="lede reveal reveal--d1" data-cms="willkommen.lede">Umgeben von Weinreben liegt das Hotel Weinberg in St. Pauls an der Südtiroler Weinstraße: dort, wo das milde mediterrane Klima Palmen, Wein und Weite zusammenbringt.</p>
       <p data-cms="willkommen.body">Bei uns findet ihr keinen Prunk, dafür ehrliche Gastfreundschaft, ein reichhaltiges Frühstücksbuffet und einen Blick, der bis zu den fernen Gipfeln der Dolomiten reicht. Ein kleines Haus mit großem Garten, persönlich geführt, seit Jahren ein ruhiger Rückzugsort für Rad-, Motorrad- und Wanderfreunde.</p>
       <a href="philosophie.html" class="btn btn--dark" style="margin-top:8px;" data-cms="willkommen.cta_label">Mehr über uns →</a>
-    </div>
-    <div class="col-img img-frame">
-      <img src="../assets/fotos/familie/familienfoto.jpg" alt="Familie Schrott, Hotel Weinberg" data-cms="willkommen.image">
     </div>
   </div>
 </section>
@@ -184,20 +184,37 @@
     <h2 class="reveal" data-cms="neuigkeiten.heading">Neue Rezeption, Lobby &amp; Bar</h2>
     <p class="lede reveal reveal--d1" style="max-width:640px;" data-cms="neuigkeiten.lede">Bei uns tut sich was: unsere neue Lobby ist da.</p>
     <p class="reveal reveal--d1" style="max-width:640px; margin-top:8px;" data-cms="neuigkeiten.body">Rezeption, Lobby und Bar haben ein neues Zuhause bekommen: heller, offener und ganz im mediterranen Stil des Weinbergs. Familie Schrott heißt euch ab sofort in der neuen Bar auf einen Aperitivo oder gleich bei der Ankunft in der neuen Lobby herzlich willkommen.</p>
-    <div class="grid-3" style="margin-top:40px;">
-      <div class="teaser-card" style="height:340px;">
-        <img src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="Neue Rezeption, Hotel Weinberg" data-cms="neuigkeiten.images.0.image">
-        <span class="teaser-card__label" data-cms="neuigkeiten.images.0.label">Rezeption</span>
-      </div>
-      <div class="teaser-card" style="height:340px;">
-        <img src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="Neue Lobby, Hotel Weinberg" data-cms="neuigkeiten.images.1.image">
-        <span class="teaser-card__label" data-cms="neuigkeiten.images.1.label">Lobby</span>
-      </div>
-      <div class="teaser-card" style="height:340px;">
-        <img src="../assets/fotos/bar-location-2026.jpg" alt="Neue Bar, Hotel Weinberg" data-cms="neuigkeiten.images.2.image">
-        <span class="teaser-card__label" data-cms="neuigkeiten.images.2.label">Bar</span>
-      </div>
-    </div>
+    <div class="neuigkeiten-hero" id="neuigkeitenHero" style="margin-top:40px;">
+  <img class="neuigkeiten-hero__slide is-active" src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="Neue Lobby, Hotel Weinberg" data-label="Lobby" data-cms="neuigkeiten.images.0.image">
+  <img class="neuigkeiten-hero__slide" src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="Neue Rezeption, Hotel Weinberg" data-label="Rezeption" data-cms="neuigkeiten.images.1.image">
+  <img class="neuigkeiten-hero__slide" src="../assets/fotos/bar-location-2026.jpg" alt="Neue Bar, Hotel Weinberg" data-label="Bar" data-cms="neuigkeiten.images.2.image">
+  <div class="neuigkeiten-hero__scrim"></div>
+  <div class="neuigkeiten-hero__label" id="neuigkeitenLabel">Lobby</div>
+  <div class="neuigkeiten-hero__nav">
+    <button type="button" class="neuigkeiten-hero__prev" aria-label="Zurück"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+    <button type="button" class="neuigkeiten-hero__next" aria-label="Weiter"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+  </div>
+  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--1"><img src="../assets/fotos/neuigkeiten-detail-holz-2026.jpg" alt=""></div>
+  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--2"><img src="../assets/fotos/neuigkeiten-detail-cocktail-2026.jpg" alt=""></div>
+</div>
+<script>
+(function(){
+  var hero = document.getElementById("neuigkeitenHero");
+  if (!hero) return;
+  var slides = hero.querySelectorAll(".neuigkeiten-hero__slide");
+  var labelEl = document.getElementById("neuigkeitenLabel");
+  var prev = hero.querySelector(".neuigkeiten-hero__prev");
+  var next = hero.querySelector(".neuigkeiten-hero__next");
+  var current = 0;
+  function show(i) {
+    current = (i + slides.length) % slides.length;
+    slides.forEach(function(s, idx){ s.classList.toggle("is-active", idx === current); });
+    if (labelEl) labelEl.textContent = slides[current].dataset.label || "";
+  }
+  if (next) next.addEventListener("click", function(){ show(current + 1); });
+  if (prev) prev.addEventListener("click", function(){ show(current - 1); });
+})();
+</script>
   </div>
 </section>
 

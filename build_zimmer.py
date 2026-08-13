@@ -118,11 +118,11 @@ def build_secondary_images_fragment(room):
     cols = []
     for img in images:
         cols.append(
-            '    <div class="col-img img-frame"><img src="'
+            '    <div class="col-img img-frame img-frame--compact"><img src="'
             + img + '" alt="' + room["title"] + '"></div>'
         )
     return (
-        '<section class="section" style="padding-top:0;">\n'
+        '<section class="section" style="padding:56px 0 0;">\n'
         '  <div class="wrap grid-2">\n'
         + "\n".join(cols) + "\n"
         '  </div>\n'

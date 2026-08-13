@@ -74,15 +74,15 @@
 <!-- ============ KURZ-WILLKOMMEN ============ -->
 <section class="section" id="willkommen">
   <div class="wrap grid-2">
+    <div class="col-img img-frame">
+      <img src="../assets/fotos/familie/familienfoto.jpg" alt="The Schrott family, Hotel Weinberg" data-cms="willkommen.image">
+    </div>
     <div class="col-text">
       <span class="eyebrow" data-cms="willkommen.eyebrow">Welcome</span>
       <h2 class="reveal" data-cms="willkommen.heading">The Schrott family welcomes you</h2>
       <p class="lede reveal reveal--d1" data-cms="willkommen.lede">Surrounded by vineyards, Hotel Weinberg sits in St. Pauls on the South Tyrolean Wine Route: where the mild, Mediterranean climate brings together palm trees, wine and wide open views.</p>
       <p data-cms="willkommen.body">With us you won't find grandeur, but honest hospitality, a generous breakfast buffet and a view that reaches all the way to the distant peaks of the Dolomites. A small house with a big garden, personally run for years, a quiet retreat for cyclists, motorcyclists and hikers alike.</p>
       <a href="philosophie.html" class="btn btn--dark" style="margin-top:8px;" data-cms="willkommen.cta_label">More about us →</a>
-    </div>
-    <div class="col-img img-frame">
-      <img src="../assets/fotos/familie/familienfoto.jpg" alt="The Schrott family, Hotel Weinberg" data-cms="willkommen.image">
     </div>
   </div>
 </section>
@@ -184,20 +184,37 @@
     <h2 class="reveal" data-cms="neuigkeiten.heading">New Reception, Lobby &amp; Bar</h2>
     <p class="lede reveal reveal--d1" style="max-width:640px;" data-cms="neuigkeiten.lede">Something new at Weinberg: our new lobby is here.</p>
     <p class="reveal reveal--d1" style="max-width:640px; margin-top:8px;" data-cms="neuigkeiten.body">Reception, lobby and bar have a new home: brighter, more open, and true to the Weinberg's Mediterranean style. Familie Schrott now welcomes you with an aperitivo at the new bar, or right at check-in in the new lobby.</p>
-    <div class="grid-3" style="margin-top:40px;">
-      <div class="teaser-card" style="height:340px;">
-        <img src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="New reception, Hotel Weinberg" data-cms="neuigkeiten.images.0.image">
-        <span class="teaser-card__label" data-cms="neuigkeiten.images.0.label">Reception</span>
-      </div>
-      <div class="teaser-card" style="height:340px;">
-        <img src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="New lobby, Hotel Weinberg" data-cms="neuigkeiten.images.1.image">
-        <span class="teaser-card__label" data-cms="neuigkeiten.images.1.label">Lobby</span>
-      </div>
-      <div class="teaser-card" style="height:340px;">
-        <img src="../assets/fotos/bar-location-2026.jpg" alt="New bar, Hotel Weinberg" data-cms="neuigkeiten.images.2.image">
-        <span class="teaser-card__label" data-cms="neuigkeiten.images.2.label">Bar</span>
-      </div>
-    </div>
+    <div class="neuigkeiten-hero" id="neuigkeitenHero" style="margin-top:40px;">
+  <img class="neuigkeiten-hero__slide is-active" src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="New lobby, Hotel Weinberg" data-label="Lobby" data-cms="neuigkeiten.images.0.image">
+  <img class="neuigkeiten-hero__slide" src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="New reception, Hotel Weinberg" data-label="Reception" data-cms="neuigkeiten.images.1.image">
+  <img class="neuigkeiten-hero__slide" src="../assets/fotos/bar-location-2026.jpg" alt="New bar, Hotel Weinberg" data-label="Bar" data-cms="neuigkeiten.images.2.image">
+  <div class="neuigkeiten-hero__scrim"></div>
+  <div class="neuigkeiten-hero__label" id="neuigkeitenLabel">Lobby</div>
+  <div class="neuigkeiten-hero__nav">
+    <button type="button" class="neuigkeiten-hero__prev" aria-label="Zurück"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+    <button type="button" class="neuigkeiten-hero__next" aria-label="Weiter"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+  </div>
+  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--1"><img src="../assets/fotos/neuigkeiten-detail-holz-2026.jpg" alt=""></div>
+  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--2"><img src="../assets/fotos/neuigkeiten-detail-cocktail-2026.jpg" alt=""></div>
+</div>
+<script>
+(function(){
+  var hero = document.getElementById("neuigkeitenHero");
+  if (!hero) return;
+  var slides = hero.querySelectorAll(".neuigkeiten-hero__slide");
+  var labelEl = document.getElementById("neuigkeitenLabel");
+  var prev = hero.querySelector(".neuigkeiten-hero__prev");
+  var next = hero.querySelector(".neuigkeiten-hero__next");
+  var current = 0;
+  function show(i) {
+    current = (i + slides.length) % slides.length;
+    slides.forEach(function(s, idx){ s.classList.toggle("is-active", idx === current); });
+    if (labelEl) labelEl.textContent = slides[current].dataset.label || "";
+  }
+  if (next) next.addEventListener("click", function(){ show(current + 1); });
+  if (prev) prev.addEventListener("click", function(){ show(current - 1); });
+})();
+</script>
   </div>
 </section>
 
