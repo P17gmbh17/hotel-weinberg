@@ -123,6 +123,16 @@ def build_lang(lang):
     ]
     kulinarik_grid_fragment = '<div class="kulinarik-teaser-grid">\n' + "\n".join(card_blocks) + '\n    </div>'
 
+    neuigkeiten_imgs = c["neuigkeiten"]["images"]
+    neuigkeiten_blocks = [
+        '      <div class="teaser-card" style="height:340px;">\n'
+        f'        <img src="{img["image"]}" alt="{img["alt"]}" data-cms="neuigkeiten.images.{i}.image">\n'
+        f'        <span class="teaser-card__label" data-cms="neuigkeiten.images.{i}.label">{img["label"]}</span>\n'
+        '      </div>'
+        for i, img in enumerate(neuigkeiten_imgs)
+    ]
+    neuigkeiten_images_fragment = '<div class="grid-3" style="margin-top:40px;">\n' + "\n".join(neuigkeiten_blocks) + '\n    </div>'
+
     with open(BASE + f"{lang}/index.template.html", encoding="utf-8") as f:
         html = f.read()
 
@@ -134,6 +144,7 @@ def build_lang(lang):
         "{{FRAGMENT_AKTIVITAETEN_FILTER_NAV}}": aktivitaeten_filter_fragment,
         "{{FRAGMENT_ACTIVITY_DATA_JS}}": activity_data_js,
         "{{FRAGMENT_KULINARIK_GRID}}": kulinarik_grid_fragment,
+        "{{FRAGMENT_NEUIGKEITEN_IMAGES}}": neuigkeiten_images_fragment,
     }
     for token, value in fragments.items():
         html = html.replace(token, value)
@@ -169,6 +180,10 @@ def build_lang(lang):
         "{{kulinarik.heading}}": c["kulinarik"]["heading"],
         "{{kulinarik.lede}}": c["kulinarik"]["lede"],
         "{{kulinarik.cta_label}}": c["kulinarik"]["cta_label"],
+        "{{neuigkeiten.eyebrow}}": c["neuigkeiten"]["eyebrow"],
+        "{{neuigkeiten.heading}}": c["neuigkeiten"]["heading"],
+        "{{neuigkeiten.lede}}": c["neuigkeiten"]["lede"],
+        "{{neuigkeiten.body}}": c["neuigkeiten"]["body"],
         "{{cta_banner.heading}}": c["cta_banner"]["heading"],
         "{{cta_banner.text}}": c["cta_banner"]["text"],
         "{{footer.intro}}": c["footer"]["intro"],

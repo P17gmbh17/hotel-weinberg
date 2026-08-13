@@ -236,6 +236,12 @@ collections:
                 required: false
                 hint: "Erscheinen nach dem Hauptbild oben, durchklickbar per Pfeil unten rechts im Header."
                 field: { label: "Bild", name: "image", widget: "image" }
+              - label: "Zusatzbilder unter dem Header (Bad, Balkon/Garten/Detail)"
+                name: "secondary_images"
+                widget: "list"
+                required: false
+                hint: "Erscheinen als 2-spaltige Bildreihe direkt unter dem Header-Bereich der Zimmerkategorie."
+                field: { label: "Bild", name: "image", widget: "image" }
               - { label: "Ausstattungs-Icons (nicht editierbar)", name: "amenities_html", widget: "hidden" }
 
           - { label: "5 · Eyebrow Zimmerkategorie (über der Überschrift, alle Detailseiten)", name: "room_category_eyebrow", widget: "string", i18n: true }
@@ -404,6 +410,25 @@ collections:
                   - { label: "Bild", name: "image", widget: "image" }
                   - { label: "Beschriftung", name: "label", widget: "string" }
               - { label: "Button-Text (nicht editierbar)", name: "cta_label", widget: "hidden" }
+
+          - label: "11b · Neuigkeiten"
+            name: "neuigkeiten"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext (kurz)", name: "lede", widget: "string" }
+              - { label: "Fließtext (lang)", name: "body", widget: "text" }
+              - label: "Bilder (3: Rezeption, Lobby, Bar)"
+                name: "images"
+                widget: "list"
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Beschriftung", name: "label", widget: "string" }
 
           - label: "12 · CTA-Banner"
             name: "cta_banner"

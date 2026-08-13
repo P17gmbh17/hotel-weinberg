@@ -111,6 +111,25 @@ def build_hero_gallery_fragment(room):
     return images_html, arrow_html
 
 
+def build_secondary_images_fragment(room):
+    images = room.get("secondary_images") or []
+    if not images:
+        return ""
+    cols = []
+    for img in images:
+        cols.append(
+            '    <div class="col-img img-frame"><img src="'
+            + img + '" alt="' + room["title"] + '"></div>'
+        )
+    return (
+        '<section class="section" style="padding-top:0;">\n'
+        '  <div class="wrap grid-2">\n'
+        + "\n".join(cols) + "\n"
+        '  </div>\n'
+        '</section>'
+    )
+
+
 def build_gallery_fragment(room):
     slides = [f'    <div class="room-gallery__slide"><img src="{img}" alt="{room["title"]}" draggable="false"></div>' for img in room["gallery"]]
     dots = [f'    <button class="{"is-active" if i == 0 else ""}" data-slide="{i}" aria-label="Bild {i+1}"></button>' for i in range(len(room["gallery"]))]
@@ -181,6 +200,7 @@ def build_room_pages(lang):
             "{{FRAGMENT_RELATED_ROOMS}}": build_related_rooms_fragment(c, room["slug"]),
             "{{FRAGMENT_HERO_IMAGES}}": hero_images_html,
             "{{FRAGMENT_HERO_ARROW}}": hero_arrow_html,
+            "{{FRAGMENT_SECONDARY_IMAGES}}": build_secondary_images_fragment(room),
         }
         for token, value in fragments.items():
             html = html.replace(token, value)

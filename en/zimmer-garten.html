@@ -58,6 +58,9 @@
   </div>
 </section>
 
+<!-- ============ 1b) BAD + BALKON/GARTEN/DETAIL ============ -->
+
+
 <!-- ============ 2) KEY FEATURES & BESCHREIBUNG ============ -->
 <section class="section">
   <div class="wrap wrap--narrow" style="text-align:center;">
@@ -315,8 +318,9 @@
   }
 
   /* ---- Wiederverwendbarer endloser Drag-/Wisch-Slider (Maus ziehen oder Finger wischen) ---- */
-  function initInfiniteSlider(containerEl, dotsWrap, slideClass) {
+  function initInfiniteSlider(containerEl, dotsWrap, slideClass, options) {
     if (!containerEl) return;
+    options = options || {};
     const originalSlides = Array.from(containerEl.children).filter(el => el.classList.contains(slideClass));
     const n = originalSlides.length;
     if (!n) return;
@@ -404,10 +408,24 @@
         scrollToSlide(allSlides[idx], true);
       });
     });
+
+    /* ---- Optionales, langsames Autoslide nach links (pausiert bei Hover/Touch/Drag) ---- */
+    if (options.autoplay && looped) {
+      const speed = options.speed || 0.3;
+      let paused = false;
+      containerEl.addEventListener('mouseenter', () => { paused = true; });
+      containerEl.addEventListener('mouseleave', () => { paused = false; });
+      containerEl.addEventListener('touchstart', () => { paused = true; }, { passive: true });
+      containerEl.addEventListener('touchend', () => { paused = false; });
+      (function autoTick() {
+        if (!paused && !isDown) { containerEl.scrollLeft += speed; }
+        requestAnimationFrame(autoTick);
+      })();
+    }
   }
 
-  /* ---- Zimmer-Galerie: endlos im Loop, auf allen Bildschirmgrößen ---- */
-  initInfiniteSlider(document.getElementById('roomGallery'), document.getElementById('roomGalleryDots'), 'room-gallery__slide');
+  /* ---- Zimmer-Galerie: endlos im Loop, auf allen Bildschirmgrößen, langsames Autoslide ---- */
+  initInfiniteSlider(document.getElementById('roomGallery'), document.getElementById('roomGalleryDots'), 'room-gallery__slide', { autoplay: true, speed: 0.3 });
 
   /* ---- Weitere Zimmerkategorien: auf Mobile ebenfalls ein endloser Slider ---- */
   if (window.matchMedia('(max-width: 620px)').matches) {

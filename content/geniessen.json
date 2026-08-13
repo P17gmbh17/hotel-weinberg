@@ -58,9 +58,9 @@
           "caption": "Garten"
         },
         {
-          "image": "../assets/fotos/aperitivo-2026.jpg",
-          "alt": "Aperitivo am Abend",
-          "caption": "Aperitivo"
+          "image": "../assets/fotos/garten-weingenuss-2026.jpg",
+          "alt": "Weinverkostung im Garten des Hotel Weinberg",
+          "caption": "Weingenuss"
         }
       ]
     },
@@ -81,7 +81,7 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-panoramablick-2026.jpg",
-          "alt": "Frühstück mit Kaffee und Panoramablick, Hotel Weinberg",
+          "alt": "Frühstück mit Panoramablick auf die Weinberge, Hotel Weinberg",
           "caption": "Panoramablick",
           "position": "left"
         },
@@ -214,9 +214,9 @@
           "caption": "Giardino"
         },
         {
-          "image": "../assets/fotos/aperitivo-2026.jpg",
-          "alt": "Aperitivo la sera",
-          "caption": "Aperitivo"
+          "image": "../assets/fotos/garten-weingenuss-2026.jpg",
+          "alt": "Degustazione di vino nel giardino dell'Hotel Weinberg",
+          "caption": "Bicchiere di vino"
         }
       ]
     },
@@ -237,7 +237,7 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-panoramablick-2026.jpg",
-          "alt": "Colazione con caffè e vista panoramica, Hotel Weinberg",
+          "alt": "Colazione con vista panoramica sui vigneti, Hotel Weinberg",
           "caption": "Vista panoramica",
           "position": "left"
         },
@@ -370,9 +370,9 @@
           "caption": "Garden"
         },
         {
-          "image": "../assets/fotos/aperitivo-2026.jpg",
-          "alt": "Evening aperitivo",
-          "caption": "Aperitivo"
+          "image": "../assets/fotos/garten-weingenuss-2026.jpg",
+          "alt": "Wine tasting in the garden of Hotel Weinberg",
+          "caption": "Wine Moment"
         }
       ]
     },
@@ -393,7 +393,7 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-panoramablick-2026.jpg",
-          "alt": "Breakfast with coffee and panoramic view, Hotel Weinberg",
+          "alt": "Breakfast with panoramic view over the vineyards, Hotel Weinberg",
           "caption": "Panoramic view",
           "position": "left"
         },

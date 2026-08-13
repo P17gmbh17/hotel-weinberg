@@ -62,6 +62,14 @@
   </div>
 </section>
 
+<!-- ============ 1b) BAD + BALKON/GARTEN/DETAIL ============ -->
+<section class="section" style="padding-top:0;">
+  <div class="wrap grid-2">
+    <div class="col-img img-frame"><img src="../assets/fotos/bad-2026.jpg" alt="Double room with balcony"></div>
+    <div class="col-img img-frame"><img src="../assets/fotos/garten-terrasse-morgen-2026.jpg" alt="Double room with balcony"></div>
+  </div>
+</section>
+
 <!-- ============ 2) KEY FEATURES & BESCHREIBUNG ============ -->
 <section class="section">
   <div class="wrap wrap--narrow" style="text-align:center;">
@@ -88,6 +96,9 @@
     <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-detail-lesen2-2026.jpg" alt="Double room with balcony" draggable="false"></div>
     <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-detail-bett-2026.jpg" alt="Double room with balcony" draggable="false"></div>
     <div class="room-gallery__slide"><img src="../assets/fotos/garten-weg-2026.jpg" alt="Double room with balcony" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/balkon-detail-handtuecher-2026.jpg" alt="Double room with balcony" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/balkon-detail-vase-2026.jpg" alt="Double room with balcony" draggable="false"></div>
+    <div class="room-gallery__slide"><img src="../assets/fotos/balkon-detail-decke-2026.jpg" alt="Double room with balcony" draggable="false"></div>
   </div>
   <div class="room-gallery-dots" id="roomGalleryDots">
     <button class="is-active" data-slide="0" aria-label="Bild 1"></button>
@@ -95,6 +106,9 @@
     <button class="" data-slide="2" aria-label="Bild 3"></button>
     <button class="" data-slide="3" aria-label="Bild 4"></button>
     <button class="" data-slide="4" aria-label="Bild 5"></button>
+    <button class="" data-slide="5" aria-label="Bild 6"></button>
+    <button class="" data-slide="6" aria-label="Bild 7"></button>
+    <button class="" data-slide="7" aria-label="Bild 8"></button>
   </div>
 </section>
 
@@ -319,8 +333,9 @@
   }
 
   /* ---- Wiederverwendbarer endloser Drag-/Wisch-Slider (Maus ziehen oder Finger wischen) ---- */
-  function initInfiniteSlider(containerEl, dotsWrap, slideClass) {
+  function initInfiniteSlider(containerEl, dotsWrap, slideClass, options) {
     if (!containerEl) return;
+    options = options || {};
     const originalSlides = Array.from(containerEl.children).filter(el => el.classList.contains(slideClass));
     const n = originalSlides.length;
     if (!n) return;
@@ -408,10 +423,24 @@
         scrollToSlide(allSlides[idx], true);
       });
     });
+
+    /* ---- Optionales, langsames Autoslide nach links (pausiert bei Hover/Touch/Drag) ---- */
+    if (options.autoplay && looped) {
+      const speed = options.speed || 0.3;
+      let paused = false;
+      containerEl.addEventListener('mouseenter', () => { paused = true; });
+      containerEl.addEventListener('mouseleave', () => { paused = false; });
+      containerEl.addEventListener('touchstart', () => { paused = true; }, { passive: true });
+      containerEl.addEventListener('touchend', () => { paused = false; });
+      (function autoTick() {
+        if (!paused && !isDown) { containerEl.scrollLeft += speed; }
+        requestAnimationFrame(autoTick);
+      })();
+    }
   }
 
-  /* ---- Zimmer-Galerie: endlos im Loop, auf allen Bildschirmgrößen ---- */
-  initInfiniteSlider(document.getElementById('roomGallery'), document.getElementById('roomGalleryDots'), 'room-gallery__slide');
+  /* ---- Zimmer-Galerie: endlos im Loop, auf allen Bildschirmgrößen, langsames Autoslide ---- */
+  initInfiniteSlider(document.getElementById('roomGallery'), document.getElementById('roomGalleryDots'), 'room-gallery__slide', { autoplay: true, speed: 0.3 });
 
   /* ---- Weitere Zimmerkategorien: auf Mobile ebenfalls ein endloser Slider ---- */
   if (window.matchMedia('(max-width: 620px)').matches) {
