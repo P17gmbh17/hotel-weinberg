@@ -121,6 +121,14 @@ def build(lang):
     html = html.replace("{{FRAGMENT_SLIDER}}", build_slider_fragment(au["slider"], lang), 1)
     html = html.replace("{{FRAGMENT_AMENITIES}}", build_amenities_fragment(au["amenities"]), 1)
 
+    pz = c["persoenlichkeit"]
+    html = html.replace("{{persoenlichkeit.eyebrow}}", pz["eyebrow"])
+    html = html.replace("{{persoenlichkeit.heading}}", pz["heading"])
+    html = html.replace("{{persoenlichkeit.lede}}", pz["lede"])
+    html = html.replace("{{persoenlichkeit.body}}", pz["body"])
+    html = html.replace("{{persoenlichkeit.image}}", pz["image"])
+    html = html.replace("{{persoenlichkeit.alt}}", pz["alt"])
+
     gl = c["geniessen_link"]
     html = html.replace("{{geniessen_link.image}}", gl["image"])
     html = html.replace("{{geniessen_link.alt}}", gl["alt"])
