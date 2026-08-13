@@ -226,21 +226,9 @@ collections:
               - { label: "Preis (nur die Zahl, z. B. 63)", name: "price", widget: "string", pattern: ['^[0-9]+$', "Nur Zahlen"] }
               - { label: "Fließtext (Detailseite)", name: "lede", widget: "text" }
               - { label: "Meta-Beschreibung Detailseite (SEO)", name: "detail_meta_description", widget: "text" }
-              - label: "Bildergalerie (Detailseite, 5 Bilder)"
+              - label: "Bildergalerie / Impressionen-Slider (max. 4 Bilder: 2 Winkel vom Zimmer, Bad, Merkmal/Detail)"
                 name: "gallery"
                 widget: "list"
-                field: { label: "Bild", name: "image", widget: "image" }
-              - label: "Zusätzliche Header-Bilder (Bad, Details) fürs Klick-Karussell"
-                name: "hero_extra"
-                widget: "list"
-                required: false
-                hint: "Erscheinen nach dem Hauptbild oben, durchklickbar per Pfeil unten rechts im Header."
-                field: { label: "Bild", name: "image", widget: "image" }
-              - label: "Zusatzbilder unter dem Header (Bad, Balkon/Garten/Detail)"
-                name: "secondary_images"
-                widget: "list"
-                required: false
-                hint: "Erscheinen als 2-spaltige Bildreihe direkt unter dem Header-Bereich der Zimmerkategorie."
                 field: { label: "Bild", name: "image", widget: "image" }
               - { label: "Ausstattungs-Icons (nicht editierbar)", name: "amenities_html", widget: "hidden" }
 

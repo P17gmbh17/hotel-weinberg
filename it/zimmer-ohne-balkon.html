@@ -47,19 +47,15 @@
 <!-- ============ 1) HEADER-BILD ============ -->
 <section class="section room-detail-top">
   <div class="room-detail-hero" id="roomHeroCarousel">
-    <img class="room-detail-hero__img is-active" src="../assets/fotos/zimmer3.jpg" alt="Camera doppia senza balcone" data-slide="0">
+    <img class="room-detail-hero__img is-active" src="../assets/fotos/zimmer3.jpg" alt="Camera doppia senza balcone">
     <div class="room-detail-hero__caption">
       <div class="inner">
         <span class="eyebrow" data-cms="room_category_eyebrow">Categoria camera</span>
         <h1 class="reveal">Camera doppia senza balcone</h1>
       </div>
     </div>
-    
   </div>
 </section>
-
-<!-- ============ 1b) BAD + BALKON/GARTEN/DETAIL ============ -->
-
 
 <!-- ============ 2) KEY FEATURES & BESCHREIBUNG ============ -->
 <section class="section">
@@ -216,21 +212,6 @@
       window.addEventListener('load', syncBackVisibility);
       syncBackVisibility();
     }
-  })();
-
-  /* ---- Zimmer-Header: dezentes Bild-Karussell (Bad + Details) ---- */
-  (function () {
-    const hero = document.getElementById('roomHeroCarousel');
-    if (!hero) return;
-    const imgs = hero.querySelectorAll('.room-detail-hero__img');
-    const btn = hero.querySelector('.room-detail-hero__next');
-    if (!btn || imgs.length < 2) return;
-    let current = 0;
-    btn.addEventListener('click', function () {
-      imgs[current].classList.remove('is-active');
-      current = (current + 1) % imgs.length;
-      imgs[current].classList.add('is-active');
-    });
   })();
 
   const header = document.getElementById('siteHeader');

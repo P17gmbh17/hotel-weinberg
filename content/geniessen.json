@@ -138,14 +138,14 @@
       "background_alt": "Bar im Hotel Weinberg",
       "impressions": [
         {
-          "image": "../assets/fotos/bar-mojito-2026.jpg",
-          "alt": "Cocktail wird an der Bar zubereitet",
-          "caption": "Frisch gemixt"
-        },
-        {
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara mixt einen Cocktail an der Bar",
           "caption": "Handwerk mit Herz"
+        },
+        {
+          "image": "../assets/fotos/bar-mojito-2026.jpg",
+          "alt": "Cocktail wird an der Bar zubereitet",
+          "caption": "Frisch gemixt"
         },
         {
           "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
@@ -294,14 +294,14 @@
       "background_alt": "Bar dell’Hotel Weinberg",
       "impressions": [
         {
-          "image": "../assets/fotos/bar-mojito-2026.jpg",
-          "alt": "Cocktail preparato al bar",
-          "caption": "Appena mixato"
-        },
-        {
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara prepara un cocktail al bar",
           "caption": "Artigianalità con passione"
+        },
+        {
+          "image": "../assets/fotos/bar-mojito-2026.jpg",
+          "alt": "Un cocktail viene preparato al bar",
+          "caption": "Appena mixato"
         },
         {
           "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
@@ -450,14 +450,14 @@
       "background_alt": "Bar at Hotel Weinberg",
       "impressions": [
         {
-          "image": "../assets/fotos/bar-mojito-2026.jpg",
-          "alt": "Cocktail being prepared at the bar",
-          "caption": "Freshly mixed"
-        },
-        {
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara mixing a cocktail at the bar",
           "caption": "Crafted with care"
+        },
+        {
+          "image": "../assets/fotos/bar-mojito-2026.jpg",
+          "alt": "A cocktail being prepared at the bar",
+          "caption": "Freshly mixed"
         },
         {
           "image": "../assets/fotos/bar-model-cocktail-2026.jpg",

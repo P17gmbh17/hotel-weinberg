@@ -659,7 +659,7 @@ body.nav-locked { overflow: hidden; }
 .room-gallery::-webkit-scrollbar { display: none; }
 .room-gallery__slide {
   flex: 0 0 clamp(289px, 27vw, 527px);
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 5 / 4;
   overflow: hidden;
   box-shadow: var(--shadow);
   scroll-snap-align: center;
@@ -812,51 +812,21 @@ body.nav-locked { overflow: hidden; }
   font-size: 1.05rem;
 }
 
-/* ---------- Neuigkeiten: Fullscreen-Bild-Slider ---------- */
-.neuigkeiten-hero {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  max-height: 620px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
+/* ---------- Neuigkeiten: Fullscreen-Kapitel mit vertikalem Endlos-Slider ---------- */
+.neuigkeiten-vslider { position: absolute; inset: 0; overflow: hidden; }
+.neuigkeiten-vslider__track {
+  display: flex; flex-direction: column; width: 100%;
+  animation: neuigkeitenVScroll 42s linear infinite;
 }
-.neuigkeiten-hero__slide {
-  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
-  opacity: 0; z-index: 0; transition: opacity 0.7s ease;
+.neuigkeiten-vslider:hover .neuigkeiten-vslider__track { animation-play-state: paused; }
+.neuigkeiten-vslider__slide { flex: 0 0 100%; height: 100vh; }
+.neuigkeiten-vslider__slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@keyframes neuigkeitenVScroll {
+  from { transform: translateY(0); }
+  to { transform: translateY(-50%); }
 }
-.neuigkeiten-hero__slide.is-active { opacity: 1; z-index: 1; }
-.neuigkeiten-hero__scrim {
-  position: absolute; left: 0; right: 0; bottom: 0; height: 40%; z-index: 2;
-  background: linear-gradient(180deg, rgba(15,22,13,0), rgba(15,22,13,0.55));
-  pointer-events: none;
-}
-.neuigkeiten-hero__label {
-  position: absolute; left: 28px; bottom: 26px; z-index: 3;
-  color: var(--white); font-family: var(--serif); font-size: 1.2rem;
-}
-.neuigkeiten-hero__nav { position: absolute; right: 20px; bottom: 20px; z-index: 4; display: flex; gap: 10px; }
-.neuigkeiten-hero__nav button {
-  width: 42px; height: 42px; border-radius: 50%; border: none;
-  background: rgba(15,22,13,0.45); backdrop-filter: blur(2px);
-  display: flex; align-items: center; justify-content: center; cursor: pointer;
-  opacity: 0.8; transition: opacity 0.2s ease, background 0.2s ease;
-}
-.neuigkeiten-hero__nav button:hover { opacity: 1; background: rgba(15,22,13,0.65); }
-.neuigkeiten-hero__nav svg { width: 17px; height: 17px; display: block; }
-.neuigkeiten-hero__nav svg path { fill: none; stroke: #fff; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
-.neuigkeiten-hero__detail {
-  position: absolute; width: 160px; height: 160px; z-index: 3;
-  border: 5px solid var(--white); box-shadow: var(--shadow); overflow: hidden;
-}
-.neuigkeiten-hero__detail img { width: 100%; height: 100%; object-fit: cover; }
-.neuigkeiten-hero__detail--1 { top: -26px; right: 70px; }
-.neuigkeiten-hero__detail--2 { bottom: -26px; left: 60px; }
-@media (max-width: 720px) {
-  .neuigkeiten-hero { aspect-ratio: 3 / 4; max-height: none; }
-  .neuigkeiten-hero__detail { width: 84px; height: 84px; border-width: 3px; }
-  .neuigkeiten-hero__detail--1 { top: -14px; right: 14px; }
-  .neuigkeiten-hero__detail--2 { bottom: -14px; left: 14px; }
+@media (max-width: 620px) {
+  .neuigkeiten-vslider__slide { height: 100svh; }
 }
 
 /* ---------- Booking / Anfrage ---------- */

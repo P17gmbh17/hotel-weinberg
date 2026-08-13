@@ -124,41 +124,18 @@ def build_lang(lang):
     kulinarik_grid_fragment = '<div class="kulinarik-teaser-grid">\n' + "\n".join(card_blocks) + '\n    </div>'
 
     neuigkeiten_imgs = c["neuigkeiten"]["images"]
-    neuigkeiten_slides = [
-        f'  <img class="neuigkeiten-hero__slide{" is-active" if i == 0 else ""}" src="{img["image"]}" alt="{img["alt"]}" data-label="{img["label"]}" data-cms="neuigkeiten.images.{i}.image">'
+    neuigkeiten_slide_blocks = [
+        f'    <div class="neuigkeiten-vslider__slide"><img src="{img["image"]}" alt="{img["alt"]}" data-cms="neuigkeiten.images.{i}.image"></div>'
         for i, img in enumerate(neuigkeiten_imgs)
     ]
-    neuigkeiten_first_label = neuigkeiten_imgs[0]["label"] if neuigkeiten_imgs else ""
+    # Bilderliste verdoppeln, damit die CSS-Endlosschleife (translateY 0 -> -50%) nahtlos ist.
     neuigkeiten_images_fragment = (
-        '<div class="neuigkeiten-hero" id="neuigkeitenHero" style="margin-top:40px;">\n'
-        + "\n".join(neuigkeiten_slides) + "\n"
-        '  <div class="neuigkeiten-hero__scrim"></div>\n'
-        f'  <div class="neuigkeiten-hero__label" id="neuigkeitenLabel">{neuigkeiten_first_label}</div>\n'
-        '  <div class="neuigkeiten-hero__nav">\n'
-        '    <button type="button" class="neuigkeiten-hero__prev" aria-label="Zurück"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>\n'
-        '    <button type="button" class="neuigkeiten-hero__next" aria-label="Weiter"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>\n'
+        '<div class="neuigkeiten-vslider">\n'
+        '  <div class="neuigkeiten-vslider__track">\n'
+        + "\n".join(neuigkeiten_slide_blocks) + "\n"
+        + "\n".join(neuigkeiten_slide_blocks) + "\n"
         '  </div>\n'
-        '  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--1"><img src="../assets/fotos/neuigkeiten-detail-holz-2026.jpg" alt=""></div>\n'
-        '  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--2"><img src="../assets/fotos/neuigkeiten-detail-cocktail-2026.jpg" alt=""></div>\n'
-        '</div>\n'
-        '<script>\n'
-        '(function(){\n'
-        '  var hero = document.getElementById("neuigkeitenHero");\n'
-        '  if (!hero) return;\n'
-        '  var slides = hero.querySelectorAll(".neuigkeiten-hero__slide");\n'
-        '  var labelEl = document.getElementById("neuigkeitenLabel");\n'
-        '  var prev = hero.querySelector(".neuigkeiten-hero__prev");\n'
-        '  var next = hero.querySelector(".neuigkeiten-hero__next");\n'
-        '  var current = 0;\n'
-        '  function show(i) {\n'
-        '    current = (i + slides.length) % slides.length;\n'
-        '    slides.forEach(function(s, idx){ s.classList.toggle("is-active", idx === current); });\n'
-        '    if (labelEl) labelEl.textContent = slides[current].dataset.label || "";\n'
-        '  }\n'
-        '  if (next) next.addEventListener("click", function(){ show(current + 1); });\n'
-        '  if (prev) prev.addEventListener("click", function(){ show(current - 1); });\n'
-        '})();\n'
-        '</script>'
+        '</div>'
     )
 
     with open(BASE + f"{lang}/index.template.html", encoding="utf-8") as f:

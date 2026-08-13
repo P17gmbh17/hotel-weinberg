@@ -178,43 +178,26 @@
 </section>
 
 <!-- ============ BAUKASTEN · NEUIGKEITEN ============ -->
-<section class="section">
-  <div class="wrap">
-    <span class="eyebrow" data-cms="neuigkeiten.eyebrow">06 · Novità</span>
-    <h2 class="reveal" data-cms="neuigkeiten.heading">Nuova reception, lobby &amp; bar</h2>
-    <p class="lede reveal reveal--d1" style="max-width:640px;" data-cms="neuigkeiten.lede">Da noi qualcosa si muove: la nostra nuova lobby è realtà.</p>
-    <p class="reveal reveal--d1" style="max-width:640px; margin-top:8px;" data-cms="neuigkeiten.body">Reception, lobby e bar hanno una nuova casa: più luminosa, più aperta, in perfetto stile mediterraneo del Weinberg. La famiglia Schrott vi dà il benvenuto da subito con un aperitivo al nuovo bar o già al vostro arrivo nella nuova lobby.</p>
-    <div class="neuigkeiten-hero" id="neuigkeitenHero" style="margin-top:40px;">
-  <img class="neuigkeiten-hero__slide is-active" src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="Nuova lobby, Hotel Weinberg" data-label="Lobby" data-cms="neuigkeiten.images.0.image">
-  <img class="neuigkeiten-hero__slide" src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="Nuova reception, Hotel Weinberg" data-label="Reception" data-cms="neuigkeiten.images.1.image">
-  <img class="neuigkeiten-hero__slide" src="../assets/fotos/bar-location-2026.jpg" alt="Nuovo bar, Hotel Weinberg" data-label="Bar" data-cms="neuigkeiten.images.2.image">
-  <div class="neuigkeiten-hero__scrim"></div>
-  <div class="neuigkeiten-hero__label" id="neuigkeitenLabel">Lobby</div>
-  <div class="neuigkeiten-hero__nav">
-    <button type="button" class="neuigkeiten-hero__prev" aria-label="Zurück"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
-    <button type="button" class="neuigkeiten-hero__next" aria-label="Weiter"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+<section class="story-chapter" style="min-height:100vh;">
+  <div class="story-chapter__bg">
+    <div class="neuigkeiten-vslider">
+  <div class="neuigkeiten-vslider__track">
+    <div class="neuigkeiten-vslider__slide"><img src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="Nuova lobby, Hotel Weinberg" data-cms="neuigkeiten.images.0.image"></div>
+    <div class="neuigkeiten-vslider__slide"><img src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="Nuova reception, Hotel Weinberg" data-cms="neuigkeiten.images.1.image"></div>
+    <div class="neuigkeiten-vslider__slide"><img src="../assets/fotos/bar-location-2026.jpg" alt="Nuovo bar, Hotel Weinberg" data-cms="neuigkeiten.images.2.image"></div>
+    <div class="neuigkeiten-vslider__slide"><img src="../assets/fotos/neuigkeiten-lobby-2026.jpg" alt="Nuova lobby, Hotel Weinberg" data-cms="neuigkeiten.images.0.image"></div>
+    <div class="neuigkeiten-vslider__slide"><img src="../assets/fotos/neuigkeiten-rezeption-2026.jpg" alt="Nuova reception, Hotel Weinberg" data-cms="neuigkeiten.images.1.image"></div>
+    <div class="neuigkeiten-vslider__slide"><img src="../assets/fotos/bar-location-2026.jpg" alt="Nuovo bar, Hotel Weinberg" data-cms="neuigkeiten.images.2.image"></div>
   </div>
-  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--1"><img src="../assets/fotos/neuigkeiten-detail-holz-2026.jpg" alt=""></div>
-  <div class="neuigkeiten-hero__detail neuigkeiten-hero__detail--2"><img src="../assets/fotos/neuigkeiten-detail-cocktail-2026.jpg" alt=""></div>
 </div>
-<script>
-(function(){
-  var hero = document.getElementById("neuigkeitenHero");
-  if (!hero) return;
-  var slides = hero.querySelectorAll(".neuigkeiten-hero__slide");
-  var labelEl = document.getElementById("neuigkeitenLabel");
-  var prev = hero.querySelector(".neuigkeiten-hero__prev");
-  var next = hero.querySelector(".neuigkeiten-hero__next");
-  var current = 0;
-  function show(i) {
-    current = (i + slides.length) % slides.length;
-    slides.forEach(function(s, idx){ s.classList.toggle("is-active", idx === current); });
-    if (labelEl) labelEl.textContent = slides[current].dataset.label || "";
-  }
-  if (next) next.addEventListener("click", function(){ show(current + 1); });
-  if (prev) prev.addEventListener("click", function(){ show(current - 1); });
-})();
-</script>
+  </div>
+  <div class="story-chapter__inner">
+    <div class="story-chapter__content">
+      <span class="eyebrow" data-cms="neuigkeiten.eyebrow">06 · Novità</span>
+      <h2 class="reveal" data-cms="neuigkeiten.heading">Nuova reception, lobby &amp; bar</h2>
+      <p class="reveal reveal--d1" data-cms="neuigkeiten.lede">Da noi qualcosa si muove: la nostra nuova lobby è realtà.</p>
+      <p class="reveal reveal--d1" data-cms="neuigkeiten.body">Reception, lobby e bar hanno una nuova casa: più luminosa, più aperta, in perfetto stile mediterraneo del Weinberg. La famiglia Schrott vi dà il benvenuto da subito con un aperitivo al nuovo bar o già al vostro arrivo nella nuova lobby.</p>
+    </div>
   </div>
 </section>
 

@@ -147,13 +147,17 @@
 </section>
 
 <!-- ============ BAUKASTEN · NEUIGKEITEN ============ -->
-<section class="section">
-  <div class="wrap">
-    <span class="eyebrow" data-cms="neuigkeiten.eyebrow">{{neuigkeiten.eyebrow}}</span>
-    <h2 class="reveal" data-cms="neuigkeiten.heading">{{neuigkeiten.heading}}</h2>
-    <p class="lede reveal reveal--d1" style="max-width:640px;" data-cms="neuigkeiten.lede">{{neuigkeiten.lede}}</p>
-    <p class="reveal reveal--d1" style="max-width:640px; margin-top:8px;" data-cms="neuigkeiten.body">{{neuigkeiten.body}}</p>
+<section class="story-chapter" style="min-height:100vh;">
+  <div class="story-chapter__bg">
     {{FRAGMENT_NEUIGKEITEN_IMAGES}}
+  </div>
+  <div class="story-chapter__inner">
+    <div class="story-chapter__content">
+      <span class="eyebrow" data-cms="neuigkeiten.eyebrow">{{neuigkeiten.eyebrow}}</span>
+      <h2 class="reveal" data-cms="neuigkeiten.heading">{{neuigkeiten.heading}}</h2>
+      <p class="reveal reveal--d1" data-cms="neuigkeiten.lede">{{neuigkeiten.lede}}</p>
+      <p class="reveal reveal--d1" data-cms="neuigkeiten.body">{{neuigkeiten.body}}</p>
+    </div>
   </div>
 </section>
 
