@@ -1456,20 +1456,25 @@ html.skip-curtain .curtain__icon {
 }
 @media (max-width: 780px) {
   .impression-band__grid {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    position: relative;
+    display: block;
     padding: 0;
     margin: 0 24px;
     width: auto;
+    height: min(58vh, 480px);
   }
   .impression-band__item {
-    position: relative;
-    height: auto;
-    aspect-ratio: 4 / 3;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    aspect-ratio: unset;
     flex: none;
+    opacity: 0;
   }
-  .impression-band__item:nth-child(n+3) { display: none; }
+}
+@media (max-width: 780px) and (prefers-reduced-motion: reduce) {
+  .impression-band__item { animation: none !important; opacity: 0; }
+  .impression-band__item:first-child { opacity: 1; }
 }
 
 /* ---------- Impressionen-Band Variante: "Entdecke mehr"-CTA (Aktivitäten) ---------- */

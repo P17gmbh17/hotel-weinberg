@@ -44,7 +44,8 @@ def build_ticklist_fragment(c):
     return '<ul class="tick-list">\n' + items + '\n    </ul>'
 
 
-def build_band_fragment(chapter, tag):
+def build_band_fragment(chapter, tag, slug):
+    n = len(chapter["impressions"])
     items = []
     for im in chapter["impressions"]:
         pos = im.get("position", "").strip()
@@ -55,8 +56,36 @@ def build_band_fragment(chapter, tag):
             f'          <span class="impression-band__caption">{im["caption"]}</span>\n'
             '        </div>'
         )
+
+    # Mobile: statt nur die ersten 2 Bilder statisch zu zeigen, rotiert die Ansicht
+    # per reinem CSS durch ALLE Bilder des Themas (funktioniert auch, wenn das
+    # Bilder-Array später auf mehr als 3 Fotos erweitert wird).
+    slot_s = 4.5
+    fade_s = 0.8
+    total_s = round(n * slot_s, 2)
+    keyframe_name = f"impressionFade{slug.capitalize()}"
+    band_id = f"band{slug.capitalize()}"
+    fade_in_end = round(fade_s / total_s * 100, 2) if total_s else 0
+    slot_end = round(100 / n, 2) if n else 100
+    fade_out_start = round(max(slot_end - fade_in_end, fade_in_end), 2)
+    rules = []
+    for i in range(n):
+        delay = round(-(i * slot_s), 2)
+        rules.append(
+            f'  #{band_id} .impression-band__item:nth-child({i + 1}) {{ animation: {keyframe_name} {total_s}s ease-in-out infinite; animation-delay: {delay}s; }}'
+        )
+    style_block = (
+        '<style>\n'
+        '@media (max-width: 780px) {\n'
+        f'  @keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {fade_out_start}% {{ opacity: 1; }} {slot_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
+        + "\n".join(rules) + "\n"
+        '}\n'
+        '</style>'
+    )
+
     return (
-        '<div class="impression-band">\n'
+        style_block + "\n"
+        f'<div class="impression-band" id="{band_id}">\n'
         '    <div class="impression-band__sticky">\n'
         f'      <span class="impression-band__tag">{tag}</span>\n'
         '      <div class="impression-band__grid">\n'
@@ -87,10 +116,10 @@ def build(lang):
     fragments = {
         "{{FRAGMENT_RAIL}}": build_rail_fragment(c),
         "{{FRAGMENT_POOL_TICKLIST}}": build_ticklist_fragment(c),
-        "{{FRAGMENT_BAND_POOL}}": build_band_fragment(c["pool"], f'{c["impressions_prefix"]} · {c["pool"]["eyebrow"]}'),
-        "{{FRAGMENT_BAND_GARTEN}}": build_band_fragment(c["garten"], f'{c["impressions_prefix"]} · {c["garten"]["eyebrow"]}'),
-        "{{FRAGMENT_BAND_FRUEHSTUECK}}": build_band_fragment(c["fruehstueck"], f'{c["impressions_prefix"]} · {c["fruehstueck"]["eyebrow"]}'),
-        "{{FRAGMENT_BAND_BAR}}": build_band_fragment(c["bar"], f'{c["impressions_prefix"]} · {c["bar"]["eyebrow"]}'),
+        "{{FRAGMENT_BAND_POOL}}": build_band_fragment(c["pool"], f'{c["impressions_prefix"]} · {c["pool"]["eyebrow"]}', "pool"),
+        "{{FRAGMENT_BAND_GARTEN}}": build_band_fragment(c["garten"], f'{c["impressions_prefix"]} · {c["garten"]["eyebrow"]}', "garten"),
+        "{{FRAGMENT_BAND_FRUEHSTUECK}}": build_band_fragment(c["fruehstueck"], f'{c["impressions_prefix"]} · {c["fruehstueck"]["eyebrow"]}', "fruehstueck"),
+        "{{FRAGMENT_BAND_BAR}}": build_band_fragment(c["bar"], f'{c["impressions_prefix"]} · {c["bar"]["eyebrow"]}', "bar"),
         "{{FRAGMENT_KULINARIK_GRID}}": build_kulinarik_grid_fragment(c),
     }
     for token, value in fragments.items():
