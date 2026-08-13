@@ -17,16 +17,20 @@ with open(BASE + "content/geniessen.json", encoding="utf-8") as f:
     ALL = json.load(f)
 
 
+RAIL_KEYS = ["pool", "garten", "fruehstueck", "bar"]
+
+
 def build_rail_fragment(c):
     items = []
-    for i, key in enumerate(["pool", "garten", "fruehstueck"], start=1):
+    total = len(RAIL_KEYS)
+    for i, key in enumerate(RAIL_KEYS, start=1):
         items.append(
             '  <div class="story-rail__item">\n'
             '    <span class="story-rail__dot"></span>\n'
             f'    <span class="story-rail__label">0{i} · {c[key]["eyebrow"]}</span>\n'
             '  </div>'
         )
-        if i < 3:
+        if i < total:
             items.append('  <span class="story-rail__line"></span>')
     return (
         '<nav class="story-rail" id="storyRail" aria-hidden="true">\n'
@@ -43,9 +47,11 @@ def build_ticklist_fragment(c):
 def build_band_fragment(chapter, tag):
     items = []
     for im in chapter["impressions"]:
+        pos = im.get("position", "").strip()
+        style_attr = f' style="object-position:{pos};"' if pos else ""
         items.append(
             '      <div class="impression-band__item">\n'
-            f'          <img src="{im["image"]}" alt="{im["alt"]}">\n'
+            f'          <img src="{im["image"]}" alt="{im["alt"]}"{style_attr}>\n'
             f'          <span class="impression-band__caption">{im["caption"]}</span>\n'
             '        </div>'
         )
@@ -84,6 +90,7 @@ def build(lang):
         "{{FRAGMENT_BAND_POOL}}": build_band_fragment(c["pool"], f'{c["impressions_prefix"]} · {c["pool"]["eyebrow"]}'),
         "{{FRAGMENT_BAND_GARTEN}}": build_band_fragment(c["garten"], f'{c["impressions_prefix"]} · {c["garten"]["eyebrow"]}'),
         "{{FRAGMENT_BAND_FRUEHSTUECK}}": build_band_fragment(c["fruehstueck"], f'{c["impressions_prefix"]} · {c["fruehstueck"]["eyebrow"]}'),
+        "{{FRAGMENT_BAND_BAR}}": build_band_fragment(c["bar"], f'{c["impressions_prefix"]} · {c["bar"]["eyebrow"]}'),
         "{{FRAGMENT_KULINARIK_GRID}}": build_kulinarik_grid_fragment(c),
     }
     for token, value in fragments.items():
@@ -117,6 +124,12 @@ def build(lang):
         "fruehstueck.body_desktop": c["fruehstueck"]["body_desktop"],
         "fruehstueck.body_mobile": c["fruehstueck"]["body_mobile"],
         "fruehstueck.cta_label": c["fruehstueck"]["cta_label"],
+        "bar.background_image": c["bar"]["background_image"],
+        "bar.background_alt": c["bar"]["background_alt"],
+        "bar.eyebrow": c["bar"]["eyebrow"],
+        "bar.heading": c["bar"]["heading"],
+        "bar.lede": c["bar"]["lede"],
+        "bar.body": c["bar"]["body"],
         "zimmer_link.image": c["zimmer_link"]["image"],
         "zimmer_link.alt": c["zimmer_link"]["alt"],
         "zimmer_link.eyebrow": c["zimmer_link"]["eyebrow"],

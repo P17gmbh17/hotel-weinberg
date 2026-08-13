@@ -301,6 +301,7 @@ collections:
                   - { label: "Bild", name: "image", widget: "image" }
                   - { label: "Alt-Text", name: "alt", widget: "string" }
                   - { label: "Beschriftung", name: "caption", widget: "string" }
+                  - { label: "Bildausschnitt (leer = Mitte, sonst z. B. 'left' oder 'right')", name: "position", widget: "string", required: false }
 
           - label: "8 · Station 2 · Garten"
             name: "garten"
@@ -323,6 +324,7 @@ collections:
                   - { label: "Bild", name: "image", widget: "image" }
                   - { label: "Alt-Text", name: "alt", widget: "string" }
                   - { label: "Beschriftung", name: "caption", widget: "string" }
+                  - { label: "Bildausschnitt (leer = Mitte, sonst z. B. 'left' oder 'right')", name: "position", widget: "string", required: false }
 
           - label: "9 · Station 3 · Frühstück"
             name: "fruehstueck"
@@ -347,6 +349,30 @@ collections:
                   - { label: "Bild", name: "image", widget: "image" }
                   - { label: "Alt-Text", name: "alt", widget: "string" }
                   - { label: "Beschriftung", name: "caption", widget: "string" }
+                  - { label: "Bildausschnitt (leer = Mitte, sonst z. B. 'left' oder 'right')", name: "position", widget: "string", required: false }
+
+          - label: "9b · Station 4 · Bar"
+            name: "bar"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: "Hintergrundbild", name: "background_image", widget: "image", i18n: duplicate }
+              - { label: "Bild-Alt-Text", name: "background_alt", widget: "string" }
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Fließtext (fett)", name: "lede", widget: "text" }
+              - { label: "Fließtext (zusätzlich)", name: "body", widget: "text" }
+              - label: "Impressionen-Bilder"
+                name: "impressions"
+                widget: "list"
+                summary: "{{fields.caption}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Beschriftung", name: "caption", widget: "string" }
+                  - { label: "Bildausschnitt (leer = Mitte, sonst z. B. 'left' oder 'right')", name: "position", widget: "string", required: false }
 
           - label: "10 · Zimmer-Verlinkung"
             name: "zimmer_link"

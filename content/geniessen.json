@@ -24,7 +24,8 @@
         {
           "image": "../assets/fotos/pool-entspannen-2026.jpg",
           "alt": "Entspannen am Pool, Hotel Weinberg",
-          "caption": "Entspannen"
+          "caption": "Entspannen",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/pool-liegewiese-2026.jpg",
@@ -43,8 +44,8 @@
       "heading": "Grün, ruhig, mediterran",
       "lede": "Palmen, Reben und schattige Sitzecken, unser Garten ist der ruhige Mittelpunkt des Hauses.",
       "body": "Ob mit einem Glas Südtiroler Wein am Abend oder morgens mit Kaffee: Im Garten lässt sich der Tag von beiden Seiten genießen.",
-      "background_image": "../assets/fotos/gartenlounge-2026.jpg",
-      "background_alt": "Gartenlounge des Hotel Weinberg unter Palmen",
+      "background_image": "../assets/fotos/garten-terrasse-morgen-2026.jpg",
+      "background_alt": "Terrasse des Hotel Weinberg in der Morgensonne",
       "impressions": [
         {
           "image": "../assets/fotos/garten-palme-2026.jpg",
@@ -82,6 +83,11 @@
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
           "alt": "Frühstücksraum mit Panoramablick",
           "caption": "Panoramablick"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
+          "alt": "Müsli mit frischen Beeren, Detail",
+          "caption": "Müsli-Detail"
         }
       ]
     },
@@ -121,6 +127,26 @@
       "heading": "Lust auf ein paar ruhige Tage?",
       "text": "Schreibt uns eure Wunschtermine. Wir melden uns persönlich zurück.",
       "cta_label": "Jetzt anfragen"
+    },
+    "bar": {
+      "eyebrow": "Bar",
+      "heading": "Cocktailstunde an der Bar",
+      "lede": "Unsere neue Bar ist der perfekte Ausklang des Tages.",
+      "body": "Mara stellt für euch eine eigene Aperitivo- und Cocktailkarte zusammen – von klassisch bis kreativ, immer mit einem Lächeln gemixt.",
+      "background_image": "../assets/fotos/bar-hero-2026.jpg",
+      "background_alt": "Bar im Hotel Weinberg, Cocktail wird gemixt",
+      "impressions": [
+        {
+          "image": "../assets/fotos/bar-mojito-2026.jpg",
+          "alt": "Cocktail wird an der Bar zubereitet",
+          "caption": "Frisch gemixt"
+        },
+        {
+          "image": "../assets/fotos/bar-shake-2026.jpg",
+          "alt": "Mara mixt einen Cocktail an der Bar",
+          "caption": "Handwerk mit Herz"
+        }
+      ]
     }
   },
   "it": {
@@ -148,7 +174,8 @@
         {
           "image": "../assets/fotos/pool-entspannen-2026.jpg",
           "alt": "Relax in piscina, Hotel Weinberg",
-          "caption": "Relax"
+          "caption": "Relax",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/pool-liegewiese-2026.jpg",
@@ -167,8 +194,8 @@
       "heading": "Verde, tranquillo, mediterraneo",
       "lede": "Palme, viti e angoli ombreggiati, il nostro giardino è il cuore tranquillo della casa.",
       "body": "Che sia con un bicchiere di vino altoatesino la sera o con un caffè al mattino: in giardino la giornata si può godere da entrambi i lati.",
-      "background_image": "../assets/fotos/gartenlounge-2026.jpg",
-      "background_alt": "Lounge del giardino dell'Hotel Weinberg sotto le palme",
+      "background_image": "../assets/fotos/garten-terrasse-morgen-2026.jpg",
+      "background_alt": "Terrazza dell’Hotel Weinberg al sole del mattino",
       "impressions": [
         {
           "image": "../assets/fotos/garten-palme-2026.jpg",
@@ -206,6 +233,11 @@
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
           "alt": "Sala colazione con vista panoramica",
           "caption": "Vista panoramica"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
+          "alt": "Muesli con frutti di bosco freschi, dettaglio",
+          "caption": "Dettaglio muesli"
         }
       ]
     },
@@ -245,6 +277,26 @@
       "heading": "Voglia di qualche giorno di relax?",
       "text": "Scriveteci le vostre date desiderate. Vi risponderemo personalmente.",
       "cta_label": "Richiedi ora"
+    },
+    "bar": {
+      "eyebrow": "Bar",
+      "heading": "L'ora del cocktail al bar",
+      "lede": "Il nostro nuovo bar è il modo perfetto per chiudere la giornata.",
+      "body": "Mara prepara per voi una propria carta di aperitivi e cocktail – dai classici alle creazioni originali, sempre miscelati con un sorriso.",
+      "background_image": "../assets/fotos/bar-hero-2026.jpg",
+      "background_alt": "Bar dell’Hotel Weinberg, cocktail in preparazione",
+      "impressions": [
+        {
+          "image": "../assets/fotos/bar-mojito-2026.jpg",
+          "alt": "Cocktail preparato al bar",
+          "caption": "Appena mixato"
+        },
+        {
+          "image": "../assets/fotos/bar-shake-2026.jpg",
+          "alt": "Mara prepara un cocktail al bar",
+          "caption": "Artigianalità con passione"
+        }
+      ]
     }
   },
   "en": {
@@ -272,7 +324,8 @@
         {
           "image": "../assets/fotos/pool-entspannen-2026.jpg",
           "alt": "Relaxing by the pool, Hotel Weinberg",
-          "caption": "Relaxing"
+          "caption": "Relaxing",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/pool-liegewiese-2026.jpg",
@@ -291,8 +344,8 @@
       "heading": "Green, calm, Mediterranean",
       "lede": "Palm trees, vines and shady corners, our garden is the quiet heart of the house.",
       "body": "Whether with a glass of South Tyrolean wine in the evening or coffee in the morning: in the garden, the day can be enjoyed from both ends.",
-      "background_image": "../assets/fotos/gartenlounge-2026.jpg",
-      "background_alt": "Garden lounge at Hotel Weinberg beneath the palm trees",
+      "background_image": "../assets/fotos/garten-terrasse-morgen-2026.jpg",
+      "background_alt": "Terrace of Hotel Weinberg in the morning sun",
       "impressions": [
         {
           "image": "../assets/fotos/garten-palme-2026.jpg",
@@ -330,6 +383,11 @@
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
           "alt": "Breakfast room with panoramic views",
           "caption": "Panoramic views"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
+          "alt": "Muesli with fresh berries, detail",
+          "caption": "Muesli detail"
         }
       ]
     },
@@ -369,6 +427,26 @@
       "heading": "Feel like a few quiet days?",
       "text": "Send us your preferred dates. We'll get back to you personally.",
       "cta_label": "Enquire now"
+    },
+    "bar": {
+      "eyebrow": "Bar",
+      "heading": "Cocktail hour at the bar",
+      "lede": "Our new bar is the perfect way to end the day.",
+      "body": "Mara puts together her own aperitivo and cocktail menu for you – from classics to creative twists, always mixed with a smile.",
+      "background_image": "../assets/fotos/bar-hero-2026.jpg",
+      "background_alt": "Bar at Hotel Weinberg, cocktail being mixed",
+      "impressions": [
+        {
+          "image": "../assets/fotos/bar-mojito-2026.jpg",
+          "alt": "Cocktail being prepared at the bar",
+          "caption": "Freshly mixed"
+        },
+        {
+          "image": "../assets/fotos/bar-shake-2026.jpg",
+          "alt": "Mara mixing a cocktail at the bar",
+          "caption": "Crafted with care"
+        }
+      ]
     }
   }
 }
