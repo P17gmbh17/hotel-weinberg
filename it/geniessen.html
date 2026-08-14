@@ -118,17 +118,7 @@
   </div>
 
   <!-- Impressionen · Pool -->
-  <style>
-@media (max-width: 780px) {
-  @keyframes impressionFadePool { 0% { opacity: 0; } 3.56% { opacity: 1; } 16.44% { opacity: 1; } 20.0% { opacity: 0; } 100% { opacity: 0; } }
-  #bandPool .impression-band__item:nth-child(1) { animation: impressionFadePool 22.5s ease-in-out infinite; animation-delay: -0.0s; }
-  #bandPool .impression-band__item:nth-child(2) { animation: impressionFadePool 22.5s ease-in-out infinite; animation-delay: -4.5s; }
-  #bandPool .impression-band__item:nth-child(3) { animation: impressionFadePool 22.5s ease-in-out infinite; animation-delay: -9.0s; }
-  #bandPool .impression-band__item:nth-child(4) { animation: impressionFadePool 22.5s ease-in-out infinite; animation-delay: -13.5s; }
-  #bandPool .impression-band__item:nth-child(5) { animation: impressionFadePool 22.5s ease-in-out infinite; animation-delay: -18.0s; }
-}
-</style>
-<div class="impression-band" id="bandPool">
+  <div class="impression-band" id="bandPool">
     <div class="impression-band__sticky">
       <span class="impression-band__tag">Impressioni · Piscina</span>
       <div class="impression-band__grid">
@@ -152,7 +142,47 @@
           <img src="../assets/fotos/pool-relax-oben-2026.jpg" alt="Bagno di sole a bordo piscina, Hotel Weinberg">
           <span class="impression-band__caption">Bagno di sole</span>
         </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/aperitivo-drink-2026.jpg" alt="Cocktail tenuto in mano in piscina, Hotel Weinberg">
+          <span class="impression-band__caption">Cocktail in piscina</span>
+        </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/pool-wasser-detail-2026.jpg" alt="Riflesso del sole sulla superficie della piscina">
+          <span class="impression-band__caption">Gioco d'acqua</span>
+        </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/aperitivo-2026.jpg" alt="Bicchiere di aperitivo alla sera, Hotel Weinberg">
+          <span class="impression-band__caption">L'ora blu</span>
+        </div>
       </div>
+<style>
+@media (max-width: 780px) {
+  @keyframes impressionMobileFadePool1 { 0% { opacity: 0; } 4.44% { opacity: 1; } 20.56% { opacity: 1; } 25.0% { opacity: 0; } 100% { opacity: 0; } }
+  #bandPool .impression-band__slot:nth-of-type(1) img:nth-child(1) { animation: impressionMobileFadePool1 18.0s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandPool .impression-band__slot:nth-of-type(1) img:nth-child(2) { animation: impressionMobileFadePool1 18.0s ease-in-out infinite; animation-delay: -4.5s; }
+  #bandPool .impression-band__slot:nth-of-type(1) img:nth-child(3) { animation: impressionMobileFadePool1 18.0s ease-in-out infinite; animation-delay: -9.0s; }
+  #bandPool .impression-band__slot:nth-of-type(1) img:nth-child(4) { animation: impressionMobileFadePool1 18.0s ease-in-out infinite; animation-delay: -13.5s; }
+  @keyframes impressionMobileFadePool2 { 0% { opacity: 0; } 4.44% { opacity: 1; } 20.56% { opacity: 1; } 25.0% { opacity: 0; } 100% { opacity: 0; } }
+  #bandPool .impression-band__slot:nth-of-type(2) img:nth-child(1) { animation: impressionMobileFadePool2 18.0s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandPool .impression-band__slot:nth-of-type(2) img:nth-child(2) { animation: impressionMobileFadePool2 18.0s ease-in-out infinite; animation-delay: -4.5s; }
+  #bandPool .impression-band__slot:nth-of-type(2) img:nth-child(3) { animation: impressionMobileFadePool2 18.0s ease-in-out infinite; animation-delay: -9.0s; }
+  #bandPool .impression-band__slot:nth-of-type(2) img:nth-child(4) { animation: impressionMobileFadePool2 18.0s ease-in-out infinite; animation-delay: -13.5s; }
+}
+</style>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/pool-entspannen-2026.jpg" alt="Relax in piscina, Hotel Weinberg">
+        <img src="../assets/fotos/pool-oben-2026.jpg" alt="Vista dall'alto su piscina e vigneti">
+        <img src="../assets/fotos/pool-relax-oben-2026.jpg" alt="Bagno di sole a bordo piscina, Hotel Weinberg">
+        <img src="../assets/fotos/pool-wasser-detail-2026.jpg" alt="Riflesso del sole sulla superficie della piscina">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/pool-liegewiese-2026.jpg" alt="Zona piscina con prato solarium e vista sui vigneti">
+        <img src="../assets/fotos/pool-aperol-2026.jpg" alt="Aperitivo in piscina al tramonto, Hotel Weinberg">
+        <img src="../assets/fotos/aperitivo-drink-2026.jpg" alt="Cocktail tenuto in mano in piscina, Hotel Weinberg">
+        <img src="../assets/fotos/aperitivo-2026.jpg" alt="Bicchiere di aperitivo alla sera, Hotel Weinberg">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -174,15 +204,7 @@
   </div>
 
   <!-- Impressionen · Garten -->
-  <style>
-@media (max-width: 780px) {
-  @keyframes impressionFadeGarten { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
-  #bandGarten .impression-band__item:nth-child(1) { animation: impressionFadeGarten 13.5s ease-in-out infinite; animation-delay: -0.0s; }
-  #bandGarten .impression-band__item:nth-child(2) { animation: impressionFadeGarten 13.5s ease-in-out infinite; animation-delay: -4.5s; }
-  #bandGarten .impression-band__item:nth-child(3) { animation: impressionFadeGarten 13.5s ease-in-out infinite; animation-delay: -9.0s; }
-}
-</style>
-<div class="impression-band" id="bandGarten">
+  <div class="impression-band" id="bandGarten">
     <div class="impression-band__sticky">
       <span class="impression-band__tag">Impressioni · Giardino</span>
       <div class="impression-band__grid">
@@ -198,7 +220,37 @@
           <img src="../assets/fotos/garten-weingenuss-2026.jpg" alt="Degustazione di vino nel giardino dell'Hotel Weinberg">
           <span class="impression-band__caption">Bicchiere di vino</span>
         </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/gartenlounge-2026.jpg" alt="Zona lounge nel giardino dell'Hotel Weinberg con palme">
+          <span class="impression-band__caption">Lounge nel verde</span>
+        </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/mara-garten-2026.jpg" alt="Sorriso cordiale nel giardino dell'Hotel Weinberg">
+          <span class="impression-band__caption">Un caloroso benvenuto</span>
+        </div>
       </div>
+<style>
+@media (max-width: 780px) {
+  @keyframes impressionMobileFadeGarten1 { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
+  #bandGarten .impression-band__slot:nth-of-type(1) img:nth-child(1) { animation: impressionMobileFadeGarten1 13.5s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandGarten .impression-band__slot:nth-of-type(1) img:nth-child(2) { animation: impressionMobileFadeGarten1 13.5s ease-in-out infinite; animation-delay: -4.5s; }
+  #bandGarten .impression-band__slot:nth-of-type(1) img:nth-child(3) { animation: impressionMobileFadeGarten1 13.5s ease-in-out infinite; animation-delay: -9.0s; }
+  @keyframes impressionMobileFadeGarten2 { 0% { opacity: 0; } 8.89% { opacity: 1; } 41.11% { opacity: 1; } 50.0% { opacity: 0; } 100% { opacity: 0; } }
+  #bandGarten .impression-band__slot:nth-of-type(2) img:nth-child(1) { animation: impressionMobileFadeGarten2 9.0s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandGarten .impression-band__slot:nth-of-type(2) img:nth-child(2) { animation: impressionMobileFadeGarten2 9.0s ease-in-out infinite; animation-delay: -4.5s; }
+}
+</style>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/garten-palme-2026.jpg" alt="Foglia di palma nel giardino dell'Hotel Weinberg">
+        <img src="../assets/fotos/garten-weingenuss-2026.jpg" alt="Degustazione di vino nel giardino dell'Hotel Weinberg">
+        <img src="../assets/fotos/mara-garten-2026.jpg" alt="Sorriso cordiale nel giardino dell'Hotel Weinberg">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/garten-weg-2026.jpg" alt="Giardino dell'Hotel Weinberg">
+        <img src="../assets/fotos/gartenlounge-2026.jpg" alt="Zona lounge nel giardino dell'Hotel Weinberg con palme">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -222,15 +274,7 @@
   </div>
 
   <!-- Impressionen · Frühstück -->
-  <style>
-@media (max-width: 780px) {
-  @keyframes impressionFadeFruehstueck { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
-  #bandFruehstueck .impression-band__item:nth-child(1) { animation: impressionFadeFruehstueck 13.5s ease-in-out infinite; animation-delay: -0.0s; }
-  #bandFruehstueck .impression-band__item:nth-child(2) { animation: impressionFadeFruehstueck 13.5s ease-in-out infinite; animation-delay: -4.5s; }
-  #bandFruehstueck .impression-band__item:nth-child(3) { animation: impressionFadeFruehstueck 13.5s ease-in-out infinite; animation-delay: -9.0s; }
-}
-</style>
-<div class="impression-band" id="bandFruehstueck">
+  <div class="impression-band" id="bandFruehstueck">
     <div class="impression-band__sticky">
       <span class="impression-band__tag">Impressioni · Colazione</span>
       <div class="impression-band__grid">
@@ -246,7 +290,37 @@
           <img src="../assets/fotos/fruehstueck-muesli-2026.jpg" alt="Muesli con frutti di bosco freschi, dettaglio">
           <span class="impression-band__caption">Dettaglio muesli</span>
         </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/fruehstueck-2026.jpg" alt="Selezione di pasticceria fresca a colazione, Hotel Weinberg">
+          <span class="impression-band__caption">Selezione di dolci</span>
+        </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/fruehstueck-blick-2026.jpg" alt="Caffè con vista sui vigneti, Hotel Weinberg">
+          <span class="impression-band__caption">Caffè con vista</span>
+        </div>
       </div>
+<style>
+@media (max-width: 780px) {
+  @keyframes impressionMobileFadeFruehstueck1 { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
+  #bandFruehstueck .impression-band__slot:nth-of-type(1) img:nth-child(1) { animation: impressionMobileFadeFruehstueck1 13.5s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandFruehstueck .impression-band__slot:nth-of-type(1) img:nth-child(2) { animation: impressionMobileFadeFruehstueck1 13.5s ease-in-out infinite; animation-delay: -4.5s; }
+  #bandFruehstueck .impression-band__slot:nth-of-type(1) img:nth-child(3) { animation: impressionMobileFadeFruehstueck1 13.5s ease-in-out infinite; animation-delay: -9.0s; }
+  @keyframes impressionMobileFadeFruehstueck2 { 0% { opacity: 0; } 8.89% { opacity: 1; } 41.11% { opacity: 1; } 50.0% { opacity: 0; } 100% { opacity: 0; } }
+  #bandFruehstueck .impression-band__slot:nth-of-type(2) img:nth-child(1) { animation: impressionMobileFadeFruehstueck2 9.0s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandFruehstueck .impression-band__slot:nth-of-type(2) img:nth-child(2) { animation: impressionMobileFadeFruehstueck2 9.0s ease-in-out infinite; animation-delay: -4.5s; }
+}
+</style>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/fruehstueck-tisch-2026.jpg" alt="Tavolo della colazione con caffè e dolci">
+        <img src="../assets/fotos/fruehstueck-muesli-2026.jpg" alt="Muesli con frutti di bosco freschi, dettaglio">
+        <img src="../assets/fotos/fruehstueck-blick-2026.jpg" alt="Caffè con vista sui vigneti, Hotel Weinberg">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/fruehstueck-panoramablick-2026.jpg" alt="Colazione con vista panoramica sui vigneti, Hotel Weinberg">
+        <img src="../assets/fotos/fruehstueck-2026.jpg" alt="Selezione di pasticceria fresca a colazione, Hotel Weinberg">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -268,15 +342,7 @@
   </div>
 
   <!-- Impressionen · Bar -->
-  <style>
-@media (max-width: 780px) {
-  @keyframes impressionFadeBar { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
-  #bandBar .impression-band__item:nth-child(1) { animation: impressionFadeBar 13.5s ease-in-out infinite; animation-delay: -0.0s; }
-  #bandBar .impression-band__item:nth-child(2) { animation: impressionFadeBar 13.5s ease-in-out infinite; animation-delay: -4.5s; }
-  #bandBar .impression-band__item:nth-child(3) { animation: impressionFadeBar 13.5s ease-in-out infinite; animation-delay: -9.0s; }
-}
-</style>
-<div class="impression-band" id="bandBar">
+  <div class="impression-band" id="bandBar">
     <div class="impression-band__sticky">
       <span class="impression-band__tag">Impressioni · Bar</span>
       <div class="impression-band__grid">
@@ -292,7 +358,43 @@
           <img src="../assets/fotos/bar-model-cocktail-2026.jpg" alt="Ospite gusta un cocktail al bar" style="object-position:right;">
           <span class="impression-band__caption">Momento aperitivo</span>
         </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/bar-hero-2026.jpg" alt="Il bartender prepara un Espresso Martini, Hotel Weinberg">
+          <span class="impression-band__caption">Espresso Martini</span>
+        </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/aperitivo-2026.jpg" alt="Bicchiere di aperitivo con decorazione, bar dell'Hotel Weinberg">
+          <span class="impression-band__caption">Il primo sorso</span>
+        </div>
+      <div class="impression-band__item">
+          <img src="../assets/fotos/bar-model-2026.jpg" alt="Ospite gusta un Espresso Martini al bar">
+          <span class="impression-band__caption">Cheers</span>
+        </div>
       </div>
+<style>
+@media (max-width: 780px) {
+  @keyframes impressionMobileFadeBar1 { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
+  #bandBar .impression-band__slot:nth-of-type(1) img:nth-child(1) { animation: impressionMobileFadeBar1 13.5s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandBar .impression-band__slot:nth-of-type(1) img:nth-child(2) { animation: impressionMobileFadeBar1 13.5s ease-in-out infinite; animation-delay: -4.5s; }
+  #bandBar .impression-band__slot:nth-of-type(1) img:nth-child(3) { animation: impressionMobileFadeBar1 13.5s ease-in-out infinite; animation-delay: -9.0s; }
+  @keyframes impressionMobileFadeBar2 { 0% { opacity: 0; } 5.93% { opacity: 1; } 27.4% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
+  #bandBar .impression-band__slot:nth-of-type(2) img:nth-child(1) { animation: impressionMobileFadeBar2 13.5s ease-in-out infinite; animation-delay: -0.0s; }
+  #bandBar .impression-band__slot:nth-of-type(2) img:nth-child(2) { animation: impressionMobileFadeBar2 13.5s ease-in-out infinite; animation-delay: -4.5s; }
+  #bandBar .impression-band__slot:nth-of-type(2) img:nth-child(3) { animation: impressionMobileFadeBar2 13.5s ease-in-out infinite; animation-delay: -9.0s; }
+}
+</style>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/bar-shake-2026.jpg" alt="Mara prepara un cocktail al bar">
+        <img src="../assets/fotos/bar-model-cocktail-2026.jpg" alt="Ospite gusta un cocktail al bar">
+        <img src="../assets/fotos/aperitivo-2026.jpg" alt="Bicchiere di aperitivo con decorazione, bar dell'Hotel Weinberg">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/bar-mojito-2026.jpg" alt="Un cocktail viene preparato al bar">
+        <img src="../assets/fotos/bar-hero-2026.jpg" alt="Il bartender prepara un Espresso Martini, Hotel Weinberg">
+        <img src="../assets/fotos/bar-model-2026.jpg" alt="Ospite gusta un Espresso Martini al bar">
+      </div>
+    </div>
     </div>
   </div>
 

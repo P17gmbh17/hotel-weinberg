@@ -44,6 +44,56 @@ def build_ticklist_fragment(c):
     return '<ul class="tick-list">\n' + items + '\n    </ul>'
 
 
+def build_mobile_slots_fragment(images, band_id, slug):
+    """Mobile: 2 feste Felder nebeneinander, deren Inhalt per reinem CSS
+    automatisch durch alle Bilder rotiert (Bild 1,3,5.. im linken Feld,
+    Bild 2,4,6.. im rechten Feld). Funktioniert mit beliebig vielen Bildern."""
+    groups = [images[0::2], images[1::2]]
+    slot_s = 4.5
+    fade_s = 0.8
+    slot_parts = []
+    keyframe_rules = []
+    for slot_idx, group in enumerate(groups, start=1):
+        m = len(group)
+        if m == 0:
+            continue
+        imgs_html = "\n".join(
+            f'        <img src="{im["image"]}" alt="{im["alt"]}">' for im in group
+        )
+        slot_parts.append(f'      <div class="impression-band__slot">\n{imgs_html}\n      </div>')
+        if m > 1:
+            total_s = round(m * slot_s, 2)
+            keyframe_name = f"impressionMobileFade{slug.capitalize()}{slot_idx}"
+            fade_in_end = round(fade_s / total_s * 100, 2)
+            slot_end = round(100 / m, 2)
+            fade_out_start = round(max(slot_end - fade_in_end, fade_in_end), 2)
+            rules = []
+            for i in range(m):
+                delay = round(-(i * slot_s), 2)
+                rules.append(
+                    f'  #{band_id} .impression-band__slot:nth-of-type({slot_idx}) img:nth-child({i + 1}) {{ animation: {keyframe_name} {total_s}s ease-in-out infinite; animation-delay: {delay}s; }}'
+                )
+            keyframe_rules.append(
+                f'  @keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {fade_out_start}% {{ opacity: 1; }} {slot_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
+                + "\n".join(rules)
+            )
+
+    style_block = ""
+    if keyframe_rules:
+        style_block = (
+            '<style>\n@media (max-width: 780px) {\n'
+            + "\n".join(keyframe_rules) + "\n"
+            '}\n</style>\n'
+        )
+
+    return (
+        style_block
+        + '<div class="impression-band__mobile">\n'
+        + "\n".join(slot_parts) + "\n"
+        '    </div>'
+    )
+
+
 def build_band_fragment(chapter, tag, slug):
     n = len(chapter["impressions"])
     items = []
@@ -57,40 +107,17 @@ def build_band_fragment(chapter, tag, slug):
             '        </div>'
         )
 
-    # Mobile: statt nur die ersten 2 Bilder statisch zu zeigen, rotiert die Ansicht
-    # per reinem CSS durch ALLE Bilder des Themas (funktioniert auch, wenn das
-    # Bilder-Array später auf mehr als 3 Fotos erweitert wird).
-    slot_s = 4.5
-    fade_s = 0.8
-    total_s = round(n * slot_s, 2)
-    keyframe_name = f"impressionFade{slug.capitalize()}"
     band_id = f"band{slug.capitalize()}"
-    fade_in_end = round(fade_s / total_s * 100, 2) if total_s else 0
-    slot_end = round(100 / n, 2) if n else 100
-    fade_out_start = round(max(slot_end - fade_in_end, fade_in_end), 2)
-    rules = []
-    for i in range(n):
-        delay = round(-(i * slot_s), 2)
-        rules.append(
-            f'  #{band_id} .impression-band__item:nth-child({i + 1}) {{ animation: {keyframe_name} {total_s}s ease-in-out infinite; animation-delay: {delay}s; }}'
-        )
-    style_block = (
-        '<style>\n'
-        '@media (max-width: 780px) {\n'
-        f'  @keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {fade_out_start}% {{ opacity: 1; }} {slot_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
-        + "\n".join(rules) + "\n"
-        '}\n'
-        '</style>'
-    )
+    mobile_fragment = build_mobile_slots_fragment(chapter["impressions"], band_id, slug)
 
     return (
-        style_block + "\n"
         f'<div class="impression-band" id="{band_id}">\n'
         '    <div class="impression-band__sticky">\n'
         f'      <span class="impression-band__tag">{tag}</span>\n'
         '      <div class="impression-band__grid">\n'
         + "\n".join(items) + "\n"
         '      </div>\n'
+        + mobile_fragment + "\n"
         '    </div>\n'
         '  </div>'
     )

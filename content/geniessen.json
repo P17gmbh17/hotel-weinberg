@@ -46,6 +46,21 @@
           "image": "../assets/fotos/pool-relax-oben-2026.jpg",
           "alt": "Sonnenbad am Poolrand, Hotel Weinberg",
           "caption": "Sonnenbad"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-drink-2026.jpg",
+          "alt": "Cocktail wird am Pool gehalten, Hotel Weinberg",
+          "caption": "Cocktail am Pool"
+        },
+        {
+          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "alt": "Sonnenreflexion auf der Wasseroberfläche des Pools",
+          "caption": "Wasserspiel"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-2026.jpg",
+          "alt": "Aperitivo-Glas am Abend, Hotel Weinberg",
+          "caption": "Zur blauen Stunde"
         }
       ]
     },
@@ -71,6 +86,16 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Weinverkostung im Garten des Hotel Weinberg",
           "caption": "Weingenuss"
+        },
+        {
+          "image": "../assets/fotos/gartenlounge-2026.jpg",
+          "alt": "Loungebereich im Garten des Hotel Weinberg mit Palmen",
+          "caption": "Lounge im Grünen"
+        },
+        {
+          "image": "../assets/fotos/mara-garten-2026.jpg",
+          "alt": "Herzliches Lächeln im Garten des Hotel Weinberg",
+          "caption": "Herzlich willkommen"
         }
       ]
     },
@@ -99,6 +124,16 @@
           "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
           "alt": "Müsli mit frischen Beeren, Detail",
           "caption": "Müsli-Detail"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
+          "alt": "Auswahl an frischem Gebäck zum Frühstück, Hotel Weinberg",
+          "caption": "Gebäckauswahl"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
+          "alt": "Kaffee genießen mit Blick auf die Weinberge, Hotel Weinberg",
+          "caption": "Kaffee mit Aussicht"
         }
       ]
     },
@@ -162,6 +197,21 @@
           "alt": "Gast genießt einen Cocktail an der Bar",
           "caption": "Aperitivo-Moment",
           "position": "right"
+        },
+        {
+          "image": "../assets/fotos/bar-hero-2026.jpg",
+          "alt": "Bartender bereitet einen Espresso Martini zu, Hotel Weinberg",
+          "caption": "Espresso Martini"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-2026.jpg",
+          "alt": "Aperitivo-Glas mit Deko, Hotel Weinberg Bar",
+          "caption": "Der erste Schluck"
+        },
+        {
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Gast genießt einen Espresso Martini an der Bar",
+          "caption": "Cheers"
         }
       ]
     }
@@ -213,6 +263,21 @@
           "image": "../assets/fotos/pool-relax-oben-2026.jpg",
           "alt": "Bagno di sole a bordo piscina, Hotel Weinberg",
           "caption": "Bagno di sole"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-drink-2026.jpg",
+          "alt": "Cocktail tenuto in mano in piscina, Hotel Weinberg",
+          "caption": "Cocktail in piscina"
+        },
+        {
+          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "alt": "Riflesso del sole sulla superficie della piscina",
+          "caption": "Gioco d'acqua"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-2026.jpg",
+          "alt": "Bicchiere di aperitivo alla sera, Hotel Weinberg",
+          "caption": "L'ora blu"
         }
       ]
     },
@@ -238,6 +303,16 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Degustazione di vino nel giardino dell'Hotel Weinberg",
           "caption": "Bicchiere di vino"
+        },
+        {
+          "image": "../assets/fotos/gartenlounge-2026.jpg",
+          "alt": "Zona lounge nel giardino dell'Hotel Weinberg con palme",
+          "caption": "Lounge nel verde"
+        },
+        {
+          "image": "../assets/fotos/mara-garten-2026.jpg",
+          "alt": "Sorriso cordiale nel giardino dell'Hotel Weinberg",
+          "caption": "Un caloroso benvenuto"
         }
       ]
     },
@@ -266,6 +341,16 @@
           "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
           "alt": "Muesli con frutti di bosco freschi, dettaglio",
           "caption": "Dettaglio muesli"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
+          "alt": "Selezione di pasticceria fresca a colazione, Hotel Weinberg",
+          "caption": "Selezione di dolci"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
+          "alt": "Caffè con vista sui vigneti, Hotel Weinberg",
+          "caption": "Caffè con vista"
         }
       ]
     },
@@ -329,6 +414,21 @@
           "alt": "Ospite gusta un cocktail al bar",
           "caption": "Momento aperitivo",
           "position": "right"
+        },
+        {
+          "image": "../assets/fotos/bar-hero-2026.jpg",
+          "alt": "Il bartender prepara un Espresso Martini, Hotel Weinberg",
+          "caption": "Espresso Martini"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-2026.jpg",
+          "alt": "Bicchiere di aperitivo con decorazione, bar dell'Hotel Weinberg",
+          "caption": "Il primo sorso"
+        },
+        {
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Ospite gusta un Espresso Martini al bar",
+          "caption": "Cheers"
         }
       ]
     }
@@ -380,6 +480,21 @@
           "image": "../assets/fotos/pool-relax-oben-2026.jpg",
           "alt": "Sunbathing at the pool's edge, Hotel Weinberg",
           "caption": "Sunbathing"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-drink-2026.jpg",
+          "alt": "Cocktail held up by the pool, Hotel Weinberg",
+          "caption": "Cocktail by the pool"
+        },
+        {
+          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "alt": "Sun reflection on the pool's water surface",
+          "caption": "Play of water"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-2026.jpg",
+          "alt": "Aperitivo glass in the evening, Hotel Weinberg",
+          "caption": "The blue hour"
         }
       ]
     },
@@ -405,6 +520,16 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Wine tasting in the garden of Hotel Weinberg",
           "caption": "Wine Moment"
+        },
+        {
+          "image": "../assets/fotos/gartenlounge-2026.jpg",
+          "alt": "Lounge area in the garden of Hotel Weinberg with palm trees",
+          "caption": "Lounge in the green"
+        },
+        {
+          "image": "../assets/fotos/mara-garten-2026.jpg",
+          "alt": "A warm smile in the garden of Hotel Weinberg",
+          "caption": "A warm welcome"
         }
       ]
     },
@@ -433,6 +558,16 @@
           "image": "../assets/fotos/fruehstueck-muesli-2026.jpg",
           "alt": "Muesli with fresh berries, detail",
           "caption": "Muesli detail"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-2026.jpg",
+          "alt": "Selection of fresh pastries for breakfast, Hotel Weinberg",
+          "caption": "Pastry selection"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
+          "alt": "Coffee with a view of the vineyards, Hotel Weinberg",
+          "caption": "Coffee with a view"
         }
       ]
     },
@@ -496,6 +631,21 @@
           "alt": "Guest enjoying a cocktail at the bar",
           "caption": "Aperitivo moment",
           "position": "right"
+        },
+        {
+          "image": "../assets/fotos/bar-hero-2026.jpg",
+          "alt": "Bartender preparing an Espresso Martini, Hotel Weinberg",
+          "caption": "Espresso Martini"
+        },
+        {
+          "image": "../assets/fotos/aperitivo-2026.jpg",
+          "alt": "Aperitivo glass with garnish, Hotel Weinberg bar",
+          "caption": "The first sip"
+        },
+        {
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Guest enjoying an Espresso Martini at the bar",
+          "caption": "Cheers"
         }
       ]
     }
