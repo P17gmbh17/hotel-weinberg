@@ -658,8 +658,8 @@ body.nav-locked { overflow: hidden; }
 .room-gallery.is-dragging { cursor: grabbing; scroll-snap-type: none; }
 .room-gallery::-webkit-scrollbar { display: none; }
 .room-gallery__slide {
-  flex: 0 0 clamp(289px, 27vw, 527px);
-  aspect-ratio: 25 / 27;
+  flex: 0 0 clamp(401px, 37.5vw, 732px);
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   box-shadow: var(--shadow);
   scroll-snap-align: center;
