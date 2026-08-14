@@ -659,7 +659,7 @@ body.nav-locked { overflow: hidden; }
 .room-gallery::-webkit-scrollbar { display: none; }
 .room-gallery__slide {
   flex: 0 0 clamp(289px, 27vw, 527px);
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 25 / 27;
   overflow: hidden;
   box-shadow: var(--shadow);
   scroll-snap-align: center;

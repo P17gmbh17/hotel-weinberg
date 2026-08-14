@@ -57,8 +57,10 @@ def build_slider_fragment(slider, lang):
     parts = []
     for i, s in enumerate(slider):
         active = " is-active" if i == 0 else ""
+        pos = s.get("position", "").strip()
+        style_attr = f' style="object-position:{pos};"' if pos else ""
         parts.append(
-            f'      <div class="ausstattung-slider__slide{active}"><img src="{s["image"]}" alt="{s["alt"]}" data-cms="ausstattung.slider.{i}.image"></div>'
+            f'      <div class="ausstattung-slider__slide{active}"><img src="{s["image"]}" alt="{s["alt"]}"{style_attr} data-cms="ausstattung.slider.{i}.image"></div>'
         )
     slides_html = "\n".join(parts)
     return (
