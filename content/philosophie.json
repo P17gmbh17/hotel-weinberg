@@ -72,8 +72,20 @@
       "heading": "Freundlich, lebendig, mit Herz dabei",
       "lede": "Bei uns begleitet euch immer jemand aus der Familie durch den Urlaub, mit einem offenen Lächeln, echter Gastfreundschaft und einem Gespür dafür, was gerade gebraucht wird.",
       "body": "Ob eine Empfehlung für den Abend, ein kurzer Plausch an der Rezeption oder einfach ein Lächeln beim Vorbeigehen: wir sind da, wenn ihr uns braucht, wie zuhause.",
-      "image": "../assets/fotos/nelly-checkin-2026.jpg",
-      "alt": "Nelly begrüßt einen Gast an der Rezeption, Hotel Weinberg"
+      "images": [
+        {
+          "image": "../assets/fotos/nelly-checkin-2026.jpg",
+          "alt": "Nelly begrüßt einen Gast an der Rezeption, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/nelly-checkin-2-2026.jpg",
+          "alt": "Nelly beim Check-in mit einem Gast an der Rezeption, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/nelly-checkin-3-2026.jpg",
+          "alt": "Herzlicher Empfang an der Rezeption des Hotel Weinberg"
+        }
+      ]
     },
     "geniessen_link": {
       "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.jpg",
@@ -163,8 +175,20 @@
       "heading": "Cordiali, vivaci, sempre con il cuore",
       "lede": "Da noi c'è sempre qualcuno della famiglia ad accompagnarvi durante la vacanza, con un sorriso sincero, autentica ospitalità e la sensibilità di capire cosa serve in quel momento.",
       "body": "Che sia un consiglio per la serata, due chiacchiere alla reception o semplicemente un sorriso incontrandoci: ci siamo, quando avete bisogno di noi, come a casa.",
-      "image": "../assets/fotos/nelly-checkin-2026.jpg",
-      "alt": "Nelly accoglie un ospite alla reception, Hotel Weinberg"
+      "images": [
+        {
+          "image": "../assets/fotos/nelly-checkin-2026.jpg",
+          "alt": "Nelly accoglie un ospite alla reception, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/nelly-checkin-2-2026.jpg",
+          "alt": "Nelly al check-in con un ospite alla reception, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/nelly-checkin-3-2026.jpg",
+          "alt": "Calorosa accoglienza alla reception dell'Hotel Weinberg"
+        }
+      ]
     },
     "geniessen_link": {
       "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.jpg",
@@ -254,8 +278,20 @@
       "heading": "Friendly, lively, always with heart",
       "lede": "There's always someone from the family with you throughout your stay, with a warm smile, genuine hospitality and a sense for what's needed in the moment.",
       "body": "Whether it's a recommendation for the evening, a quick chat at reception, or simply a smile in passing: we're there when you need us, just like at home.",
-      "image": "../assets/fotos/nelly-checkin-2026.jpg",
-      "alt": "Nelly welcoming a guest at reception, Hotel Weinberg"
+      "images": [
+        {
+          "image": "../assets/fotos/nelly-checkin-2026.jpg",
+          "alt": "Nelly welcoming a guest at reception, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/nelly-checkin-2-2026.jpg",
+          "alt": "Nelly checking in a guest at reception, Hotel Weinberg"
+        },
+        {
+          "image": "../assets/fotos/nelly-checkin-3-2026.jpg",
+          "alt": "A warm welcome at the reception of Hotel Weinberg"
+        }
+      ]
     },
     "geniessen_link": {
       "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.jpg",

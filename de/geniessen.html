@@ -519,6 +519,25 @@
     chapters.forEach(ch => chapterObserver.observe(ch));
   }
 
+  /* ---- Impressionen-Bänder: Wisch-/Zieh-Slider (Maus ziehen oder Finger wischen) ---- */
+  document.querySelectorAll('.impression-band__grid').forEach((grid) => {
+    let isDown = false, startX = 0, startScroll = 0, moved = false;
+    grid.addEventListener('mousedown', (e) => {
+      isDown = true; moved = false;
+      grid.classList.add('is-dragging');
+      startX = e.pageX; startScroll = grid.scrollLeft;
+    });
+    window.addEventListener('mouseup', () => { isDown = false; grid.classList.remove('is-dragging'); });
+    window.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const dx = e.pageX - startX;
+      if (Math.abs(dx) > 4) moved = true;
+      grid.scrollLeft = startScroll - dx;
+    });
+    grid.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+  });
+
 </script>
 <script>
   document.querySelectorAll('.subpage-hero video.bg, .page-hero video.bg').forEach(function (v) {

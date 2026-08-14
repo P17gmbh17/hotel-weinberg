@@ -161,16 +161,24 @@
 </section>
 
 <!-- ============ PERSÖNLICHKEIT ============ -->
-<section class="section section--white">
-  <div class="wrap grid-2">
-    <div class="col-text">
+<section class="feature-cover" id="persoenlichkeitFeature">
+  <div class="feature-cover__bg">
+        <img src="../assets/fotos/nelly-checkin-2026.jpg" alt="Nelly welcoming a guest at reception, Hotel Weinberg">
+    <img src="../assets/fotos/nelly-checkin-2-2026.jpg" alt="Nelly checking in a guest at reception, Hotel Weinberg">
+    <img src="../assets/fotos/nelly-checkin-3-2026.jpg" alt="A warm welcome at the reception of Hotel Weinberg">
+<style>
+@keyframes featureCoverFade { 0% { opacity: 0; } 7.27% { opacity: 1; } 26.06% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
+  #persoenlichkeitFeature .feature-cover__bg img:nth-child(1) { animation: featureCoverFade 16.5s ease-in-out infinite; animation-delay: -0.0s; }
+  #persoenlichkeitFeature .feature-cover__bg img:nth-child(2) { animation: featureCoverFade 16.5s ease-in-out infinite; animation-delay: -5.5s; }
+  #persoenlichkeitFeature .feature-cover__bg img:nth-child(3) { animation: featureCoverFade 16.5s ease-in-out infinite; animation-delay: -11.0s; }
+</style>
+  </div>
+  <div class="feature-cover__inner">
+    <div class="feature-cover__content reveal">
       <span class="eyebrow" data-cms="persoenlichkeit.eyebrow">Personality</span>
-      <h2 class="reveal" data-cms="persoenlichkeit.heading">Friendly, lively, always with heart</h2>
-      <p class="lede reveal reveal--d1" data-cms="persoenlichkeit.lede">There's always someone from the family with you throughout your stay, with a warm smile, genuine hospitality and a sense for what's needed in the moment.</p>
+      <h2 data-cms="persoenlichkeit.heading">Friendly, lively, always with heart</h2>
+      <p class="lede" data-cms="persoenlichkeit.lede">There's always someone from the family with you throughout your stay, with a warm smile, genuine hospitality and a sense for what's needed in the moment.</p>
       <p data-cms="persoenlichkeit.body">Whether it's a recommendation for the evening, a quick chat at reception, or simply a smile in passing: we're there when you need us, just like at home.</p>
-    </div>
-    <div class="col-img img-frame">
-      <img src="../assets/fotos/nelly-checkin-2026.jpg" alt="Nelly welcoming a guest at reception, Hotel Weinberg">
     </div>
   </div>
 </section>

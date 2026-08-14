@@ -162,16 +162,24 @@
 </section>
 
 <!-- ============ PERSÖNLICHKEIT ============ -->
-<section class="section section--white">
-  <div class="wrap grid-2">
-    <div class="col-text">
+<section class="feature-cover" id="persoenlichkeitFeature">
+  <div class="feature-cover__bg">
+        <img src="../assets/fotos/nelly-checkin-2026.jpg" alt="Nelly begrüßt einen Gast an der Rezeption, Hotel Weinberg">
+    <img src="../assets/fotos/nelly-checkin-2-2026.jpg" alt="Nelly beim Check-in mit einem Gast an der Rezeption, Hotel Weinberg">
+    <img src="../assets/fotos/nelly-checkin-3-2026.jpg" alt="Herzlicher Empfang an der Rezeption des Hotel Weinberg">
+<style>
+@keyframes featureCoverFade { 0% { opacity: 0; } 7.27% { opacity: 1; } 26.06% { opacity: 1; } 33.33% { opacity: 0; } 100% { opacity: 0; } }
+  #persoenlichkeitFeature .feature-cover__bg img:nth-child(1) { animation: featureCoverFade 16.5s ease-in-out infinite; animation-delay: -0.0s; }
+  #persoenlichkeitFeature .feature-cover__bg img:nth-child(2) { animation: featureCoverFade 16.5s ease-in-out infinite; animation-delay: -5.5s; }
+  #persoenlichkeitFeature .feature-cover__bg img:nth-child(3) { animation: featureCoverFade 16.5s ease-in-out infinite; animation-delay: -11.0s; }
+</style>
+  </div>
+  <div class="feature-cover__inner">
+    <div class="feature-cover__content reveal">
       <span class="eyebrow" data-cms="persoenlichkeit.eyebrow">Persönlichkeit</span>
-      <h2 class="reveal" data-cms="persoenlichkeit.heading">Freundlich, lebendig, mit Herz dabei</h2>
-      <p class="lede reveal reveal--d1" data-cms="persoenlichkeit.lede">Bei uns begleitet euch immer jemand aus der Familie durch den Urlaub, mit einem offenen Lächeln, echter Gastfreundschaft und einem Gespür dafür, was gerade gebraucht wird.</p>
+      <h2 data-cms="persoenlichkeit.heading">Freundlich, lebendig, mit Herz dabei</h2>
+      <p class="lede" data-cms="persoenlichkeit.lede">Bei uns begleitet euch immer jemand aus der Familie durch den Urlaub, mit einem offenen Lächeln, echter Gastfreundschaft und einem Gespür dafür, was gerade gebraucht wird.</p>
       <p data-cms="persoenlichkeit.body">Ob eine Empfehlung für den Abend, ein kurzer Plausch an der Rezeption oder einfach ein Lächeln beim Vorbeigehen: wir sind da, wenn ihr uns braucht, wie zuhause.</p>
-    </div>
-    <div class="col-img img-frame">
-      <img src="../assets/fotos/nelly-checkin-2026.jpg" alt="Nelly begrüßt einen Gast an der Rezeption, Hotel Weinberg">
     </div>
   </div>
 </section>
