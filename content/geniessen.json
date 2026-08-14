@@ -94,8 +94,9 @@
         },
         {
           "image": "../assets/fotos/mara-garten-2026.jpg",
-          "alt": "Herzliches Lächeln im Garten des Hotel Weinberg",
-          "caption": "Herzlich willkommen"
+          "alt": "Weißwein wird im Garten eingeschenkt, Hotel Weinberg",
+          "caption": "Ein Glas im Grünen",
+          "position": "left"
         }
       ]
     },
@@ -132,8 +133,18 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
-          "alt": "Kaffee genießen mit Blick auf die Weinberge, Hotel Weinberg",
-          "caption": "Kaffee mit Aussicht"
+          "alt": "Frühstücksraum mit Panoramafenstern und Blick auf die Weinberge, Hotel Weinberg",
+          "caption": "Unser Frühstücksraum"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-kaffee-2026.jpg",
+          "alt": "Gast genießt eine Tasse Kaffee beim Frühstück, Hotel Weinberg",
+          "caption": "Guten Morgen"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
+          "alt": "Reich gedeckte Frühstückstafel mit Obst, Aufschnitt und Gebäck, Hotel Weinberg",
+          "caption": "Reich gedeckt"
         }
       ]
     },
@@ -200,8 +211,8 @@
         },
         {
           "image": "../assets/fotos/bar-hero-2026.jpg",
-          "alt": "Bartender bereitet einen Espresso Martini zu, Hotel Weinberg",
-          "caption": "Espresso Martini"
+          "alt": "Unsere Bar im Hotel Weinberg",
+          "caption": "Unsere Bar"
         },
         {
           "image": "../assets/fotos/aperitivo-2026.jpg",
@@ -311,8 +322,9 @@
         },
         {
           "image": "../assets/fotos/mara-garten-2026.jpg",
-          "alt": "Sorriso cordiale nel giardino dell'Hotel Weinberg",
-          "caption": "Un caloroso benvenuto"
+          "alt": "Vino bianco versato in giardino, Hotel Weinberg",
+          "caption": "Un calice nel verde",
+          "position": "left"
         }
       ]
     },
@@ -349,8 +361,8 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
-          "alt": "Caffè con vista sui vigneti, Hotel Weinberg",
-          "caption": "Caffè con vista"
+          "alt": "Sala colazione con finestre panoramiche e vista sui vigneti, Hotel Weinberg",
+          "caption": "La nostra sala colazione"
         }
       ]
     },
@@ -417,8 +429,18 @@
         },
         {
           "image": "../assets/fotos/bar-hero-2026.jpg",
-          "alt": "Il bartender prepara un Espresso Martini, Hotel Weinberg",
-          "caption": "Espresso Martini"
+          "alt": "Il nostro bar dell'Hotel Weinberg",
+          "caption": "Il nostro bar"
+        },
+        {
+          "image": "../assets/fotos/bar-glaeser-2026.jpg",
+          "alt": "Bicchieri e bottiglie al bar dell'Hotel Weinberg",
+          "caption": "Ben forniti"
+        },
+        {
+          "image": "../assets/fotos/bar-theke-2026.jpg",
+          "alt": "Il bancone del nostro bar, Hotel Weinberg",
+          "caption": "Al bancone"
         },
         {
           "image": "../assets/fotos/aperitivo-2026.jpg",
@@ -528,8 +550,9 @@
         },
         {
           "image": "../assets/fotos/mara-garten-2026.jpg",
-          "alt": "A warm smile in the garden of Hotel Weinberg",
-          "caption": "A warm welcome"
+          "alt": "White wine being poured in the garden, Hotel Weinberg",
+          "caption": "A glass in the garden",
+          "position": "left"
         }
       ]
     },
@@ -566,8 +589,8 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
-          "alt": "Coffee with a view of the vineyards, Hotel Weinberg",
-          "caption": "Coffee with a view"
+          "alt": "Breakfast room with panoramic windows overlooking the vineyards, Hotel Weinberg",
+          "caption": "Our breakfast room"
         }
       ]
     },
@@ -634,8 +657,18 @@
         },
         {
           "image": "../assets/fotos/bar-hero-2026.jpg",
-          "alt": "Bartender preparing an Espresso Martini, Hotel Weinberg",
-          "caption": "Espresso Martini"
+          "alt": "Our bar at Hotel Weinberg",
+          "caption": "Our bar"
+        },
+        {
+          "image": "../assets/fotos/bar-glaeser-2026.jpg",
+          "alt": "Glasses and bottles at the Hotel Weinberg bar",
+          "caption": "Well stocked"
+        },
+        {
+          "image": "../assets/fotos/bar-theke-2026.jpg",
+          "alt": "Our bar counter, Hotel Weinberg",
+          "caption": "At the counter"
         },
         {
           "image": "../assets/fotos/aperitivo-2026.jpg",
