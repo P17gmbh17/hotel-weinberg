@@ -143,8 +143,8 @@
         },
         {
           "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
-          "alt": "Reich gedeckte Frühstückstafel mit Obst, Aufschnitt und Gebäck, Hotel Weinberg",
-          "caption": "Reich gedeckt"
+          "alt": "Blick zur Burg Boymont bei Sonnenuntergang, Hotel Weinberg",
+          "caption": "Abendstimmung"
         }
       ]
     },
@@ -363,6 +363,16 @@
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
           "alt": "Sala colazione con finestre panoramiche e vista sui vigneti, Hotel Weinberg",
           "caption": "La nostra sala colazione"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-kaffee-2026.jpg",
+          "alt": "Ospite gusta una tazza di caffè a colazione, Hotel Weinberg",
+          "caption": "Buongiorno"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
+          "alt": "Vista sul castello Boymont al tramonto, Hotel Weinberg",
+          "caption": "Atmosfera serale"
         }
       ]
     },
@@ -591,6 +601,16 @@
           "image": "../assets/fotos/fruehstueck-blick-2026.jpg",
           "alt": "Breakfast room with panoramic windows overlooking the vineyards, Hotel Weinberg",
           "caption": "Our breakfast room"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-kaffee-2026.jpg",
+          "alt": "Guest enjoying a cup of coffee at breakfast, Hotel Weinberg",
+          "caption": "Good morning"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
+          "alt": "View of Boymont Castle at sunset, Hotel Weinberg",
+          "caption": "Evening mood"
         }
       ]
     },
