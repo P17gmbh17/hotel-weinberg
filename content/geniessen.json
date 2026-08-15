@@ -145,7 +145,12 @@
         {
           "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
           "alt": "Blick zur Burg Boymont bei Sonnenuntergang, Hotel Weinberg",
-          "caption": "Abendstimmung"
+          "caption": "Morgenstimmung"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-eier-2026.jpg",
+          "alt": "Frische Eier im Körbchen am Frühstücksbuffet, Hotel Weinberg",
+          "caption": "Frische Eier"
         }
       ]
     },
@@ -374,7 +379,12 @@
         {
           "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
           "alt": "Vista sul castello Boymont al tramonto, Hotel Weinberg",
-          "caption": "Atmosfera serale"
+          "caption": "Atmosfera mattutina"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-eier-2026.jpg",
+          "alt": "Uova fresche nel cestino al buffet della colazione, Hotel Weinberg",
+          "caption": "Uova fresche"
         }
       ]
     },
@@ -613,7 +623,12 @@
         {
           "image": "../assets/fotos/fruehstueck-tafel-2026.jpg",
           "alt": "View of Boymont Castle at sunset, Hotel Weinberg",
-          "caption": "Evening mood"
+          "caption": "Morning mood"
+        },
+        {
+          "image": "../assets/fotos/fruehstueck-eier-2026.jpg",
+          "alt": "Fresh eggs in a basket at the breakfast buffet, Hotel Weinberg",
+          "caption": "Fresh eggs"
         }
       ]
     },
