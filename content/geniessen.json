@@ -74,11 +74,6 @@
       "background_alt": "Terrasse des Hotel Weinberg in der Morgensonne",
       "impressions": [
         {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
-          "alt": "Palmenblatt im Garten des Hotel Weinberg",
-          "caption": "Palmenblatt"
-        },
-        {
           "image": "../assets/fotos/garten-weg-2026.jpg",
           "alt": "Garten des Hotel Weinberg",
           "caption": "Garten"
@@ -87,6 +82,11 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Weinverkostung im Garten des Hotel Weinberg",
           "caption": "Weingenuss"
+        },
+        {
+          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "alt": "Palmenblatt im Garten des Hotel Weinberg",
+          "caption": "Palmenblatt"
         },
         {
           "image": "../assets/fotos/gartenlounge-2026.jpg",
@@ -98,6 +98,21 @@
           "alt": "Weißwein wird im Garten eingeschenkt, Hotel Weinberg",
           "caption": "Ein Glas im Grünen",
           "position": "left"
+        },
+        {
+          "image": "../assets/fotos/garten-terrasse-sonnensegel-2026.jpg",
+          "alt": "Schattige Terrasse mit Sonnensegel im Garten des Hotel Weinberg",
+          "caption": "Terrasse im Grünen"
+        },
+        {
+          "image": "../assets/fotos/garten-mara-flasche-2026.jpg",
+          "alt": "Mara serviert einen Sauvignon auf der Gartenterrasse, Hotel Weinberg",
+          "caption": "Mit Herz serviert"
+        },
+        {
+          "image": "../assets/fotos/garten-luftaufnahme-2026.jpg",
+          "alt": "Luftaufnahme des Hotel Weinberg mit Garten und Weinbergen bei Sonnenaufgang",
+          "caption": "Der Weinberg von oben"
         }
       ]
     },
@@ -317,11 +332,6 @@
       "background_alt": "Terrazza dell’Hotel Weinberg al sole del mattino",
       "impressions": [
         {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
-          "alt": "Foglia di palma nel giardino dell'Hotel Weinberg",
-          "caption": "Foglia di palma"
-        },
-        {
           "image": "../assets/fotos/garten-weg-2026.jpg",
           "alt": "Giardino dell'Hotel Weinberg",
           "caption": "Giardino"
@@ -330,6 +340,11 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Degustazione di vino nel giardino dell'Hotel Weinberg",
           "caption": "Bicchiere di vino"
+        },
+        {
+          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "alt": "Foglia di palma nel giardino dell'Hotel Weinberg",
+          "caption": "Foglia di palma"
         },
         {
           "image": "../assets/fotos/gartenlounge-2026.jpg",
@@ -341,6 +356,21 @@
           "alt": "Vino bianco versato in giardino, Hotel Weinberg",
           "caption": "Un calice nel verde",
           "position": "left"
+        },
+        {
+          "image": "../assets/fotos/garten-terrasse-sonnensegel-2026.jpg",
+          "alt": "Terrazza ombreggiata con tenda da sole nel giardino dell'Hotel Weinberg",
+          "caption": "Terrazza nel verde"
+        },
+        {
+          "image": "../assets/fotos/garten-mara-flasche-2026.jpg",
+          "alt": "Mara serve un Sauvignon sulla terrazza del giardino, Hotel Weinberg",
+          "caption": "Servito con cuore"
+        },
+        {
+          "image": "../assets/fotos/garten-luftaufnahme-2026.jpg",
+          "alt": "Vista aerea dell'Hotel Weinberg con giardino e vigneti all'alba",
+          "caption": "L'Hotel Weinberg dall'alto"
         }
       ]
     },
@@ -560,11 +590,6 @@
       "background_alt": "Terrace of Hotel Weinberg in the morning sun",
       "impressions": [
         {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
-          "alt": "Palm leaf in the garden of Hotel Weinberg",
-          "caption": "Palm leaf"
-        },
-        {
           "image": "../assets/fotos/garten-weg-2026.jpg",
           "alt": "Garden at Hotel Weinberg",
           "caption": "Garden"
@@ -573,6 +598,11 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Wine tasting in the garden of Hotel Weinberg",
           "caption": "Wine Moment"
+        },
+        {
+          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "alt": "Palm leaf in the garden of Hotel Weinberg",
+          "caption": "Palm leaf"
         },
         {
           "image": "../assets/fotos/gartenlounge-2026.jpg",
@@ -584,6 +614,21 @@
           "alt": "White wine being poured in the garden, Hotel Weinberg",
           "caption": "A glass in the garden",
           "position": "left"
+        },
+        {
+          "image": "../assets/fotos/garten-terrasse-sonnensegel-2026.jpg",
+          "alt": "Shaded terrace with sun awning in the garden of Hotel Weinberg",
+          "caption": "Terrace in the green"
+        },
+        {
+          "image": "../assets/fotos/garten-mara-flasche-2026.jpg",
+          "alt": "Mara serving a Sauvignon on the garden terrace, Hotel Weinberg",
+          "caption": "Served with heart"
+        },
+        {
+          "image": "../assets/fotos/garten-luftaufnahme-2026.jpg",
+          "alt": "Aerial view of Hotel Weinberg with garden and vineyards at sunrise",
+          "caption": "Hotel Weinberg from above"
         }
       ]
     },
