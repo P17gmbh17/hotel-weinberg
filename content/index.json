@@ -151,9 +151,9 @@
       "lede": "Südtiroler Klassiker, Pizza aus dem Holzofen und Aperitivo im Innenhof. Wir kennen die besten Adressen in der Nachbarschaft.",
       "cards": [
         {
-          "image": "../assets/kulinarik/platzegg.jpg",
+          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.jpg",
           "label": "Südtiroler Küche",
-          "alt": "Südtiroler Küche, Osteria Platzegg"
+          "alt": "Schlutzkrapfen, Südtiroler Küche"
         },
         {
           "image": "../assets/kulinarik/pizza-holzofen-2026.jpg",
@@ -373,9 +373,9 @@
       "lede": "Classici altoatesini, pizza al forno a legna e aperitivo in un cortile storico. Conosciamo i migliori indirizzi del vicinato.",
       "cards": [
         {
-          "image": "../assets/kulinarik/platzegg.jpg",
+          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.jpg",
           "label": "Cucina altoatesina",
-          "alt": "Cucina altoatesina, Osteria Platzegg"
+          "alt": "Schlutzkrapfen, cucina altoatesina"
         },
         {
           "image": "../assets/kulinarik/pizza-holzofen-2026.jpg",
@@ -595,9 +595,9 @@
       "lede": "South Tyrolean classics, wood-fired pizza and aperitivo in a historic courtyard. We know the best addresses in the neighbourhood.",
       "cards": [
         {
-          "image": "../assets/kulinarik/platzegg.jpg",
+          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.jpg",
           "label": "South Tyrolean Cuisine",
-          "alt": "South Tyrolean cuisine, Osteria Platzegg"
+          "alt": "Schlutzkrapfen (South Tyrolean ravioli), South Tyrolean cuisine"
         },
         {
           "image": "../assets/kulinarik/pizza-holzofen-2026.jpg",

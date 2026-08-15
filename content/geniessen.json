@@ -200,19 +200,9 @@
       "background_alt": "Bar im Hotel Weinberg",
       "impressions": [
         {
-          "image": "../assets/fotos/bar-hero-2026.jpg",
-          "alt": "Unsere Bar im Hotel Weinberg",
-          "caption": "Unsere Bar"
-        },
-        {
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara mixt einen Cocktail an der Bar",
           "caption": "Handwerk mit Herz"
-        },
-        {
-          "image": "../assets/fotos/bar-theke-2026.jpg",
-          "alt": "Die Theke unserer Bar, Hotel Weinberg",
-          "caption": "An der Theke"
         },
         {
           "image": "../assets/fotos/bar-mojito-2026.jpg",
@@ -220,9 +210,14 @@
           "caption": "Frisch gemixt"
         },
         {
-          "image": "../assets/fotos/bar-glaeser-2026.jpg",
-          "alt": "Gläser und Flaschen an der Bar, Hotel Weinberg",
-          "caption": "Gut sortiert"
+          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
+          "alt": "Espresso Martini mit Kaffeebohnen wird an der Bar serviert, Hotel Weinberg",
+          "caption": "Aperitivo-Moment"
+        },
+        {
+          "image": "../assets/fotos/bar-hero-2026.jpg",
+          "alt": "Unsere Bar im Hotel Weinberg",
+          "caption": "Unsere Bar"
         },
         {
           "image": "../assets/fotos/bar-ruehren-2026.jpg",
@@ -235,19 +230,14 @@
           "caption": "Lounge-Ecke"
         },
         {
-          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
-          "alt": "Espresso Martini mit Kaffeebohnen wird an der Bar serviert, Hotel Weinberg",
-          "caption": "Aperitivo-Moment"
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Gast genießt einen Espresso Martini an der Bar",
+          "caption": "Cheers"
         },
         {
           "image": "../assets/fotos/bar-sessel-2026.jpg",
           "alt": "Barhocker aus Leder im Detail, Hotel Weinberg",
           "caption": "Sitzkomfort"
-        },
-        {
-          "image": "../assets/fotos/bar-model-2026.jpg",
-          "alt": "Gast genießt einen Espresso Martini an der Bar",
-          "caption": "Cheers"
         }
       ]
     }
@@ -453,19 +443,9 @@
       "background_alt": "Bar dell’Hotel Weinberg",
       "impressions": [
         {
-          "image": "../assets/fotos/bar-hero-2026.jpg",
-          "alt": "Il nostro bar dell'Hotel Weinberg",
-          "caption": "Il nostro bar"
-        },
-        {
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara prepara un cocktail al bar",
           "caption": "Artigianalità con passione"
-        },
-        {
-          "image": "../assets/fotos/bar-theke-2026.jpg",
-          "alt": "Il bancone del nostro bar, Hotel Weinberg",
-          "caption": "Al bancone"
         },
         {
           "image": "../assets/fotos/bar-mojito-2026.jpg",
@@ -473,9 +453,14 @@
           "caption": "Appena mixato"
         },
         {
-          "image": "../assets/fotos/bar-glaeser-2026.jpg",
-          "alt": "Bicchieri e bottiglie al bar dell'Hotel Weinberg",
-          "caption": "Ben forniti"
+          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
+          "alt": "Espresso Martini con chicchi di caffè servito al bancone, Hotel Weinberg",
+          "caption": "Momento aperitivo"
+        },
+        {
+          "image": "../assets/fotos/bar-hero-2026.jpg",
+          "alt": "Il nostro bar dell'Hotel Weinberg",
+          "caption": "Il nostro bar"
         },
         {
           "image": "../assets/fotos/bar-ruehren-2026.jpg",
@@ -488,19 +473,14 @@
           "caption": "Angolo lounge"
         },
         {
-          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
-          "alt": "Espresso Martini con chicchi di caffè servito al bancone, Hotel Weinberg",
-          "caption": "Momento aperitivo"
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Ospite gusta un Espresso Martini al bar",
+          "caption": "Cheers"
         },
         {
           "image": "../assets/fotos/bar-sessel-2026.jpg",
           "alt": "Dettaglio degli sgabelli in pelle del bar, Hotel Weinberg",
           "caption": "Comfort al bancone"
-        },
-        {
-          "image": "../assets/fotos/bar-model-2026.jpg",
-          "alt": "Ospite gusta un Espresso Martini al bar",
-          "caption": "Cheers"
         }
       ]
     }
@@ -706,19 +686,9 @@
       "background_alt": "Bar at Hotel Weinberg",
       "impressions": [
         {
-          "image": "../assets/fotos/bar-hero-2026.jpg",
-          "alt": "Our bar at Hotel Weinberg",
-          "caption": "Our bar"
-        },
-        {
           "image": "../assets/fotos/bar-shake-2026.jpg",
           "alt": "Mara mixing a cocktail at the bar",
           "caption": "Crafted with care"
-        },
-        {
-          "image": "../assets/fotos/bar-theke-2026.jpg",
-          "alt": "Our bar counter, Hotel Weinberg",
-          "caption": "At the counter"
         },
         {
           "image": "../assets/fotos/bar-mojito-2026.jpg",
@@ -726,9 +696,14 @@
           "caption": "Freshly mixed"
         },
         {
-          "image": "../assets/fotos/bar-glaeser-2026.jpg",
-          "alt": "Glasses and bottles at the Hotel Weinberg bar",
-          "caption": "Well stocked"
+          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
+          "alt": "Espresso Martini with coffee beans being served at the bar, Hotel Weinberg",
+          "caption": "Aperitivo moment"
+        },
+        {
+          "image": "../assets/fotos/bar-hero-2026.jpg",
+          "alt": "Our bar at Hotel Weinberg",
+          "caption": "Our bar"
         },
         {
           "image": "../assets/fotos/bar-ruehren-2026.jpg",
@@ -741,19 +716,14 @@
           "caption": "Lounge corner"
         },
         {
-          "image": "../assets/fotos/bar-model-cocktail-2026.jpg",
-          "alt": "Espresso Martini with coffee beans being served at the bar, Hotel Weinberg",
-          "caption": "Aperitivo moment"
+          "image": "../assets/fotos/bar-model-2026.jpg",
+          "alt": "Guest enjoying an Espresso Martini at the bar",
+          "caption": "Cheers"
         },
         {
           "image": "../assets/fotos/bar-sessel-2026.jpg",
           "alt": "Leather bar stools in detail, Hotel Weinberg",
           "caption": "Bar seating"
-        },
-        {
-          "image": "../assets/fotos/bar-model-2026.jpg",
-          "alt": "Guest enjoying an Espresso Martini at the bar",
-          "caption": "Cheers"
         }
       ]
     }

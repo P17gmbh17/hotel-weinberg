@@ -786,14 +786,41 @@ body.nav-locked { overflow: hidden; }
   display: block;
   height: 420px;
   min-height: 320px;
-  background: var(--green-dark);
+  background: var(--white);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   overflow: hidden;
   text-decoration: none;
 }
-.anreise-map__art { position: absolute; inset: 0; width: 100%; height: 100%; display: block; transition: filter 0.35s ease, transform 0.5s ease; }
+.anreise-map__art { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; object-position: 32% 50%; transition: filter 0.35s ease, transform 0.5s ease; }
 .anreise-map:hover .anreise-map__art { filter: brightness(1.1); transform: scale(1.02); }
+.anreise-map__pin {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: 32% 50%;
+  display: block;
+  transition: transform 0.32s cubic-bezier(.2,.8,.3,1.3);
+  transform-origin: 31.7% 58%;
+  pointer-events: none;
+}
+.anreise-map:has(.anreise-map__hotspot:hover) .anreise-map__pin,
+.anreise-map:has(.anreise-map__hotspot:focus-visible) .anreise-map__pin {
+  transform: scale(1.22);
+}
+.anreise-map::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.12) 30%, rgba(255,255,255,0.55) 55%, rgba(255,255,255,0.88) 75%, rgba(255,255,255,0.99) 92%, rgba(255,255,255,1) 100%);
+  pointer-events: none;
+}
+.anreise-map__hotspot {
+  position: absolute;
+  left: 20%; top: 28%;
+  width: 24%; height: 44%;
+  z-index: 3;
+  cursor: pointer;
+}
 .anreise-map__frame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
 .anreise-map__cta {
   position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%);
@@ -806,73 +833,6 @@ body.nav-locked { overflow: hidden; }
 }
 .anreise-map:hover .anreise-map__cta { background: var(--olive); color: var(--white); transform: translateX(-50%) translateY(-3px); }
 @media (max-width: 620px) { .anreise-map { height: 320px; } }
-
-/* ---------- Kontakt: Fullscreen-Karte mit Pin-Hover ---------- */
-.kontakt-map-hero {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  min-height: 82vh;
-  display: flex;
-  align-items: center;
-}
-.kontakt-map-hero__map,
-.kontakt-map-hero__pin {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%;
-  object-fit: cover;
-  object-position: 32% 50%;
-  display: block;
-}
-.kontakt-map-hero__map { z-index: -3; }
-.kontakt-map-hero__pin {
-  z-index: -1;
-  transition: transform 0.32s cubic-bezier(.2,.8,.3,1.3);
-  transform-origin: 31.7% 58%;
-  pointer-events: none;
-}
-.kontakt-map-hero:has(.kontakt-map-hero__hotspot:hover) .kontakt-map-hero__pin,
-.kontakt-map-hero:has(.kontakt-map-hero__hotspot:focus-visible) .kontakt-map-hero__pin {
-  transform: scale(1.18);
-}
-.kontakt-map-hero::before {
-  content: "";
-  position: absolute; inset: 0; z-index: -2;
-  background: linear-gradient(90deg, rgba(249,246,237,0.04) 0%, rgba(249,246,237,0.5) 52%, rgba(249,246,237,0.94) 78%, rgba(249,246,237,0.97) 100%);
-  pointer-events: none;
-}
-.kontakt-map-hero__hotspot {
-  position: absolute;
-  left: 22%; top: 34%;
-  width: 20%; height: 36%;
-  z-index: 2;
-  cursor: pointer;
-}
-.kontakt-map-hero__caption {
-  position: relative; z-index: 1;
-  width: 100%;
-  display: flex; justify-content: flex-end;
-  padding: 60px 6%;
-}
-.kontakt-map-hero__caption .inner { max-width: 420px; }
-.kontakt-map-hero__caption .eyebrow { color: var(--olive); }
-.kontakt-map-hero__caption h2 { color: var(--ink); margin: 10px 0 16px; }
-.kontakt-map-hero__caption .lede { color: var(--ink); opacity: 0.85; margin-bottom: 26px; }
-.kontakt-map-hero__caption dl { display: grid; grid-template-columns: auto 1fr; gap: 9px 16px; font-size: 0.95rem; margin: 0; }
-.kontakt-map-hero__caption dt { color: var(--olive); text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.75rem; padding-top: 3px; }
-.kontakt-map-hero__caption dd { margin: 0; color: var(--ink); }
-.kontakt-map-hero__caption dd a { color: var(--ink); }
-
-@media (max-width: 780px) {
-  .kontakt-map-hero { min-height: 62vh; align-items: flex-end; }
-  .kontakt-map-hero__map, .kontakt-map-hero__pin { object-position: 40% 50%; }
-  .kontakt-map-hero::before {
-    background: linear-gradient(180deg, rgba(249,246,237,0.05) 0%, rgba(249,246,237,0.45) 40%, rgba(249,246,237,0.95) 72%, rgba(249,246,237,0.98) 100%);
-  }
-  .kontakt-map-hero__hotspot { left: 0; top: 0; width: 100%; height: 100%; }
-  .kontakt-map-hero__caption { padding: 40px 7% 44px; justify-content: center; }
-  .kontakt-map-hero__caption .inner { max-width: 100%; }
-}
 
 /* ---------- Kulinarik teaser ---------- */
 .kulinarik-teaser-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 40px; }
