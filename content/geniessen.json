@@ -40,12 +40,8 @@
         {
           "image": "../assets/fotos/pool-aperol-2026.jpg",
           "alt": "Aperitivo am Pool bei Sonnenuntergang, Hotel Weinberg",
-          "caption": "Aperitivo am Pool"
-        },
-        {
-          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
-          "alt": "Sonnenbad am Poolrand, Hotel Weinberg",
-          "caption": "Sonnenbad"
+          "caption": "Aperitivo am Pool",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/aperitivo-drink-2026.jpg",
@@ -56,6 +52,11 @@
           "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
           "alt": "Sonnenreflexion auf der Wasseroberfläche des Pools",
           "caption": "Wasserspiel"
+        },
+        {
+          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
+          "alt": "Sonnenbad am Poolrand, Hotel Weinberg",
+          "caption": "Sonnenbad"
         },
         {
           "image": "../assets/fotos/aperitivo-2026.jpg",
@@ -268,12 +269,8 @@
         {
           "image": "../assets/fotos/pool-aperol-2026.jpg",
           "alt": "Aperitivo in piscina al tramonto, Hotel Weinberg",
-          "caption": "Aperitivo in piscina"
-        },
-        {
-          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
-          "alt": "Bagno di sole a bordo piscina, Hotel Weinberg",
-          "caption": "Bagno di sole"
+          "caption": "Aperitivo in piscina",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/aperitivo-drink-2026.jpg",
@@ -284,6 +281,11 @@
           "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
           "alt": "Riflesso del sole sulla superficie della piscina",
           "caption": "Gioco d'acqua"
+        },
+        {
+          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
+          "alt": "Bagno di sole a bordo piscina, Hotel Weinberg",
+          "caption": "Bagno di sole"
         },
         {
           "image": "../assets/fotos/aperitivo-2026.jpg",
@@ -506,12 +508,8 @@
         {
           "image": "../assets/fotos/pool-aperol-2026.jpg",
           "alt": "Aperitivo by the pool at sunset, Hotel Weinberg",
-          "caption": "Aperitivo by the pool"
-        },
-        {
-          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
-          "alt": "Sunbathing at the pool's edge, Hotel Weinberg",
-          "caption": "Sunbathing"
+          "caption": "Aperitivo by the pool",
+          "position": "left"
         },
         {
           "image": "../assets/fotos/aperitivo-drink-2026.jpg",
@@ -522,6 +520,11 @@
           "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
           "alt": "Sun reflection on the pool's water surface",
           "caption": "Play of water"
+        },
+        {
+          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
+          "alt": "Sunbathing at the pool's edge, Hotel Weinberg",
+          "caption": "Sunbathing"
         },
         {
           "image": "../assets/fotos/aperitivo-2026.jpg",
