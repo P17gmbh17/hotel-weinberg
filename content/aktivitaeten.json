@@ -657,6 +657,7 @@
         "cat": "kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "position": "12% 40%",
         "alt": "Bogenschütze am Bogenparcours bei Burg Hocheppan",
         "tags": [
           "Kultur",
@@ -675,6 +676,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "position": "30% 25%",
         "alt": "Sekt-Verkostung in der Sektmanufaktur Winkler in Girlan",
         "tags": [
           "Kultur",
@@ -1369,6 +1371,7 @@
         "cat": "kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "position": "12% 40%",
         "alt": "Arciere al percorso d'arco presso il castello di Hocheppan",
         "tags": [
           "Cultura",
@@ -1387,6 +1390,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "position": "30% 25%",
         "alt": "Degustazione di spumante alla Sektmanufaktur Winkler a Cornaiano",
         "tags": [
           "Cultura",
@@ -2081,6 +2085,7 @@
         "cat": "kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "position": "12% 40%",
         "alt": "Archer at the archery course near Hocheppan Castle",
         "tags": [
           "Culture",
@@ -2099,6 +2104,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "position": "30% 25%",
         "alt": "Sparkling wine tasting at Sektmanufaktur Winkler in Girlan",
         "tags": [
           "Culture",
