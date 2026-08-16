@@ -597,6 +597,114 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> nur Anfahrt · Bergbahn Monte Baldo ca. 24 € retour</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Baden, Windsurfen, Wandern</span>",
         "hours": "Ganzjährig, Badesaison Mai–September",
         "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Bauernmarkt Eppan",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+        "alt": "Marktstand mit frischem Gemüse am Bauernmarkt St. Michael/Eppan",
+        "tags": [
+          "Kultur",
+          "Markt"
+        ],
+        "place": "Rathausplatz, St. Michael/Eppan",
+        "title": "Bauernmarkt St. Michael/Eppan",
+        "desc": "Ganzjährig jeden Dienstagvormittag verkaufen Südtiroler Bauern ihr eigenes Obst, Gemüse, Käse und weitere Hofprodukte auf dem Rathausplatz mitten im Dorf.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenloser Eintritt</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> ganzjährig, dienstagvormittags</span>",
+        "hours": "Dienstagvormittag, ganzjährig",
+        "actions_html": "<a href=\"https://www.eppan.eu/de/Bauernmarkt_St_Michael_Eppan\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Brennerei St. Urban",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "alt": "Verkostung in der Brennerei St. Urban in Girlan, Eppan",
+        "tags": [
+          "Kultur",
+          "Verkostung"
+        ],
+        "place": "Lammweg 13, Girlan/Eppan",
+        "title": "Brennerei St. Urban, Verkostung",
+        "desc": "Edelbrände und feine Spirituosen aus vollreifem, selbst angebautem Obst, seit 2008 von Erwin Leimgruber in Girlan gebrannt. Verkostungen im Gewölbekeller auf Anfrage.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Verkostung auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> Anmeldung erforderlich</span>",
+        "hours": "Mo–Fr 10:00–18:00 Uhr, Sa 10:00–16:00 Uhr",
+        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Eislöcher-Wanderung",
+        "cat": "wandern",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+        "alt": "Wanderweg zu den Eislöchern bei Eppan",
+        "tags": [
+          "Wandern",
+          "Natur"
+        ],
+        "place": "Start: Gand, Eppan",
+        "title": "Eislöcher-Wanderung",
+        "desc": "Naturphänomen am Fuß des Gandbergs: Aus einem Bergsturz aus Porphyrgestein strömt kühle Luft und hält die Senke auch im Hochsommer spürbar kalt. Leichter Rundweg zwischen Eppan und Kaltern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5–2 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos, frei zugänglich</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 4 km · leicht</span>",
+        "hours": "Ganzjährig zugänglich",
+        "actions_html": "<a href=\"https://www.kalterersee.com/en/leisure-activities/mountains-and-hiking/to-the-ice-holes-in-appiano/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+      },
+      {
+        "comment": "Bogenparcours Hocheppan",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "alt": "Bogenschütze am Bogenparcours bei Burg Hocheppan",
+        "tags": [
+          "Kultur",
+          "Sport"
+        ],
+        "place": "Unterrain/Missian, bei Burg Hocheppan",
+        "title": "Bogenparcours Burg Hocheppan",
+        "desc": "Mittelalterlicher 3D-Parcours mit 28 Tierfiguren im Wald unterhalb der Burg, geeignet für Anfänger und Kinder ab 6 Jahren. Die komplette Runde dauert rund drei Stunden, eine kurze Runde etwa die Hälfte.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5–3 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> 15 € eig. Ausrüstung · 25 € Leihausrüstung</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> täglich außer Mi, April–Anfang Nov.</span>",
+        "hours": "Ausrüstungsverleih 10:00–14:00 Uhr",
+        "actions_html": "<a href=\"https://www.suedtirol.com/andere-sportarten-suedtirol/bogenschiessen/bogenparcours-eppan\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Sektmanufaktur Winkler",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "alt": "Sekt-Verkostung in der Sektmanufaktur Winkler in Girlan",
+        "tags": [
+          "Kultur",
+          "Verkostung"
+        ],
+        "place": "Lammweg 12, Girlan/Eppan",
+        "title": "Sektmanufaktur Winkler, Verkostung",
+        "desc": "Familienbetrieb in Girlan mit Einblick in die traditionelle Flaschengärung und Verkostung des hauseigenen Sekts „Lamm Nr. 12\" samt kleiner Häppchen, ganz persönlich von der Familie Winkler.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Verkostung auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> Terminvereinbarung nötig</span>",
+        "hours": "Nach telefonischer Vereinbarung",
+        "actions_html": "<a href=\"https://www.sektmanufaktur.it/en\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Langer Mittwoch",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.jpg",
+        "alt": "Bunte Schirme über der Dorfgasse beim Langen Mittwoch in St. Michael/Eppan",
+        "tags": [
+          "Kultur",
+          "Event"
+        ],
+        "place": "Dorfzentrum St. Michael/Eppan",
+        "title": "Langer Mittwoch in St. Michael",
+        "desc": "An Sommerabenden im Juli und August verwandeln bunte, beleuchtete Schirme über den Gassen St. Michaels die Geschäftsstraße in eine Flaniermeile mit Live-Musik, Straßenkunst und langen Öffnungszeiten.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 19:00–23:00 Uhr</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenloser Eintritt</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> mittwochs, Juli & August</span>",
+        "hours": "Juli–August, jeweils mittwochs 19:00–23:00 Uhr",
+        "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       }
     ],
     "cta_heading": "Aktiv-Urlaub direkt an der Weinstraße",
@@ -1201,6 +1309,114 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> solo il viaggio · funivia Monte Baldo circa 24 € andata/ritorno</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> bagno, windsurf, escursioni</span>",
         "hours": "Tutto l'anno, stagione balneare maggio–settembre",
         "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Bauernmarkt Eppan",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+        "alt": "Bancarella con verdura fresca al mercato contadino di San Michele/Appiano",
+        "tags": [
+          "Cultura",
+          "Mercato"
+        ],
+        "place": "Piazza Municipio, San Michele/Appiano",
+        "title": "Mercato contadino di San Michele/Appiano",
+        "desc": "Tutto l'anno, ogni martedì mattina, i contadini altoatesini vendono frutta, verdura, formaggi e altri prodotti dei propri masi in piazza Municipio, nel cuore del paese.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1 ora</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> tutto l'anno, il martedì mattina</span>",
+        "hours": "Martedì mattina, tutto l'anno",
+        "actions_html": "<a href=\"https://www.eppan.eu/it/Mercato_contadino_a_S_Michele_Appiano_4\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Brennerei St. Urban",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "alt": "Degustazione alla Distilleria St. Urban a Cornaiano, Appiano",
+        "tags": [
+          "Cultura",
+          "Degustazione"
+        ],
+        "place": "Via Lamm 13, Cornaiano/Appiano",
+        "title": "Distilleria St. Urban, degustazione",
+        "desc": "Distillati pregiati e acqueviti da frutta matura di produzione propria, distillati dal 2008 da Erwin Leimgruber a Cornaiano. Degustazioni nella cantina a volta su richiesta.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1 ora</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> degustazione su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> prenotazione necessaria</span>",
+        "hours": "Lun–Ven 10:00–18:00, Sab 10:00–16:00",
+        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Eislöcher-Wanderung",
+        "cat": "wandern",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+        "alt": "Sentiero verso le buche di ghiaccio (Eislöcher) vicino ad Appiano",
+        "tags": [
+          "Escursioni",
+          "Natura"
+        ],
+        "place": "Partenza: Gand, Appiano",
+        "title": "Escursione alle buche di ghiaccio",
+        "desc": "Fenomeno naturale ai piedi del Gandberg: da una frana di porfido fuoriesce aria fredda che mantiene la conca gelida anche in piena estate. Facile anello tra Appiano e Caldaro.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min. d'auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5–2 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito, libero accesso</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 4 km · facile</span>",
+        "hours": "Accessibile tutto l'anno",
+        "actions_html": "<a href=\"https://www.kalterersee.com/en/leisure-activities/mountains-and-hiking/to-the-ice-holes-in-appiano/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+      },
+      {
+        "comment": "Bogenparcours Hocheppan",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "alt": "Arciere al percorso d'arco presso il castello di Hocheppan",
+        "tags": [
+          "Cultura",
+          "Sport"
+        ],
+        "place": "Sotteargine/Missiano, presso il Castello di Hocheppan",
+        "title": "Percorso di tiro con l'arco, Castello di Hocheppan",
+        "desc": "Percorso 3D in stile medievale con 28 sagome di animali nel bosco sotto il castello, adatto a principianti e bambini dai 6 anni. Il giro completo dura circa tre ore, quello breve circa la metà.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5–3 ore</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> 15 € attrezzatura propria · 25 € a noleggio</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> tutti i giorni tranne mer., apr.–inizio nov.</span>",
+        "hours": "Noleggio attrezzatura 10:00–14:00",
+        "actions_html": "<a href=\"https://www.suedtirol.com/andere-sportarten-suedtirol/bogenschiessen/bogenparcours-eppan\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Sektmanufaktur Winkler",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "alt": "Degustazione di spumante alla Sektmanufaktur Winkler a Cornaiano",
+        "tags": [
+          "Cultura",
+          "Degustazione"
+        ],
+        "place": "Via Lamm 12, Cornaiano/Appiano",
+        "title": "Sektmanufaktur Winkler, degustazione",
+        "desc": "Azienda familiare a Cornaiano che apre le porte alla rifermentazione tradizionale in bottiglia e fa degustare il proprio spumante \"Lamm Nr. 12\" con piccoli assaggi, accolti personalmente dalla famiglia Winkler.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1 ora</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> degustazione su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> prenotazione necessaria</span>",
+        "hours": "Su appuntamento telefonico",
+        "actions_html": "<a href=\"https://www.sektmanufaktur.it/en\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
+      },
+      {
+        "comment": "Langer Mittwoch",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.jpg",
+        "alt": "Ombrelli colorati sopra i vicoli durante il Langer Mittwoch a San Michele/Appiano",
+        "tags": [
+          "Cultura",
+          "Evento"
+        ],
+        "place": "Centro paese, San Michele/Appiano",
+        "title": "Langer Mittwoch a San Michele",
+        "desc": "Nelle sere d'estate di luglio e agosto, ombrelli colorati e illuminati sopra i vicoli trasformano la via principale di San Michele in un salotto a cielo aperto con musica dal vivo, arte di strada e negozi aperti fino a tardi.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 19:00–23:00</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> il mercoledì, luglio e agosto</span>",
+        "hours": "Luglio–agosto, ogni mercoledì 19:00–23:00",
+        "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       }
     ],
     "cta_heading": "Vacanza attiva direttamente sulla Strada del Vino",
@@ -1805,6 +2021,114 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> travel only · Monte Baldo cable car approx. €24 return</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> swimming, windsurfing, hiking</span>",
         "hours": "Year-round, swimming season May–September",
         "actions_html": "<a href=\"https://www.gardasee.de/riva-del-garda/ausflugsziele\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Bauernmarkt Eppan",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+        "alt": "Market stall with fresh vegetables at the St. Michael/Eppan farmers' market",
+        "tags": [
+          "Culture",
+          "Market"
+        ],
+        "place": "Town hall square, St. Michael/Eppan",
+        "title": "St. Michael/Eppan Farmers' Market",
+        "desc": "Every Tuesday morning, year-round, South Tyrolean farmers sell their own fruit, vegetables, cheese and other farm products on the town hall square in the heart of the village.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1 hour</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free entry</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> year-round, Tuesday mornings</span>",
+        "hours": "Tuesday mornings, year-round",
+        "actions_html": "<a href=\"https://www.eppan.eu/de/Bauernmarkt_St_Michael_Eppan\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Brennerei St. Urban",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "alt": "Tasting at the St. Urban distillery in Girlan, Eppan",
+        "tags": [
+          "Culture",
+          "Tasting"
+        ],
+        "place": "Lammweg 13, Girlan/Eppan",
+        "title": "St. Urban Distillery, Tasting",
+        "desc": "Fine brandies and spirits made from fully ripe, home-grown fruit, distilled since 2008 by Erwin Leimgruber in Girlan. Tastings in the vaulted cellar by request.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1 hour</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> tasting by request</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> booking required</span>",
+        "hours": "Mon–Fri 10:00–18:00, Sat 10:00–16:00",
+        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Eislöcher-Wanderung",
+        "cat": "wandern",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+        "alt": "Trail to the Eislöcher ice holes near Eppan",
+        "tags": [
+          "Hiking",
+          "Nature"
+        ],
+        "place": "Start: Gand, Eppan",
+        "title": "Eislöcher Ice Holes Hike",
+        "desc": "A natural phenomenon at the foot of the Gandberg: cold air streams out of a porphyry rockslide, keeping the hollow noticeably cool even in midsummer. An easy loop between Eppan and Kaltern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min. drive to the start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5–2 hours</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free, open access</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 4 km · easy</span>",
+        "hours": "Accessible year-round",
+        "actions_html": "<a href=\"https://www.kalterersee.com/en/leisure-activities/mountains-and-hiking/to-the-ice-holes-in-appiano/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+      },
+      {
+        "comment": "Bogenparcours Hocheppan",
+        "cat": "kultur",
+        "zeit": "halbtags",
+        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "alt": "Archer at the archery course near Hocheppan Castle",
+        "tags": [
+          "Culture",
+          "Sport"
+        ],
+        "place": "Unterrain/Missiano, near Hocheppan Castle",
+        "title": "Hocheppan Castle Archery Course",
+        "desc": "A medieval-style 3D course with 28 animal targets in the woods below the castle, suitable for beginners and children from age 6. The full round takes about three hours, the short round about half that.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5–3 hours</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> €15 own equipment · €25 rental equipment</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> daily except Wed., April–early Nov.</span>",
+        "hours": "Equipment rental 10:00–14:00",
+        "actions_html": "<a href=\"https://www.suedtirol.com/andere-sportarten-suedtirol/bogenschiessen/bogenparcours-eppan\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Sektmanufaktur Winkler",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "alt": "Sparkling wine tasting at Sektmanufaktur Winkler in Girlan",
+        "tags": [
+          "Culture",
+          "Tasting"
+        ],
+        "place": "Lammweg 12, Girlan/Eppan",
+        "title": "Sektmanufaktur Winkler, Tasting",
+        "desc": "A family-run producer in Girlan offering insight into traditional bottle fermentation and a tasting of their own sparkling wine \"Lamm Nr. 12\" with light bites, hosted personally by the Winkler family.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1 hour</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> tasting by request</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> appointment required</span>",
+        "hours": "By telephone appointment",
+        "actions_html": "<a href=\"https://www.sektmanufaktur.it/en\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
+      },
+      {
+        "comment": "Langer Mittwoch",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.jpg",
+        "alt": "Colourful umbrellas over the lanes during Langer Mittwoch in St. Michael/Eppan",
+        "tags": [
+          "Culture",
+          "Event"
+        ],
+        "place": "Village centre, St. Michael/Eppan",
+        "title": "Langer Mittwoch in St. Michael",
+        "desc": "On summer evenings in July and August, colourful illuminated umbrellas over the lanes turn St. Michael's high street into an open-air promenade with live music, street art and late shop openings.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 7:00–11:00 pm</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free entry</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Wednesdays, July & August</span>",
+        "hours": "July–August, every Wednesday 7:00–11:00 pm",
+        "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       }
     ],
     "cta_heading": "An active holiday, right on the Wine Route",
