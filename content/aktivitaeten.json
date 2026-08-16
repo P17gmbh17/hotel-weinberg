@@ -457,6 +457,7 @@
         "cat": "wandern kultur",
         "zeit": "ganztags",
         "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "position": "70% 55%",
         "alt": "Mendelbahn zur Mendel-Wanderung",
         "tags": [
           "Wandern",
@@ -1060,6 +1061,7 @@
         "cat": "wandern kultur",
         "zeit": "ganztags",
         "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "position": "70% 55%",
         "alt": "Funicolare della Mendola per l'escursione",
         "tags": [
           "Escursioni",
@@ -1663,6 +1665,7 @@
         "cat": "wandern kultur",
         "zeit": "ganztags",
         "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "position": "70% 55%",
         "alt": "Mendel funicular for the hike",
         "tags": [
           "Hiking",
