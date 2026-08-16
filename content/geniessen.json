@@ -74,6 +74,11 @@
       "background_alt": "Terrasse des Hotel Weinberg in der Morgensonne",
       "impressions": [
         {
+          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "alt": "Palmenblatt im Garten des Hotel Weinberg",
+          "caption": "Palmenblatt"
+        },
+        {
           "image": "../assets/fotos/garten-weg-2026.jpg",
           "alt": "Garten des Hotel Weinberg",
           "caption": "Garten"
@@ -82,11 +87,6 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Weinverkostung im Garten des Hotel Weinberg",
           "caption": "Weingenuss"
-        },
-        {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
-          "alt": "Palmenblatt im Garten des Hotel Weinberg",
-          "caption": "Palmenblatt"
         },
         {
           "image": "../assets/fotos/gartenlounge-2026.jpg",
@@ -242,7 +242,8 @@
         {
           "image": "../assets/fotos/bar-lounge-2026.jpg",
           "alt": "Gemütliche Lounge-Ecke im Eingangsbereich, Hotel Weinberg",
-          "caption": "Lounge-Ecke"
+          "caption": "Lounge-Ecke",
+          "position": "right"
         },
         {
           "image": "../assets/fotos/bar-model-2026.jpg",
@@ -252,7 +253,8 @@
         {
           "image": "../assets/fotos/bar-sessel-2026.jpg",
           "alt": "Barhocker aus Leder im Detail, Hotel Weinberg",
-          "caption": "Sitzkomfort"
+          "caption": "Sitzkomfort",
+          "position": "left"
         }
       ]
     }
@@ -332,6 +334,11 @@
       "background_alt": "Terrazza dell’Hotel Weinberg al sole del mattino",
       "impressions": [
         {
+          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "alt": "Foglia di palma nel giardino dell'Hotel Weinberg",
+          "caption": "Foglia di palma"
+        },
+        {
           "image": "../assets/fotos/garten-weg-2026.jpg",
           "alt": "Giardino dell'Hotel Weinberg",
           "caption": "Giardino"
@@ -340,11 +347,6 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Degustazione di vino nel giardino dell'Hotel Weinberg",
           "caption": "Bicchiere di vino"
-        },
-        {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
-          "alt": "Foglia di palma nel giardino dell'Hotel Weinberg",
-          "caption": "Foglia di palma"
         },
         {
           "image": "../assets/fotos/gartenlounge-2026.jpg",
@@ -510,7 +512,8 @@
         {
           "image": "../assets/fotos/bar-sessel-2026.jpg",
           "alt": "Dettaglio degli sgabelli in pelle del bar, Hotel Weinberg",
-          "caption": "Comfort al bancone"
+          "caption": "Comfort al bancone",
+          "position": "left"
         }
       ]
     }
@@ -590,6 +593,11 @@
       "background_alt": "Terrace of Hotel Weinberg in the morning sun",
       "impressions": [
         {
+          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "alt": "Palm leaf in the garden of Hotel Weinberg",
+          "caption": "Palm leaf"
+        },
+        {
           "image": "../assets/fotos/garten-weg-2026.jpg",
           "alt": "Garden at Hotel Weinberg",
           "caption": "Garden"
@@ -598,11 +606,6 @@
           "image": "../assets/fotos/garten-weingenuss-2026.jpg",
           "alt": "Wine tasting in the garden of Hotel Weinberg",
           "caption": "Wine Moment"
-        },
-        {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
-          "alt": "Palm leaf in the garden of Hotel Weinberg",
-          "caption": "Palm leaf"
         },
         {
           "image": "../assets/fotos/gartenlounge-2026.jpg",
@@ -768,7 +771,8 @@
         {
           "image": "../assets/fotos/bar-sessel-2026.jpg",
           "alt": "Leather bar stools in detail, Hotel Weinberg",
-          "caption": "Bar seating"
+          "caption": "Bar seating",
+          "position": "left"
         }
       ]
     }

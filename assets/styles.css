@@ -775,6 +775,7 @@ body.nav-locked { overflow: hidden; }
   position: relative;
   overflow: hidden;
   box-shadow: var(--shadow);
+  border-radius: 8px;
   height: 500px;
   min-height: 380px;
 }
