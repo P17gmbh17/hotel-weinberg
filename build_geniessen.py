@@ -44,30 +44,6 @@ def build_ticklist_fragment(c):
     return '<ul class="tick-list">\n' + items + '\n    </ul>'
 
 
-def build_mobile_slots_fragment(images, band_id, slug):
-    """Mobile: 2 feste Felder nebeneinander. Reine Struktur ohne Animation/Effekte
-    (bewusst vereinfacht, da die CSS-Crossfade-Variante auf dem Handy/Browser
-    nicht zuverlaessig gerendert wurde) - zeigt je Feld ein festes Bild
-    (Bild 1 links, Bild 2 rechts)."""
-    left = images[0] if len(images) > 0 else None
-    right = images[1] if len(images) > 1 else None
-    slot_parts = []
-    for im in (left, right):
-        if im is None:
-            continue
-        slot_parts.append(
-            '      <div class="impression-band__slot">\n'
-            f'        <img src="{im["image"]}" alt="{im["alt"]}">\n'
-            '      </div>'
-        )
-
-    return (
-        '<div class="impression-band__mobile">\n'
-        + "\n".join(slot_parts) + "\n"
-        '    </div>'
-    )
-
-
 def build_band_fragment(chapter, tag, slug):
     n = len(chapter["impressions"])
     items = []
@@ -82,8 +58,10 @@ def build_band_fragment(chapter, tag, slug):
         )
 
     band_id = f"band{slug.capitalize()}"
-    mobile_fragment = build_mobile_slots_fragment(chapter["impressions"], band_id, slug)
 
+    # Mobile nutzt dasselbe .impression-band__grid (per CSS auf Spaltenrichtung
+    # umgestellt) statt eines eigenen Slider-/Slot-Systems - dadurch sind alle
+    # Bilder auf dem Handy einfach untereinander sichtbar und scrollbar.
     return (
         f'<div class="impression-band" id="{band_id}">\n'
         '    <div class="impression-band__sticky">\n'
@@ -91,7 +69,6 @@ def build_band_fragment(chapter, tag, slug):
         '      <div class="impression-band__grid">\n'
         + "\n".join(items) + "\n"
         '      </div>\n'
-        + mobile_fragment + "\n"
         '    </div>\n'
         '  </div>'
     )

@@ -139,7 +139,7 @@
   function syncHeader() {
     if (document.querySelector('.main-nav.is-open')) return;
     const y = window.scrollY;
-    const scrolled = y > 40;
+    const scrolled = document.querySelector('.legal-page') ? true : y > 40;
     if (scrolled !== wasScrolled) {
       header.classList.toggle('is-scrolled', scrolled);
       if (navLockup) navLockup.src = scrolled ? '../assets/logo/logo-horizontal-olive.png' : '../assets/logo/logo-horizontal-white.png';

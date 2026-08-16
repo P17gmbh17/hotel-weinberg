@@ -178,6 +178,10 @@ h1, h2, h3, h4 {
 .main-nav a:hover, .main-nav a.is-active { border-color: currentColor; }
 .main-nav a.is-active { font-weight: 600; }
 .site-header.is-scrolled .main-nav a.is-active { color: var(--olive-dark); }
+/* Rechtliche Seiten (Impressum, Datenschutz, Cookie-Einstellungen) haben keinen
+   dunklen Hero dahinter - Navi startet dort per JS bereits im "is-scrolled"-Modus
+   (siehe Seiten-Skript), Linkfarbe hier zusaetzlich auf Oliv-Bronze statt Gruen. */
+body:has(.legal-page) .site-header.is-scrolled .main-nav a { color: var(--olive-dark); }
 .main-nav .btn {
   padding: 12px 20px;
   white-space: nowrap;
@@ -1486,35 +1490,25 @@ html.skip-curtain .curtain__icon {
   font-family: var(--serif);
   font-size: 1.3rem;
 }
-/* Mobile: 2 feste Felder, deren Inhalt automatisch durch alle Bilder rotiert */
-.impression-band__mobile {
-  display: none;
-  gap: 14px;
-  margin: 0 24px;
-  height: min(46vh, 380px);
-}
-.impression-band__slot {
-  position: relative;
-  flex: 1 1 50%;
-  height: 100%;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-}
-.impression-band__slot img {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%;
-  object-fit: cover;
-  opacity: 0;
-}
-.impression-band__slot img:first-child { opacity: 1; }
+/* Mobile: alle Bilder untereinander, normal zum Runterscrollen (kein Slider,
+   keine Animation - einfache, robuste Struktur). Nutzt dasselbe Grid wie
+   Desktop, nur auf Spaltenrichtung umgestellt. */
+.impression-band__mobile { display: none; }
 @media (max-width: 780px) {
-  .impression-band__grid { display: none; }
-  .impression-band__mobile { display: flex; }
-}
-@media (max-width: 780px) and (prefers-reduced-motion: reduce) {
-  .impression-band__slot img { animation: none !important; opacity: 0; }
-  .impression-band__slot img:first-child { opacity: 1; }
+  .impression-band__grid {
+    flex-direction: column;
+    overflow-x: visible;
+    overflow-y: visible;
+    scroll-snap-type: none;
+    cursor: default;
+    padding: 0 24px;
+    gap: 20px;
+  }
+  .impression-band__item {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 60vh;
+  }
 }
 
 /* ---------- Impressionen-Band Variante: "Entdecke mehr"-CTA (Aktivitäten) ---------- */
