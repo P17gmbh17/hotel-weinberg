@@ -45,53 +45,24 @@ def build_ticklist_fragment(c):
 
 
 def build_mobile_slots_fragment(images, band_id, slug):
-    """Mobile: 2 feste Felder nebeneinander, deren Inhalt per reinem CSS
-    automatisch durch alle Bilder rotiert (Bild 1,3,5.. im linken Feld,
-    Bild 2,4,6.. im rechten Feld). Funktioniert mit beliebig vielen Bildern."""
-    groups = [images[0::2], images[1::2]]
-    slot_s = 4.5
-    fade_s = 0.8
+    """Mobile: 2 feste Felder nebeneinander. Reine Struktur ohne Animation/Effekte
+    (bewusst vereinfacht, da die CSS-Crossfade-Variante auf dem Handy/Browser
+    nicht zuverlaessig gerendert wurde) - zeigt je Feld ein festes Bild
+    (Bild 1 links, Bild 2 rechts)."""
+    left = images[0] if len(images) > 0 else None
+    right = images[1] if len(images) > 1 else None
     slot_parts = []
-    keyframe_rules = []
-    for slot_idx, group in enumerate(groups, start=1):
-        m = len(group)
-        if m == 0:
+    for im in (left, right):
+        if im is None:
             continue
-        imgs_html = "\n".join(
-            f'        <img src="{im["image"]}" alt="{im["alt"]}">' for im in group
-        )
-        slot_parts.append(f'      <div class="impression-band__slot">\n{imgs_html}\n      </div>')
-        if m > 1:
-            total_s = round(m * slot_s, 2)
-            keyframe_name = f"impressionMobileFade{slug.capitalize()}{slot_idx}"
-            fade_in_end = round(fade_s / total_s * 100, 2)
-            hold_end = round(100 / m, 2)
-            fade_out_end = round(hold_end + fade_in_end, 2)
-            rules = []
-            for i in range(m):
-                # Positive delay (statt negativ) sorgt fuer die richtige Reihenfolge 0,1,2,...
-                # Das Fade-out-Fenster jedes Bildes ueberlappt exakt mit dem Fade-in-Fenster
-                # des naechsten Bildes (echte Ueberblendung, keine komplett leere Luecke dazwischen).
-                delay = round(i * slot_s, 2)
-                rules.append(
-                    f'  #{band_id} .impression-band__slot:nth-of-type({slot_idx}) img:nth-child({i + 1}) {{ animation: {keyframe_name} {total_s}s ease-in-out infinite; animation-delay: {delay}s; }}'
-                )
-            keyframe_rules.append(
-                f'  @keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {hold_end}% {{ opacity: 1; }} {fade_out_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
-                + "\n".join(rules)
-            )
-
-    style_block = ""
-    if keyframe_rules:
-        style_block = (
-            '<style>\n@media (max-width: 780px) {\n'
-            + "\n".join(keyframe_rules) + "\n"
-            '}\n</style>\n'
+        slot_parts.append(
+            '      <div class="impression-band__slot">\n'
+            f'        <img src="{im["image"]}" alt="{im["alt"]}">\n'
+            '      </div>'
         )
 
     return (
-        style_block
-        + '<div class="impression-band__mobile">\n'
+        '<div class="impression-band__mobile">\n'
         + "\n".join(slot_parts) + "\n"
         '    </div>'
     )
