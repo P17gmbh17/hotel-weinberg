@@ -784,12 +784,12 @@ body.nav-locked { overflow: hidden; }
   position: absolute; inset: 0;
   width: 100%; height: 100%;
   object-fit: cover;
-  object-position: 32% 50%;
+  object-position: 52% 50%;
   display: block;
 }
 .lage-map-card__pin {
   transition: transform 0.32s cubic-bezier(.2,.8,.3,1.3);
-  transform-origin: 31.7% 58%;
+  transform-origin: 51.7% 58%;
   pointer-events: none;
 }
 .lage-map-card:has(.lage-map-card__hotspot:hover) .lage-map-card__pin,
@@ -804,7 +804,7 @@ body.nav-locked { overflow: hidden; }
 }
 .lage-map-card__hotspot {
   position: absolute;
-  left: 18%; top: 24%;
+  left: 38%; top: 24%;
   width: 26%; height: 48%;
   z-index: 3;
   cursor: pointer;

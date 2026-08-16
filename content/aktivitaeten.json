@@ -205,7 +205,7 @@
         "cat": "wandern kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-        "alt": "Drei-Burgen-Wanderung Hocheppan",
+        "alt": "Schloss Korb, Drei-Burgen-Wanderung",
         "tags": [
           "Wandern",
           "Kultur"
@@ -937,7 +937,7 @@
         "cat": "wandern kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-        "alt": "Sentiero delle Tre Castella, Hocheppan",
+        "alt": "Castello di Korb, Sentiero delle Tre Castella",
         "tags": [
           "Escursioni",
           "Cultura"
@@ -1669,7 +1669,7 @@
         "cat": "wandern kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-        "alt": "Three Castles trail, Hocheppan",
+        "alt": "Korb Castle, Three Castles Hike",
         "tags": [
           "Hiking",
           "Culture"

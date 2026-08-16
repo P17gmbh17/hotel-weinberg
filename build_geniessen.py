@@ -65,16 +65,19 @@ def build_mobile_slots_fragment(images, band_id, slug):
             total_s = round(m * slot_s, 2)
             keyframe_name = f"impressionMobileFade{slug.capitalize()}{slot_idx}"
             fade_in_end = round(fade_s / total_s * 100, 2)
-            slot_end = round(100 / m, 2)
-            fade_out_start = round(max(slot_end - fade_in_end, fade_in_end), 2)
+            hold_end = round(100 / m, 2)
+            fade_out_end = round(hold_end + fade_in_end, 2)
             rules = []
             for i in range(m):
-                delay = round(-(i * slot_s), 2)
+                # Positive delay (statt negativ) sorgt fuer die richtige Reihenfolge 0,1,2,...
+                # Das Fade-out-Fenster jedes Bildes ueberlappt exakt mit dem Fade-in-Fenster
+                # des naechsten Bildes (echte Ueberblendung, keine komplett leere Luecke dazwischen).
+                delay = round(i * slot_s, 2)
                 rules.append(
                     f'  #{band_id} .impression-band__slot:nth-of-type({slot_idx}) img:nth-child({i + 1}) {{ animation: {keyframe_name} {total_s}s ease-in-out infinite; animation-delay: {delay}s; }}'
                 )
             keyframe_rules.append(
-                f'  @keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {fade_out_start}% {{ opacity: 1; }} {slot_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
+                f'  @keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {hold_end}% {{ opacity: 1; }} {fade_out_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
                 + "\n".join(rules)
             )
 
