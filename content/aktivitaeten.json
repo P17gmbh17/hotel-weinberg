@@ -725,6 +725,24 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Preis auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> dienstags, saisonal · Anmeldung nötig</span>",
         "hours": "Dienstags 10:00–13:00 Uhr, nach Anmeldung",
         "actions_html": "<a href=\"https://www.eppan.eu/de/Runde_Sache_Knoedelkochkurs\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "MTB-Tour Montiggler Wald",
+        "cat": "bike",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.jpg",
+        "alt": "Mountainbiker im Montiggler Wald",
+        "tags": [
+          "Bike",
+          "Rundtour"
+        ],
+        "place": "Start: Kaltern (Dampflok an der Kellereistraße)",
+        "title": "MTB-Tour durch den Montiggler Wald",
+        "desc": "Von Kaltern führt Weg Nr. 4 durchs Lavasontal hinauf in den Montiggler Wald, vorbei am Großen und Kleinen Montiggler See, weiter über Schreckbichl in die Weinlandschaft von Girlan und zurück über St. Michael auf dem Überetscher Radweg nach Kaltern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2 Std. (mit Pausen)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 11,3 km · leicht, ca. 310 Hm</span>",
+        "hours": "Ganzjährig befahrbar · leicht",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/de/freizeit-aktiv/rad-mountainbike/mtb-tour-montiggler-wald/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
       }
     ],
     "cta_heading": "Aktiv-Urlaub direkt an der Weinstraße",
@@ -1457,6 +1475,24 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> prezzo su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> il martedì, stagionale · prenotazione necessaria</span>",
         "hours": "Martedì 10:00–13:00, su prenotazione",
         "actions_html": "<a href=\"https://www.eppan.eu/de/Runde_Sache_Knoedelkochkurs\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "MTB-Tour Montiggler Wald",
+        "cat": "bike",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.jpg",
+        "alt": "Mountain bike nel Bosco di Monticolo",
+        "tags": [
+          "Bike",
+          "Anello"
+        ],
+        "place": "Partenza: Caldaro (locomotiva a vapore in via Cantine)",
+        "title": "Giro in MTB nel Bosco di Monticolo",
+        "desc": "Da Caldaro il sentiero n. 4 sale attraverso la Val di Lavason nel Bosco di Monticolo, passando per il Lago Grande e il Lago Piccolo di Monticolo, prosegue verso Schreckbichl fino al paesaggio vitato di Girlano e ritorna via San Michele lungo la pista ciclabile dell'Oltradige fino a Caldaro.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2 ore (con soste)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 11,3 km · facile, circa 310 m di dislivello</span>",
+        "hours": "Percorribile tutto l'anno · facile",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/it/sport-e-tempo-libero/bici-e-mountain-bike/giro-in-mtb-nel-bosco-di-monticolo/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
       }
     ],
     "cta_heading": "Vacanza attiva direttamente sulla Strada del Vino",
@@ -2189,6 +2225,24 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> price on request</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Tuesdays, seasonal · booking required</span>",
         "hours": "Tuesdays 10:00 am–1:00 pm, by reservation",
         "actions_html": "<a href=\"https://www.eppan.eu/de/Runde_Sache_Knoedelkochkurs\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "MTB-Tour Montiggler Wald",
+        "cat": "bike",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.jpg",
+        "alt": "Mountain bikers in Monticolo Forest",
+        "tags": [
+          "Biking",
+          "Loop"
+        ],
+        "place": "Start: Kaltern/Caldaro (steam engine on Kellereistraße)",
+        "title": "MTB Tour through Monticolo Forest",
+        "desc": "From Kaltern, trail no. 4 climbs through the Lavason valley into Monticolo Forest, passing the Great and Small Lake of Monticolo, continuing via Schreckbichl into the vineyard landscape of Girlan and back via St. Michael along the Überetsch cycle path to Kaltern.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2 hrs (with breaks)</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 11.3 km · easy, approx. 310 m elevation gain</span>",
+        "hours": "Open year-round · easy",
+        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountain-biking-and-cycling/mtb-tour-monticolo-forest/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
       }
     ],
     "cta_heading": "An active holiday, right on the Wine Route",
