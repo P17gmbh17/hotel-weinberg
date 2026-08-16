@@ -223,6 +223,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "position": "38% 35%",
         "alt": "Schloss Hocheppan mit Burgkapelle",
         "tags": [
           "Kultur",
@@ -331,6 +332,7 @@
         "cat": "golf",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "position": "60% 10%",
         "alt": "Trainingscenter Schloss Freudenstein",
         "tags": [
           "Golf"
@@ -365,6 +367,7 @@
         "cat": "golf",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "position": "35% 55%",
         "alt": "Golfclub Lana Gutshof Brandis",
         "tags": [
           "Golf"
@@ -822,6 +825,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "position": "38% 35%",
         "alt": "Castello di Hocheppan con la cappella",
         "tags": [
           "Cultura",
@@ -930,6 +934,7 @@
         "cat": "golf",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "position": "60% 10%",
         "alt": "Centro di allenamento Schloss Freudenstein",
         "tags": [
           "Golf"
@@ -964,6 +969,7 @@
         "cat": "golf",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "position": "35% 55%",
         "alt": "Golfclub Lana Gutshof Brandis",
         "tags": [
           "Golf"
@@ -1421,6 +1427,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "position": "38% 35%",
         "alt": "Hocheppan Castle with its chapel",
         "tags": [
           "Culture",
@@ -1529,6 +1536,7 @@
         "cat": "golf",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "position": "60% 10%",
         "alt": "Schloss Freudenstein training centre",
         "tags": [
           "Golf"
@@ -1563,6 +1571,7 @@
         "cat": "golf",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "position": "35% 55%",
         "alt": "Golf Club Lana Gutshof Brandis",
         "tags": [
           "Golf"

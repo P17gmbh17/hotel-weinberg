@@ -123,10 +123,12 @@ def build_guide_cards_fragment(c):
     for i, card in enumerate(c["guide_cards"]):
         prefix = f"guide_cards.{i}"
         tags_html = "".join(f'<span class="tag" data-cms="{prefix}.tags.{ti}">{t}</span>' for ti, t in enumerate(card["tags"]))
+        pos = card.get("position", "").strip()
+        style_attr = f' style="object-position:{pos};"' if pos else ""
         parts.append(
             f'\n\n    <!-- {card["comment"]} -->\n'
             f'    <article class="guide-card" data-cat="{card["cat"]}" data-zeit="{card["zeit"]}">\n'
-            f'      <div class="guide-card__img"><img src="{card["image"]}" alt="{card["alt"]}" data-cms="{prefix}.image"></div>\n'
+            f'      <div class="guide-card__img"><img src="{card["image"]}" alt="{card["alt"]}"{style_attr} data-cms="{prefix}.image"></div>\n'
             '      <div class="guide-card__body">\n'
             f'        <div class="guide-card__tags">{tags_html}</div>\n'
             f'        <span class="place" data-cms="{prefix}.place">{card["place"]}</span>\n'
