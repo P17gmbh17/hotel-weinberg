@@ -97,17 +97,20 @@ def build_persoenlichkeit_bg_fragment(images):
     total_s = round(n * slot_s, 2)
     keyframe_name = "featureCoverFade"
     fade_in_end = round(fade_s / total_s * 100, 2) if total_s else 0
-    slot_end = round(100 / n, 2) if n else 100
-    fade_out_start = round(max(slot_end - fade_in_end, fade_in_end), 2)
+    hold_end = round(100 / n, 2) if n else 100
+    fade_out_end = round(hold_end + fade_in_end, 2)
     rules = []
     for i in range(n):
-        delay = round(-(i * slot_s), 2)
+        # Positive delay (statt negativ) sorgt fuer die richtige Reihenfolge 0,1,2,...
+        # Das Fade-out-Fenster jedes Bildes ueberlappt exakt mit dem Fade-in-Fenster
+        # des naechsten Bildes (echte Ueberblendung, keine kurze "graue" Luecke dazwischen).
+        delay = round(i * slot_s, 2)
         rules.append(
             f'  #persoenlichkeitFeature .feature-cover__bg img:nth-child({i + 1}) {{ animation: {keyframe_name} {total_s}s ease-in-out infinite; animation-delay: {delay}s; }}'
         )
     style_block = (
         '<style>\n'
-        f'@keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {fade_out_start}% {{ opacity: 1; }} {slot_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
+        f'@keyframes {keyframe_name} {{ 0% {{ opacity: 0; }} {fade_in_end}% {{ opacity: 1; }} {hold_end}% {{ opacity: 1; }} {fade_out_end}% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}\n'
         + "\n".join(rules) + "\n"
         '</style>'
     )
