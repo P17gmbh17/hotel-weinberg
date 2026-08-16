@@ -498,7 +498,7 @@ collections:
               - { label: "Interner Wert (nicht ändern)", name: "value", widget: "hidden" }
               - { label: "Anzeigename", name: "label", widget: "string" }
 
-          - label: "8 · Aktivitäten-Karten (28)"
+          - label: "8 · Aktivitäten-Karten (29)"
             name: "guide_cards"
             widget: "list"
             i18n: true

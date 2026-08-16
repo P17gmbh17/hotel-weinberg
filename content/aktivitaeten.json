@@ -707,6 +707,24 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenloser Eintritt</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> mittwochs, Juli & August</span>",
         "hours": "Juli–August, jeweils mittwochs 19:00–23:00 Uhr",
         "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+      },
+      {
+        "comment": "Kochkurs Knödel & Schlutzkrapfen",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+        "alt": "Teller mit hausgemachten Schlutzkrapfen beim Südtiroler Kochkurs",
+        "tags": [
+          "Kultur",
+          "Kulinarik"
+        ],
+        "place": "Bahnhofstraße 7 (Tourismusverein Eppan), St. Michael/Eppan",
+        "title": "Runde Sache: Knödelkochkurs",
+        "desc": "Gemeinsam mit einer Eppaner Bäuerin auf dem Bauernmarkt einkaufen und anschließend in geselliger Runde traditionelle Südtiroler Knödel und Schlutzkrapfen von Grund auf zubereiten, verkostet mit einem Glas Eppaner Wein. Zutaten und Material inklusive.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 10:00–13:00 Uhr</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Preis auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> dienstags, saisonal · Anmeldung nötig</span>",
+        "hours": "Dienstags 10:00–13:00 Uhr, nach Anmeldung",
+        "actions_html": "<a href=\"https://www.eppan.eu/de/Runde_Sache_Knoedelkochkurs\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       }
     ],
     "cta_heading": "Aktiv-Urlaub direkt an der Weinstraße",
@@ -1421,6 +1439,24 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> il mercoledì, luglio e agosto</span>",
         "hours": "Luglio–agosto, ogni mercoledì 19:00–23:00",
         "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+      },
+      {
+        "comment": "Kochkurs Knödel & Schlutzkrapfen",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+        "alt": "Piatto di schlutzkrapfen fatti in casa durante il corso di cucina altoatesina",
+        "tags": [
+          "Cultura",
+          "Cucina"
+        ],
+        "place": "Via Stazione 7 (Associazione Turistica Appiano), San Michele/Appiano",
+        "title": "Runde Sache: corso di canederli",
+        "desc": "Insieme a una contadina di Appiano si fa la spesa al mercato contadino e poi, in compagnia, si preparano da zero i tradizionali canederli e schlutzkrapfen altoatesini, degustati con un bicchiere di vino di Appiano. Ingredienti e materiale inclusi.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 10:00–13:00</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> prezzo su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> il martedì, stagionale · prenotazione necessaria</span>",
+        "hours": "Martedì 10:00–13:00, su prenotazione",
+        "actions_html": "<a href=\"https://www.eppan.eu/de/Runde_Sache_Knoedelkochkurs\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       }
     ],
     "cta_heading": "Vacanza attiva direttamente sulla Strada del Vino",
@@ -2135,6 +2171,24 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free entry</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Wednesdays, July & August</span>",
         "hours": "July–August, every Wednesday 7:00–11:00 pm",
         "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+      },
+      {
+        "comment": "Kochkurs Knödel & Schlutzkrapfen",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+        "alt": "Plate of homemade Schlutzkrapfen at the South Tyrolean cooking class",
+        "tags": [
+          "Culture",
+          "Culinary"
+        ],
+        "place": "Bahnhofstraße 7 (Eppan Tourist Board), St. Michael/Eppan",
+        "title": "Runde Sache: Dumpling Cooking Class",
+        "desc": "Shop for ingredients at the farmers' market together with a local farmer, then prepare traditional South Tyrolean dumplings and Schlutzkrapfen from scratch in convivial company, tasted with a glass of Eppan wine. Ingredients and materials included.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 10:00 am–1:00 pm</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> price on request</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Tuesdays, seasonal · booking required</span>",
+        "hours": "Tuesdays 10:00 am–1:00 pm, by reservation",
+        "actions_html": "<a href=\"https://www.eppan.eu/de/Runde_Sache_Knoedelkochkurs\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       }
     ],
     "cta_heading": "An active holiday, right on the Wine Route",
