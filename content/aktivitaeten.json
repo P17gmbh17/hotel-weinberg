@@ -475,6 +475,7 @@
         "cat": "wandern",
         "zeit": "ganztags",
         "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "position": "64% 45%",
         "alt": "Roen, höchster Gipfel des Mendelkamms",
         "tags": [
           "Wandern",
@@ -1077,6 +1078,7 @@
         "cat": "wandern",
         "zeit": "ganztags",
         "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "position": "64% 45%",
         "alt": "Roen, la vetta più alta del Gruppo della Mendola",
         "tags": [
           "Escursioni",
@@ -1679,6 +1681,7 @@
         "cat": "wandern",
         "zeit": "ganztags",
         "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "position": "64% 45%",
         "alt": "Mount Roen, the highest peak of the Mendel range",
         "tags": [
           "Hiking",
