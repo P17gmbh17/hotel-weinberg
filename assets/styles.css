@@ -389,7 +389,7 @@ body.nav-locked { overflow: hidden; }
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(14,23,15,0.68), rgba(14,23,15,0.96));
+  background: linear-gradient(180deg, rgba(14,23,15,0.63), rgba(14,23,15,0.91));
 }
 @media (prefers-reduced-motion: reduce) {
   .hero__bg-video { display: none; }
