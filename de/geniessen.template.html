@@ -382,17 +382,24 @@
     grid.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
   });
 
-  /* ---- Impressionen-Bänder Mobile: 2 Felder rotieren per Überblendung durch alle Bilder ---- */
+  /* ---- Impressionen-Bänder Mobile: 2 Felder rotieren per src-Wechsel durch alle Bilder ---- */
   document.querySelectorAll('.impression-band__mobile .impression-band__slot').forEach((slot, slotIdx) => {
-    const imgs = slot.querySelectorAll('img');
-    if (imgs.length < 2) return;
-    let current = 0;
+    const img = slot.querySelector('img');
+    const dataEl = slot.querySelector('script.rotate-data');
+    if (!img || !dataEl) return;
+    let list;
+    try { list = JSON.parse(dataEl.textContent); } catch (e) { return; }
+    if (!Array.isArray(list) || list.length < 2) return;
+    let idx = 0;
     setInterval(() => {
-      const next = (current + 1) % imgs.length;
-      imgs[current].classList.remove('is-active');
-      imgs[next].classList.add('is-active');
-      current = next;
-    }, 3200 + slotIdx * 400);
+      idx = (idx + 1) % list.length;
+      img.classList.add('is-fading');
+      setTimeout(() => {
+        img.src = list[idx].src;
+        img.alt = list[idx].alt;
+        img.classList.remove('is-fading');
+      }, 600);
+    }, 3400 + slotIdx * 400);
   });
 
 </script>

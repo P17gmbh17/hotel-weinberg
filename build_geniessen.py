@@ -46,21 +46,31 @@ def build_ticklist_fragment(c):
 
 def build_mobile_slots_fragment(images):
     """Mobile: 2 feste Felder nebeneinander (Bild 1,3,5.. links, Bild 2,4,6..
-    rechts). Das jeweils erste Bild jedes Feldes startet sichtbar (Klasse
-    is-active), ein gemeinsames JS-Snippet (siehe Template) rotiert danach
-    per Klassenwechsel + CSS-opacity-Transition durch alle Bilder - kein
-    CSS-@keyframes-Trick mehr, der sich als unzuverlaessig erwiesen hat."""
+    rechts). Jedes Feld enthaelt genau EIN sichtbares <img> (normaler
+    Dokumentfluss, kein position:absolute-Stapel, kein opacity:0-Startzustand
+    - das war bei den bisherigen zwei Anlaeufen [CSS-@keyframes, dann JS-
+    Klassenwechsel auf gestapelten <img>s] jedes Mal komplett blank
+    geblieben). Die uebrigen Bilder des Feldes liegen als JSON in einem
+    <script type="application/json">-Tag daneben; ein JS-Snippet im Template
+    tauscht per img.src im Intervall durch, mit kurzem Opacity-Abblenden nur
+    WAEHREND des Wechsels - das Bild ist also immer, auch ohne JS, sofort
+    sichtbar."""
     groups = [images[0::2], images[1::2]]
     slot_parts = []
     for group in groups:
         if not group:
             continue
-        img_lines = []
-        for i, im in enumerate(group):
-            cls_attr = ' class="is-active"' if i == 0 else ""
-            img_lines.append(f'        <img src="{im["image"]}" alt="{im["alt"]}"{cls_attr}>')
-        imgs_html = "\n".join(img_lines)
-        slot_parts.append(f'      <div class="impression-band__slot">\n{imgs_html}\n      </div>')
+        first = group[0]
+        rotate_json = json.dumps(
+            [{"src": im["image"], "alt": im["alt"]} for im in group],
+            ensure_ascii=False,
+        )
+        slot_parts.append(
+            '      <div class="impression-band__slot">\n'
+            f'        <img src="{first["image"]}" alt="{first["alt"]}">\n'
+            f'        <script type="application/json" class="rotate-data">{rotate_json}</script>\n'
+            '      </div>'
+        )
     return (
         '<div class="impression-band__mobile">\n'
         + "\n".join(slot_parts) + "\n"
