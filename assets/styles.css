@@ -419,17 +419,7 @@ body.nav-locked { overflow: hidden; }
   align-items: center;
   gap: 8px;
 }
-.hero__scroll span.line { position: relative; width: 1px; height: 28px; background: currentColor; opacity: 0.7; }
-.hero__scroll span.line::after {
-  content: "";
-  position: absolute;
-  left: 50%; bottom: -1px;
-  width: 6px; height: 6px;
-  border-right: 1px solid currentColor;
-  border-bottom: 1px solid currentColor;
-  transform: translateX(-50%) rotate(45deg);
-  opacity: 0.7;
-}
+.hero__scroll span.line { width: 1px; height: 34px; background: currentColor; opacity: 0.7; }
 
 /* ---------- Grid helpers ---------- */
 .grid-2 { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center; }
@@ -635,6 +625,7 @@ body.nav-locked { overflow: hidden; }
 .room-detail-hero__caption .inner { max-width: 60%; }
 .room-detail-hero__caption .eyebrow { color: var(--sand); }
 .room-detail-hero__caption h1 { color: var(--white); margin: 0; }
+.room-detail-hero .hero__scroll { z-index: 4; }
 
 .room-detail-features {
   display: flex; flex-wrap: wrap; justify-content: center;
