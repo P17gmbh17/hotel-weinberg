@@ -35,7 +35,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "fuss",
-        "image": "https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg",
+        "image": "../assets/kulinarik/paulserhof.jpg",
         "img_alt": "Paulserhof, St. Pauls",
         "tags": [
           "Restaurant",
@@ -252,7 +252,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "fuss",
-        "image": "https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg",
+        "image": "../assets/kulinarik/paulserhof.jpg",
         "img_alt": "Paulserhof, St. Paolo",
         "tags": [
           "Ristorante",
@@ -469,7 +469,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "fuss",
-        "image": "https://www.paulserhof.com/wp-content/uploads/Paulserhof-19_300.jpg",
+        "image": "../assets/kulinarik/paulserhof.jpg",
         "img_alt": "Paulserhof, St. Pauls",
         "tags": [
           "Restaurant",
