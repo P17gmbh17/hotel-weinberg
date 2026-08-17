@@ -166,6 +166,28 @@ collections:
                   - { label: "Alt-Text (Bildbeschreibung)", name: "alt", widget: "string" }
               - { label: "Button-Text", name: "cta_label", widget: "hidden", i18n: true }
 
+          - label: "5b · Neuigkeiten"
+            name: "neuigkeiten"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Abschnitt für aktuelle Umbauten/News (z. B. neue Lobby), mit 3 Bildern nebeneinander."
+            fields:
+              - { label: 'Kicker (z. B. „06 · Neuigkeiten")', name: "eyebrow", widget: "string", i18n: true }
+              - { label: "Überschrift", name: "heading", widget: "string", i18n: true }
+              - { label: "Einleitungssatz (kurz)", name: "lede", widget: "string", i18n: true }
+              - { label: "Fließtext", name: "body", widget: "text", i18n: true }
+              - label: "Bilder (3: Rezeption, Lobby, Bar)"
+                name: "images"
+                widget: "list"
+                i18n: true
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
+                  - { label: "Beschriftung", name: "label", widget: "string" }
+
           - label: "6 · CTA-Banner (vor dem Footer)"
             name: "cta_banner"
             widget: "object"
@@ -229,6 +251,12 @@ collections:
               - label: "Bildergalerie / Impressionen-Slider (max. 4 Bilder: 2 Winkel vom Zimmer, Bad, Merkmal/Detail)"
                 name: "gallery"
                 widget: "list"
+                field: { label: "Bild", name: "image", widget: "image" }
+              - label: "Zusatzbilder unter dem Header (Bad + Balkon/Garten/Detail)"
+                name: "hero_extra"
+                widget: "list"
+                required: false
+                hint: "Erscheinen als kleine Bilder direkt unter dem großen Header-Bild der Detailseite."
                 field: { label: "Bild", name: "image", widget: "image" }
               - { label: "Ausstattungs-Icons (nicht editierbar)", name: "amenities_html", widget: "hidden" }
 
@@ -473,6 +501,7 @@ collections:
                   - { label: "Alt-Text", name: "alt", widget: "string" }
                   - { label: "Titel", name: "title", widget: "string" }
                   - { label: "Dauer (z. B. Halbtags / Ganztags)", name: "meta", widget: "string" }
+                  - { label: "Bildausschnitt (leer = Mitte, sonst z. B. '60% 40%')", name: "position", widget: "string", required: false }
 
           - { label: '6 · Filter „Art": Label', name: "filter_art_label", widget: "string", i18n: true }
           - { label: 'Filter „Art": Button-Text „Alle"', name: "filter_cat_alle_label", widget: "string", i18n: true }
@@ -509,6 +538,7 @@ collections:
               - { label: 'Filter-Kategorie(n) (Werte mit Leerzeichen trennen, z. B. „wandern kultur" - nicht ändern ohne Grund)', name: "cat", widget: "string" }
               - { label: "Filter-Zeitaufwand (kurz / halbtags / ganztags - nicht ändern ohne Grund)", name: "zeit", widget: "string", pattern: ['^(kurz|halbtags|ganztags)$', "Nur 'kurz', 'halbtags' oder 'ganztags'"] }
               - { label: "Bild", name: "image", widget: "image" }
+              - { label: "Bildausschnitt (leer = Mitte, sonst z. B. '60% 40%')", name: "position", widget: "string", required: false }
               - { label: "Bild-Alt-Text", name: "alt", widget: "string" }
               - label: "Anzeige-Tags (2, z. B. Wandern / Kultur)"
                 name: "tags"
@@ -631,6 +661,26 @@ collections:
                   - { label: "Bild", name: "image", widget: "image" }
                   - { label: "Alt-Text", name: "alt", widget: "string" }
                   - { label: "Name", name: "name", widget: "string" }
+
+          - label: "4b · Persönlichkeit"
+            name: "persoenlichkeit"
+            widget: "object"
+            i18n: true
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Abschnitt über den persönlichen Service/Gastgeber-Charakter, mit 3 Bildern."
+            fields:
+              - { label: "Kicker", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitungssatz", name: "lede", widget: "text" }
+              - { label: "Fließtext", name: "body", widget: "text" }
+              - label: "Bilder (3)"
+                name: "images"
+                widget: "list"
+                summary: "{{fields.alt}}"
+                fields:
+                  - { label: "Bild", name: "image", widget: "image" }
+                  - { label: "Alt-Text", name: "alt", widget: "string" }
 
           - label: "5 · Unsere Philosophie (dunkler Abschnitt)"
             name: "philosophie"
