@@ -1,11 +1,11 @@
 {
   "de": {
     "meta_title": "Aktivitäten | Hotel Weinberg",
-    "meta_description": "Wandern, Burgen, Biken, Golf, Kultur und Umgebung rund um Hotel Weinberg in St. Pauls/Eppan, Drei-Burgen-Wanderung, Golfclub Eppan, Kalterer See, Montiggler Seen und mehr.",
+    "meta_description": "Wandern, Biken, Burgen, Golf, Kultur und Umgebung rund um Hotel Weinberg in St. Pauls/Eppan, Drei-Burgen-Wanderung, Golfclub Eppan, Kalterer See, Montiggler Seen und mehr.",
     "hero_heading": "Wandern, Biken, Genießen:<br>direkt vor der Tür",
     "hero_text": "Burgen, Seen und Weinberge liegen direkt vor der Tür, mitten in Südtirols schönster Ferienregion.",
     "story_eyebrow": "Sechs Welten",
-    "story_lede": "Scrollt weiter durch Wandern, Burgen, Bike, Golf, Kultur und die Umgebung, am Ende findet ihr alle Tipps als Karteikarten, filterbar nach Art und Zeitaufwand.",
+    "story_lede": "Scrollt weiter durch Wandern, Bike, Burgen, Golf, Kultur und die Umgebung, am Ende findet ihr alle Tipps als Karteikarten, filterbar nach Art und Zeitaufwand.",
     "discover_more_label": "Entdecke mehr →",
     "chapters": [
       {
@@ -39,38 +39,8 @@
         ]
       },
       {
-        "key": "burgen",
-        "num": "02",
-        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
-        "bg_alt": "Burgmauer und Turm von Schloss Hocheppan",
-        "eyebrow": "Burgen",
-        "heading": "Drei Burgen, tausend Jahre Geschichte",
-        "lede": "Schloss Hocheppan mit seiner romanischen Burgkapelle, Schloss Boymont und Schloss Korb prägen die Silhouette über den Weinbergen, verbunden durch die Drei-Burgen-Wanderung.",
-        "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen.",
-        "tips": [
-          {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Schloss Korb, Drei-Burgen-Wanderung",
-            "title": "Drei-Burgen-Wanderung",
-            "meta": "Halbtags"
-          },
-          {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-            "alt": "Schloss Hocheppan",
-            "title": "Schloss Hocheppan",
-            "meta": "Kurz"
-          },
-          {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
-            "alt": "MMM Firmian",
-            "title": "MMM Firmian",
-            "meta": "Halbtags"
-          }
-        ]
-      },
-      {
         "key": "bike",
-        "num": "03",
+        "num": "02",
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "Biken in Eppan",
         "eyebrow": "Bike",
@@ -95,6 +65,36 @@
             "image": "../assets/aktivitaeten/mitterberger-runde.webp",
             "alt": "Mitterbergerrunde",
             "title": "Mitterbergerrunde",
+            "meta": "Halbtags"
+          }
+        ]
+      },
+      {
+        "key": "burgen",
+        "num": "03",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_alt": "Burgmauer und Turm von Schloss Hocheppan",
+        "eyebrow": "Burgen",
+        "heading": "Drei Burgen, tausend Jahre Geschichte",
+        "lede": "Schloss Hocheppan mit seiner romanischen Burgkapelle, Schloss Boymont und Schloss Korb prägen die Silhouette über den Weinbergen, verbunden durch die Drei-Burgen-Wanderung.",
+        "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Schloss Korb, Drei-Burgen-Wanderung",
+            "title": "Drei-Burgen-Wanderung",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Schloss Hocheppan",
+            "title": "Schloss Hocheppan",
+            "meta": "Kurz"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
             "meta": "Halbtags"
           }
         ]
@@ -199,12 +199,12 @@
         "label": "Wandern"
       },
       {
-        "value": "burgen",
-        "label": "Burgen"
-      },
-      {
         "value": "bike",
         "label": "Bike"
+      },
+      {
+        "value": "burgen",
+        "label": "Burgen"
       },
       {
         "value": "golf",
@@ -791,11 +791,11 @@
   },
   "it": {
     "meta_title": "Attività | Hotel Weinberg",
-    "meta_description": "Escursioni, castelli, bici, golf, cultura e dintorni vicino all'Hotel Weinberg a St. Paolo/Appiano, sentiero delle Tre Castella, Golfclub Appiano, Lago di Caldaro, Laghi di Monticolo e altro.",
+    "meta_description": "Escursioni, bici, castelli, golf, cultura e dintorni vicino all'Hotel Weinberg a St. Paolo/Appiano, sentiero delle Tre Castella, Golfclub Appiano, Lago di Caldaro, Laghi di Monticolo e altro.",
     "hero_heading": "Escursioni, bici, relax:<br>a due passi",
     "hero_text": "Castelli, laghi e vigneti proprio davanti alla porta, nel cuore di una delle più belle regioni vacanziere dell'Alto Adige.",
     "story_eyebrow": "Sei mondi",
-    "story_lede": "Continuate a scorrere tra escursioni, castelli, bici, golf, cultura e dintorni, alla fine troverete tutti i consigli come schede, filtrabili per tipo e tempo necessario.",
+    "story_lede": "Continuate a scorrere tra escursioni, bici, castelli, golf, cultura e dintorni, alla fine troverete tutti i consigli come schede, filtrabili per tipo e tempo necessario.",
     "discover_more_label": "Scopri di più →",
     "chapters": [
       {
@@ -829,38 +829,8 @@
         ]
       },
       {
-        "key": "burgen",
-        "num": "02",
-        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
-        "bg_alt": "Mura e torre del castello di Hocheppan",
-        "eyebrow": "Castelli",
-        "heading": "Tre castelli, mille anni di storia",
-        "lede": "Il castello di Hocheppan con la sua cappella romanica, il castello di Boymont e il castello di Korb segnano la silhouette sopra i vigneti, collegati dal sentiero delle Tre Castella.",
-        "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano.",
-        "tips": [
-          {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Castello di Korb, Sentiero delle Tre Castella",
-            "title": "Sentiero delle Tre Castella",
-            "meta": "Mezza giornata"
-          },
-          {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-            "alt": "Castello di Hocheppan",
-            "title": "Castello di Hocheppan",
-            "meta": "Breve"
-          },
-          {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
-            "alt": "MMM Firmian",
-            "title": "MMM Firmian",
-            "meta": "Mezza giornata"
-          }
-        ]
-      },
-      {
         "key": "bike",
-        "num": "03",
+        "num": "02",
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "In bici ad Appiano",
         "eyebrow": "Bici",
@@ -885,6 +855,36 @@
             "image": "../assets/aktivitaeten/mitterberger-runde.webp",
             "alt": "Anello del Mitterberg",
             "title": "Anello del Mitterberg",
+            "meta": "Mezza giornata"
+          }
+        ]
+      },
+      {
+        "key": "burgen",
+        "num": "03",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_alt": "Mura e torre del castello di Hocheppan",
+        "eyebrow": "Castelli",
+        "heading": "Tre castelli, mille anni di storia",
+        "lede": "Il castello di Hocheppan con la sua cappella romanica, il castello di Boymont e il castello di Korb segnano la silhouette sopra i vigneti, collegati dal sentiero delle Tre Castella.",
+        "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Castello di Korb, Sentiero delle Tre Castella",
+            "title": "Sentiero delle Tre Castella",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Castello di Hocheppan",
+            "title": "Castello di Hocheppan",
+            "meta": "Breve"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
             "meta": "Mezza giornata"
           }
         ]
@@ -989,12 +989,12 @@
         "label": "Escursioni"
       },
       {
-        "value": "burgen",
-        "label": "Castelli"
-      },
-      {
         "value": "bike",
         "label": "Bici"
+      },
+      {
+        "value": "burgen",
+        "label": "Castelli"
       },
       {
         "value": "golf",
@@ -1581,11 +1581,11 @@
   },
   "en": {
     "meta_title": "Activities | Hotel Weinberg",
-    "meta_description": "Hiking, castles, biking, golf, culture and surroundings near Hotel Weinberg in St. Pauls/Eppan, the Three Castles trail, Golf Club Eppan, Lake Caldaro, Montiggl Lakes and more.",
+    "meta_description": "Hiking, biking, castles, golf, culture and surroundings near Hotel Weinberg in St. Pauls/Eppan, the Three Castles trail, Golf Club Eppan, Lake Caldaro, Montiggl Lakes and more.",
     "hero_heading": "Hiking, biking, relaxing:<br>right on the doorstep",
     "hero_text": "Castles, lakes and vineyards right on your doorstep, at the heart of one of South Tyrol's most beautiful holiday regions.",
     "story_eyebrow": "Six worlds",
-    "story_lede": "Scroll on through hiking, castles, biking, golf, culture and the surrounding area, at the end you'll find every tip as a filterable card, sorted by type and time needed.",
+    "story_lede": "Scroll on through hiking, biking, castles, golf, culture and the surrounding area, at the end you'll find every tip as a filterable card, sorted by type and time needed.",
     "discover_more_label": "Discover more →",
     "chapters": [
       {
@@ -1619,38 +1619,8 @@
         ]
       },
       {
-        "key": "burgen",
-        "num": "02",
-        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
-        "bg_alt": "Castle wall and tower of Hocheppan Castle",
-        "eyebrow": "Castles",
-        "heading": "Three castles, a thousand years of history",
-        "lede": "Hocheppan Castle with its Romanesque chapel, Boymont Castle and Korb Castle line the ridge above the vineyards, linked by the Three Castles hike.",
-        "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano.",
-        "tips": [
-          {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Korb Castle, Three Castles Hike",
-            "title": "Three Castles hike",
-            "meta": "Half-day"
-          },
-          {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-            "alt": "Hocheppan Castle",
-            "title": "Hocheppan Castle",
-            "meta": "Short"
-          },
-          {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
-            "alt": "MMM Firmian",
-            "title": "MMM Firmian",
-            "meta": "Half-day"
-          }
-        ]
-      },
-      {
         "key": "bike",
-        "num": "03",
+        "num": "02",
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "Biking in Eppan",
         "eyebrow": "Biking",
@@ -1675,6 +1645,36 @@
             "image": "../assets/aktivitaeten/mitterberger-runde.webp",
             "alt": "Mitterberg loop",
             "title": "Mitterberg loop",
+            "meta": "Half-day"
+          }
+        ]
+      },
+      {
+        "key": "burgen",
+        "num": "03",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_alt": "Castle wall and tower of Hocheppan Castle",
+        "eyebrow": "Castles",
+        "heading": "Three castles, a thousand years of history",
+        "lede": "Hocheppan Castle with its Romanesque chapel, Boymont Castle and Korb Castle line the ridge above the vineyards, linked by the Three Castles hike.",
+        "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Korb Castle, Three Castles Hike",
+            "title": "Three Castles hike",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Hocheppan Castle",
+            "title": "Hocheppan Castle",
+            "meta": "Short"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
             "meta": "Half-day"
           }
         ]
@@ -1779,12 +1779,12 @@
         "label": "Hiking"
       },
       {
-        "value": "burgen",
-        "label": "Castles"
-      },
-      {
         "value": "bike",
         "label": "Biking"
+      },
+      {
+        "value": "burgen",
+        "label": "Castles"
       },
       {
         "value": "golf",

@@ -34,11 +34,11 @@ CHAPTER_DECOR = [
 # uebersetzt, teils nicht - deshalb 1:1 aus dem Original uebernommen statt aus
 # den editierbaren Feldern abgeleitet.
 STATION_COMMENT_LABEL = {
-    "de": ["Wandern", "Burgen", "Bike", "Golf", "Kultur", "Umgebung"],
-    "it": ["Wandern", "Burgen", "Bike", "Golf", "Kultur", "Umgebung"],
-    "en": ["Hiking", "Castles", "Biking", "Golf", "Kultur", "Umgebung"],
+    "de": ["Wandern", "Bike", "Burgen", "Golf", "Kultur", "Umgebung"],
+    "it": ["Wandern", "Bike", "Burgen", "Golf", "Kultur", "Umgebung"],
+    "en": ["Hiking", "Biking", "Castles", "Golf", "Kultur", "Umgebung"],
 }
-DISCOVER_COMMENT_LABEL = ["Wandern", "Burgen", "Bike", "Golf", "Kultur", "Badespaß"]
+DISCOVER_COMMENT_LABEL = ["Wandern", "Bike", "Burgen", "Golf", "Kultur", "Badespaß"]
 
 
 def build_story_rail_fragment(chapters):
