@@ -1490,21 +1490,21 @@ html.skip-curtain .curtain__icon {
   font-family: var(--serif);
   font-size: 1.3rem;
 }
-/* Mobile: 2 feste Felder nebeneinander, deren Inhalt per JS durch alle
-   Bilder rotiert. Jedes Feld hat immer genau EIN normales <img> im
-   Dokumentfluss (kein position:absolute-Stapel, kein opacity:0-Start -
-   das Bild ist also auch ganz ohne JS sofort sichtbar); JS tauscht die
-   src im Intervall aus und blendet dabei kurz ab/auf. */
+/* Mobile: 2 grosse, quadratische Felder UNTEREINANDER, deren Inhalt per JS
+   durch alle Bilder rotiert. Jedes Feld hat immer genau EIN normales <img>
+   im Dokumentfluss (kein position:absolute-Stapel, kein opacity:0-Start -
+   das Bild ist also auch ganz ohne JS sofort sichtbar); JS tauscht Bild +
+   Bildunterschrift im Intervall aus und blendet dabei weich ab/auf. */
 .impression-band__mobile {
   display: none;
-  gap: 14px;
+  flex-direction: column;
+  gap: 22px;
   margin: 0 24px;
-  height: min(46vh, 380px);
 }
 .impression-band__slot {
   position: relative;
-  flex: 1 1 50%;
-  height: 100%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -1513,16 +1513,27 @@ html.skip-curtain .curtain__icon {
   width: 100%; height: 100%;
   object-fit: cover;
   display: block;
-  transition: opacity 0.6s ease;
+  transition: opacity 1.3s ease;
 }
 .impression-band__slot img.is-fading { opacity: 0; }
 .impression-band__slot script { display: none; }
+.impression-band__slot .impression-band__caption {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 20px 22px;
+  background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.62));
+  color: var(--white);
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  transition: opacity 1.3s ease;
+}
+.impression-band__slot .impression-band__caption.is-fading { opacity: 0; }
 @media (max-width: 780px) {
   .impression-band__grid { display: none; }
   .impression-band__mobile { display: flex; }
 }
 @media (max-width: 780px) and (prefers-reduced-motion: reduce) {
-  .impression-band__slot img { transition: none; }
+  .impression-band__slot img,
+  .impression-band__slot .impression-band__caption { transition: none; }
 }
 
 /* ---------- Impressionen-Band Variante: "Entdecke mehr"-CTA (Aktivitäten) ---------- */

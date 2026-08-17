@@ -45,16 +45,15 @@ def build_ticklist_fragment(c):
 
 
 def build_mobile_slots_fragment(images):
-    """Mobile: 2 feste Felder nebeneinander (Bild 1,3,5.. links, Bild 2,4,6..
-    rechts). Jedes Feld enthaelt genau EIN sichtbares <img> (normaler
-    Dokumentfluss, kein position:absolute-Stapel, kein opacity:0-Startzustand
-    - das war bei den bisherigen zwei Anlaeufen [CSS-@keyframes, dann JS-
-    Klassenwechsel auf gestapelten <img>s] jedes Mal komplett blank
-    geblieben). Die uebrigen Bilder des Feldes liegen als JSON in einem
+    """Mobile: 2 grosse, quadratische Felder UNTEREINANDER (Bild 1,3,5.. oben,
+    Bild 2,4,6.. unten). Jedes Feld enthaelt genau EIN sichtbares <img> plus
+    eine Bildunterschrift, die beim Wechsel mitlaeuft (normaler Dokumentfluss,
+    kein position:absolute-Stapel, kein opacity:0-Startzustand - das war bei
+    frueheren Anlaeufen jedes Mal komplett blank geblieben). Die uebrigen
+    Bilder/Captions des Feldes liegen als JSON in einem
     <script type="application/json">-Tag daneben; ein JS-Snippet im Template
-    tauscht per img.src im Intervall durch, mit kurzem Opacity-Abblenden nur
-    WAEHREND des Wechsels - das Bild ist also immer, auch ohne JS, sofort
-    sichtbar."""
+    tauscht Bild+Caption im Intervall aus, mit weicher Ueberblendung waehrend
+    des Wechsels - das Bild ist also immer, auch ohne JS, sofort sichtbar."""
     groups = [images[0::2], images[1::2]]
     slot_parts = []
     for group in groups:
@@ -62,12 +61,13 @@ def build_mobile_slots_fragment(images):
             continue
         first = group[0]
         rotate_json = json.dumps(
-            [{"src": im["image"], "alt": im["alt"]} for im in group],
+            [{"src": im["image"], "alt": im["alt"], "caption": im["caption"]} for im in group],
             ensure_ascii=False,
         )
         slot_parts.append(
             '      <div class="impression-band__slot">\n'
             f'        <img src="{first["image"]}" alt="{first["alt"]}">\n'
+            f'        <span class="impression-band__caption">{first["caption"]}</span>\n'
             f'        <script type="application/json" class="rotate-data">{rotate_json}</script>\n'
             '      </div>'
         )
