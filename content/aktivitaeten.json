@@ -81,8 +81,9 @@
         "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Schloss Korb, Drei-Burgen-Wanderung",
+            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+            "position": "62% 50%",
+            "alt": "Aussichtsplattform bei Burg Boymont, Drei-Burgen-Wanderung",
             "title": "Drei-Burgen-Wanderung",
             "meta": "Halbtags"
           },
@@ -733,6 +734,25 @@
         "actions_html": "<a href=\"https://www.sektmanufaktur.it/en\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
       },
       {
+        "comment": "Paulser Dom",
+        "cat": "kultur",
+        "zeit": "kurz",
+        "image": "../assets/aktivitaeten/paulser-dom-kirchturm.jpg",
+        "position": "50% 40%",
+        "alt": "Der Paulser Dom mit seinem markanten Zwiebelturm über den Weinbergen von St. Pauls, Eppan",
+        "tags": [
+          "Kultur",
+          "Kirche"
+        ],
+        "place": "St. Pauls, Eppan",
+        "title": "Paulser Dom – Pfarrkirche St. Pauls",
+        "desc": "Spätgotische Hallenkirche mit rund 86 m hohem Barockturm und markanter Zwiebelkuppel – einer der höchsten Kirchtürme Südtirols, weithin sichtbar über den Weinbergen. Im Turm hängen 9 Glocken, darunter die zweitgrößte Südtirols.",
+        "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> Im Ortszentrum St. Pauls</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> Turmführung ca. 1,5 Std.</span>",
+        "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Kirche täglich frei zugänglich</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> Anmeldung: +39 0471 66 22 06</span>",
+        "hours": "Kirche: täglich tagsüber geöffnet · Kirchturmführung: 7. April – 27. Oktober 2026, jeden Dienstag 10:00–12:00 Uhr",
+        "actions_html": "<a href=\"https://www.eppan.com/de/urlaub-eppan-an-der-weinstrasse/eppan-sehenswuerdigkeiten/paulser-dom\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>\n          <a href=\"https://www.eppan.com/de/eppan/eppan-live/woechtentliches-erlebnissprogramm\" target=\"_blank\" rel=\"noopener\">Wochenprogramm ↗</a>"
+      },
+      {
         "comment": "Langer Mittwoch",
         "cat": "kultur",
         "zeit": "kurz",
@@ -873,8 +893,9 @@
         "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Castello di Korb, Sentiero delle Tre Castella",
+            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+            "position": "62% 50%",
+            "alt": "Punto panoramico presso il castello di Boymont, Sentiero delle Tre Castella",
             "title": "Sentiero delle Tre Castella",
             "meta": "Mezza giornata"
           },
@@ -1665,8 +1686,9 @@
         "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Korb Castle, Three Castles Hike",
+            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+            "position": "62% 50%",
+            "alt": "Viewpoint near Boymont Castle, Three Castles Hike",
             "title": "Three Castles hike",
             "meta": "Half-day"
           },
