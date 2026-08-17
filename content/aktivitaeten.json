@@ -19,10 +19,11 @@
         "body": "Ob kurzer Spaziergang durch die Reben, halbtägige Rundtour um die Montiggler Seen oder Bergtour auf den Roen mit über 2100 Metern Gipfelhöhe, die Wege führen durch alle Höhenlagen Eppans, vom Talboden bis hinauf in die alpine Zone.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
             "alt": "Montiggler Wald mit Seen",
             "title": "Montiggler Wald mit Seen",
-            "meta": "Halbtags"
+            "meta": "Halbtags",
+            "position": "55% 65%"
           },
           {
             "image": "../assets/aktivitaeten/wanderung-roen.jpg",
@@ -809,10 +810,11 @@
         "body": "Che sia una breve passeggiata tra i vigneti, un giro di mezza giornata intorno ai Laghi di Monticolo o un'escursione in vetta al Roen a oltre 2100 metri, i sentieri attraversano tutte le quote di Appiano, dal fondovalle fino alla zona alpina.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
             "alt": "Bosco di Monticolo con i laghi",
             "title": "Bosco di Monticolo con i laghi",
-            "meta": "Mezza giornata"
+            "meta": "Mezza giornata",
+            "position": "55% 65%"
           },
           {
             "image": "../assets/aktivitaeten/wanderung-roen.jpg",
@@ -1599,10 +1601,11 @@
         "body": "Whether a short walk through the vines, a half-day loop around the Montiggl Lakes, or a summit hike up Mount Roen at over 2,100 metres, the trails cross every altitude around Eppan, from the valley floor up into the alpine zone.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
             "alt": "Montiggl forest with its lakes",
             "title": "Montiggl forest with its lakes",
-            "meta": "Half-day"
+            "meta": "Half-day",
+            "position": "55% 65%"
           },
           {
             "image": "../assets/aktivitaeten/wanderung-roen.jpg",
