@@ -253,7 +253,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2,5–3 Std.</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · Burgkapelle ca. 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 8 km · ca. 250 Hm</span>",
         "hours": "Ganzjährig begehbar · leicht, familientauglich",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/hike-to-the-three-castles-of-appiano/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/hiking/top-5-hiking-tours/three-castles-hike\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
       },
       {
         "comment": "Schloss Hocheppan",
@@ -272,7 +272,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. + kurzer Fußweg</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> Führung ca. 30 Min., Besuch ca. 1–1,5 Std.</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Burgkapelle/Führung ca. 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Führungen 11:00–16:30, je nach Saison Do–Mo</span>",
         "hours": "Saison ab 28. März bis November · Burgschenke tgl. 10–18 Uhr, Mi Ruhetag",
-        "actions_html": "<a href=\"https://hocheppan.it/en/opening-times\" target=\"_blank\" rel=\"noopener\">Öffnungszeiten ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/castles-in-eppan/castle-hocheppan\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       },
       {
         "comment": "Schloss Boymont",
@@ -290,7 +290,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 45 Min. Besuch</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Eintritt Burgruine auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Ostern–November, Di–So 10–18 Uhr</span>",
         "hours": "Jausenstation im Burghof",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/castles/boymont-castle/\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/castles-in-eppan/castle-boymont\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       },
       {
         "comment": "Frühlingstal",
@@ -308,7 +308,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15–18 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 2,5 Std.</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 10 km · flach</span>",
         "hours": "Leicht, familientauglich · schönste Zeit: Feb.–Apr.",
-        "actions_html": "<a href=\"https://www.suedtirolerland.it/de/freizeit-aktiv/berge-wandern/in-suedtirols-sueden/durch-das-fruehlingstal-zum-kalterer-see/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/spring-valley\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
       },
       {
         "comment": "Montiggler Wald mit Seen",
@@ -344,7 +344,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> direkt ab Hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5 Std. einfach</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · E-Bike-Verleih ab ca. 25 €/Tag</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 18 km · flach</span>",
         "hours": "Ganzjährig befahrbar",
-        "actions_html": "<a href=\"https://www.suedtirolerland.it/en/leisure-activities/mountain-biking-and-cycling/cycle-paths-in-south-tyrol/oltradige/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience-activities/bike-hiking-active/hiking/promenade-along-the-old-railroad-embankment/42-2253.html\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>",
         "position": "82% 60%"
       },
       {
@@ -453,7 +453,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> frei wählbar</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Eintritt an den Badeanlagen ca. 4–6 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Wassertemperatur bis 28°C im Sommer</span>",
         "hours": "Badesaison Mai–September",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/nature-and-landscape/lakes-and-waters/lake-caldaro/\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/lake-kaltern\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>",
         "position": "18% 65%"
       },
       {
@@ -472,7 +472,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 15–20 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> frei wählbar</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> freier Seezugang · Liegewiese ca. 4 €/3 € (Kind)</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Liegewiese 9–18 Uhr</span>",
         "hours": "Badesaison Mai–September",
-        "actions_html": "<a href=\"https://www.suedtirol-kompakt.com/montiggler-seen/\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/the-montiggl-lakes\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       },
       {
         "comment": "MMM Firmian",
@@ -564,7 +564,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5–10 Fahrmin. oder zu Fuß ab St. Michael</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5 Std.</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 5 km · leicht</span>",
         "hours": "Ganzjährig begehbar · leicht, familientauglich",
-        "actions_html": "<a href=\"https://salto.bz/de/article/26012019/zur-gleifkirche-eppan\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/eppan/vacation-region-at-a-glance/the-top-10-attractions/gleif-church\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
       },
       {
         "comment": "Mitterbergerrunde",
@@ -691,7 +691,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin. zum Start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1,5–2 Std.</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos, frei zugänglich</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 4 km · leicht</span>",
         "hours": "Ganzjährig zugänglich",
-        "actions_html": "<a href=\"https://www.kalterersee.com/en/leisure-activities/mountains-and-hiking/to-the-ice-holes-in-appiano/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/hiking/top-5-hiking-tours/to-the-ice-holes\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>"
       },
       {
         "comment": "Bogenparcours Hocheppan",
@@ -747,7 +747,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 5 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 19:00–23:00 Uhr</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenloser Eintritt</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> mittwochs, Juli & August</span>",
         "hours": "Juli–August, jeweils mittwochs 19:00–23:00 Uhr",
-        "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/events/festivities-in-eppan/highlight-events/long-wednesday\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>"
       },
       {
         "comment": "Kochkurs Knödel & Schlutzkrapfen",
@@ -1044,7 +1044,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2,5–3 ore</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · cappella del castello circa 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 8 km · circa 250 m di dislivello</span>",
         "hours": "Percorribile tutto l'anno · facile, adatto alle famiglie",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/hike-to-the-three-castles-of-appiano/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/hiking/top-5-hiking-tours/three-castles-hike\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
       },
       {
         "comment": "Schloss Hocheppan",
@@ -1063,7 +1063,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto + breve tratto a piedi</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> visita guidata circa 30 min, visita circa 1–1,5 ore</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> cappella/visita guidata circa 3 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> visite guidate 11:00–16:30, secondo la stagione gio–lun</span>",
         "hours": "Stagione dal 28 marzo a novembre · locanda tutti i giorni 10–18, mercoledì chiuso",
-        "actions_html": "<a href=\"https://hocheppan.it/en/opening-times\" target=\"_blank\" rel=\"noopener\">Orari di apertura ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/castles-in-eppan/castle-hocheppan\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       },
       {
         "comment": "Schloss Boymont",
@@ -1081,7 +1081,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 45 min di visita</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso alla rovina su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Pasqua–novembre, mar–dom 10–18</span>",
         "hours": "Stazione di ristoro nel cortile del castello",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/castles/boymont-castle/\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/castles-in-eppan/castle-boymont\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       },
       {
         "comment": "Frühlingstal",
@@ -1099,7 +1099,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15–18 min in auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 2,5 ore</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 10 km · pianeggiante</span>",
         "hours": "Facile, adatto alle famiglie · periodo migliore: feb.–apr.",
-        "actions_html": "<a href=\"https://www.suedtirolerland.it/de/freizeit-aktiv/berge-wandern/in-suedtirols-sueden/durch-das-fruehlingstal-zum-kalterer-see/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/spring-valley\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
       },
       {
         "comment": "Montiggler Wald mit Seen",
@@ -1135,7 +1135,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> direttamente dall'hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5 ore di sola andata</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · noleggio e-bike da circa 25 €/giorno</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 18 km · pianeggiante</span>",
         "hours": "Percorribile tutto l'anno",
-        "actions_html": "<a href=\"https://www.suedtirolerland.it/en/leisure-activities/mountain-biking-and-cycling/cycle-paths-in-south-tyrol/oltradige/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience-activities/bike-hiking-active/hiking/promenade-along-the-old-railroad-embankment/42-2253.html\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>",
         "position": "82% 60%"
       },
       {
@@ -1244,7 +1244,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> a piacere</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso agli stabilimenti balneari circa 4–6 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> temperatura dell'acqua fino a 28°C in estate</span>",
         "hours": "Stagione balneare maggio–settembre",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/nature-and-landscape/lakes-and-waters/lake-caldaro/\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/lake-kaltern\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>",
         "position": "18% 65%"
       },
       {
@@ -1263,7 +1263,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 15–20 min in auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> a piacere</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> accesso libero al lago · prato solarium circa 4 €/3 € (bambini)</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> prato solarium 9–18</span>",
         "hours": "Stagione balneare maggio–settembre",
-        "actions_html": "<a href=\"https://www.suedtirol-kompakt.com/montiggler-seen/\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/the-montiggl-lakes\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       },
       {
         "comment": "MMM Firmian",
@@ -1355,7 +1355,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5–10 min in auto o a piedi da San Michele</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5 ore</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 5 km · facile</span>",
         "hours": "Percorribile tutto l'anno · facile, adatto alle famiglie",
-        "actions_html": "<a href=\"https://salto.bz/de/article/26012019/zur-gleifkirche-eppan\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/eppan/vacation-region-at-a-glance/the-top-10-attractions/gleif-church\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
       },
       {
         "comment": "Mitterbergerrunde",
@@ -1482,7 +1482,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min. d'auto alla partenza</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1,5–2 ore</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito, libero accesso</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 4 km · facile</span>",
         "hours": "Accessibile tutto l'anno",
-        "actions_html": "<a href=\"https://www.kalterersee.com/en/leisure-activities/mountains-and-hiking/to-the-ice-holes-in-appiano/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/hiking/top-5-hiking-tours/to-the-ice-holes\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>"
       },
       {
         "comment": "Bogenparcours Hocheppan",
@@ -1538,7 +1538,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 5 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 19:00–23:00</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso gratuito</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> il mercoledì, luglio e agosto</span>",
         "hours": "Luglio–agosto, ogni mercoledì 19:00–23:00",
-        "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/events/festivities-in-eppan/highlight-events/long-wednesday\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>"
       },
       {
         "comment": "Kochkurs Knödel & Schlutzkrapfen",
@@ -1835,7 +1835,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2.5–3 hrs</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · castle chapel approx. €3</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 8 km · approx. 250 m elevation gain</span>",
         "hours": "Open year-round · easy, family-friendly",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/leisure-activities/mountains-and-hiking/hike-to-the-three-castles-of-appiano/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/hiking/top-5-hiking-tours/three-castles-hike\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
       },
       {
         "comment": "Schloss Hocheppan",
@@ -1854,7 +1854,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive + short walk</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> tour approx. 30 min, visit approx. 1–1.5 hrs</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> chapel/tour approx. €3</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> guided tours 11:00–16:30, Thu–Mon depending on season</span>",
         "hours": "Season late March–November · inn open daily 10–18, closed Wednesdays",
-        "actions_html": "<a href=\"https://hocheppan.it/en/opening-times\" target=\"_blank\" rel=\"noopener\">Opening hours ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/castles-in-eppan/castle-hocheppan\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       },
       {
         "comment": "Schloss Boymont",
@@ -1872,7 +1872,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 45 min visit</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ruin entry by donation</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Easter–November, Tue–Sun 10–18</span>",
         "hours": "Refreshment stop in the castle courtyard",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/castles/boymont-castle/\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/castles-in-eppan/castle-boymont\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       },
       {
         "comment": "Frühlingstal",
@@ -1890,7 +1890,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15–18 min drive to start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 2.5 hrs</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 10 km · flat</span>",
         "hours": "Easy, family-friendly · best season: Feb.–Apr.",
-        "actions_html": "<a href=\"https://www.suedtirolerland.it/de/freizeit-aktiv/berge-wandern/in-suedtirols-sueden/durch-das-fruehlingstal-zum-kalterer-see/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/spring-valley\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
       },
       {
         "comment": "Montiggler Wald mit Seen",
@@ -1926,7 +1926,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> directly from the hotel</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5 hrs one way</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · e-bike rental approx. €25/day</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 18 km · flat</span>",
         "hours": "Open year-round",
-        "actions_html": "<a href=\"https://www.suedtirolerland.it/en/leisure-activities/mountain-biking-and-cycling/cycle-paths-in-south-tyrol/oltradige/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience-activities/bike-hiking-active/hiking/promenade-along-the-old-railroad-embankment/42-2253.html\" target=\"_blank\" rel=\"noopener\">View route ↗</a>",
         "position": "82% 60%"
       },
       {
@@ -2035,7 +2035,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> as long as you like</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> lido entry approx. €4–6</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> water temperature up to 28°C in summer</span>",
         "hours": "Swimming season May–September",
-        "actions_html": "<a href=\"https://www.weinstrasse.com/en/highlights/nature-and-landscape/lakes-and-waters/lake-caldaro/\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>",
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/lake-kaltern\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>",
         "position": "18% 65%"
       },
       {
@@ -2054,7 +2054,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 15–20 min drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> as long as you like</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free lake access · sunbathing lawn approx. €4/€3 (children)</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> sunbathing lawn 9–18</span>",
         "hours": "Swimming season May–September",
-        "actions_html": "<a href=\"https://www.suedtirol-kompakt.com/montiggler-seen/\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/the-montiggl-lakes\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       },
       {
         "comment": "MMM Firmian",
@@ -2146,7 +2146,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5–10 min drive or walk from St. Michael</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5 hrs</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 5 km · easy</span>",
         "hours": "Open year-round · easy, family-friendly",
-        "actions_html": "<a href=\"https://salto.bz/de/article/26012019/zur-gleifkirche-eppan\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/eppan/vacation-region-at-a-glance/the-top-10-attractions/gleif-church\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
       },
       {
         "comment": "Mitterbergerrunde",
@@ -2273,7 +2273,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min. drive to the start</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1.5–2 hours</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free, open access</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 4 km · easy</span>",
         "hours": "Accessible year-round",
-        "actions_html": "<a href=\"https://www.kalterersee.com/en/leisure-activities/mountains-and-hiking/to-the-ice-holes-in-appiano/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/experience/hiking/top-5-hiking-tours/to-the-ice-holes\" target=\"_blank\" rel=\"noopener\">View route ↗</a>"
       },
       {
         "comment": "Bogenparcours Hocheppan",
@@ -2329,7 +2329,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 5 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> 7:00–11:00 pm</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free entry</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M12 7v5.3l3.4 2\"/></svg> Wednesdays, July & August</span>",
         "hours": "July–August, every Wednesday 7:00–11:00 pm",
-        "actions_html": "<a href=\"https://www.suedtirol.com/event/520/langer-mittwoch-in-st-michael-eppan\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
+        "actions_html": "<a href=\"https://www.eppan.com/en/events/festivities-in-eppan/highlight-events/long-wednesday\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>"
       },
       {
         "comment": "Kochkurs Knödel & Schlutzkrapfen",
