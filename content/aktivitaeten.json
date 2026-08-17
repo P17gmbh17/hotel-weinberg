@@ -1,29 +1,23 @@
 {
   "de": {
     "meta_title": "Aktivitäten | Hotel Weinberg",
-    "meta_description": "Wandern, Biken, Golf, Kultur und Umgebung rund um Hotel Weinberg in St. Pauls/Eppan, Drei-Burgen-Wanderung, Golfclub Eppan, Kalterer See, Montiggler Seen und mehr.",
+    "meta_description": "Wandern, Burgen, Biken, Golf, Kultur und Umgebung rund um Hotel Weinberg in St. Pauls/Eppan, Drei-Burgen-Wanderung, Golfclub Eppan, Kalterer See, Montiggler Seen und mehr.",
     "hero_heading": "Wandern, Biken, Genießen:<br>direkt vor der Tür",
     "hero_text": "Burgen, Seen und Weinberge liegen direkt vor der Tür, mitten in Südtirols schönster Ferienregion.",
-    "story_eyebrow": "Fünf Welten",
-    "story_lede": "Scrollt weiter durch Wandern, Bike, Golf, Kultur und die Umgebung, am Ende findet ihr alle Tipps als Karteikarten, filterbar nach Art und Zeitaufwand.",
+    "story_eyebrow": "Sechs Welten",
+    "story_lede": "Scrollt weiter durch Wandern, Burgen, Bike, Golf, Kultur und die Umgebung, am Ende findet ihr alle Tipps als Karteikarten, filterbar nach Art und Zeitaufwand.",
     "discover_more_label": "Entdecke mehr →",
     "chapters": [
       {
         "key": "wandern",
         "num": "01",
-        "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
-        "bg_alt": "Wanderweg bei Eppan",
+        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.jpg",
+        "bg_alt": "Wanderer zwischen Weinbergen bei Eppan",
         "eyebrow": "Wandern",
-        "heading": "Burgen, Wälder und Blütentäler",
-        "lede": "Von der Drei-Burgen-Wanderung über Hocheppan, Boymont und Korb bis zum blühenden Frühlingstal zwischen den Montiggler Seen und dem Kalterer See, die Wanderwege beginnen direkt vor der Haustür.",
-        "body": "Auch die historische Mendel-Standseilbahn mit dem Gipfel des Roen, die Ruine Leuchtenburg über dem Kalterer See und der beschauliche Kreuzweg zur Gleifkirche mit Aussichtspunkt Kreuzstein sind in 10 bis 25 Fahrminuten erreichbar.",
+        "heading": "Von den Reben bis zum Gipfel",
+        "lede": "Direkt vor der Haustür beginnen die Wanderwege: durch Weinberge und Rebhänge, hinauf in den schattigen Montiggler Wald mit seinen Seen und weiter bis zur historischen Mendel-Standseilbahn.",
+        "body": "Ob kurzer Spaziergang durch die Reben, halbtägige Rundtour um die Montiggler Seen oder Bergtour auf den Roen mit über 2100 Metern Gipfelhöhe, die Wege führen durch alle Höhenlagen Eppans, vom Talboden bis hinauf in die alpine Zone.",
         "tips": [
-          {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Drei-Burgen-Wanderung",
-            "title": "Drei-Burgen-Wanderung",
-            "meta": "Halbtags"
-          },
           {
             "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
             "alt": "Montiggler Wald mit Seen",
@@ -35,16 +29,52 @@
             "alt": "Roen-Gipfeltour",
             "title": "Roen-Gipfeltour",
             "meta": "Ganztags"
+          },
+          {
+            "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+            "alt": "Wanderweg zu den Eislöchern bei Eppan",
+            "title": "Eislöcher-Wanderung",
+            "meta": "Kurz"
+          }
+        ]
+      },
+      {
+        "key": "burgen",
+        "num": "02",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_alt": "Burgmauer und Turm von Schloss Hocheppan",
+        "eyebrow": "Burgen",
+        "heading": "Drei Burgen, tausend Jahre Geschichte",
+        "lede": "Schloss Hocheppan mit seiner romanischen Burgkapelle, Schloss Boymont und Schloss Korb prägen die Silhouette über den Weinbergen, verbunden durch die Drei-Burgen-Wanderung.",
+        "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Schloss Korb, Drei-Burgen-Wanderung",
+            "title": "Drei-Burgen-Wanderung",
+            "meta": "Halbtags"
+          },
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Schloss Hocheppan",
+            "title": "Schloss Hocheppan",
+            "meta": "Kurz"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
+            "meta": "Halbtags"
           }
         ]
       },
       {
         "key": "bike",
-        "num": "02",
+        "num": "03",
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "Biken in Eppan",
         "eyebrow": "Bike",
-        "heading": "Auf zwei Rädern durch die Weinberge",
+        "heading": "Auf zwei Rädern durch die Weinberge",
         "lede": "Der Bahntrassenradweg Bozen–Eppan–Kaltern führt direkt an den Weinbergen des Hotels vorbei, flach, familientauglich und mit Weitblick auf die Dolomiten.",
         "body": "Wer weiter will, folgt dem Etschtal-Radweg bis nach Meran oder dreht die Mitterbergerrunde von Eppan über den Kalterer See und Auer zurück nach Bozen, fast durchgehend flach, entlang Obstwiesen und historischer Ansitze.",
         "tips": [
@@ -71,11 +101,11 @@
       },
       {
         "key": "golf",
-        "num": "03",
+        "num": "04",
         "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
         "bg_alt": "Golfclub Eppan Blue Monster von oben",
         "eyebrow": "Golf",
-        "heading": "Abschlag mit Schlossblick",
+        "heading": "Abschlag mit Schlossblick",
         "lede": "Der Golfclub Eppan „Blue Monster\" liegt nur wenige Fahrminuten entfernt, ein 9-Loch-Platz mit Seen und Bergblick, direkt daneben das Trainingscenter Schloss Freudenstein mit Kurzplatz, Driving Range und Putting Green.",
         "body": "Für längere Runden sind die 9-Loch-Anlage in Lana und der 18-Loch-Platz Dolomiti auf der Mendel in rund 30–45 Fahrminuten erreichbar.",
         "tips": [
@@ -101,41 +131,41 @@
       },
       {
         "key": "kultur",
-        "num": "04",
-        "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-        "bg_alt": "Burgkapelle Hocheppan",
+        "num": "05",
+        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.jpg",
+        "bg_alt": "Trachtenumzug beim Castelmusika-Fest in Eppan",
         "eyebrow": "Kultur",
-        "heading": "Drei Burgen, tausend Jahre Geschichte",
-        "lede": "Schloss Hocheppan mit seiner romanischen Burgkapelle, Schloss Boymont und Schloss Korb prägen die Silhouette über den Weinbergen.",
-        "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen. Und gleich nebenan, in St. Pauls, öffnet die Kellerei St. Pauls ihre Türen: zur Weinführung durch das Paulsnerfeld oder zur „Preclarus\"-Führung durch den Sektbunker aus dem Zweiten Weltkrieg.",
+        "heading": "Tradition, Wein und Genuss",
+        "lede": "Vom Bauernmarkt am Rathausplatz bis zum Kochkurs mit einer Eppaner Bäuerin, die Kultur der Weinstraße lebt von Tradition, Handwerk und Genuss.",
+        "body": "Die Kellerei St. Pauls öffnet ihre Türen zur Weinführung und zur „Preclarus\"-Führung durch den historischen Sektbunker, die Brennerei St. Urban und die Sektmanufaktur Winkler zeigen ihr Handwerk, und beim „Langen Mittwoch\" verwandelt sich das Dorf in eine Sommerbühne.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-            "alt": "Schloss Hocheppan",
-            "title": "Schloss Hocheppan",
+            "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+            "alt": "Marktstand mit frischem Gemüse am Bauernmarkt St. Michael/Eppan",
+            "title": "Bauernmarkt Eppan",
             "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
-            "alt": "MMM Firmian",
-            "title": "MMM Firmian",
-            "meta": "Halbtags"
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "alt": "Weinberge der Kellerei St. Pauls",
+            "title": "Kellerei St. Pauls",
+            "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
-            "alt": "Kellerei St. Pauls",
-            "title": "Kellerei St. Pauls",
+            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+            "alt": "Teller mit hausgemachten Schlutzkrapfen (Schlutzer) beim Südtiroler Kochkurs",
+            "title": "Schlutzer-Kurs",
             "meta": "Kurz"
           }
         ]
       },
       {
         "key": "badespass",
-        "num": "05",
+        "num": "06",
         "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
         "bg_alt": "Montiggler See",
         "eyebrow": "Badespaß",
-        "heading": "Seen zum Verweilen",
+        "heading": "Seen zum Verweilen",
         "lede": "Die Montiggler Seen mit freiem Zugang und der Kalterer See mit seinen Badestränden liegen beide in rund 15–20 Fahrminuten, ideal für einen Nachmittag am Wasser.",
         "body": "Wer einen ganzen Tag investieren will, fährt über den Mendelpass oder durchs Etschtal an den Gardasee, Riva del Garda und Torbole mit Seepromenade, Windsurfern und der Bergbahn auf den Monte Baldo.",
         "tips": [
@@ -167,6 +197,10 @@
       {
         "value": "wandern",
         "label": "Wandern"
+      },
+      {
+        "value": "burgen",
+        "label": "Burgen"
       },
       {
         "value": "bike",
@@ -204,7 +238,7 @@
     "guide_cards": [
       {
         "comment": "Drei-Burgen-Wanderung",
-        "cat": "wandern kultur",
+        "cat": "wandern burgen",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
         "alt": "Schloss Korb, Drei-Burgen-Wanderung",
@@ -222,7 +256,7 @@
       },
       {
         "comment": "Schloss Hocheppan",
-        "cat": "kultur",
+        "cat": "burgen",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
         "position": "38% 35%",
@@ -241,7 +275,7 @@
       },
       {
         "comment": "Schloss Boymont",
-        "cat": "kultur",
+        "cat": "burgen",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/schloss-boymont.jpg",
         "alt": "Schloss Boymont bei Eppan",
@@ -441,7 +475,7 @@
       },
       {
         "comment": "MMM Firmian",
-        "cat": "kultur",
+        "cat": "burgen kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
         "alt": "MMM Firmian, Schloss Sigmundskron",
@@ -757,29 +791,23 @@
   },
   "it": {
     "meta_title": "Attività | Hotel Weinberg",
-    "meta_description": "Escursioni, bici, golf, cultura e dintorni vicino all'Hotel Weinberg a St. Paolo/Appiano, sentiero delle Tre Castella, Golfclub Appiano, Lago di Caldaro, Laghi di Monticolo e altro.",
+    "meta_description": "Escursioni, castelli, bici, golf, cultura e dintorni vicino all'Hotel Weinberg a St. Paolo/Appiano, sentiero delle Tre Castella, Golfclub Appiano, Lago di Caldaro, Laghi di Monticolo e altro.",
     "hero_heading": "Escursioni, bici, relax:<br>a due passi",
     "hero_text": "Castelli, laghi e vigneti proprio davanti alla porta, nel cuore di una delle più belle regioni vacanziere dell'Alto Adige.",
-    "story_eyebrow": "Cinque mondi",
-    "story_lede": "Continuate a scorrere tra escursioni, bici, golf, cultura e dintorni, alla fine troverete tutti i consigli come schede, filtrabili per tipo e tempo necessario.",
+    "story_eyebrow": "Sei mondi",
+    "story_lede": "Continuate a scorrere tra escursioni, castelli, bici, golf, cultura e dintorni, alla fine troverete tutti i consigli come schede, filtrabili per tipo e tempo necessario.",
     "discover_more_label": "Scopri di più →",
     "chapters": [
       {
         "key": "wandern",
         "num": "01",
-        "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
-        "bg_alt": "Sentiero escursionistico vicino ad Appiano",
+        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.jpg",
+        "bg_alt": "Escursionisti tra i vigneti vicino ad Appiano",
         "eyebrow": "Escursioni",
-        "heading": "Castelli, boschi e valli in fiore",
-        "lede": "Dal sentiero delle Tre Castella tra Hocheppan, Boymont e Korb fino alla fiorita Frühlingstal tra i Laghi di Monticolo e il Lago di Caldaro, i sentieri iniziano proprio davanti a casa.",
-        "body": "Anche la storica funicolare della Mendola con la vetta del Roen, la rovina di Leuchtenburg sopra il Lago di Caldaro e la tranquilla via crucis verso la Chiesa di Gleif con il belvedere Kreuzstein sono raggiungibili in 10-25 minuti d'auto.",
+        "heading": "Dai vigneti alla vetta",
+        "lede": "I sentieri iniziano proprio davanti a casa: tra vigneti e pendii coltivati, su nell'ombroso Bosco di Monticolo con i suoi laghi, fino alla storica funicolare della Mendola.",
+        "body": "Che sia una breve passeggiata tra i vigneti, un giro di mezza giornata intorno ai Laghi di Monticolo o un'escursione in vetta al Roen a oltre 2100 metri, i sentieri attraversano tutte le quote di Appiano, dal fondovalle fino alla zona alpina.",
         "tips": [
-          {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Sentiero delle Tre Castella",
-            "title": "Sentiero delle Tre Castella",
-            "meta": "Mezza giornata"
-          },
           {
             "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
             "alt": "Bosco di Monticolo con i laghi",
@@ -791,16 +819,52 @@
             "alt": "Tour del Roen",
             "title": "Tour del Roen",
             "meta": "Giornata intera"
+          },
+          {
+            "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+            "alt": "Sentiero verso le buche di ghiaccio (Eislöcher) vicino ad Appiano",
+            "title": "Sentiero delle buche di ghiaccio",
+            "meta": "Breve"
+          }
+        ]
+      },
+      {
+        "key": "burgen",
+        "num": "02",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_alt": "Mura e torre del castello di Hocheppan",
+        "eyebrow": "Castelli",
+        "heading": "Tre castelli, mille anni di storia",
+        "lede": "Il castello di Hocheppan con la sua cappella romanica, il castello di Boymont e il castello di Korb segnano la silhouette sopra i vigneti, collegati dal sentiero delle Tre Castella.",
+        "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Castello di Korb, Sentiero delle Tre Castella",
+            "title": "Sentiero delle Tre Castella",
+            "meta": "Mezza giornata"
+          },
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Castello di Hocheppan",
+            "title": "Castello di Hocheppan",
+            "meta": "Breve"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
+            "meta": "Mezza giornata"
           }
         ]
       },
       {
         "key": "bike",
-        "num": "02",
+        "num": "03",
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "In bici ad Appiano",
         "eyebrow": "Bici",
-        "heading": "Due ruote tra i vigneti",
+        "heading": "Due ruote tra i vigneti",
         "lede": "La pista ciclabile sull'ex sedime ferroviario Bolzano–Appiano–Caldaro passa proprio accanto ai vigneti dell'hotel, piatta, adatta alle famiglie e con ampia vista sulle Dolomiti.",
         "body": "Chi vuole proseguire segue la pista ciclabile della Val d'Adige fino a Merano, oppure percorre l'anello del Mitterberg da Appiano attraverso il Lago di Caldaro e Ora fino a Bolzano, quasi sempre pianeggiante, tra frutteti e antichi masi.",
         "tips": [
@@ -827,11 +891,11 @@
       },
       {
         "key": "golf",
-        "num": "03",
+        "num": "04",
         "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
         "bg_alt": "Golfclub Appiano Blue Monster dall'alto",
         "eyebrow": "Golf",
-        "heading": "Tee-off con vista sul castello",
+        "heading": "Tee-off con vista sul castello",
         "lede": "Il Golfclub Appiano \"Blue Monster\" si trova a pochi minuti d'auto, un campo da 9 buche con laghi e vista sulle montagne, accanto il centro di allenamento Schloss Freudenstein con campo pratica, driving range e putting green.",
         "body": "Per round più lunghi, l'impianto da 9 buche di Lana e il campo da 18 buche Dolomiti sulla Mendola sono raggiungibili in circa 30-45 minuti d'auto.",
         "tips": [
@@ -857,41 +921,41 @@
       },
       {
         "key": "kultur",
-        "num": "04",
-        "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-        "bg_alt": "Cappella del castello di Hocheppan",
+        "num": "05",
+        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.jpg",
+        "bg_alt": "Corteo in costume tradizionale al festival Castelmusika di Appiano",
         "eyebrow": "Cultura",
-        "heading": "Tre castelli, mille anni di storia",
-        "lede": "Il castello di Hocheppan con la sua cappella romanica, il castello di Boymont e il castello di Korb segnano la silhouette sopra i vigneti.",
-        "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano. E proprio accanto, a St. Paolo, la Cantina di St. Paolo apre le sue porte: per una visita guidata tra i vigneti del Paulsnerfeld o per il tour \"Preclarus\" nel bunker spumantistico della Seconda Guerra Mondiale.",
+        "heading": "Tradizione, vino e gusto",
+        "lede": "Dal mercato contadino in piazza al corso di cucina con una contadina di Appiano, la cultura della Strada del Vino vive di tradizione, artigianato e gusto.",
+        "body": "La Cantina di St. Paolo apre le sue porte per la visita guidata tra i vigneti e per il tour \"Preclarus\" nel suo storico bunker spumantistico, la Distilleria St. Urban e la Sektmanufaktur Winkler mostrano il loro artigianato, e durante il \"Langer Mittwoch\" il paese si trasforma in un palcoscenico estivo.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-            "alt": "Castello di Hocheppan",
-            "title": "Castello di Hocheppan",
+            "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+            "alt": "Bancarella con verdura fresca al mercato contadino di San Michele/Appiano",
+            "title": "Mercato contadino di Appiano",
             "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
-            "alt": "MMM Firmian",
-            "title": "MMM Firmian",
-            "meta": "Mezza giornata"
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "alt": "Vigneti della Cantina di St. Paolo",
+            "title": "Cantina di St. Paolo",
+            "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
-            "alt": "Cantina di St. Paolo",
-            "title": "Cantina di St. Paolo",
+            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+            "alt": "Piatto di schlutzkrapfen (Schlutzer) fatti in casa durante il corso di cucina altoatesina",
+            "title": "Corso di Schlutzkrapfen",
             "meta": "Breve"
           }
         ]
       },
       {
         "key": "badespass",
-        "num": "05",
+        "num": "06",
         "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
         "bg_alt": "Lago di Monticolo",
         "eyebrow": "Balneazione",
-        "heading": "Laghi in cui rilassarsi",
+        "heading": "Laghi in cui rilassarsi",
         "lede": "I Laghi di Monticolo con accesso libero e il Lago di Caldaro con le sue spiagge si trovano entrambi a circa 15-20 minuti d'auto, ideali per un pomeriggio in riva all'acqua.",
         "body": "Chi vuole dedicare un'intera giornata può passare per il Passo della Mendola o per la Val d'Adige fino al Lago di Garda, Riva del Garda e Torbole con lungolago, windsurfisti e la funivia sul Monte Baldo.",
         "tips": [
@@ -923,6 +987,10 @@
       {
         "value": "wandern",
         "label": "Escursioni"
+      },
+      {
+        "value": "burgen",
+        "label": "Castelli"
       },
       {
         "value": "bike",
@@ -960,7 +1028,7 @@
     "guide_cards": [
       {
         "comment": "Drei-Burgen-Wanderung",
-        "cat": "wandern kultur",
+        "cat": "wandern burgen",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
         "alt": "Castello di Korb, Sentiero delle Tre Castella",
@@ -978,7 +1046,7 @@
       },
       {
         "comment": "Schloss Hocheppan",
-        "cat": "kultur",
+        "cat": "burgen",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
         "position": "38% 35%",
@@ -997,7 +1065,7 @@
       },
       {
         "comment": "Schloss Boymont",
-        "cat": "kultur",
+        "cat": "burgen",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/schloss-boymont.jpg",
         "alt": "Castello di Boymont vicino ad Appiano",
@@ -1197,7 +1265,7 @@
       },
       {
         "comment": "MMM Firmian",
-        "cat": "kultur",
+        "cat": "burgen kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
         "alt": "MMM Firmian, castello di Sigmundskron",
@@ -1513,29 +1581,23 @@
   },
   "en": {
     "meta_title": "Activities | Hotel Weinberg",
-    "meta_description": "Hiking, biking, golf, culture and surroundings near Hotel Weinberg in St. Pauls/Eppan, the Three Castles trail, Golf Club Eppan, Lake Caldaro, Montiggl Lakes and more.",
+    "meta_description": "Hiking, castles, biking, golf, culture and surroundings near Hotel Weinberg in St. Pauls/Eppan, the Three Castles trail, Golf Club Eppan, Lake Caldaro, Montiggl Lakes and more.",
     "hero_heading": "Hiking, biking, relaxing:<br>right on the doorstep",
     "hero_text": "Castles, lakes and vineyards right on your doorstep, at the heart of one of South Tyrol's most beautiful holiday regions.",
-    "story_eyebrow": "Five worlds",
-    "story_lede": "Scroll on through hiking, biking, golf, culture and the surrounding area, at the end you'll find every tip as a filterable card, sorted by type and time needed.",
+    "story_eyebrow": "Six worlds",
+    "story_lede": "Scroll on through hiking, castles, biking, golf, culture and the surrounding area, at the end you'll find every tip as a filterable card, sorted by type and time needed.",
     "discover_more_label": "Discover more →",
     "chapters": [
       {
         "key": "wandern",
         "num": "01",
-        "bg_image": "../assets/aktivitaeten/schloss-boymont.jpg",
-        "bg_alt": "Hiking trail near Eppan",
+        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.jpg",
+        "bg_alt": "Hikers among the vineyards near Eppan",
         "eyebrow": "Hiking",
-        "heading": "Castles, forests and blossoming valleys",
-        "lede": "From the Three Castles trail linking Hocheppan, Boymont and Korb to the blossoming Frühlingstal between the Montiggl Lakes and Lake Caldaro, the trails start right at the door.",
-        "body": "The historic Mendel funicular with its Mount Roen summit, the Leuchtenburg ruin above Lake Caldaro, and the quiet Way of the Cross up to the Gleif church with its Kreuzstein lookout are all within a 10-25 minute drive.",
+        "heading": "From the vineyards to the summit",
+        "lede": "The trails start right at the door: through vineyards and terraced slopes, up into the shaded Montiggl forest with its lakes, and on to the historic Mendel funicular.",
+        "body": "Whether a short walk through the vines, a half-day loop around the Montiggl Lakes, or a summit hike up Mount Roen at over 2,100 metres, the trails cross every altitude around Eppan, from the valley floor up into the alpine zone.",
         "tips": [
-          {
-            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
-            "alt": "Three Castles hike",
-            "title": "Three Castles hike",
-            "meta": "Half-day"
-          },
           {
             "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
             "alt": "Montiggl forest with its lakes",
@@ -1547,16 +1609,52 @@
             "alt": "Mount Roen summit tour",
             "title": "Mount Roen summit tour",
             "meta": "Full day"
+          },
+          {
+            "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+            "alt": "Trail to the Eislöcher ice holes near Eppan",
+            "title": "Eislöcher ice-hole hike",
+            "meta": "Short"
+          }
+        ]
+      },
+      {
+        "key": "burgen",
+        "num": "02",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_alt": "Castle wall and tower of Hocheppan Castle",
+        "eyebrow": "Castles",
+        "heading": "Three castles, a thousand years of history",
+        "lede": "Hocheppan Castle with its Romanesque chapel, Boymont Castle and Korb Castle line the ridge above the vineyards, linked by the Three Castles hike.",
+        "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano.",
+        "tips": [
+          {
+            "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+            "alt": "Korb Castle, Three Castles Hike",
+            "title": "Three Castles hike",
+            "meta": "Half-day"
+          },
+          {
+            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "alt": "Hocheppan Castle",
+            "title": "Hocheppan Castle",
+            "meta": "Short"
+          },
+          {
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "alt": "MMM Firmian",
+            "title": "MMM Firmian",
+            "meta": "Half-day"
           }
         ]
       },
       {
         "key": "bike",
-        "num": "02",
+        "num": "03",
         "bg_image": "../assets/aktivitaeten/bike-tour.webp",
         "bg_alt": "Biking in Eppan",
         "eyebrow": "Biking",
-        "heading": "Two wheels through the vineyards",
+        "heading": "Two wheels through the vineyards",
         "lede": "The cycle path along the former Bolzano–Eppan–Kaltern railway line runs right past the hotel's own vineyards, flat, family-friendly, with sweeping views of the Dolomites.",
         "body": "Those wanting to go further can follow the Adige Valley cycle path all the way to Merano, or ride the Mitterberg loop from Eppan via Lake Caldaro and Auer to Bolzano, nearly all flat, through orchards and old farmsteads.",
         "tips": [
@@ -1583,11 +1681,11 @@
       },
       {
         "key": "golf",
-        "num": "03",
+        "num": "04",
         "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
         "bg_alt": "Golf Club Eppan Blue Monster from above",
         "eyebrow": "Golf",
-        "heading": "Tee off with a view of the castle",
+        "heading": "Tee off with a view of the castle",
         "lede": "Golf Club Eppan \"Blue Monster\" is just a few minutes' drive away, a 9-hole course with water hazards and mountain views, next to the Schloss Freudenstein training centre with its practice course, driving range and putting green.",
         "body": "For longer rounds, the 9-hole course in Lana and the 18-hole Golf Club Dolomiti on Mendel Pass are within about a 30-45 minute drive.",
         "tips": [
@@ -1613,41 +1711,41 @@
       },
       {
         "key": "kultur",
-        "num": "04",
-        "bg_image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-        "bg_alt": "Hocheppan Castle chapel",
+        "num": "05",
+        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.jpg",
+        "bg_alt": "Traditional costume procession at the Castelmusika festival in Eppan",
         "eyebrow": "Culture",
-        "heading": "Three castles, a thousand years of history",
-        "lede": "Hocheppan Castle with its Romanesque chapel, Boymont Castle and Korb Castle line the ridge above the vineyards.",
-        "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano. And right next door in St. Pauls, the St. Pauls winery opens its doors: for a guided walk through the Paulsnerfeld vineyards or the \"Preclarus\" tour through its WWII sparkling-wine bunker.",
+        "heading": "Tradition, wine and flavour",
+        "lede": "From the farmers' market on the town square to a cooking class with an Eppan farmer's wife, the culture of the Wine Route lives on tradition, craft and flavour.",
+        "body": "The St. Pauls winery opens its doors for a guided walk through the vineyards and the \"Preclarus\" tour through its historic sparkling-wine bunker, the St. Urban distillery and the Winkler sparkling-wine manufactory show their craft, and during the \"Langer Mittwoch\" the village turns into a summer stage.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
-            "alt": "Hocheppan Castle",
-            "title": "Hocheppan Castle",
+            "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+            "alt": "Market stall with fresh vegetables at the St. Michael/Eppan farmers' market",
+            "title": "Eppan farmers' market",
             "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
-            "alt": "MMM Firmian",
-            "title": "MMM Firmian",
-            "meta": "Half-day"
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "alt": "St. Pauls winery vineyards",
+            "title": "St. Pauls winery",
+            "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
-            "alt": "St. Pauls winery",
-            "title": "St. Pauls winery",
+            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+            "alt": "Plate of homemade Schlutzkrapfen (Schlutzer) at the South Tyrolean cooking class",
+            "title": "Schlutzkrapfen cooking class",
             "meta": "Short"
           }
         ]
       },
       {
         "key": "badespass",
-        "num": "05",
+        "num": "06",
         "bg_image": "../assets/aktivitaeten/kalterer-see.webp",
         "bg_alt": "Montiggl Lake",
         "eyebrow": "Swimming",
-        "heading": "Lakes to unwind by",
+        "heading": "Lakes to unwind by",
         "lede": "The freely accessible Montiggl Lakes and Lake Caldaro with its beach lidos are both about 15-20 minutes away by car, perfect for an afternoon by the water.",
         "body": "For a full day out, drive over Mendel Pass or through the Adige Valley to Lake Garda, Riva del Garda and Torbole with their lakeside promenades, windsurfers and the Monte Baldo cable car.",
         "tips": [
@@ -1679,6 +1777,10 @@
       {
         "value": "wandern",
         "label": "Hiking"
+      },
+      {
+        "value": "burgen",
+        "label": "Castles"
       },
       {
         "value": "bike",
@@ -1716,7 +1818,7 @@
     "guide_cards": [
       {
         "comment": "Drei-Burgen-Wanderung",
-        "cat": "wandern kultur",
+        "cat": "wandern burgen",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
         "alt": "Korb Castle, Three Castles Hike",
@@ -1734,7 +1836,7 @@
       },
       {
         "comment": "Schloss Hocheppan",
-        "cat": "kultur",
+        "cat": "burgen",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
         "position": "38% 35%",
@@ -1753,7 +1855,7 @@
       },
       {
         "comment": "Schloss Boymont",
-        "cat": "kultur",
+        "cat": "burgen",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/schloss-boymont.jpg",
         "alt": "Boymont Castle near Eppan",
@@ -1953,7 +2055,7 @@
       },
       {
         "comment": "MMM Firmian",
-        "cat": "kultur",
+        "cat": "burgen kultur",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
         "alt": "MMM Firmian, Sigmundskron Castle",
