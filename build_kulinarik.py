@@ -31,9 +31,11 @@ def build_guide_grid_fragment(c):
     cards = []
     for card in c["cards"]:
         tags_html = "".join(f'<span class="tag">{t}</span>' for t in card["tags"])
+        pos = card.get("position", "").strip()
+        style_attr = f' style="object-position:{pos};"' if pos else ""
         cards.append(
             f'    <article class="guide-card" data-cat="{card["cat"]}" data-dist="{card["dist"]}">\n'
-            f'      <div class="guide-card__img"><img src="{card["image"]}" alt="{card["img_alt"]}"></div>\n'
+            f'      <div class="guide-card__img"><img src="{card["image"]}" alt="{card["img_alt"]}"{style_attr}></div>\n'
             '      <div class="guide-card__body">\n'
             f'        <div class="guide-card__tags">{tags_html}</div>\n'
             f'        <span class="place">{card["place"]}</span>\n'

@@ -70,7 +70,8 @@
         "phone_href": "tel:+393396241592",
         "phone_label": "Anrufen",
         "website_href": "https://www.allegra-weinbar.it/de",
-        "website_label": "Website ↗"
+        "website_label": "Website ↗",
+        "position": "15% 50%"
       },
       {
         "cat": "pizza",
@@ -286,7 +287,8 @@
         "phone_href": "tel:+393396241592",
         "phone_label": "Chiama",
         "website_href": "https://www.allegra-weinbar.it/de",
-        "website_label": "Sito web ↗"
+        "website_label": "Sito web ↗",
+        "position": "15% 50%"
       },
       {
         "cat": "pizza",
@@ -502,7 +504,8 @@
         "phone_href": "tel:+393396241592",
         "phone_label": "Call",
         "website_href": "https://www.allegra-weinbar.it/de",
-        "website_label": "Website ↗"
+        "website_label": "Website ↗",
+        "position": "15% 50%"
       },
       {
         "cat": "pizza",
