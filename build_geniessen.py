@@ -44,6 +44,30 @@ def build_ticklist_fragment(c):
     return '<ul class="tick-list">\n' + items + '\n    </ul>'
 
 
+def build_mobile_slots_fragment(images):
+    """Mobile: 2 feste Felder nebeneinander (Bild 1,3,5.. links, Bild 2,4,6..
+    rechts). Das jeweils erste Bild jedes Feldes startet sichtbar (Klasse
+    is-active), ein gemeinsames JS-Snippet (siehe Template) rotiert danach
+    per Klassenwechsel + CSS-opacity-Transition durch alle Bilder - kein
+    CSS-@keyframes-Trick mehr, der sich als unzuverlaessig erwiesen hat."""
+    groups = [images[0::2], images[1::2]]
+    slot_parts = []
+    for group in groups:
+        if not group:
+            continue
+        img_lines = []
+        for i, im in enumerate(group):
+            cls_attr = ' class="is-active"' if i == 0 else ""
+            img_lines.append(f'        <img src="{im["image"]}" alt="{im["alt"]}"{cls_attr}>')
+        imgs_html = "\n".join(img_lines)
+        slot_parts.append(f'      <div class="impression-band__slot">\n{imgs_html}\n      </div>')
+    return (
+        '<div class="impression-band__mobile">\n'
+        + "\n".join(slot_parts) + "\n"
+        '    </div>'
+    )
+
+
 def build_band_fragment(chapter, tag, slug):
     n = len(chapter["impressions"])
     items = []
@@ -58,10 +82,8 @@ def build_band_fragment(chapter, tag, slug):
         )
 
     band_id = f"band{slug.capitalize()}"
+    mobile_fragment = build_mobile_slots_fragment(chapter["impressions"])
 
-    # Mobile nutzt dasselbe .impression-band__grid (per CSS auf Spaltenrichtung
-    # umgestellt) statt eines eigenen Slider-/Slot-Systems - dadurch sind alle
-    # Bilder auf dem Handy einfach untereinander sichtbar und scrollbar.
     return (
         f'<div class="impression-band" id="{band_id}">\n'
         '    <div class="impression-band__sticky">\n'
@@ -69,6 +91,7 @@ def build_band_fragment(chapter, tag, slug):
         '      <div class="impression-band__grid">\n'
         + "\n".join(items) + "\n"
         '      </div>\n'
+        + mobile_fragment + "\n"
         '    </div>\n'
         '  </div>'
     )

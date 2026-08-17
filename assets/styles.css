@@ -1490,25 +1490,37 @@ html.skip-curtain .curtain__icon {
   font-family: var(--serif);
   font-size: 1.3rem;
 }
-/* Mobile: alle Bilder untereinander, normal zum Runterscrollen (kein Slider,
-   keine Animation - einfache, robuste Struktur). Nutzt dasselbe Grid wie
-   Desktop, nur auf Spaltenrichtung umgestellt. */
-.impression-band__mobile { display: none; }
+/* Mobile: 2 feste Felder nebeneinander, deren Inhalt per JS (nicht per reinem
+   CSS-Animation-Trick, der sich als unzuverlaessig erwiesen hat) durch alle
+   Bilder rotiert - echtes Ueberblenden per opacity-Transition + Klassenwechsel. */
+.impression-band__mobile {
+  display: none;
+  gap: 14px;
+  margin: 0 24px;
+  height: min(46vh, 380px);
+}
+.impression-band__slot {
+  position: relative;
+  flex: 1 1 50%;
+  height: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.impression-band__slot img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.1s ease;
+}
+.impression-band__slot img.is-active { opacity: 1; }
 @media (max-width: 780px) {
-  .impression-band__grid {
-    flex-direction: column;
-    overflow-x: visible;
-    overflow-y: visible;
-    scroll-snap-type: none;
-    cursor: default;
-    padding: 0 24px;
-    gap: 20px;
-  }
-  .impression-band__item {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 60vh;
-  }
+  .impression-band__grid { display: none; }
+  .impression-band__mobile { display: flex; }
+}
+@media (max-width: 780px) and (prefers-reduced-motion: reduce) {
+  .impression-band__slot img { transition: none; }
 }
 
 /* ---------- Impressionen-Band Variante: "Entdecke mehr"-CTA (Aktivitäten) ---------- */

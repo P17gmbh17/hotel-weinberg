@@ -155,6 +155,20 @@
           <span class="impression-band__caption">Panoramablick</span>
         </div>
       </div>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/pool-entspannen-2026.jpg" alt="Entspannen am Pool, Hotel Weinberg" class="is-active">
+        <img src="../assets/fotos/pool-oben-2026.jpg" alt="Blick über Pool und Weinberge von oben">
+        <img src="../assets/fotos/aperitivo-drink-2026.jpg" alt="Cocktail wird am Pool gehalten, Hotel Weinberg">
+        <img src="../assets/fotos/pool-relax-oben-2026.jpg" alt="Sonnenbad am Poolrand, Hotel Weinberg">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/pool-liegewiese-2026.jpg" alt="Poolbereich mit Liegewiese und Weinbergblick" class="is-active">
+        <img src="../assets/fotos/pool-aperol-2026.jpg" alt="Aperitivo am Pool bei Sonnenuntergang, Hotel Weinberg">
+        <img src="../assets/fotos/pool-wasser-detail-2026.jpg" alt="Sonnenreflexion auf der Wasseroberfläche des Pools">
+        <img src="../assets/fotos/aperitivo-2026.jpg" alt="Aperitivo-Glas am Abend, Hotel Weinberg">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -213,6 +227,20 @@
           <span class="impression-band__caption">Der Weinberg von oben</span>
         </div>
       </div>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/garten-palme-2026.jpg" alt="Palmenblatt im Garten des Hotel Weinberg" class="is-active">
+        <img src="../assets/fotos/garten-weingenuss-2026.jpg" alt="Weinverkostung im Garten des Hotel Weinberg">
+        <img src="../assets/fotos/mara-garten-2026.jpg" alt="Weißwein wird im Garten eingeschenkt, Hotel Weinberg">
+        <img src="../assets/fotos/garten-mara-flasche-2026.jpg" alt="Mara serviert einen Sauvignon auf der Gartenterrasse, Hotel Weinberg">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/garten-weg-2026.jpg" alt="Garten des Hotel Weinberg" class="is-active">
+        <img src="../assets/fotos/gartenlounge-2026.jpg" alt="Loungebereich im Garten des Hotel Weinberg mit Palmen">
+        <img src="../assets/fotos/garten-terrasse-sonnensegel-2026.jpg" alt="Schattige Terrasse mit Sonnensegel im Garten des Hotel Weinberg">
+        <img src="../assets/fotos/garten-luftaufnahme-2026.jpg" alt="Luftaufnahme des Hotel Weinberg mit Garten und Weinbergen bei Sonnenaufgang">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -273,6 +301,20 @@
           <span class="impression-band__caption">Morgenstimmung</span>
         </div>
       </div>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/fruehstueck-tisch-2026.jpg" alt="Frühstückstisch mit Kaffee und Gebäck" class="is-active">
+        <img src="../assets/fotos/fruehstueck-muesli-2026.jpg" alt="Müsli mit frischen Beeren, Detail">
+        <img src="../assets/fotos/fruehstueck-eier-2026.jpg" alt="Frische Eier im Körbchen am Frühstücksbuffet, Hotel Weinberg">
+        <img src="../assets/fotos/fruehstueck-kaffee-2026.jpg" alt="Gast genießt eine Tasse Kaffee beim Frühstück, Hotel Weinberg">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/fruehstueck-panoramablick-2026.jpg" alt="Frühstück mit Panoramablick auf die Weinberge, Hotel Weinberg" class="is-active">
+        <img src="../assets/fotos/fruehstueck-2026.jpg" alt="Auswahl an frischem Gebäck zum Frühstück, Hotel Weinberg">
+        <img src="../assets/fotos/fruehstueck-blick-2026.jpg" alt="Frühstücksraum mit Panoramafenstern und Blick auf die Weinberge, Hotel Weinberg">
+        <img src="../assets/fotos/fruehstueck-tafel-2026.jpg" alt="Blick zur Burg Boymont bei Sonnenuntergang, Hotel Weinberg">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -331,6 +373,20 @@
           <span class="impression-band__caption">Sitzkomfort</span>
         </div>
       </div>
+<div class="impression-band__mobile">
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/bar-shake-2026.jpg" alt="Mara mixt einen Cocktail an der Bar" class="is-active">
+        <img src="../assets/fotos/bar-model-cocktail-2026.jpg" alt="Espresso Martini mit Kaffeebohnen wird an der Bar serviert, Hotel Weinberg">
+        <img src="../assets/fotos/bar-ruehren-2026.jpg" alt="Mara rührt einen Mojito an der Bar, Hotel Weinberg">
+        <img src="../assets/fotos/bar-model-2026.jpg" alt="Gast genießt einen Espresso Martini an der Bar">
+      </div>
+      <div class="impression-band__slot">
+        <img src="../assets/fotos/bar-mojito-2026.jpg" alt="Cocktail wird an der Bar zubereitet" class="is-active">
+        <img src="../assets/fotos/bar-hero-2026.jpg" alt="Unsere Bar im Hotel Weinberg">
+        <img src="../assets/fotos/bar-lounge-2026.jpg" alt="Gemütliche Lounge-Ecke im Eingangsbereich, Hotel Weinberg">
+        <img src="../assets/fotos/bar-sessel-2026.jpg" alt="Barhocker aus Leder im Detail, Hotel Weinberg">
+      </div>
+    </div>
     </div>
   </div>
 
@@ -574,6 +630,19 @@
       grid.scrollLeft = startScroll - dx;
     });
     grid.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+  });
+
+  /* ---- Impressionen-Bänder Mobile: 2 Felder rotieren per Überblendung durch alle Bilder ---- */
+  document.querySelectorAll('.impression-band__mobile .impression-band__slot').forEach((slot, slotIdx) => {
+    const imgs = slot.querySelectorAll('img');
+    if (imgs.length < 2) return;
+    let current = 0;
+    setInterval(() => {
+      const next = (current + 1) % imgs.length;
+      imgs[current].classList.remove('is-active');
+      imgs[next].classList.add('is-active');
+      current = next;
+    }, 3200 + slotIdx * 400);
   });
 
 </script>
