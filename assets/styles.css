@@ -418,8 +418,13 @@ body.nav-locked { overflow: hidden; }
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
-.hero__scroll span.line { width: 1px; height: 34px; background: currentColor; opacity: 0.7; }
+.hero__scroll span.line { width: 1px; height: 34px; background: currentColor; opacity: 0.7; transition: opacity 0.25s ease, height 0.25s ease; }
+.hero__scroll:hover { transform: translateX(-50%) translateY(4px); }
+.hero__scroll:hover span.line { opacity: 1; height: 40px; }
+.hero__scroll:hover span:last-child { opacity: 0.85; }
 
 /* ---------- Grid helpers ---------- */
 .grid-2 { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center; }
@@ -566,6 +571,11 @@ body.nav-locked { overflow: hidden; }
 .room-card__price strong { font-family: var(--serif); font-size: 1.35rem; color: var(--green-dark); display: block; margin-top: 2px; }
 
 #zimmerkategorien { scroll-margin-top: calc(var(--header-h, 78px) + 20px); }
+#willkommen,
+#geschichte,
+#lage,
+#zimmerDetails { scroll-margin-top: calc(var(--header-h, 78px) + 20px); }
+.scroll-story { scroll-margin-top: var(--header-h, 78px); }
 
 /* ---------- Zimmer-Detailseite (an restliches Seitendesign angeglichen) ---------- */
 .section.room-detail-top { padding: 150px 0 60px; background: var(--green-dark); color: var(--cream); }
