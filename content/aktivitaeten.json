@@ -51,6 +51,7 @@
           {
             "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
             "alt": "Wein &amp; Bike am Kalterer See",
+            "position": "82% 60%",
             "title": "Wein &amp; Bike am Kalterer See",
             "meta": "Kurz"
           },
@@ -801,6 +802,7 @@
           {
             "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
             "alt": "Vino &amp; bici al Lago di Caldaro",
+            "position": "82% 60%",
             "title": "Vino &amp; bici al Lago di Caldaro",
             "meta": "Breve"
           },
@@ -1551,6 +1553,7 @@
           {
             "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
             "alt": "Wine &amp; biking at Lake Caldaro",
+            "position": "82% 60%",
             "title": "Wine &amp; biking at Lake Caldaro",
             "meta": "Short"
           },

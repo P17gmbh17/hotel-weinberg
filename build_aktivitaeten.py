@@ -54,8 +54,10 @@ def build_story_rail_fragment(chapters):
 
 def build_tip_fragment(tip, chapter_idx, tip_idx):
     prefix = f"chapters.{chapter_idx}.tips.{tip_idx}"
+    pos = tip.get("position", "").strip()
+    style_attr = f' style="object-position:{pos};"' if pos else ""
     return (
-        f'<div class="discover-more__tip"><img class="discover-more__tip-img" src="{tip["image"]}" alt="{tip["alt"]}" loading="lazy" data-cms="{prefix}.image">'
+        f'<div class="discover-more__tip"><img class="discover-more__tip-img" src="{tip["image"]}" alt="{tip["alt"]}"{style_attr} loading="lazy" data-cms="{prefix}.image">'
         f'<span class="discover-more__tip-caption"><span class="discover-more__tip-title" data-cms="{prefix}.title">{tip["title"]}</span>'
         f'<span class="discover-more__tip-meta" data-cms="{prefix}.meta">{tip["meta"]}</span></span></div>'
     )
