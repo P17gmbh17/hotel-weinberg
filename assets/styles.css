@@ -1093,7 +1093,7 @@ body.nav-locked { overflow: hidden; }
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  min-height: 75vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   color: var(--white);
