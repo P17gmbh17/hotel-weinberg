@@ -661,6 +661,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "position": "62% 38%",
         "alt": "Verkostung in der Brennerei St. Urban in Girlan, Eppan",
         "tags": [
           "Kultur",
@@ -672,8 +673,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> ca. 10 Fahrmin.</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> ca. 1 Std.</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Verkostung auf Anfrage</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> Anmeldung erforderlich</span>",
         "hours": "Mo–Fr 10:00–18:00 Uhr, Sa 10:00–16:00 Uhr",
-        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Website ↗</a>",
-        "position": "45% 45%"
+        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
       },
       {
         "comment": "Eislöcher-Wanderung",
@@ -1452,6 +1452,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "position": "62% 38%",
         "alt": "Degustazione alla Distilleria St. Urban a Cornaiano, Appiano",
         "tags": [
           "Cultura",
@@ -1463,8 +1464,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> circa 10 min. d'auto</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> circa 1 ora</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> degustazione su richiesta</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> prenotazione necessaria</span>",
         "hours": "Lun–Ven 10:00–18:00, Sab 10:00–16:00",
-        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>",
-        "position": "45% 45%"
+        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Sito web ↗</a>"
       },
       {
         "comment": "Eislöcher-Wanderung",
@@ -2243,6 +2243,7 @@
         "cat": "kultur",
         "zeit": "kurz",
         "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "position": "62% 38%",
         "alt": "Tasting at the St. Urban distillery in Girlan, Eppan",
         "tags": [
           "Culture",
@@ -2254,8 +2255,7 @@
         "meta_row_1_html": "<span><svg class=\"icon-fill\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3 17.5v-3c0-.8.6-1.5 1.5-1.5H6l1.3-4.3C7.6 7.7 8.5 7 9.6 7h4.8c1.1 0 2 .7 2.3 1.7L18 13h1.5c.9 0 1.5.7 1.5 1.5v3H3Z M8.3 8.3h3.3v4h-3.3z M12.4 8.3h3.3v4h-3.3z\"/><circle cx=\"7.2\" cy=\"17.5\" r=\"2.3\"/><circle cx=\"16.8\" cy=\"17.5\" r=\"2.3\"/></svg> approx. 10 min. drive</span>\n          <span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"13.5\" r=\"7.7\"/><path d=\"M12 9.8v3.7l2.6 1.8\"/><path d=\"M9.3 2.6h5.4\"/><path d=\"M12 2.6v2.2\"/></svg> approx. 1 hour</span>",
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> tasting by request</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M7.2 3.4h9.6l-.95 5.9a4.85 4.85 0 0 1-9.7 0z\"/><path d=\"M12 13.3v6.3\"/><path d=\"M8.3 21h7.4\"/></svg> booking required</span>",
         "hours": "Mon–Fri 10:00–18:00, Sat 10:00–16:00",
-        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Website ↗</a>",
-        "position": "45% 45%"
+        "actions_html": "<a href=\"https://www.st-urban.it/de\" target=\"_blank\" rel=\"noopener\">Website ↗</a>"
       },
       {
         "comment": "Eislöcher-Wanderung",
