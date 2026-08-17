@@ -1106,6 +1106,7 @@ body.nav-locked { overflow: hidden; }
 }
 .subpage-hero .bg {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2;
+  filter: saturate(1.18);
 }
 .subpage-hero .bg--mobile { display: none; }
 @media (max-width: 620px) {
