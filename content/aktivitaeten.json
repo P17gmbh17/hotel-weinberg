@@ -241,7 +241,8 @@
         "comment": "Drei-Burgen-Wanderung",
         "cat": "wandern burgen",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+        "position": "62% 50%",
         "alt": "Schloss Korb, Drei-Burgen-Wanderung",
         "tags": [
           "Wandern",
@@ -364,7 +365,7 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> kostenlos · Rückfahrt mit Zug möglich</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> ca. 45 km · flach</span>",
         "hours": "Ganzjährig befahrbar",
         "actions_html": "<a href=\"https://www.outdooractive.com/en/route/bike-riding/bolzano-and-environs/bolzano-to-meran-etsch-valley-cycling-delight/805780694/\" target=\"_blank\" rel=\"noopener\">Route ansehen ↗</a>",
-        "position": "50% 40%"
+        "position": "41% 40%"
       },
       {
         "comment": "Trainingscenter Schloss Freudenstein",
@@ -1032,7 +1033,8 @@
         "comment": "Drei-Burgen-Wanderung",
         "cat": "wandern burgen",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+        "position": "62% 50%",
         "alt": "Castello di Korb, Sentiero delle Tre Castella",
         "tags": [
           "Escursioni",
@@ -1155,7 +1157,7 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> gratuito · ritorno possibile in treno</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> circa 45 km · pianeggiante</span>",
         "hours": "Percorribile tutto l'anno",
         "actions_html": "<a href=\"https://www.outdooractive.com/en/route/bike-riding/bolzano-and-environs/bolzano-to-meran-etsch-valley-cycling-delight/805780694/\" target=\"_blank\" rel=\"noopener\">Vedi il percorso ↗</a>",
-        "position": "50% 40%"
+        "position": "41% 40%"
       },
       {
         "comment": "Trainingscenter Schloss Freudenstein",
@@ -1823,7 +1825,8 @@
         "comment": "Drei-Burgen-Wanderung",
         "cat": "wandern burgen",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/burgen-wanderung.jpg",
+        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+        "position": "62% 50%",
         "alt": "Korb Castle, Three Castles Hike",
         "tags": [
           "Hiking",
@@ -1946,7 +1949,7 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> free · return possible by train</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2 18.5l5.6-9.6 3.6 5 2.3-3.2 6.5 7.8z\"/><circle cx=\"7\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\" stroke=\"none\"/></svg> approx. 45 km · flat</span>",
         "hours": "Open year-round",
         "actions_html": "<a href=\"https://www.outdooractive.com/en/route/bike-riding/bolzano-and-environs/bolzano-to-meran-etsch-valley-cycling-delight/805780694/\" target=\"_blank\" rel=\"noopener\">View route ↗</a>",
-        "position": "50% 40%"
+        "position": "41% 40%"
       },
       {
         "comment": "Trainingscenter Schloss Freudenstein",
