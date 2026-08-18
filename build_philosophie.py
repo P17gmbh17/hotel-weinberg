@@ -5,6 +5,9 @@ Baut {lang}/philosophie.html aus content/philosophie.json + {lang}/philosophie.t
 import json
 
 import os
+
+from img_srcset import srcset_attr
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/philosophie.json", encoding="utf-8") as f:
@@ -44,7 +47,7 @@ def build_team_fragment(team):
     for i, m in enumerate(team):
         parts.append(
             f'      <div class="team-portrait" data-portrait>\n'
-            f'        <img src="{m["image"]}" alt="{m["alt"]}" data-cms="gastgeber.team.{i}.image">\n'
+            f'        <img src="{m["image"]}"{srcset_attr(m["image"])} alt="{m["alt"]}" data-cms="gastgeber.team.{i}.image">\n'
             f'        <span class="overlay"></span>\n'
             f'        <span class="name-script" data-cms="gastgeber.team.{i}.name">{m["name"]}</span>\n'
             f'      </div>'
@@ -60,7 +63,7 @@ def build_slider_fragment(slider, lang):
         pos = s.get("position", "").strip()
         style_attr = f' style="object-position:{pos};"' if pos else ""
         parts.append(
-            f'      <div class="ausstattung-slider__slide{active}"><img src="{s["image"]}" alt="{s["alt"]}"{style_attr} data-cms="ausstattung.slider.{i}.image"></div>'
+            f'      <div class="ausstattung-slider__slide{active}"><img src="{s["image"]}"{srcset_attr(s["image"])} alt="{s["alt"]}"{style_attr} data-cms="ausstattung.slider.{i}.image"></div>'
         )
     slides_html = "\n".join(parts)
     return (
@@ -87,7 +90,7 @@ def build_amenities_fragment(amenities):
 def build_persoenlichkeit_bg_fragment(images):
     n = len(images)
     imgs_html = "\n".join(
-        f'    <img src="{im["image"]}" alt="{im["alt"]}">' for im in images
+        f'    <img src="{im["image"]}"{srcset_attr(im["image"])} alt="{im["alt"]}">' for im in images
     )
     if n <= 1:
         return imgs_html
@@ -137,6 +140,7 @@ def build(lang):
     html = html.replace("{{geschichte.lede}}", g["lede"])
     html = html.replace("{{geschichte.body}}", g["body"])
     html = html.replace("{{geschichte.image}}", g["image"])
+    html = html.replace("{{geschichte.image_srcset}}", srcset_attr(g["image"]))
     html = html.replace("{{geschichte.alt}}", g["alt"])
 
     gg = c["gastgeber"]
@@ -165,6 +169,7 @@ def build(lang):
 
     gl = c["geniessen_link"]
     html = html.replace("{{geniessen_link.image}}", gl["image"])
+    html = html.replace("{{geniessen_link.image_srcset}}", srcset_attr(gl["image"]))
     html = html.replace("{{geniessen_link.alt}}", gl["alt"])
     html = html.replace("{{geniessen_link.eyebrow}}", gl["eyebrow"])
     html = html.replace("{{geniessen_link.heading}}", gl["heading"])

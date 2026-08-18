@@ -5,6 +5,9 @@ CMS-Rebuild-Skript fuer kulinarik.html, alle 3 Sprachen (de/it/en).
 import json
 
 import os
+
+from img_srcset import srcset_attr
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/kulinarik.json", encoding="utf-8") as f:
@@ -16,7 +19,7 @@ def build_polaroids_fragment(c):
     for p in c["polaroids"]:
         items.append(
             '      <div class="polaroid">\n'
-            f'        <img src="{p["image"]}" alt="{p["alt"]}">\n'
+            f'        <img src="{p["image"]}"{srcset_attr(p["image"])} alt="{p["alt"]}">\n'
             f'        <span>{p["caption"]}</span>\n'
             '      </div>'
         )
@@ -35,7 +38,7 @@ def build_guide_grid_fragment(c):
         style_attr = f' style="object-position:{pos};"' if pos else ""
         cards.append(
             f'    <article class="guide-card" data-cat="{card["cat"]}" data-dist="{card["dist"]}">\n'
-            f'      <div class="guide-card__img"><img src="{card["image"]}" alt="{card["img_alt"]}"{style_attr}></div>\n'
+            f'      <div class="guide-card__img"><img src="{card["image"]}"{srcset_attr(card["image"])} alt="{card["img_alt"]}"{style_attr}></div>\n'
             '      <div class="guide-card__body">\n'
             f'        <div class="guide-card__tags">{tags_html}</div>\n'
             f'        <span class="place">{card["place"]}</span>\n'

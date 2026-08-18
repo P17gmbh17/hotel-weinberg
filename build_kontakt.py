@@ -5,7 +5,12 @@ Baut {lang}/kontakt.html aus content/kontakt.json + {lang}/kontakt.template.html
 import json
 
 import os
+
+from img_srcset import srcset_attr
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
+
+MAP_ART_PATH = "../assets/fotos/map/kontakt-map-2026.jpg"
 
 with open(BASE + "content/kontakt.json", encoding="utf-8") as f:
     ALL = json.load(f)
@@ -21,7 +26,9 @@ def build(lang):
     html = html.replace("{{hero_heading}}", c["hero_heading"])
     html = html.replace("{{hero_text}}", c["hero_text"])
     html = html.replace("{{hero_image}}", c["hero_image"])
+    html = html.replace("{{hero_image_srcset}}", srcset_attr(c["hero_image"]))
     html = html.replace("{{hero_image_alt}}", c["hero_image_alt"])
+    html = html.replace("{{map_art_srcset}}", srcset_attr(MAP_ART_PATH))
 
     lg = c["lage"]
     html = html.replace("{{lage.eyebrow}}", lg["eyebrow"])

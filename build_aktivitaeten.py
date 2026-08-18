@@ -11,6 +11,8 @@ Aufruf:
 import json
 import os
 
+from img_srcset import srcset_attr
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/aktivitaeten.json", encoding="utf-8") as f:
@@ -58,7 +60,7 @@ def build_tip_fragment(tip, chapter_idx, tip_idx):
     pos = tip.get("position", "").strip()
     style_attr = f' style="object-position:{pos};"' if pos else ""
     return (
-        f'<div class="discover-more__tip"><img class="discover-more__tip-img" src="{tip["image"]}" alt="{tip["alt"]}"{style_attr} loading="lazy" data-cms="{prefix}.image">'
+        f'<div class="discover-more__tip"><img class="discover-more__tip-img" src="{tip["image"]}"{srcset_attr(tip["image"])} alt="{tip["alt"]}"{style_attr} loading="lazy" data-cms="{prefix}.image">'
         f'<span class="discover-more__tip-caption"><span class="discover-more__tip-title" data-cms="{prefix}.title">{tip["title"]}</span>'
         f'<span class="discover-more__tip-meta" data-cms="{prefix}.meta">{tip["meta"]}</span></span></div>'
     )
@@ -75,7 +77,7 @@ def build_chapters_fragment(c, lang):
             f'\n\n  <!-- Station {ch["num"]} — {STATION_COMMENT_LABEL[lang][i]} -->\n'
             '  <div class="story-chapter-wrap">\n'
             f'  <section class="story-chapter{right_mod}" data-chapter>\n'
-            f'    <div class="story-chapter__bg"><img src="{ch["bg_image"]}" alt="{ch["bg_alt"]}" data-cms="{prefix}.bg_image"></div>\n'
+            f'    <div class="story-chapter__bg"><img src="{ch["bg_image"]}"{srcset_attr(ch["bg_image"])} alt="{ch["bg_alt"]}" data-cms="{prefix}.bg_image"></div>\n'
             f'    <img class="palm-decor" src="../assets/logo/icon-white.png" alt="" style="{decor["palm"]}">\n'
             '    <div class="story-chapter__inner">\n'
             '      <div class="story-chapter__content reveal">\n'
@@ -131,7 +133,7 @@ def build_guide_cards_fragment(c):
         parts.append(
             f'\n\n    <!-- {card["comment"]} -->\n'
             f'    <article class="guide-card" data-cat="{card["cat"]}" data-zeit="{card["zeit"]}">\n'
-            f'      <div class="guide-card__img"><img src="{card["image"]}" alt="{card["alt"]}"{style_attr} data-cms="{prefix}.image"></div>\n'
+            f'      <div class="guide-card__img"><img src="{card["image"]}"{srcset_attr(card["image"])} alt="{card["alt"]}"{style_attr} data-cms="{prefix}.image"></div>\n'
             '      <div class="guide-card__body">\n'
             f'        <div class="guide-card__tags">{tags_html}</div>\n'
             f'        <span class="place" data-cms="{prefix}.place">{card["place"]}</span>\n'

@@ -13,6 +13,9 @@ Aufruf:
 import json
 
 import os
+
+from img_srcset import srcset_attr
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/zimmer.json", encoding="utf-8") as f:
@@ -50,7 +53,7 @@ def build_room_cards_fragment(c, lang):
         card_title = room.get("card_title", room["title"])
         cards.append(
             '      <div class="room-card">\n'
-            f'        <a href="zimmer-{room["slug"]}.html" class="room-card__img" style="display:block;"><img src="{room["image"]}" alt="{room["title"]}" data-cms="rooms.{idx}.image"></a>\n'
+            f'        <a href="zimmer-{room["slug"]}.html" class="room-card__img" style="display:block;"><img src="{room["image"]}"{srcset_attr(room["image"])} alt="{room["title"]}" data-cms="rooms.{idx}.image"></a>\n'
             '        <div class="room-card__body">\n'
             f'          <h3><a href="zimmer-{room["slug"]}.html" style="color:inherit; text-decoration:none;" data-cms="rooms.{idx}.card_title">{card_title}</a></h3>\n'
             f'          <p data-cms="rooms.{idx}.teaser">{room["teaser"]}</p>\n'
@@ -74,7 +77,7 @@ def build_slideshow_fragment(c, lang):
     images = c.get("slideshow_images") or [room["image"] for room in c["rooms"]]
     for i, image in enumerate(images):
         active = " is-active" if i == 0 else ""
-        slides.append(f'  <div class="room-slideshow__slide{active}"><img src="{image}" alt="{c["slideshow_heading"]}"></div>')
+        slides.append(f'  <div class="room-slideshow__slide{active}"><img src="{image}"{srcset_attr(image)} alt="{c["slideshow_heading"]}"></div>')
         dots.append(f'    <button class="room-slideshow__dot{active}" data-slide="{i}" aria-label="{word} {i+1}"></button>')
     body = (
         '<section class="room-slideshow" id="roomSlideshow">\n'
@@ -94,7 +97,7 @@ def build_slideshow_fragment(c, lang):
 
 
 def build_gallery_fragment(room):
-    slides = [f'    <div class="room-gallery__slide"><img src="{img}" alt="{room["title"]}" draggable="false"></div>' for img in room["gallery"]]
+    slides = [f'    <div class="room-gallery__slide"><img src="{img}"{srcset_attr(img)} alt="{room["title"]}" draggable="false"></div>' for img in room["gallery"]]
     dots = [f'    <button class="{"is-active" if i == 0 else ""}" data-slide="{i}" aria-label="Bild {i+1}"></button>' for i in range(len(room["gallery"]))]
     return (
         '<div class="room-gallery" id="roomGallery">\n' + "\n".join(slides) + "\n  </div>\n"
@@ -109,7 +112,7 @@ def build_related_rooms_fragment(c, current_slug):
     for i, room in enumerate(others):
         cards.append(
             f'<div class="related-room-card"><a href="zimmer-{room["slug"]}.html" class="related-room-card__link">'
-            f'<div class="img-frame"><img src="{room["image"]}" alt="{room["title"]}"></div><h4>{room["title"]}</h4></a>'
+            f'<div class="img-frame"><img src="{room["image"]}"{srcset_attr(room["image"])} alt="{room["title"]}"></div><h4>{room["title"]}</h4></a>'
             f'<a href="zimmer-{room["slug"]}.html" class="related-room-card__cta btn btn--dark">{c["card_cta_label"]}</a></div>'
         )
         active = " is-active" if i == 0 else ""
@@ -169,6 +172,7 @@ def build_room_pages(lang):
             "{{detail_meta_description}}": room["detail_meta_description"],
             "{{slug}}": room["slug"],
             "{{image}}": room["image"],
+            "{{image_srcset}}": srcset_attr(room["image"]),
             "{{room_category_eyebrow}}": c["room_category_eyebrow"],
             "{{lede}}": room["lede"],
             "{{price}}": room["price"],

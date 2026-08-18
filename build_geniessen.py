@@ -11,6 +11,9 @@ Aufruf:
 import json
 
 import os
+
+from img_srcset import srcset_attr, mobile_src
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/geniessen.json", encoding="utf-8") as f:
@@ -60,13 +63,18 @@ def build_mobile_slots_fragment(images):
         if not group:
             continue
         first = group[0]
+        # Diese Slots werden ausschliesslich auf Mobile gerendert und die
+        # img.src wird per JS im Intervall gewechselt (siehe rotate-data
+        # weiter unten im Template) - srcset waere hier unzuverlaessig, da
+        # der Browser es nicht neu bewertet, wenn JS nur .src aendert. Daher
+        # direkt die kleine -450w-Variante als Quelle verwenden.
         rotate_json = json.dumps(
-            [{"src": im["image"], "alt": im["alt"], "caption": im["caption"]} for im in group],
+            [{"src": mobile_src(im["image"]), "alt": im["alt"], "caption": im["caption"]} for im in group],
             ensure_ascii=False,
         )
         slot_parts.append(
             '      <div class="impression-band__slot">\n'
-            f'        <img src="{first["image"]}" alt="{first["alt"]}">\n'
+            f'        <img src="{mobile_src(first["image"])}" alt="{first["alt"]}">\n'
             f'        <span class="impression-band__caption">{first["caption"]}</span>\n'
             f'        <script type="application/json" class="rotate-data">{rotate_json}</script>\n'
             '      </div>'
@@ -86,7 +94,7 @@ def build_band_fragment(chapter, tag, slug):
         style_attr = f' style="object-position:{pos};"' if pos else ""
         items.append(
             '      <div class="impression-band__item">\n'
-            f'          <img src="{im["image"]}" alt="{im["alt"]}"{style_attr}>\n'
+            f'          <img src="{im["image"]}"{srcset_attr(im["image"])} alt="{im["alt"]}"{style_attr}>\n'
             f'          <span class="impression-band__caption">{im["caption"]}</span>\n'
             '        </div>'
         )
@@ -112,7 +120,7 @@ def build_kulinarik_grid_fragment(c):
     for card in c["kulinarik_teaser"]["cards"]:
         cards.append(
             '      <a class="teaser-card" href="kulinarik.html">\n'
-            f'        <img src="{card["image"]}" alt="{card["label"]}">\n'
+            f'        <img src="{card["image"]}"{srcset_attr(card["image"])} alt="{card["label"]}">\n'
             f'        <span class="teaser-card__label">{card["label"]}</span>\n'
             '      </a>'
         )
@@ -146,17 +154,20 @@ def build(lang):
         "story_lede": c["story_lede"],
         "story_scroll_label": c["story_scroll_label"],
         "pool.background_image": c["pool"]["background_image"],
+        "pool.background_image_srcset": srcset_attr(c["pool"]["background_image"]),
         "pool.background_alt": c["pool"]["background_alt"],
         "pool.eyebrow": c["pool"]["eyebrow"],
         "pool.heading": c["pool"]["heading"],
         "pool.lede": c["pool"]["lede"],
         "garten.background_image": c["garten"]["background_image"],
+        "garten.background_image_srcset": srcset_attr(c["garten"]["background_image"]),
         "garten.background_alt": c["garten"]["background_alt"],
         "garten.eyebrow": c["garten"]["eyebrow"],
         "garten.heading": c["garten"]["heading"],
         "garten.lede": c["garten"]["lede"],
         "garten.body": c["garten"]["body"],
         "fruehstueck.background_image": c["fruehstueck"]["background_image"],
+        "fruehstueck.background_image_srcset": srcset_attr(c["fruehstueck"]["background_image"]),
         "fruehstueck.background_alt": c["fruehstueck"]["background_alt"],
         "fruehstueck.eyebrow": c["fruehstueck"]["eyebrow"],
         "fruehstueck.heading": c["fruehstueck"]["heading"],
@@ -165,12 +176,14 @@ def build(lang):
         "fruehstueck.body_mobile": c["fruehstueck"]["body_mobile"],
         "fruehstueck.cta_label": c["fruehstueck"]["cta_label"],
         "bar.background_image": c["bar"]["background_image"],
+        "bar.background_image_srcset": srcset_attr(c["bar"]["background_image"]),
         "bar.background_alt": c["bar"]["background_alt"],
         "bar.eyebrow": c["bar"]["eyebrow"],
         "bar.heading": c["bar"]["heading"],
         "bar.lede": c["bar"]["lede"],
         "bar.body": c["bar"]["body"],
         "zimmer_link.image": c["zimmer_link"]["image"],
+        "zimmer_link.image_srcset": srcset_attr(c["zimmer_link"]["image"]),
         "zimmer_link.alt": c["zimmer_link"]["alt"],
         "zimmer_link.eyebrow": c["zimmer_link"]["eyebrow"],
         "zimmer_link.heading": c["zimmer_link"]["heading"],

@@ -15,6 +15,9 @@ import re
 from urllib.parse import quote_plus
 
 import os
+
+from img_srcset import srcset_attr
+
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 with open(BASE + "content/index.json", encoding="utf-8") as f:
@@ -95,7 +98,7 @@ def build_lang(lang):
 
     geniessen_imgs = c["geniessen"]["images"]
     frame_lines = [
-        f'      <div class="img-frame" style="height:320px;"><img src="{img["image"]}" alt="{img["alt"]}" data-cms="geniessen.images.{i}.image"></div>'
+        f'      <div class="img-frame" style="height:320px;"><img src="{img["image"]}"{srcset_attr(img["image"])} alt="{img["alt"]}" data-cms="geniessen.images.{i}.image"></div>'
         for i, img in enumerate(geniessen_imgs)
     ]
     geniessen_images_fragment = '<div class="grid-3 triptych" style="margin-top:40px;">\n' + "\n".join(frame_lines) + '\n    </div>'
@@ -108,7 +111,10 @@ def build_lang(lang):
     aktivitaeten_filter_fragment = '<div class="activities-teaser__filter">\n' + "\n".join(filter_links) + '\n    </div>'
 
     activity_data = {
-        cat["key"]: {"label": cat["label"], "tips": [{"title": t["title"], "meta": t["meta"], "img": t["image"]} for t in cat["tips"]]}
+        cat["key"]: {"label": cat["label"], "tips": [
+            {"title": t["title"], "meta": t["meta"], "img": t["image"], "imgAttrs": srcset_attr(t["image"])}
+            for t in cat["tips"]
+        ]}
         for cat in categories
     }
     activity_data_js = json.dumps(activity_data, ensure_ascii=False, indent=2)
@@ -116,7 +122,7 @@ def build_lang(lang):
     cards = c["kulinarik"]["cards"]
     card_blocks = [
         '      <a class="teaser-card" href="kulinarik.html">\n'
-        f'        <img src="{card["image"]}" alt="{card["alt"]}" data-cms="kulinarik.cards.{i}.image">\n'
+        f'        <img src="{card["image"]}"{srcset_attr(card["image"])} alt="{card["alt"]}" data-cms="kulinarik.cards.{i}.image">\n'
         f'        <span class="teaser-card__label" data-cms="kulinarik.cards.{i}.label">{card["label"]}</span>\n'
         '      </a>'
         for i, card in enumerate(cards)
@@ -125,7 +131,7 @@ def build_lang(lang):
 
     neuigkeiten_imgs = c["neuigkeiten"]["images"]
     neuigkeiten_slide_blocks = [
-        f'    <div class="neuigkeiten-vslider__slide"><img src="{img["image"]}" alt="{img["alt"]}" data-cms="neuigkeiten.images.{i}.image"></div>'
+        f'    <div class="neuigkeiten-vslider__slide"><img src="{img["image"]}"{srcset_attr(img["image"])} alt="{img["alt"]}" data-cms="neuigkeiten.images.{i}.image"></div>'
         for i, img in enumerate(neuigkeiten_imgs)
     ]
     # Bilderliste verdoppeln, damit die CSS-Endlosschleife (translateY 0 -> -50%) nahtlos ist.
@@ -167,16 +173,19 @@ def build_lang(lang):
         "{{willkommen.body}}": c["willkommen"]["body"],
         "{{willkommen.cta_label}}": c["willkommen"]["cta_label"],
         "{{willkommen.image}}": c["willkommen"]["image"],
+        "{{willkommen.image_srcset}}": srcset_attr(c["willkommen"]["image"]),
         "{{zimmer.eyebrow}}": c["zimmer"]["eyebrow"],
         "{{zimmer.heading}}": c["zimmer"]["heading"],
         "{{zimmer.lede}}": c["zimmer"]["lede"],
         "{{zimmer.image}}": c["zimmer"]["image"],
+        "{{zimmer.image_srcset}}": srcset_attr(c["zimmer"]["image"]),
         "{{zimmer.cta_label}}": c["zimmer"]["cta_label"],
         "{{geniessen.eyebrow}}": c["geniessen"]["eyebrow"],
         "{{geniessen.heading}}": c["geniessen"]["heading"],
         "{{geniessen.lede}}": c["geniessen"]["lede"],
         "{{geniessen.cta_label}}": c["geniessen"]["cta_label"],
         "{{aktivitaeten.background_image}}": c["aktivitaeten"]["background_image"],
+        "{{aktivitaeten.background_image_srcset}}": srcset_attr(c["aktivitaeten"]["background_image"]),
         "{{aktivitaeten.eyebrow}}": c["aktivitaeten"]["eyebrow"],
         "{{aktivitaeten.heading}}": c["aktivitaeten"]["heading"],
         "{{aktivitaeten.lede}}": c["aktivitaeten"]["lede"],
