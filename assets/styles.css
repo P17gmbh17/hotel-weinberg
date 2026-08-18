@@ -874,20 +874,24 @@ body.nav-locked { overflow: hidden; }
     font-size: 0.95rem;
   }
 
-  /* 2) Karte darunter, formatfuellend und ohne Textueberlagerung */
+  /* 2) Karte darunter, formatfuellend und ohne Textueberlagerung.
+        Der Kartenbereich ist bewusst hoch: da das Bild per object-fit
+        formatfuellend skaliert wird, waechst mit der Hoehe auch der
+        Massstab - Ortsnamen und Pin werden dadurch groesser und lesbarer. */
   .lage-map-card__art {
     order: 2;
     position: relative;
     inset: auto;
-    height: 300px;
-    object-position: 32% 52%;
+    height: 460px;
+    object-position: 34% 54%;
   }
   .lage-map-card__pin {
     top: auto;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 300px;
+    height: 460px;
+    object-position: 34% 54%;
     transform-origin: 31.7% 58%;
   }
   .lage-map-card__hotspot {
@@ -895,7 +899,7 @@ body.nav-locked { overflow: hidden; }
     top: auto;
     bottom: 0;
     width: 100%;
-    height: 300px;
+    height: 460px;
   }
 }
 @media (max-width: 620px) {
@@ -905,7 +909,7 @@ body.nav-locked { overflow: hidden; }
   .lage-map-card__info dl > dt:first-of-type { padding-top: 0; }
   .lage-map-card__art,
   .lage-map-card__pin,
-  .lage-map-card__hotspot { height: 260px; }
+  .lage-map-card__hotspot { height: 420px; }
 }
 
 /* ---------- Kulinarik teaser ---------- */
@@ -2228,7 +2232,28 @@ html.skip-curtain .curtain__icon {
     background-size: 11px;
     padding-right: 38px;
   }
-  .field input[type="date"] { text-align: left; }
+  /* Datumsfelder: Anreise/Abreise stehen auf Mobile untereinander und
+     bekommen die volle Breite, damit das Datum nicht abgeschnitten wird.
+     Hinweis: das Kalender-Aufklappfenster selbst wird vom Browser bzw.
+     Betriebssystem gestellt (iOS/Android zeigen ihre eigene Auswahl) und
+     laesst sich per CSS nicht gestalten - beeinflussbar ist nur das Feld. */
+  .field input[type="date"] {
+    text-align: left;
+    min-height: 50px;
+    line-height: 1.2;
+    padding-right: 12px;
+  }
+  .field input[type="date"]::-webkit-date-and-time-value {
+    text-align: left;
+    font-size: 16px;
+  }
+  .field input[type="date"]::-webkit-calendar-picker-indicator {
+    /* groesseres Tap-Ziel fuer das Kalendersymbol */
+    padding: 6px;
+    margin-left: 4px;
+    opacity: 0.65;
+    cursor: pointer;
+  }
   .field textarea { min-height: 104px; }
   /* das inline gesetzte margin-bottom des Nachrichtenfelds mitziehen */
   .booking-panel form > .field[style] { margin-bottom: 18px !important; }
