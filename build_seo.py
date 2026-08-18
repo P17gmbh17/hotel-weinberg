@@ -500,7 +500,10 @@ def prefetch_block(lang, filename, hero_map):
         '<script type="application/json" id="prefetch-manifest">'
         + json.dumps(manifest, ensure_ascii=False, separators=(",", ":"))
         + "</script>\n"
-        + '<script src="../assets/prefetch.js" defer></script>'
+        + '<script src="../assets/prefetch.js" defer></script>\n'
+        # Holt verzoegerte Bilder rund zwei Bildschirmhoehen im Voraus, damit
+        # beim schnellen Scrollen keine leeren Flaechen entstehen.
+        + '<script src="../assets/eager-ahead.js" defer></script>'
     )
 
 
