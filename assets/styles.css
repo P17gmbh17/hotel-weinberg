@@ -844,14 +844,68 @@ body.nav-locked { overflow: hidden; }
 .lage-map-card__info dd { margin: 0; color: var(--ink); }
 .lage-map-card__info dd a { color: var(--ink); }
 
+/* Auf Mobile wird die Karte aufgetrennt: zuerst die Adressangaben als
+   normaler Textblock, darunter die Karte als eigenstaendiges Bild - ohne
+   darueberliegenden Text und ohne Weissverlauf, der auf kleinen Displays
+   sowohl den Text als auch die Karte schlechter lesbar gemacht hat. */
 @media (max-width: 780px) {
-  .lage-map-card { height: auto; min-height: 600px; }
-  .lage-map-card::after {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 32%, rgba(255,255,255,0.68) 58%, rgba(255,255,255,0.97) 80%, rgba(255,255,255,1) 100%);
+  .lage-map-card {
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
   }
-  .lage-map-card__hotspot { left: 0; top: 0; width: 100%; height: 55%; }
-  .lage-map-card__info { align-items: flex-end; justify-content: center; padding: 0 7% 32px; }
-  .lage-map-card__info dl { max-width: 100%; }
+  /* Weissverlauf entfaellt - die Karte steht jetzt frei */
+  .lage-map-card::after { display: none; }
+
+  /* 1) Adressangaben zuerst, als normaler Block */
+  .lage-map-card__info {
+    order: 1;
+    position: relative;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 26px 22px 24px;
+  }
+  .lage-map-card__info dl {
+    max-width: 100%;
+    gap: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  /* 2) Karte darunter, formatfuellend und ohne Textueberlagerung */
+  .lage-map-card__art {
+    order: 2;
+    position: relative;
+    inset: auto;
+    height: 300px;
+    object-position: 32% 52%;
+  }
+  .lage-map-card__pin {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    transform-origin: 31.7% 58%;
+  }
+  .lage-map-card__hotspot {
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (max-width: 620px) {
+  .lage-map-card__info { padding: 22px 18px 20px; }
+  .lage-map-card__info dl { grid-template-columns: 1fr; gap: 2px; }
+  .lage-map-card__info dt { padding-top: 12px; }
+  .lage-map-card__info dl > dt:first-of-type { padding-top: 0; }
+  .lage-map-card__art,
+  .lage-map-card__pin,
+  .lage-map-card__hotspot { height: 260px; }
 }
 
 /* ---------- Kulinarik teaser ---------- */
@@ -1378,6 +1432,10 @@ body.nav-locked { overflow: hidden; }
   }
   .team-portrait.is-named .overlay { background: rgba(8, 10, 6, 0.58); }
   .team-portrait.is-named .name-script { opacity: 1; transform: translateY(0); }
+  /* Auf Mobile darf der Name zuegiger erscheinen - die Ein-/Ausblendung
+     laeuft rund 30% schneller als auf dem Desktop (0.4s -> 0.28s). */
+  .team-portrait .overlay { transition: background-color 0.28s ease; }
+  .team-portrait .name-script { transition: opacity 0.28s ease, transform 0.28s ease; }
 }
 
 /* ---------- Fade-in beim Laden (Hero-Texte, spielt mit Vorhang-Öffnung mit) ---------- */
@@ -2134,4 +2192,56 @@ html.skip-curtain .curtain__icon {
 .legal-content .legal-meta p { margin-bottom: 4px; }
 @media (max-width: 620px) {
   .legal-page { padding: 120px 0 64px; }
+}
+
+/* ---------- Anfrageformular: Mobile-Optimierung ----------
+   Wichtigster Punkt: Eingabefelder brauchen auf Mobile mindestens 16px
+   Schriftgroesse. Alles darunter laesst iOS Safari beim Antippen
+   automatisch in die Seite hineinzoomen - der Nutzer muss danach
+   manuell wieder herauszoomen. Ausserdem werden die Innenabstaende
+   des Panels reduziert, damit die Felder auf schmalen Displays nicht
+   unnoetig zusammengequetscht werden. */
+@media (max-width: 780px) {
+  .booking-panel { padding: 30px 24px; }
+}
+@media (max-width: 620px) {
+  .booking-panel { padding: 26px 18px; margin-top: 28px !important; }
+  .booking-panel h3 { font-size: 1.35rem; line-height: 1.25; }
+  .booking-note { font-size: 0.84rem; line-height: 1.5; margin-bottom: 22px; }
+
+  /* Feld-Rhythmus: enger, aber gleichmaessig */
+  .form-row { gap: 14px; margin-bottom: 14px; }
+  .field label { font-size: 0.68rem; margin-bottom: 5px; }
+  .field input, .field select, .field textarea {
+    font-size: 16px;            /* verhindert Auto-Zoom auf iOS */
+    padding: 13px 14px;         /* Tap-Ziel >= 48px hoch */
+    border-radius: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    min-width: 0;               /* verhindert Ueberlauf bei type="date" */
+  }
+  /* Pfeil des Auswahlfelds wieder herstellen, da appearance:none ihn entfernt */
+  .field select {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' fill='none' stroke='%23898453' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 11px;
+    padding-right: 38px;
+  }
+  .field input[type="date"] { text-align: left; }
+  .field textarea { min-height: 104px; }
+  /* das inline gesetzte margin-bottom des Nachrichtenfelds mitziehen */
+  .booking-panel form > .field[style] { margin-bottom: 18px !important; }
+
+  /* Absende-Knopf ueber die volle Breite - groesseres Tap-Ziel */
+  .booking-panel form .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 16px 20px;
+    margin-top: 4px;
+  }
+
+  .booking-embed-slot { padding: 16px; margin-top: 22px; }
+  .contact-strip { gap: 18px; margin-top: 24px; }
+  .contact-strip div { font-size: 0.9rem; }
 }

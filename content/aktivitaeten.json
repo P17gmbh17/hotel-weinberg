@@ -82,7 +82,7 @@
         "tips": [
           {
             "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
-            "position": "62% 50%",
+            "position": "50% 50%",
             "alt": "Aussichtsplattform bei Burg Boymont, Drei-Burgen-Wanderung",
             "title": "Drei-Burgen-Wanderung",
             "meta": "Halbtags"
@@ -176,7 +176,7 @@
             "alt": "Kalterer See",
             "title": "Kalterer See",
             "meta": "Halbtags",
-            "position": "18% 65%"
+            "position": "0% 65%"
           },
           {
             "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
@@ -243,7 +243,7 @@
         "cat": "wandern burgen",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
-        "position": "62% 50%",
+        "position": "50% 50%",
         "alt": "Schloss Korb, Drei-Burgen-Wanderung",
         "tags": [
           "Wandern",
@@ -456,7 +456,7 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> Eintritt an den Badeanlagen ca. 4–6 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> Wassertemperatur bis 28°C im Sommer</span>",
         "hours": "Badesaison Mai–September",
         "actions_html": "<a href=\"https://www.eppan.com/de/erleben/seen-natur/der-kalterer-see\" target=\"_blank\" rel=\"noopener\">Mehr erfahren ↗</a>",
-        "position": "18% 65%"
+        "position": "0% 65%"
       },
       {
         "comment": "Montiggler Seen",
@@ -894,7 +894,7 @@
         "tips": [
           {
             "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
-            "position": "62% 50%",
+            "position": "50% 50%",
             "alt": "Punto panoramico presso il castello di Boymont, Sentiero delle Tre Castella",
             "title": "Sentiero delle Tre Castella",
             "meta": "Mezza giornata"
@@ -988,7 +988,7 @@
             "alt": "Lago di Caldaro",
             "title": "Lago di Caldaro",
             "meta": "Mezza giornata",
-            "position": "18% 65%"
+            "position": "0% 65%"
           },
           {
             "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
@@ -1055,7 +1055,7 @@
         "cat": "wandern burgen",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
-        "position": "62% 50%",
+        "position": "50% 50%",
         "alt": "Castello di Korb, Sentiero delle Tre Castella",
         "tags": [
           "Escursioni",
@@ -1268,7 +1268,7 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> ingresso agli stabilimenti balneari circa 4–6 €</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> temperatura dell'acqua fino a 28°C in estate</span>",
         "hours": "Stagione balneare maggio–settembre",
         "actions_html": "<a href=\"https://www.eppan.com/it/esperienza/laghi-natura/lago-di-caldaro\" target=\"_blank\" rel=\"noopener\">Scopri di più ↗</a>",
-        "position": "18% 65%"
+        "position": "0% 65%"
       },
       {
         "comment": "Montiggler Seen",
@@ -1687,7 +1687,7 @@
         "tips": [
           {
             "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
-            "position": "62% 50%",
+            "position": "50% 50%",
             "alt": "Viewpoint near Boymont Castle, Three Castles Hike",
             "title": "Three Castles hike",
             "meta": "Half-day"
@@ -1781,7 +1781,7 @@
             "alt": "Lake Caldaro",
             "title": "Lake Caldaro",
             "meta": "Half-day",
-            "position": "18% 65%"
+            "position": "0% 65%"
           },
           {
             "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
@@ -1848,7 +1848,7 @@
         "cat": "wandern burgen",
         "zeit": "halbtags",
         "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
-        "position": "62% 50%",
+        "position": "50% 50%",
         "alt": "Korb Castle, Three Castles Hike",
         "tags": [
           "Hiking",
@@ -2061,7 +2061,7 @@
         "meta_row_2_html": "<span><svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"8.6\"/><path d=\"M14.6 8.3a4.2 4.2 0 0 0-2.7-1 4.6 4.6 0 0 0 0 9.4 4.2 4.2 0 0 0 2.7-1\"/><path d=\"M7 10.4h5.6M7 13.4h5.6\"/></svg> lido entry approx. €4–6</span>\n          <span><svg viewBox=\"0 0 24 24\"><path d=\"M2.3 14.2c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M2.3 18c1.2 1.2 2.4 1.2 3.6 0s2.4-1.2 3.6 0 2.4 1.2 3.6 0 2.4-1.2 3.6 0 2.4 1.2 3.6 0\"/><path d=\"M15.2 4.3v6.4\"/><circle cx=\"15.2\" cy=\"12.3\" r=\"2\"/></svg> water temperature up to 28°C in summer</span>",
         "hours": "Swimming season May–September",
         "actions_html": "<a href=\"https://www.eppan.com/en/experience/lakes-nature/lake-kaltern\" target=\"_blank\" rel=\"noopener\">Learn more ↗</a>",
-        "position": "18% 65%"
+        "position": "0% 65%"
       },
       {
         "comment": "Montiggler Seen",
