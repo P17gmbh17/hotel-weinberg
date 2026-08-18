@@ -8,8 +8,14 @@
 # obwohl die JSON-Datei schon aktualisiert ist (Bug gefunden + behoben am
 # 2026-07-29: CMS-Aenderung "Familie Palma" landete in content/index.json,
 # aber die Live-Seite zeigte weiter "Familie Schrott").
+#
+# build_seo.py laeuft ZULETZT und muss das auch bleiben: es arbeitet auf dem
+# fertig gebauten HTML und ergaenzt dort canonical, hreflang, Schema.org,
+# Bild-Attribute und den styles.css-Cache-Buster; ausserdem schreibt es
+# robots.txt und sitemap.xml. Laeuft es vorher, ueberschreiben die anderen
+# Skripte seine Ergaenzungen wieder.
 [build]
-  command = "python3 build_index.py && python3 build_zimmer.py && python3 build_geniessen.py && python3 build_kulinarik.py && python3 build_philosophie.py && python3 build_kontakt.py && python3 build_aktivitaeten.py"
+  command = "python3 build_index.py && python3 build_zimmer.py && python3 build_geniessen.py && python3 build_kulinarik.py && python3 build_philosophie.py && python3 build_kontakt.py && python3 build_aktivitaeten.py && python3 build_seo.py"
   publish = "."
 
 [[headers]]

@@ -1,0 +1,8 @@
+# Hotel Weinberg
+User-agent: *
+Allow: /
+
+# Reine Verwaltungsoberflaeche, gehoert nicht in den Suchindex
+Disallow: /admin/
+
+Sitemap: https://www.hotelweinberg.eu/sitemap.xml

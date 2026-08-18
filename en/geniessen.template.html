@@ -7,7 +7,7 @@
 <meta name="description" content="{{meta_description}}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/styles.css?v=1787058302">
+<link rel="stylesheet" href="../assets/styles.css?v=1787080901">
 </head>
 <body>
 
@@ -382,7 +382,11 @@
     grid.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
   });
 
-  /* ---- Impressionen-Bänder Mobile: 2 Felder rotieren per src-Wechsel durch alle Bilder, Caption läuft mit ---- */
+  /* ---- Impressionen-Bänder Mobile: 2 Felder rotieren durch alle Bilder, Caption läuft mit ----
+     WICHTIG: beim Wechsel immer img.srcset ZUSAMMEN mit img.src setzen. Wird
+     nur .src geaendert, behaelt der Browser das alte srcset bei und waehlt
+     daraus erneut aus - das Bild haengt dann in der zuletzt geladenen (evtl.
+     viel zu kleinen) Aufloesung fest und wirkt unscharf. */
   document.querySelectorAll('.impression-band__mobile .impression-band__slot').forEach((slot, slotIdx) => {
     const img = slot.querySelector('img');
     const captionEl = slot.querySelector('.impression-band__caption');
@@ -391,18 +395,40 @@
     let list;
     try { list = JSON.parse(dataEl.textContent); } catch (e) { return; }
     if (!Array.isArray(list) || list.length < 2) return;
+    const sizes = img.getAttribute('sizes') || '';
+
+    /* Naechstes Bild vorab laden, damit nach dem Ausblenden sofort ein
+       fertiges Bild dasteht (die Dateien sind jetzt deutlich groesser). */
+    const preload = (item) => new Promise((resolve) => {
+      const pre = new Image();
+      if (sizes) pre.sizes = sizes;
+      if (item.srcset) pre.srcset = item.srcset;
+      pre.src = item.src;
+      if (pre.complete) { resolve(); return; }
+      pre.addEventListener('load', resolve, { once: true });
+      pre.addEventListener('error', resolve, { once: true });
+    });
+
     let idx = 0;
+    let busy = false;
     setInterval(() => {
+      if (busy) return;
+      busy = true;
       idx = (idx + 1) % list.length;
+      const item = list[idx];
+      const ready = preload(item);
       img.classList.add('is-fading');
       if (captionEl) captionEl.classList.add('is-fading');
-      setTimeout(() => {
-        img.src = list[idx].src;
-        img.alt = list[idx].alt;
-        if (captionEl) captionEl.textContent = list[idx].caption;
+      const faded = new Promise((r) => setTimeout(r, 900));
+      Promise.all([ready, faded]).then(() => {
+        if (item.srcset) { img.srcset = item.srcset; } else { img.removeAttribute('srcset'); }
+        img.src = item.src;
+        img.alt = item.alt;
+        if (captionEl) captionEl.textContent = item.caption;
         img.classList.remove('is-fading');
         if (captionEl) captionEl.classList.remove('is-fading');
-      }, 900);
+        busy = false;
+      });
     }, 4200 + slotIdx * 500);
   });
 

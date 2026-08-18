@@ -12,7 +12,7 @@ import json
 
 import os
 
-from img_srcset import srcset_attr, mobile_src
+from img_srcset import srcset_attr, mobile_src, rotator_variant
 
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
@@ -63,18 +63,31 @@ def build_mobile_slots_fragment(images):
         if not group:
             continue
         first = group[0]
-        # Diese Slots werden ausschliesslich auf Mobile gerendert und die
-        # img.src wird per JS im Intervall gewechselt (siehe rotate-data
-        # weiter unten im Template) - srcset waere hier unzuverlaessig, da
-        # der Browser es nicht neu bewertet, wenn JS nur .src aendert. Daher
-        # direkt die kleine -450w-Variante als Quelle verwenden.
+        # Diese Slots werden ausschliesslich auf Mobile gerendert, sind aber
+        # fast so breit wie der Viewport und quadratisch (object-fit: cover).
+        # Die -450w-Variante allein war dafuer viel zu klein -> unscharf.
+        # Daher volles srcset ueber alle Groessen; das Rotator-JS im Template
+        # setzt beim Wechsel srcset MIT, damit der Browser neu auswaehlt.
+        variants = [rotator_variant(im["image"]) for im in group]
         rotate_json = json.dumps(
-            [{"src": mobile_src(im["image"]), "alt": im["alt"], "caption": im["caption"]} for im in group],
+            [
+                {
+                    "src": v["src"],
+                    "srcset": v["srcset"],
+                    "alt": im["alt"],
+                    "caption": im["caption"],
+                }
+                for im, v in zip(group, variants)
+            ],
             ensure_ascii=False,
+        )
+        v0 = variants[0]
+        srcset_attrs = (
+            f' srcset="{v0["srcset"]}" sizes="{v0["sizes"]}"' if v0["srcset"] else ""
         )
         slot_parts.append(
             '      <div class="impression-band__slot">\n'
-            f'        <img src="{mobile_src(first["image"])}" alt="{first["alt"]}">\n'
+            f'        <img src="{v0["src"]}"{srcset_attrs} loading="lazy" decoding="async" alt="{first["alt"]}">\n'
             f'        <span class="impression-band__caption">{first["caption"]}</span>\n'
             f'        <script type="application/json" class="rotate-data">{rotate_json}</script>\n'
             '      </div>'

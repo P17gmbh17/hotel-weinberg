@@ -1,24 +1,35 @@
 # -*- coding: utf-8 -*-
 """
 Erzeugt fuer jedes Content-Foto (assets/fotos/, assets/aktivitaeten/,
-assets/kulinarik/) eine zusaetzliche "-450w"-Version mit max. 450px Breite,
-fuer den Einsatz per srcset auf mobilen Geraeten (siehe img_srcset.py).
+assets/kulinarik/) zusaetzliche verkleinerte Versionen fuer den Einsatz per
+srcset (siehe img_srcset.py):
+
+    -450w   kleine Vorschau / kleine Bildflaechen auf Mobile
+    -900w   grosse Bildflaechen auf Mobile (z.B. die quadratischen
+            Impressionen-Rotator-Slots auf der Geniessen-Seite, die fast
+            die volle Viewport-Breite einnehmen). Mit 450px allein wurden
+            diese auf Retina-Displays um mehr als das Dreifache
+            hochskaliert und waren sichtbar unscharf.
 
 Aufruf:
     python3 generate_mobile_variants.py
 
-Ueberspringt Dateien, die bereits eine aktuelle -450w-Variante haben
-(Mobile-Datei neuer als Original), und Bilder die ohnehin schon <=450px
-breit sind.
+Ueberspringt Dateien, die bereits eine aktuelle Variante haben (Variante
+neuer als Original), und Bilder die ohnehin schon schmaler sind als die
+Zielbreite.
 """
 import os
 from PIL import Image, ImageOps
 
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
-MOBILE_MAXW = 450
-MOBILE_QUALITY = 80
 CONTENT_DIRS = ["assets/fotos", "assets/aktivitaeten", "assets/kulinarik"]
-SUFFIX = "-450w"
+
+# (Suffix, max. Breite, JPEG-Qualitaet)
+VARIANTS = [
+    ("-450w", 450, 80),
+    ("-900w", 900, 82),
+]
+SUFFIXES = [suffix for suffix, _, _ in VARIANTS]
 
 
 def find_source_images():
@@ -30,7 +41,8 @@ def find_source_images():
                     continue
                 if not fn.lower().endswith((".jpg", ".jpeg")):
                     continue
-                if SUFFIX in fn:
+                stem = os.path.splitext(fn)[0]
+                if any(stem.endswith(s) for s in SUFFIXES):
                     continue
                 yield os.path.join(root, fn)
 
@@ -41,34 +53,36 @@ def main():
 
     for src in find_source_images():
         stem, ext = os.path.splitext(src)
-        dst = f"{stem}{SUFFIX}{ext}"
 
-        if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
-            skipped_uptodate += 1
-            continue
+        for suffix, maxw, quality in VARIANTS:
+            dst = f"{stem}{suffix}{ext}"
 
-        try:
-            im = Image.open(src)
-            w, h = im.size
-            if w <= MOBILE_MAXW:
-                skipped_small += 1
+            if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
+                skipped_uptodate += 1
                 continue
-            im = ImageOps.exif_transpose(im)
-            if im.mode in ("RGBA", "P"):
-                im = im.convert("RGB")
-            nh = round(h * MOBILE_MAXW / w)
-            im = im.resize((MOBILE_MAXW, nh), Image.LANCZOS)
-            im.save(dst, "JPEG", quality=MOBILE_QUALITY, optimize=True)
-            total_new_size += os.path.getsize(dst)
-            created += 1
-        except Exception as e:
-            print(f"FEHLER bei {src}: {e}")
-            errors += 1
+
+            try:
+                im = Image.open(src)
+                im = ImageOps.exif_transpose(im)
+                w, h = im.size
+                if w <= maxw:
+                    skipped_small += 1
+                    continue
+                if im.mode in ("RGBA", "P"):
+                    im = im.convert("RGB")
+                nh = round(h * maxw / w)
+                im = im.resize((maxw, nh), Image.LANCZOS)
+                im.save(dst, "JPEG", quality=quality, optimize=True, progressive=True)
+                total_new_size += os.path.getsize(dst)
+                created += 1
+            except Exception as e:
+                print(f"FEHLER bei {src} ({suffix}): {e}")
+                errors += 1
 
     print(
-        f"\n{created} Mobile-Varianten erstellt "
+        f"\n{created} Varianten erstellt "
         f"({total_new_size / 1024 / 1024:.1f} MB neu), "
-        f"{skipped_small} bereits <=450px, "
+        f"{skipped_small} Original bereits kleiner als Zielbreite, "
         f"{skipped_uptodate} bereits aktuell, "
         f"{errors} Fehler."
     )
