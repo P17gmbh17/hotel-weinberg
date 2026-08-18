@@ -70,10 +70,27 @@ def srcset_attr(rel_path):
         return ""
 
     mobile_rel = rel_path.replace(norm, mobile_norm)
-    return (
-        f' srcset="{mobile_rel} {dims_mobile[0]}w, {rel_path} {dims_full[0]}w"'
-        f' sizes="(max-width: 480px) {dims_mobile[0]}px, {dims_full[0]}px"'
+
+    # Mittlere Stufe (900px), sofern vorhanden. Ohne sie muessen Tablets und
+    # normale Notebooks das 1600px-Original laden - bei schnellem Scrollen
+    # kommen die Bilder dann nicht hinterher und erscheinen erst verspaetet.
+    mid_norm = f"{stem}{MIDSIZE_SUFFIX}{ext}"
+    dims_mid = _dims(os.path.normpath(os.path.join(BASE, mid_norm)))
+
+    entries = [(dims_mobile[0], mobile_rel)]
+    if dims_mid and dims_mobile[0] < dims_mid[0] < dims_full[0]:
+        entries.append((dims_mid[0], rel_path.replace(norm, mid_norm)))
+    entries.append((dims_full[0], rel_path))
+
+    srcset = ", ".join(f"{p} {w}w" for w, p in entries)
+    # sizes beschreibt die Anzeigebreite, nicht die Dateibreite: Der Browser
+    # waehlt daraus selbst die passende Datei - auch nach Bildschirmdichte.
+    sizes = (
+        f"(max-width: 480px) {dims_mobile[0]}px, "
+        f"(max-width: 1024px) {(dims_mid[0] if dims_mid else dims_full[0])}px, "
+        f"{dims_full[0]}px"
     )
+    return f' srcset="{srcset}" sizes="{sizes}"'
 
 
 def mobile_src(rel_path):
