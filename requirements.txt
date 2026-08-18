@@ -1,0 +1,10 @@
+# Wird von Netlify beim Deploy automatisch installiert.
+#
+# Pillow brauchen img_srcset.py und build_seo.py, um Bildmasse auszulesen
+# (srcset-Breiten, width/height gegen Layout-Springen) und die Vorschaubilder
+# fuer Link-Vorschauen zu erzeugen.
+#
+# Ohne dieses Paket bricht der Build zwar nicht ab - die Skripte fangen den
+# Fehler ab -, aber die erzeugten Seiten haetten dann still und leise kein
+# srcset, keine Bildmasse und keine Open-Graph-Bilder mehr.
+Pillow>=10.0.0

@@ -9,16 +9,16 @@
 
   var TIPS = {
     de: [
-      { img: '../assets/fotos/pool.jpg', pos: 'left center', title: 'Pool', link: 'geniessen.html#pool' },
-      { img: '../assets/fotos/fruehstuecksraum.jpg', pos: 'center center', title: 'Frühstück', link: 'geniessen.html#fruehstueck' }
+      { img: '../assets/fotos/pool-450w.jpg', pos: 'left center', title: 'Pool', link: 'geniessen.html#pool' },
+      { img: '../assets/fotos/fruehstuecksraum-450w.jpg', pos: 'center center', title: 'Frühstück', link: 'geniessen.html#fruehstueck' }
     ],
     it: [
-      { img: '../assets/fotos/pool.jpg', pos: 'left center', title: 'Piscina', link: 'geniessen.html#pool' },
-      { img: '../assets/fotos/fruehstuecksraum.jpg', pos: 'center center', title: 'Colazione', link: 'geniessen.html#fruehstueck' }
+      { img: '../assets/fotos/pool-450w.jpg', pos: 'left center', title: 'Piscina', link: 'geniessen.html#pool' },
+      { img: '../assets/fotos/fruehstuecksraum-450w.jpg', pos: 'center center', title: 'Colazione', link: 'geniessen.html#fruehstueck' }
     ],
     en: [
-      { img: '../assets/fotos/pool.jpg', pos: 'left center', title: 'Pool', link: 'geniessen.html#pool' },
-      { img: '../assets/fotos/fruehstuecksraum.jpg', pos: 'center center', title: 'Breakfast', link: 'geniessen.html#fruehstueck' }
+      { img: '../assets/fotos/pool-450w.jpg', pos: 'left center', title: 'Pool', link: 'geniessen.html#pool' },
+      { img: '../assets/fotos/fruehstuecksraum-450w.jpg', pos: 'center center', title: 'Breakfast', link: 'geniessen.html#fruehstueck' }
     ]
   };
 
