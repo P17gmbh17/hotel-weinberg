@@ -19,7 +19,7 @@ def build_polaroids_fragment(c):
     for p in c["polaroids"]:
         items.append(
             '      <div class="polaroid">\n'
-            f'        <img src="{p["image"]}"{srcset_attr(p["image"])} alt="{p["alt"]}">\n'
+            f'        <img class="polaroid__img" src="{p["image"]}"{srcset_attr(p["image"])} alt="{p["alt"]}">\n'
             f'        <span>{p["caption"]}</span>\n'
             '      </div>'
         )

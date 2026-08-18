@@ -47,9 +47,15 @@ END = "<!-- SEO:END -->"
 # <img>-Klassen, die oberhalb der Falz stehen und deshalb sofort laden muessen.
 # Wuerden diese lazy geladen, verschlechtert sich der LCP-Wert (Zeit bis das
 # groesste sichtbare Element da ist) - einer der drei Google Core Web Vitals.
-EAGER_CLASSES = ("brand__lockup", "hero__icon", "hero__wordmark", "room-detail-hero__img")
-# Das eigentliche Hauptbild der Zimmer-Detailseiten: hoechste Ladepriorität.
-PRIORITY_CLASS = "room-detail-hero__img is-active"
+# "bg" ist das formatfuellende Kopfbild der Unterseiten-Heros (Startseite und
+# Kontakt) - auf diesen Seiten ist es das groesste sichtbare Element und damit
+# genau das Element, das den LCP-Wert bestimmt.
+# "polaroid__img": die schraeg gestapelten Bilder im Kopfbereich des
+# Kulinarik-Guides, ebenfalls sofort sichtbar.
+EAGER_CLASSES = ("brand__lockup", "hero__icon", "hero__wordmark",
+                 "room-detail-hero__img", "bg", "polaroid__img")
+# Hauptbilder, die den LCP bestimmen: hoechste Ladeprioritaet.
+PRIORITY_CLASSES = ("room-detail-hero__img is-active", "bg")
 
 _dim_cache = {}
 
@@ -273,14 +279,21 @@ def enhance_images(html, page_dir):
 
         cls = re.search(r'class="([^"]*)"', attrs)
         cls = cls.group(1) if cls else ""
-        is_eager = any(c in cls for c in EAGER_CLASSES)
+        # Exakter Abgleich einzelner Klassennamen statt Teilstring-Suche:
+        # "bg" darf nicht auf "story-chapter__bg" anschlagen, das weiter
+        # unten auf der Seite steht und sehr wohl lazy laden soll.
+        cls_tokens = set(cls.split())
+        is_eager = bool(cls_tokens & set(EAGER_CLASSES))
 
         add = ""
         if "loading=" not in attrs:
             if is_eager:
                 add += ' loading="eager"'
                 stats["eager"] += 1
-                if PRIORITY_CLASS in cls and "fetchpriority=" not in attrs:
+                is_priority = any(
+                    set(p.split()) <= cls_tokens for p in PRIORITY_CLASSES
+                )
+                if is_priority and "fetchpriority=" not in attrs:
                     add += ' fetchpriority="high"'
             else:
                 add += ' loading="lazy"'
