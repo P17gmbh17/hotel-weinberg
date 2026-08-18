@@ -1982,10 +1982,10 @@ html.skip-curtain .curtain__icon {
     width: auto !important;
     font-size: inherit !important;
     letter-spacing: inherit !important;
-    color: var(--green-dark);
+    color: var(--green-dark) !important;
     opacity: 0.55;
   }
-  .main-nav.is-open .lang-switch__option.is-active { opacity: 1; color: var(--olive-dark); font-weight: 800; }
+  .main-nav.is-open .lang-switch__option.is-active { opacity: 1; color: var(--olive-dark) !important; font-weight: 800; }
   .main-nav.is-open .lang-switch__option:not(:last-child) { padding-right: 6px !important; border-right: 1px solid rgba(35,55,33,0.3) !important; }
   .nav-tips {
     display: grid;
