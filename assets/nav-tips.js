@@ -9,16 +9,16 @@
 
   var TIPS = {
     de: [
-      { img: '../assets/fotos/pool.jpg', title: 'Pool', link: 'geniessen.html#pool' },
-      { img: '../assets/fotos/fruehstuecksraum.jpg', title: 'Frühstück', link: 'geniessen.html#fruehstueck' }
+      { img: '../assets/fotos/pool.jpg', pos: 'left center', title: 'Pool', link: 'geniessen.html#pool' },
+      { img: '../assets/fotos/fruehstuecksraum.jpg', pos: 'center center', title: 'Frühstück', link: 'geniessen.html#fruehstueck' }
     ],
     it: [
-      { img: '../assets/fotos/pool.jpg', title: 'Piscina', link: 'geniessen.html#pool' },
-      { img: '../assets/fotos/fruehstuecksraum.jpg', title: 'Colazione', link: 'geniessen.html#fruehstueck' }
+      { img: '../assets/fotos/pool.jpg', pos: 'left center', title: 'Piscina', link: 'geniessen.html#pool' },
+      { img: '../assets/fotos/fruehstuecksraum.jpg', pos: 'center center', title: 'Colazione', link: 'geniessen.html#fruehstueck' }
     ],
     en: [
-      { img: '../assets/fotos/pool.jpg', title: 'Pool', link: 'geniessen.html#pool' },
-      { img: '../assets/fotos/fruehstuecksraum.jpg', title: 'Breakfast', link: 'geniessen.html#fruehstueck' }
+      { img: '../assets/fotos/pool.jpg', pos: 'left center', title: 'Pool', link: 'geniessen.html#pool' },
+      { img: '../assets/fotos/fruehstuecksraum.jpg', pos: 'center center', title: 'Breakfast', link: 'geniessen.html#fruehstueck' }
     ]
   };
 
@@ -30,7 +30,7 @@
     var tag = TAG[lang] || TAG.de;
     el.innerHTML = tips.map(function (t) {
       return '<a class="nav-tip" href="' + t.link + '">' +
-        '<img src="' + t.img + '" alt="" loading="lazy">' +
+        '<img src="' + t.img + '" alt="" loading="lazy" style="object-position:' + t.pos + ';">' +
         '<span class="nav-tip__tag">' + tag + '</span>' +
         '<span class="nav-tip__title">' + t.title + '</span>' +
         '</a>';
