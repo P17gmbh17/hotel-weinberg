@@ -328,6 +328,19 @@
     });
     containerEl.addEventListener('click', (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
 
+    /* ---- Steuerung des Autoslides ----
+       Wird auch von den Punkten unten gebraucht: Ohne Pause wuerde das
+       Autoslide die weiche Bewegung jeden Frame ueberschreiben - beim Klick
+       auf einen Punkt passiert dann scheinbar nichts. */
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let autoPaused = reduceMotion;
+    let autoResume = null;
+    function pauseAuto(ms) {
+      autoPaused = true;
+      clearTimeout(autoResume);
+      if (!reduceMotion && ms < 1e8) autoResume = setTimeout(function () { autoPaused = false; }, ms);
+    }
+
     const dotButtons = dotsWrap ? Array.from(dotsWrap.querySelectorAll('button')) : [];
 
     function closestIndex() {
@@ -371,6 +384,7 @@
 
     dotButtons.forEach((dot, i) => {
       dot.addEventListener('click', () => {
+        pauseAuto(9000);
         const idx = looped ? n + i : i;
         scrollToSlide(allSlides[idx], true);
       });
@@ -386,49 +400,31 @@
        Loesung: Snapping ist an diesem Slider abgeschaltet. Nachdem der Gast
        geschoben oder gewischt hat, ruecken wir stattdessen selbst sanft auf
        das naechstgelegene Bild - gleiches Gefuehl, ohne Konflikt. */
-    containerEl.style.scrollSnapType = 'none';
+    /* ---- Freies Schieben, langsames Autoslide nach links ----
+       Der Slider hatte urspruenglich scroll-snap-type: x mandatory und
+       gleichzeitig ein Autoslide, das den Scrollwert jeden Frame um einen
+       Bruchteil erhoeht - der Browser zog dabei staendig zum naechsten
+       Snap-Punkt zurueck. Das war die Ursache des Ruckelns.
 
-    let settleTimer = null;
-    function settleToNearest() {
-      if (isDown) return;
-      scrollToSlide(allSlides[closestIndex()], true);
-    }
-    function scheduleSettle() {
-      clearTimeout(settleTimer);
-      settleTimer = setTimeout(settleToNearest, 140);
-    }
+       Snapping bleibt daher abgeschaltet, und es wird auch nicht per
+       JavaScript nachzentriert: Der Slider laesst sich frei an jede
+       Position schieben und bleibt dort stehen. */
+    containerEl.style.scrollSnapType = 'none';
 
     if (options.autoplay && looped) {
       const speed = options.speed || 0.3;
-      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      let paused = reduce;
-      let resumeTimer = null;
-
-      function pause(ms) {
-        paused = true;
-        clearTimeout(resumeTimer);
-        if (!reduce && ms < 1e8) resumeTimer = setTimeout(function () { paused = false; }, ms);
-      }
-
-      ['pointerdown', 'touchstart', 'wheel'].forEach(function (ev) {
-        containerEl.addEventListener(ev, function () { pause(7000); }, { passive: true });
+      ['pointerdown', 'touchstart', 'wheel', 'pointerup', 'touchend'].forEach(function (ev) {
+        containerEl.addEventListener(ev, function () { pauseAuto(7000); }, { passive: true });
       });
-      ['pointerup', 'touchend'].forEach(function (ev) {
-        containerEl.addEventListener(ev, function () { pause(7000); scheduleSettle(); }, { passive: true });
-      });
-      containerEl.addEventListener('mouseenter', function () { pause(1e9); });
-      containerEl.addEventListener('mouseleave', function () { pause(700); });
+      containerEl.addEventListener('mouseenter', function () { pauseAuto(1e9); });
+      containerEl.addEventListener('mouseleave', function () { pauseAuto(700); });
 
-      if (!reduce) {
+      if (!reduceMotion) {
         (function autoTick() {
-          if (!paused && !isDown) { containerEl.scrollLeft += speed; }
+          if (!autoPaused && !isDown) { containerEl.scrollLeft += speed; }
           requestAnimationFrame(autoTick);
         })();
       }
-    } else {
-      ['pointerup', 'touchend'].forEach(function (ev) {
-        containerEl.addEventListener(ev, scheduleSettle, { passive: true });
-      });
     }
   }
 
