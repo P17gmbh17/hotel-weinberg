@@ -310,7 +310,10 @@
     if (looped) { scrollToSlide(allSlides[n], false); }
 
     let isDown = false, startX = 0, startScroll = 0, moved = false;
+    // Nur Maus: Touch-Geraete behalten das native, traegheitsbehaftete
+    // Scrollen des Browsers - das laeuft fluessiger als jede Nachbildung.
     containerEl.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
       isDown = true; moved = false;
       containerEl.classList.add('is-dragging');
       startX = e.pageX; startScroll = containerEl.scrollLeft;
@@ -373,18 +376,59 @@
       });
     });
 
-    /* ---- Optionales, langsames Autoslide nach links (pausiert bei Hover/Touch/Drag) ---- */
+    /* ---- Langsames Autoslide nach links ----
+       Ursache des frueheren Ruckelns: Der Slider hatte gleichzeitig
+       "scroll-snap-type: x mandatory" und ein Autoslide, das den Scrollwert
+       jeden Frame um einen Bruchteil erhoeht. Der Browser hat dabei staendig
+       zum naechsten Snap-Punkt zurueckgezogen - beide haben gegeneinander
+       gearbeitet.
+
+       Loesung: Snapping ist an diesem Slider abgeschaltet. Nachdem der Gast
+       geschoben oder gewischt hat, ruecken wir stattdessen selbst sanft auf
+       das naechstgelegene Bild - gleiches Gefuehl, ohne Konflikt. */
+    containerEl.style.scrollSnapType = 'none';
+
+    let settleTimer = null;
+    function settleToNearest() {
+      if (isDown) return;
+      scrollToSlide(allSlides[closestIndex()], true);
+    }
+    function scheduleSettle() {
+      clearTimeout(settleTimer);
+      settleTimer = setTimeout(settleToNearest, 140);
+    }
+
     if (options.autoplay && looped) {
       const speed = options.speed || 0.3;
-      let paused = false;
-      containerEl.addEventListener('mouseenter', () => { paused = true; });
-      containerEl.addEventListener('mouseleave', () => { paused = false; });
-      containerEl.addEventListener('touchstart', () => { paused = true; }, { passive: true });
-      containerEl.addEventListener('touchend', () => { paused = false; });
-      (function autoTick() {
-        if (!paused && !isDown) { containerEl.scrollLeft += speed; }
-        requestAnimationFrame(autoTick);
-      })();
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let paused = reduce;
+      let resumeTimer = null;
+
+      function pause(ms) {
+        paused = true;
+        clearTimeout(resumeTimer);
+        if (!reduce && ms < 1e8) resumeTimer = setTimeout(function () { paused = false; }, ms);
+      }
+
+      ['pointerdown', 'touchstart', 'wheel'].forEach(function (ev) {
+        containerEl.addEventListener(ev, function () { pause(7000); }, { passive: true });
+      });
+      ['pointerup', 'touchend'].forEach(function (ev) {
+        containerEl.addEventListener(ev, function () { pause(7000); scheduleSettle(); }, { passive: true });
+      });
+      containerEl.addEventListener('mouseenter', function () { pause(1e9); });
+      containerEl.addEventListener('mouseleave', function () { pause(700); });
+
+      if (!reduce) {
+        (function autoTick() {
+          if (!paused && !isDown) { containerEl.scrollLeft += speed; }
+          requestAnimationFrame(autoTick);
+        })();
+      }
+    } else {
+      ['pointerup', 'touchend'].forEach(function (ev) {
+        containerEl.addEventListener(ev, scheduleSettle, { passive: true });
+      });
     }
   }
 

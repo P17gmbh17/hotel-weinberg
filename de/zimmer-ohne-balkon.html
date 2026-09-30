@@ -105,7 +105,6 @@
   </div>
   <div class="room-gallery" id="roomGallery">
     <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-ohne-balkon-2026.jpg" srcset="../assets/fotos/zimmer-ohne-balkon-2026-450w.jpg 450w, ../assets/fotos/zimmer-ohne-balkon-2026-900w.jpg 900w, ../assets/fotos/zimmer-ohne-balkon-2026.jpg 1600w" sizes="(max-width: 480px) 450px, (max-width: 1024px) 900px, 1600px" alt="Doppelzimmer ohne Balkon" draggable="false" loading="lazy" decoding="async" width="1600" height="1067"></div>
-    <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-fenster-2026.jpg" srcset="../assets/fotos/zimmer-fenster-2026-450w.jpg 450w, ../assets/fotos/zimmer-fenster-2026-900w.jpg 900w, ../assets/fotos/zimmer-fenster-2026.jpg 1600w" sizes="(max-width: 480px) 450px, (max-width: 1024px) 900px, 1600px" alt="Doppelzimmer ohne Balkon" draggable="false" loading="lazy" decoding="async" width="1600" height="1067"></div>
     <div class="room-gallery__slide"><img src="../assets/fotos/zimmer-bett-frontal-2026.jpg" srcset="../assets/fotos/zimmer-bett-frontal-2026-450w.jpg 450w, ../assets/fotos/zimmer-bett-frontal-2026-900w.jpg 900w, ../assets/fotos/zimmer-bett-frontal-2026.jpg 1600w" sizes="(max-width: 480px) 450px, (max-width: 1024px) 900px, 1600px" alt="Doppelzimmer ohne Balkon" draggable="false" loading="lazy" decoding="async" width="1600" height="1067"></div>
     <div class="room-gallery__slide"><img src="../assets/fotos/bad-ohne-balkon-2026.jpg" srcset="../assets/fotos/bad-ohne-balkon-2026-450w.jpg 450w, ../assets/fotos/bad-ohne-balkon-2026-900w.jpg 900w, ../assets/fotos/bad-ohne-balkon-2026.jpg 1600w" sizes="(max-width: 480px) 450px, (max-width: 1024px) 900px, 1600px" alt="Doppelzimmer ohne Balkon" draggable="false" loading="lazy" decoding="async" width="1600" height="1067"></div>
   </div>
@@ -113,7 +112,6 @@
     <button class="is-active" data-slide="0" aria-label="Bild 1"></button>
     <button class="" data-slide="1" aria-label="Bild 2"></button>
     <button class="" data-slide="2" aria-label="Bild 3"></button>
-    <button class="" data-slide="3" aria-label="Bild 4"></button>
   </div>
 </section>
 
@@ -351,7 +349,10 @@
     if (looped) { scrollToSlide(allSlides[n], false); }
 
     let isDown = false, startX = 0, startScroll = 0, moved = false;
+    // Nur Maus: Touch-Geraete behalten das native, traegheitsbehaftete
+    // Scrollen des Browsers - das laeuft fluessiger als jede Nachbildung.
     containerEl.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return;
       isDown = true; moved = false;
       containerEl.classList.add('is-dragging');
       startX = e.pageX; startScroll = containerEl.scrollLeft;
@@ -414,18 +415,63 @@
       });
     });
 
-    /* ---- Optionales, langsames Autoslide nach links (pausiert bei Hover/Touch/Drag) ---- */
+    /* ---- Langsames Autoslide nach links ----
+       Ursache des frueheren Ruckelns: Der Slider hatte gleichzeitig
+       "scroll-snap-type: x mandatory" und ein Autoslide, das den
+       Scrollwert jeden Frame um einen Bruchteil erhoeht. Der Browser hat
+       dabei staendig zum naechsten Snap-Punkt zurueckgezogen - beide
+       haben gegeneinander gearbeitet.
+
+       Loesung: Snapping ist an diesem Slider abgeschaltet. Nachdem der
+       Gast geschoben oder gewischt hat, ruecken wir stattdessen selbst
+       sanft auf das naechstgelegene Bild - das ergibt dasselbe Gefuehl,
+       ohne Konflikt. */
+    containerEl.style.scrollSnapType = 'none';
+
+    let settleTimer = null;
+    function settleToNearest() {
+      if (isDown) return;
+      scrollToSlide(allSlides[closestIndex()], true);
+    }
+    function scheduleSettle() {
+      clearTimeout(settleTimer);
+      settleTimer = setTimeout(settleToNearest, 140);
+    }
+
     if (options.autoplay && looped) {
       const speed = options.speed || 0.3;
-      let paused = false;
-      containerEl.addEventListener('mouseenter', () => { paused = true; });
-      containerEl.addEventListener('mouseleave', () => { paused = false; });
-      containerEl.addEventListener('touchstart', () => { paused = true; }, { passive: true });
-      containerEl.addEventListener('touchend', () => { paused = false; });
-      (function autoTick() {
-        if (!paused && !isDown) { containerEl.scrollLeft += speed; }
-        requestAnimationFrame(autoTick);
-      })();
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let paused = reduce;
+      let resumeTimer = null;
+
+      function pause(ms) {
+        paused = true;
+        clearTimeout(resumeTimer);
+        if (!reduce && ms < 1e8) resumeTimer = setTimeout(() => { paused = false; }, ms);
+      }
+
+      // Jede Eingabe haelt den Lauf an; danach rueckt der Slider sauber
+      // auf ein Bild ein und faengt erst nach einer Ruhepause wieder an.
+      ['pointerdown', 'touchstart', 'wheel'].forEach(function (ev) {
+        containerEl.addEventListener(ev, function () { pause(7000); }, { passive: true });
+      });
+      ['pointerup', 'touchend'].forEach(function (ev) {
+        containerEl.addEventListener(ev, function () { pause(7000); scheduleSettle(); }, { passive: true });
+      });
+      containerEl.addEventListener('mouseenter', function () { pause(1e9); });
+      containerEl.addEventListener('mouseleave', function () { pause(700); });
+
+      if (!reduce) {
+        (function autoTick() {
+          if (!paused && !isDown) { containerEl.scrollLeft += speed; }
+          requestAnimationFrame(autoTick);
+        })();
+      }
+    } else {
+      // Slider ohne Autoslide: nach dem Wischen ebenfalls sauber einrasten
+      ['pointerup', 'touchend'].forEach(function (ev) {
+        containerEl.addEventListener(ev, scheduleSettle, { passive: true });
+      });
     }
   }
 
