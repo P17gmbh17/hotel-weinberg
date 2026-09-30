@@ -18,7 +18,7 @@
         "title": "Doppelzimmer mit Balkon",
         "card_title": "Doppelzimmer mit Balkon",
         "teaser": "Blick auf die Dolomiten oder die Weinberge.",
-        "image": "../assets/fotos/zimmer-balkon-2026.jpg",
+        "image": "../assets/fotos/zimmer-balkon-ausblick-2026.jpg",
         "price": "63",
         "detail_meta_description": "Doppelzimmer mit Balkon im Hotel Weinberg St. Pauls, Blick auf die Dolomiten oder Weinberge, ab 63 € p. P. inkl. Frühstück.",
         "lede": "Ein helles Doppelzimmer mit eigenem Balkon, Blick auf die Dolomiten oder die Weinberge, ideal um den Tag ausklingen zu lassen.",
@@ -47,7 +47,7 @@
         "lede": "Zimmer im Parterre mit direktem Zugang zum eigenen kleinen Garten, ruhig gelegen und ideal für alle, die morgens gern gleich draußen sind.",
         "gallery": [
           "../assets/fotos/gartenzimmer-ausblick-2026.jpg",
-          "../assets/fotos/gartenzimmer-terrasse-2026.jpg",
+          "../assets/fotos/zimmer-fenster-2026.jpg",
           "../assets/fotos/gartenzimmer-aussen-2026.jpg",
           "../assets/fotos/zimmer-bett-frontal-2026.jpg",
           "../assets/fotos/bad-2026.jpg"
@@ -65,7 +65,7 @@
         "lede": "Ruhig gelegenes Doppelzimmer ohne Balkon, gemütlich eingerichtet und ideal für alle, die vor allem einen ruhigen Rückzugsort suchen.",
         "gallery": [
           "../assets/fotos/zimmer-ohne-balkon-2026.jpg",
-          "../assets/fotos/zimmer-ohne-balkon-fenster-2026.jpg",
+          "../assets/fotos/zimmer-fenster-2026.jpg",
           "../assets/fotos/zimmer-bett-frontal-2026.jpg",
           "../assets/fotos/bad-ohne-balkon-2026.jpg"
         ],
@@ -124,7 +124,7 @@
         "title": "Camera doppia con balcone",
         "card_title": "Camera doppia con balcone",
         "teaser": "Vista sulle Dolomiti o sui vigneti.",
-        "image": "../assets/fotos/zimmer-balkon-2026.jpg",
+        "image": "../assets/fotos/zimmer-balkon-ausblick-2026.jpg",
         "price": "63",
         "detail_meta_description": "Camera doppia con balcone all'Hotel Weinberg St. Paolo, vista sulle Dolomiti o sui vigneti, a partire da 63 € a persona, colazione inclusa.",
         "lede": "Luminosa camera doppia con balcone privato, vista sulle Dolomiti o sui vigneti, ideale per godersi la fine della giornata.",
@@ -153,7 +153,7 @@
         "lede": "Camera al piano terra con accesso diretto al proprio piccolo giardino, posizione tranquilla, ideale per chi ama uscire subito all'aperto al mattino.",
         "gallery": [
           "../assets/fotos/gartenzimmer-ausblick-2026.jpg",
-          "../assets/fotos/gartenzimmer-terrasse-2026.jpg",
+          "../assets/fotos/zimmer-fenster-2026.jpg",
           "../assets/fotos/gartenzimmer-aussen-2026.jpg",
           "../assets/fotos/zimmer-bett-frontal-2026.jpg",
           "../assets/fotos/bad-2026.jpg"
@@ -171,7 +171,7 @@
         "lede": "Camera doppia in posizione tranquilla, senza balcone, arredata con gusto e ideale per chi cerca soprattutto un rifugio silenzioso.",
         "gallery": [
           "../assets/fotos/zimmer-ohne-balkon-2026.jpg",
-          "../assets/fotos/zimmer-ohne-balkon-fenster-2026.jpg",
+          "../assets/fotos/zimmer-fenster-2026.jpg",
           "../assets/fotos/zimmer-bett-frontal-2026.jpg",
           "../assets/fotos/bad-ohne-balkon-2026.jpg"
         ],
@@ -230,7 +230,7 @@
         "title": "Double room with balcony",
         "card_title": "Double room with balcony",
         "teaser": "Views of the Dolomites or the vineyards.",
-        "image": "../assets/fotos/zimmer-balkon-2026.jpg",
+        "image": "../assets/fotos/zimmer-balkon-ausblick-2026.jpg",
         "price": "63",
         "detail_meta_description": "Double room with balcony at Hotel Weinberg St. Pauls, views of the Dolomites or vineyards, from €63 per person incl. breakfast.",
         "lede": "A bright double room with its own balcony, views of the Dolomites or the vineyards, perfect for winding down at the end of the day.",
@@ -259,7 +259,7 @@
         "lede": "Ground-floor room with direct access to its own small garden, quietly located and ideal for anyone who likes stepping outside first thing in the morning.",
         "gallery": [
           "../assets/fotos/gartenzimmer-ausblick-2026.jpg",
-          "../assets/fotos/gartenzimmer-terrasse-2026.jpg",
+          "../assets/fotos/zimmer-fenster-2026.jpg",
           "../assets/fotos/gartenzimmer-aussen-2026.jpg",
           "../assets/fotos/zimmer-bett-frontal-2026.jpg",
           "../assets/fotos/bad-2026.jpg"
@@ -277,7 +277,7 @@
         "lede": "A quietly located double room without a balcony, cosily furnished and ideal for those seeking a peaceful retreat above all.",
         "gallery": [
           "../assets/fotos/zimmer-ohne-balkon-2026.jpg",
-          "../assets/fotos/zimmer-ohne-balkon-fenster-2026.jpg",
+          "../assets/fotos/zimmer-fenster-2026.jpg",
           "../assets/fotos/zimmer-bett-frontal-2026.jpg",
           "../assets/fotos/bad-ohne-balkon-2026.jpg"
         ],
