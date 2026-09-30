@@ -18,6 +18,11 @@
       "lede": "Wir freuen uns, euch persönlich zu empfangen, mit einem offenen Ohr für Wünsche und einem Gespür dafür, wann man einfach in Ruhe lassen sollte.",
       "team": [
         {
+          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "alt": "Nelli, Familie Schrott",
+          "name": "Nelli"
+        },
+        {
           "image": "../assets/fotos/familie/felix.jpg",
           "alt": "Felix, Familie Schrott",
           "name": "Felix"
@@ -26,11 +31,6 @@
           "image": "../assets/fotos/familie/mara-2026.jpg",
           "alt": "Mara, Familie Schrott",
           "name": "Mara"
-        },
-        {
-          "image": "../assets/fotos/familie/nelly-2026.jpg",
-          "alt": "Nelli, Familie Schrott",
-          "name": "Nelli"
         }
       ]
     },
@@ -121,6 +121,11 @@
       "lede": "Siamo felici di accogliervi di persona, con un orecchio attento ai vostri desideri e la sensibilità di sapere quando lasciarvi semplicemente in pace.",
       "team": [
         {
+          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "alt": "Nelli, Famiglia Schrott",
+          "name": "Nelli"
+        },
+        {
           "image": "../assets/fotos/familie/felix.jpg",
           "alt": "Felix, Famiglia Schrott",
           "name": "Felix"
@@ -129,11 +134,6 @@
           "image": "../assets/fotos/familie/mara-2026.jpg",
           "alt": "Mara, Famiglia Schrott",
           "name": "Mara"
-        },
-        {
-          "image": "../assets/fotos/familie/nelly-2026.jpg",
-          "alt": "Nelli, Famiglia Schrott",
-          "name": "Nelli"
         }
       ]
     },
@@ -224,6 +224,11 @@
       "lede": "We're happy to welcome you personally, with an open ear for your wishes and a sense for when to simply leave you in peace.",
       "team": [
         {
+          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "alt": "Nelli, Schrott family",
+          "name": "Nelli"
+        },
+        {
           "image": "../assets/fotos/familie/felix.jpg",
           "alt": "Felix, Schrott family",
           "name": "Felix"
@@ -232,11 +237,6 @@
           "image": "../assets/fotos/familie/mara-2026.jpg",
           "alt": "Mara, Schrott family",
           "name": "Mara"
-        },
-        {
-          "image": "../assets/fotos/familie/nelly-2026.jpg",
-          "alt": "Nelli, Schrott family",
-          "name": "Nelli"
         }
       ]
     },
