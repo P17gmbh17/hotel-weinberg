@@ -17,15 +17,15 @@
       "lede": "Drei Lieblingsorte des Hauses: schattige Ruhe unter Palmen, ein Pool zum Verweilen und ein reichhaltiges Frühstück mit Blick auf die Dolomiten.",
       "images": [
         {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "image": "../assets/fotos/garten-palme-2026.webp",
           "alt": "Garten mit Palmen, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
+          "image": "../assets/fotos/pool-relax-oben-2026.webp",
           "alt": "Pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/fruehstueck-tisch-2026.jpg",
+          "image": "../assets/fotos/fruehstueck-tisch-2026.webp",
           "alt": "Frühstück, Hotel Weinberg"
         }
       ],
@@ -35,7 +35,7 @@
       "eyebrow": "04 · Aktiv",
       "heading": "Wandern, Biken, Golf: direkt vor der Tür",
       "lede": "Filtert nach eurer Lieblingsaktivität und landet direkt bei passenden Tipps, Routen und Ausflugszielen rund um St. Pauls und Eppan.",
-      "background_image": "../assets/fotos/aktivitaeten-hero-index-2026.jpg",
+      "background_image": "../assets/fotos/aktivitaeten-hero-index-2026.webp",
       "cta_label": "Aktivitäten entdecken →",
       "categories": [
         {
@@ -45,17 +45,17 @@
             {
               "title": "Drei-Burgen-Wanderung",
               "meta": "Halbtags",
-              "image": "../assets/aktivitaeten/burgen-wanderung.jpg"
+              "image": "../assets/aktivitaeten/burgen-wanderung.webp"
             },
             {
               "title": "Montiggler Wald mit Seen",
               "meta": "Halbtags",
-              "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg"
+              "image": "../assets/aktivitaeten/grosser-montiggler-see.webp"
             },
             {
               "title": "Roen-Gipfeltour",
               "meta": "Ganztags",
-              "image": "../assets/aktivitaeten/wanderung-roen.jpg"
+              "image": "../assets/aktivitaeten/wanderung-roen.webp"
             }
           ]
         },
@@ -66,12 +66,12 @@
             {
               "title": "Wein &amp; Bike am Kalterer See",
               "meta": "Kurz",
-              "image": "../assets/aktivitaeten/bike-kalterer-see.jpg"
+              "image": "../assets/aktivitaeten/bike-kalterer-see.webp"
             },
             {
               "title": "Etschtal-Radweg nach Meran",
               "meta": "Ganztags",
-              "image": "../assets/aktivitaeten/radtour-meran.jpg"
+              "image": "../assets/aktivitaeten/radtour-meran.webp"
             },
             {
               "title": "Mitterbergerrunde",
@@ -87,17 +87,17 @@
             {
               "title": "Golfclub Eppan „Blue Monster\"",
               "meta": "Halbtags",
-              "image": "../assets/aktivitaeten/golfclub-eppan.jpg"
+              "image": "../assets/aktivitaeten/golfclub-eppan.webp"
             },
             {
               "title": "Trainingscenter Freudenstein",
               "meta": "Kurz",
-              "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg"
+              "image": "../assets/aktivitaeten/golf-center-freudenstein.webp"
             },
             {
               "title": "Golfclub Dolomiti",
               "meta": "Ganztags",
-              "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg"
+              "image": "../assets/aktivitaeten/golfclub-dolomiti.webp"
             }
           ]
         },
@@ -108,17 +108,17 @@
             {
               "title": "Schloss Hocheppan",
               "meta": "Kurz",
-              "image": "../assets/aktivitaeten/burg-hocheppan.jpg"
+              "image": "../assets/aktivitaeten/burg-hocheppan.webp"
             },
             {
               "title": "MMM Firmian",
               "meta": "Halbtags",
-              "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg"
+              "image": "../assets/aktivitaeten/schloss-sigmundskron.webp"
             },
             {
               "title": "Kellerei St. Pauls",
               "meta": "Kurz",
-              "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg"
+              "image": "../assets/aktivitaeten/kellerei-st-pauls.webp"
             }
           ]
         },
@@ -129,17 +129,17 @@
             {
               "title": "Kalterer See",
               "meta": "Halbtags",
-              "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg"
+              "image": "../assets/aktivitaeten/badespass-kalterer-see.webp"
             },
             {
               "title": "Montiggler Seen",
               "meta": "Halbtags",
-              "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg"
+              "image": "../assets/aktivitaeten/grosser-montiggler-see.webp"
             },
             {
               "title": "Ausflug Gardasee",
               "meta": "Ganztags",
-              "image": "../assets/aktivitaeten/gardasee.jpg"
+              "image": "../assets/aktivitaeten/gardasee.webp"
             }
           ]
         }
@@ -151,22 +151,22 @@
       "lede": "Südtiroler Klassiker, Pizza aus dem Holzofen und Aperitivo im Innenhof. Wir kennen die besten Adressen in der Nachbarschaft.",
       "cards": [
         {
-          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.jpg",
+          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.webp",
           "label": "Südtiroler Küche",
           "alt": "Schlutzkrapfen, Südtiroler Küche"
         },
         {
-          "image": "../assets/kulinarik/pizza-holzofen-2026.jpg",
+          "image": "../assets/kulinarik/pizza-holzofen-2026.webp",
           "label": "Pizza",
           "alt": "Pizza, Liliane St. Pauls"
         },
         {
-          "image": "../assets/fotos/aperitivo-drink-2026.jpg",
+          "image": "../assets/fotos/aperitivo-drink-2026.webp",
           "label": "Aperitivo",
           "alt": "Aperitivo am Pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/kulinarik/restaurant-teller-2026.jpg",
+          "image": "../assets/kulinarik/restaurant-teller-2026.webp",
           "label": "Restaurant",
           "alt": "Restaurant, Pfeffermühle"
         }
@@ -185,7 +185,7 @@
       "eyebrow": "02 · Wohnen",
       "heading": "Zimmer: ankommen, durchatmen, bleiben",
       "lede": "Ruhige Zimmer mit Blick auf Weinberge oder Dolomiten, in unterschiedlichen Kategorien, vom gemütlichen Doppelzimmer bis zur Suite mit Balkon.",
-      "image": "../assets/fotos/zimmer-balkon-2026.jpg",
+      "image": "../assets/fotos/zimmer-balkon-2026.webp",
       "cta_label": "Zimmer entdecken →"
     },
     "meta_title": "Hotel Weinberg | St. Pauls | Eppan | Südtirol",
@@ -195,7 +195,7 @@
       "lede": "Umgeben von Weinreben liegt das Hotel Weinberg in St. Pauls an der Südtiroler Weinstraße: dort, wo das milde mediterrane Klima Palmen, Wein und Weite zusammenbringt.",
       "body": "Bei uns findet ihr keinen Prunk, dafür ehrliche Gastfreundschaft, ein reichhaltiges Frühstücksbuffet und einen Blick, der bis zu den fernen Gipfeln der Dolomiten reicht. Ein kleines Haus mit großem Garten, persönlich geführt, seit Jahren ein ruhiger Rückzugsort für Rad-, Motorrad- und Wanderfreunde.",
       "cta_label": "Mehr über uns →",
-      "image": "../assets/fotos/familie/familienfoto.jpg"
+      "image": "../assets/fotos/familie/familienfoto.webp"
     },
     "neuigkeiten": {
       "eyebrow": "06 · Neuigkeiten",
@@ -204,17 +204,17 @@
       "body": "Rezeption, Lobby und Bar haben ein neues Zuhause bekommen: heller, offener und ganz im mediterranen Stil des Weinbergs. Familie Schrott heißt euch ab sofort in der neuen Bar auf einen Aperitivo oder gleich bei der Ankunft in der neuen Lobby herzlich willkommen.",
       "images": [
         {
-          "image": "../assets/fotos/neuigkeiten-lobby-2026.jpg",
+          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
           "alt": "Neue Lobby, Hotel Weinberg",
           "label": "Lobby"
         },
         {
-          "image": "../assets/fotos/neuigkeiten-rezeption-2026.jpg",
+          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
           "alt": "Neue Rezeption, Hotel Weinberg",
           "label": "Rezeption"
         },
         {
-          "image": "../assets/fotos/bar-location-2026.jpg",
+          "image": "../assets/fotos/bar-location-2026.webp",
           "alt": "Neue Bar, Hotel Weinberg",
           "label": "Bar"
         }
@@ -239,15 +239,15 @@
       "lede": "Tre luoghi del cuore della casa: quiete ombrosa sotto le palme, una piscina in cui rilassarsi e una ricca colazione con vista sulle Dolomiti.",
       "images": [
         {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "image": "../assets/fotos/garten-palme-2026.webp",
           "alt": "Giardino con palme, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
+          "image": "../assets/fotos/pool-relax-oben-2026.webp",
           "alt": "Piscina, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/fruehstueck-tisch-2026.jpg",
+          "image": "../assets/fotos/fruehstueck-tisch-2026.webp",
           "alt": "Colazione, Hotel Weinberg"
         }
       ],
@@ -257,7 +257,7 @@
       "eyebrow": "04 · Attivi",
       "heading": "Escursioni, bici, golf: a due passi",
       "lede": "Filtrate per la vostra attività preferita e trovate subito consigli, percorsi e mete per escursioni intorno a St. Paolo e Appiano.",
-      "background_image": "../assets/fotos/aktivitaeten-hero-index-2026.jpg",
+      "background_image": "../assets/fotos/aktivitaeten-hero-index-2026.webp",
       "cta_label": "Scopri le attività →",
       "categories": [
         {
@@ -267,17 +267,17 @@
             {
               "title": "Sentiero delle Tre Castella",
               "meta": "Mezza giornata",
-              "image": "../assets/aktivitaeten/burgen-wanderung.jpg"
+              "image": "../assets/aktivitaeten/burgen-wanderung.webp"
             },
             {
               "title": "Bosco di Monticolo con i laghi",
               "meta": "Mezza giornata",
-              "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg"
+              "image": "../assets/aktivitaeten/grosser-montiggler-see.webp"
             },
             {
               "title": "Tour del Roen",
               "meta": "Giornata intera",
-              "image": "../assets/aktivitaeten/wanderung-roen.jpg"
+              "image": "../assets/aktivitaeten/wanderung-roen.webp"
             }
           ]
         },
@@ -288,12 +288,12 @@
             {
               "title": "Vino &amp; bici al Lago di Caldaro",
               "meta": "Breve",
-              "image": "../assets/aktivitaeten/bike-kalterer-see.jpg"
+              "image": "../assets/aktivitaeten/bike-kalterer-see.webp"
             },
             {
               "title": "Pista ciclabile Val d'Adige, Merano",
               "meta": "Giornata intera",
-              "image": "../assets/aktivitaeten/radtour-meran.jpg"
+              "image": "../assets/aktivitaeten/radtour-meran.webp"
             },
             {
               "title": "Anello del Mitterberg",
@@ -309,17 +309,17 @@
             {
               "title": "Golfclub Appiano \"Blue Monster\"",
               "meta": "Mezza giornata",
-              "image": "../assets/aktivitaeten/golfclub-eppan.jpg"
+              "image": "../assets/aktivitaeten/golfclub-eppan.webp"
             },
             {
               "title": "Centro di allenamento Freudenstein",
               "meta": "Breve",
-              "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg"
+              "image": "../assets/aktivitaeten/golf-center-freudenstein.webp"
             },
             {
               "title": "Golfclub Dolomiti",
               "meta": "Giornata intera",
-              "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg"
+              "image": "../assets/aktivitaeten/golfclub-dolomiti.webp"
             }
           ]
         },
@@ -330,17 +330,17 @@
             {
               "title": "Castello di Hocheppan",
               "meta": "Breve",
-              "image": "../assets/aktivitaeten/burg-hocheppan.jpg"
+              "image": "../assets/aktivitaeten/burg-hocheppan.webp"
             },
             {
               "title": "MMM Firmian",
               "meta": "Mezza giornata",
-              "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg"
+              "image": "../assets/aktivitaeten/schloss-sigmundskron.webp"
             },
             {
               "title": "Cantina di St. Paolo",
               "meta": "Breve",
-              "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg"
+              "image": "../assets/aktivitaeten/kellerei-st-pauls.webp"
             }
           ]
         },
@@ -351,17 +351,17 @@
             {
               "title": "Lago di Caldaro",
               "meta": "Mezza giornata",
-              "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg"
+              "image": "../assets/aktivitaeten/badespass-kalterer-see.webp"
             },
             {
               "title": "Laghi di Monticolo",
               "meta": "Mezza giornata",
-              "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg"
+              "image": "../assets/aktivitaeten/grosser-montiggler-see.webp"
             },
             {
               "title": "Gita al Lago di Garda",
               "meta": "Giornata intera",
-              "image": "../assets/aktivitaeten/gardasee.jpg"
+              "image": "../assets/aktivitaeten/gardasee.webp"
             }
           ]
         }
@@ -373,22 +373,22 @@
       "lede": "Classici altoatesini, pizza al forno a legna e aperitivo in un cortile storico. Conosciamo i migliori indirizzi del vicinato.",
       "cards": [
         {
-          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.jpg",
+          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.webp",
           "label": "Cucina altoatesina",
           "alt": "Schlutzkrapfen, cucina altoatesina"
         },
         {
-          "image": "../assets/kulinarik/pizza-holzofen-2026.jpg",
+          "image": "../assets/kulinarik/pizza-holzofen-2026.webp",
           "label": "Pizza",
           "alt": "Pizza, Liliane St. Paolo"
         },
         {
-          "image": "../assets/fotos/aperitivo-drink-2026.jpg",
+          "image": "../assets/fotos/aperitivo-drink-2026.webp",
           "label": "Aperitivo",
           "alt": "Aperitivo in piscina, Hotel Weinberg"
         },
         {
-          "image": "../assets/kulinarik/restaurant-teller-2026.jpg",
+          "image": "../assets/kulinarik/restaurant-teller-2026.webp",
           "label": "Ristorante",
           "alt": "Ristorante, Pfeffermühle"
         }
@@ -407,7 +407,7 @@
       "eyebrow": "02 · Soggiorno",
       "heading": "Camere: arrivare, respirare, restare",
       "lede": "Camere tranquille con vista sui vigneti o sulle Dolomiti, in diverse categorie, dalla accogliente camera doppia alla suite con balcone.",
-      "image": "../assets/fotos/zimmer-balkon-2026.jpg",
+      "image": "../assets/fotos/zimmer-balkon-2026.webp",
       "cta_label": "Scopri le camere →"
     },
     "meta_title": "Hotel Weinberg | St. Paolo | Appiano | Alto Adige",
@@ -417,7 +417,7 @@
       "lede": "Circondato dai vigneti, l'Hotel Weinberg si trova a St. Paolo, sulla Strada del Vino altoatesina: dove il clima mite e mediterraneo unisce palme, vino e ampi orizzonti.",
       "body": "Da noi non troverete sfarzo, ma un'ospitalità sincera, una ricca colazione a buffet e una vista che arriva fino alle vette lontane delle Dolomiti. Una piccola casa con un grande giardino, gestita personalmente da anni, un rifugio tranquillo per gli amanti della bici, della moto e delle escursioni.",
       "cta_label": "Scopri di più su di noi →",
-      "image": "../assets/fotos/familie/familienfoto.jpg"
+      "image": "../assets/fotos/familie/familienfoto.webp"
     },
     "neuigkeiten": {
       "eyebrow": "06 · Novità",
@@ -426,17 +426,17 @@
       "body": "Reception, lobby e bar hanno una nuova casa: più luminosa, più aperta, in perfetto stile mediterraneo del Weinberg. La famiglia Schrott vi dà il benvenuto da subito con un aperitivo al nuovo bar o già al vostro arrivo nella nuova lobby.",
       "images": [
         {
-          "image": "../assets/fotos/neuigkeiten-lobby-2026.jpg",
+          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
           "alt": "Nuova lobby, Hotel Weinberg",
           "label": "Lobby"
         },
         {
-          "image": "../assets/fotos/neuigkeiten-rezeption-2026.jpg",
+          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
           "alt": "Nuova reception, Hotel Weinberg",
           "label": "Reception"
         },
         {
-          "image": "../assets/fotos/bar-location-2026.jpg",
+          "image": "../assets/fotos/bar-location-2026.webp",
           "alt": "Nuovo bar, Hotel Weinberg",
           "label": "Bar"
         }
@@ -461,15 +461,15 @@
       "lede": "Three favourite spots of the house: shady peace beneath the palms, a pool to linger by, and a generous breakfast with views of the Dolomites.",
       "images": [
         {
-          "image": "../assets/fotos/garten-palme-2026.jpg",
+          "image": "../assets/fotos/garten-palme-2026.webp",
           "alt": "Garden with palm trees, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/pool-relax-oben-2026.jpg",
+          "image": "../assets/fotos/pool-relax-oben-2026.webp",
           "alt": "Pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/fruehstueck-tisch-2026.jpg",
+          "image": "../assets/fotos/fruehstueck-tisch-2026.webp",
           "alt": "Breakfast, Hotel Weinberg"
         }
       ],
@@ -479,7 +479,7 @@
       "eyebrow": "04 · Active",
       "heading": "Hiking, biking, golf: right on the doorstep",
       "lede": "Filter by your favourite activity and land straight on matching tips, routes and destinations around St. Pauls and Appiano.",
-      "background_image": "../assets/fotos/aktivitaeten-hero-index-2026.jpg",
+      "background_image": "../assets/fotos/aktivitaeten-hero-index-2026.webp",
       "cta_label": "Discover activities →",
       "categories": [
         {
@@ -489,17 +489,17 @@
             {
               "title": "Three Castles hike",
               "meta": "Half-day",
-              "image": "../assets/aktivitaeten/burgen-wanderung.jpg"
+              "image": "../assets/aktivitaeten/burgen-wanderung.webp"
             },
             {
               "title": "Montiggl forest with its lakes",
               "meta": "Half-day",
-              "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg"
+              "image": "../assets/aktivitaeten/grosser-montiggler-see.webp"
             },
             {
               "title": "Mount Roen summit tour",
               "meta": "Full day",
-              "image": "../assets/aktivitaeten/wanderung-roen.jpg"
+              "image": "../assets/aktivitaeten/wanderung-roen.webp"
             }
           ]
         },
@@ -510,12 +510,12 @@
             {
               "title": "Wine &amp; biking at Lake Caldaro",
               "meta": "Short",
-              "image": "../assets/aktivitaeten/bike-kalterer-see.jpg"
+              "image": "../assets/aktivitaeten/bike-kalterer-see.webp"
             },
             {
               "title": "Adige Valley cycle path to Merano",
               "meta": "Full day",
-              "image": "../assets/aktivitaeten/radtour-meran.jpg"
+              "image": "../assets/aktivitaeten/radtour-meran.webp"
             },
             {
               "title": "Mitterberg loop",
@@ -531,17 +531,17 @@
             {
               "title": "Golf Club Eppan \"Blue Monster\"",
               "meta": "Half-day",
-              "image": "../assets/aktivitaeten/golfclub-eppan.jpg"
+              "image": "../assets/aktivitaeten/golfclub-eppan.webp"
             },
             {
               "title": "Freudenstein training centre",
               "meta": "Short",
-              "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg"
+              "image": "../assets/aktivitaeten/golf-center-freudenstein.webp"
             },
             {
               "title": "Golf Club Dolomiti",
               "meta": "Full day",
-              "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg"
+              "image": "../assets/aktivitaeten/golfclub-dolomiti.webp"
             }
           ]
         },
@@ -552,17 +552,17 @@
             {
               "title": "Hocheppan Castle",
               "meta": "Short",
-              "image": "../assets/aktivitaeten/burg-hocheppan.jpg"
+              "image": "../assets/aktivitaeten/burg-hocheppan.webp"
             },
             {
               "title": "MMM Firmian",
               "meta": "Half-day",
-              "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg"
+              "image": "../assets/aktivitaeten/schloss-sigmundskron.webp"
             },
             {
               "title": "St. Pauls winery",
               "meta": "Short",
-              "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg"
+              "image": "../assets/aktivitaeten/kellerei-st-pauls.webp"
             }
           ]
         },
@@ -573,17 +573,17 @@
             {
               "title": "Lake Caldaro",
               "meta": "Half-day",
-              "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg"
+              "image": "../assets/aktivitaeten/badespass-kalterer-see.webp"
             },
             {
               "title": "Montiggl Lakes",
               "meta": "Half-day",
-              "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg"
+              "image": "../assets/aktivitaeten/grosser-montiggler-see.webp"
             },
             {
               "title": "Day trip to Lake Garda",
               "meta": "Full day",
-              "image": "../assets/aktivitaeten/gardasee.jpg"
+              "image": "../assets/aktivitaeten/gardasee.webp"
             }
           ]
         }
@@ -595,22 +595,22 @@
       "lede": "South Tyrolean classics, wood-fired pizza and aperitivo in a historic courtyard. We know the best addresses in the neighbourhood.",
       "cards": [
         {
-          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.jpg",
+          "image": "../assets/kulinarik/suedtiroler-kueche-schlutzer-2026.webp",
           "label": "South Tyrolean Cuisine",
           "alt": "Schlutzkrapfen (South Tyrolean ravioli), South Tyrolean cuisine"
         },
         {
-          "image": "../assets/kulinarik/pizza-holzofen-2026.jpg",
+          "image": "../assets/kulinarik/pizza-holzofen-2026.webp",
           "label": "Pizza",
           "alt": "Pizza, Liliane St. Pauls"
         },
         {
-          "image": "../assets/fotos/aperitivo-drink-2026.jpg",
+          "image": "../assets/fotos/aperitivo-drink-2026.webp",
           "label": "Aperitivo",
           "alt": "Aperitivo by the pool, Hotel Weinberg"
         },
         {
-          "image": "../assets/kulinarik/restaurant-teller-2026.jpg",
+          "image": "../assets/kulinarik/restaurant-teller-2026.webp",
           "label": "Restaurant",
           "alt": "Restaurant, Pfeffermühle"
         }
@@ -629,7 +629,7 @@
       "eyebrow": "02 · Stay",
       "heading": "Rooms: arrive, breathe, stay",
       "lede": "Quiet rooms with views of the vineyards or the Dolomites, in different categories, from the cosy double room to the suite with balcony.",
-      "image": "../assets/fotos/zimmer-balkon-2026.jpg",
+      "image": "../assets/fotos/zimmer-balkon-2026.webp",
       "cta_label": "Discover rooms →"
     },
     "meta_title": "Hotel Weinberg | St. Pauls | Appiano | South Tyrol",
@@ -639,7 +639,7 @@
       "lede": "Surrounded by vineyards, Hotel Weinberg sits in St. Pauls on the South Tyrolean Wine Route: where the mild, Mediterranean climate brings together palm trees, wine and wide open views.",
       "body": "With us you won't find grandeur, but honest hospitality, a generous breakfast buffet and a view that reaches all the way to the distant peaks of the Dolomites. A small house with a big garden, personally run for years, a quiet retreat for cyclists, motorcyclists and hikers alike.",
       "cta_label": "More about us →",
-      "image": "../assets/fotos/familie/familienfoto.jpg"
+      "image": "../assets/fotos/familie/familienfoto.webp"
     },
     "neuigkeiten": {
       "eyebrow": "06 · News",
@@ -648,17 +648,17 @@
       "body": "Reception, lobby and bar have a new home: brighter, more open, and true to the Weinberg's Mediterranean style. Familie Schrott now welcomes you with an aperitivo at the new bar, or right at check-in in the new lobby.",
       "images": [
         {
-          "image": "../assets/fotos/neuigkeiten-lobby-2026.jpg",
+          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
           "alt": "New lobby, Hotel Weinberg",
           "label": "Lobby"
         },
         {
-          "image": "../assets/fotos/neuigkeiten-rezeption-2026.jpg",
+          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
           "alt": "New reception, Hotel Weinberg",
           "label": "Reception"
         },
         {
-          "image": "../assets/fotos/bar-location-2026.jpg",
+          "image": "../assets/fotos/bar-location-2026.webp",
           "alt": "New bar, Hotel Weinberg",
           "label": "Bar"
         }

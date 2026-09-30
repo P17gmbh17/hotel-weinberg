@@ -39,7 +39,7 @@ def find_source_images():
             for fn in files:
                 if fn.startswith("._"):
                     continue
-                if not fn.lower().endswith((".jpg", ".jpeg")):
+                if not fn.lower().endswith((".webp", ".jpg", ".jpeg")):
                     continue
                 stem = os.path.splitext(fn)[0]
                 if any(stem.endswith(s) for s in SUFFIXES):

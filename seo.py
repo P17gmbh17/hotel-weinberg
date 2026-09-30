@@ -99,7 +99,7 @@ HOTEL = {
     "latitude": None,
     "longitude": None,
     # Repraesentatives Bild fuer die Suchergebnisse.
-    "image": "assets/fotos/kontakt-header-sonnenuntergang-2026.jpg",
+    "image": "assets/fotos/kontakt-header-sonnenuntergang-2026.webp",
     "languages": ["Deutsch", "Italiano", "English"],
 }
 
@@ -147,7 +147,7 @@ OG_IMAGE_SIZE = (1200, 630)
 OG_IMAGE_DIR = "assets/og"
 
 # Rueckfallmotiv, falls fuer eine Seite kein eigenes Kopfbild ermittelbar ist.
-OG_FALLBACK_IMAGE = "assets/fotos/kontakt-header-sonnenuntergang-2026.jpg"
+OG_FALLBACK_IMAGE = "assets/fotos/kontakt-header-sonnenuntergang-2026.webp"
 
 # Sichtbare Seitennamen fuer die BreadcrumbList. Fehlt ein Slug hier, nimmt
 # build_seo.py automatisch den <title> der Seite.

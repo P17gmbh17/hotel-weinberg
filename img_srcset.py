@@ -44,7 +44,7 @@ def _dims(abs_path):
 
 
 def _is_content_photo(rel_path):
-    if not rel_path or not rel_path.lower().endswith((".jpg", ".jpeg")):
+    if not rel_path or not rel_path.lower().endswith((".webp", ".jpg", ".jpeg")):
         return False
     norm = rel_path.replace("../", "", 1)
     return any(norm.startswith(d) for d in CONTENT_DIRS)

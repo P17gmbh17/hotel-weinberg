@@ -10,7 +10,7 @@ from img_srcset import srcset_attr
 
 BASE = os.path.dirname(os.path.abspath(__file__)) + "/"
 
-MAP_ART_PATH = "../assets/fotos/map/kontakt-map-2026.jpg"
+MAP_ART_PATH = "../assets/fotos/map/kontakt-map-2026.webp"
 
 with open(BASE + "content/kontakt.json", encoding="utf-8") as f:
     ALL = json.load(f)

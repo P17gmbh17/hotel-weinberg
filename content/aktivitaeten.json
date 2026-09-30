@@ -11,7 +11,7 @@
       {
         "key": "wandern",
         "num": "01",
-        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.jpg",
+        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.webp",
         "bg_alt": "Wanderer zwischen Weinbergen bei Eppan",
         "eyebrow": "Wandern",
         "heading": "Von den Reben bis zum Gipfel",
@@ -19,20 +19,20 @@
         "body": "Ob kurzer Spaziergang durch die Reben, halbtägige Rundtour um die Montiggler Seen oder Bergtour auf den Roen mit über 2100 Metern Gipfelhöhe, die Wege führen durch alle Höhenlagen Eppans, vom Talboden bis hinauf in die alpine Zone.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
+            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.webp",
             "alt": "Montiggler Wald mit Seen",
             "title": "Montiggler Wald mit Seen",
             "meta": "Halbtags",
             "position": "55% 65%"
           },
           {
-            "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+            "image": "../assets/aktivitaeten/wanderung-roen.webp",
             "alt": "Roen-Gipfeltour",
             "title": "Roen-Gipfeltour",
             "meta": "Ganztags"
           },
           {
-            "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+            "image": "../assets/aktivitaeten/eisloecher-wanderung.webp",
             "alt": "Wanderweg zu den Eislöchern bei Eppan",
             "title": "Eislöcher-Wanderung",
             "meta": "Kurz"
@@ -50,14 +50,14 @@
         "body": "Wer weiter will, folgt dem Etschtal-Radweg bis nach Meran oder dreht die Mitterbergerrunde von Eppan über den Kalterer See und Auer zurück nach Bozen, fast durchgehend flach, entlang Obstwiesen und historischer Ansitze.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+            "image": "../assets/aktivitaeten/bike-kalterer-see.webp",
             "alt": "Wein &amp; Bike am Kalterer See",
             "position": "82% 60%",
             "title": "Wein &amp; Bike am Kalterer See",
             "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/radtour-meran.jpg",
+            "image": "../assets/aktivitaeten/radtour-meran.webp",
             "alt": "Etschtal-Radweg nach Meran",
             "title": "Etschtal-Radweg nach Meran",
             "meta": "Ganztags"
@@ -73,7 +73,7 @@
       {
         "key": "burgen",
         "num": "03",
-        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.webp",
         "bg_alt": "Burgmauer und Turm von Schloss Hocheppan",
         "eyebrow": "Burgen",
         "heading": "Drei Burgen, tausend Jahre Geschichte",
@@ -81,20 +81,20 @@
         "body": "Wer weiterfährt, findet in Schloss Sigmundskron das Messner Mountain Museum Firmian: Bergsteigergeschichte mit Panoramablick auf Bozen.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.webp",
             "position": "50% 50%",
             "alt": "Aussichtsplattform bei Burg Boymont, Drei-Burgen-Wanderung",
             "title": "Drei-Burgen-Wanderung",
             "meta": "Halbtags"
           },
           {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "image": "../assets/aktivitaeten/burg-hocheppan.webp",
             "alt": "Schloss Hocheppan",
             "title": "Schloss Hocheppan",
             "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.webp",
             "alt": "MMM Firmian",
             "title": "MMM Firmian",
             "meta": "Halbtags"
@@ -104,7 +104,7 @@
       {
         "key": "golf",
         "num": "04",
-        "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "bg_image": "../assets/aktivitaeten/golfclub-eppan.webp",
         "bg_alt": "Golfclub Eppan Blue Monster von oben",
         "eyebrow": "Golf",
         "heading": "Abschlag mit Schlossblick",
@@ -112,19 +112,19 @@
         "body": "Für längere Runden sind die 9-Loch-Anlage in Lana und der 18-Loch-Platz Dolomiti auf der Mendel in rund 30–45 Fahrminuten erreichbar.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+            "image": "../assets/aktivitaeten/golfclub-eppan.webp",
             "alt": "Golfclub Eppan „Blue Monster\"",
             "title": "Golfclub Eppan „Blue Monster\"",
             "meta": "Halbtags"
           },
           {
-            "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+            "image": "../assets/aktivitaeten/golf-center-freudenstein.webp",
             "alt": "Trainingscenter Freudenstein",
             "title": "Trainingscenter Freudenstein",
             "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+            "image": "../assets/aktivitaeten/golfclub-dolomiti.webp",
             "alt": "Golfclub Dolomiti",
             "title": "Golfclub Dolomiti",
             "meta": "Ganztags"
@@ -134,7 +134,7 @@
       {
         "key": "kultur",
         "num": "05",
-        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.jpg",
+        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.webp",
         "bg_alt": "Trachtenumzug beim Castelmusika-Fest in Eppan",
         "eyebrow": "Kultur",
         "heading": "Tradition, Wein und Genuss",
@@ -142,19 +142,19 @@
         "body": "Die Kellerei St. Pauls öffnet ihre Türen zur Weinführung und zur „Preclarus\"-Führung durch den historischen Sektbunker, die Brennerei St. Urban und die Sektmanufaktur Winkler zeigen ihr Handwerk, und beim „Langen Mittwoch\" verwandelt sich das Dorf in eine Sommerbühne.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+            "image": "../assets/aktivitaeten/bauernmarkt-eppan.webp",
             "alt": "Marktstand mit frischem Gemüse am Bauernmarkt St. Michael/Eppan",
             "title": "Bauernmarkt Eppan",
             "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.webp",
             "alt": "Weinberge der Kellerei St. Pauls",
             "title": "Kellerei St. Pauls",
             "meta": "Kurz"
           },
           {
-            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.webp",
             "alt": "Teller mit hausgemachten Schlutzkrapfen (Schlutzer) beim Südtiroler Kochkurs",
             "title": "Schlutzer-Kurs",
             "meta": "Kurz"
@@ -172,20 +172,20 @@
         "body": "Wer einen ganzen Tag investieren will, fährt über den Mendelpass oder durchs Etschtal an den Gardasee, Riva del Garda und Torbole mit Seepromenade, Windsurfern und der Bergbahn auf den Monte Baldo.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+            "image": "../assets/aktivitaeten/badespass-kalterer-see.webp",
             "alt": "Kalterer See",
             "title": "Kalterer See",
             "meta": "Halbtags",
             "position": "0% 65%"
           },
           {
-            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.webp",
             "alt": "Montiggler Seen",
             "title": "Montiggler Seen",
             "meta": "Halbtags"
           },
           {
-            "image": "../assets/aktivitaeten/gardasee.jpg",
+            "image": "../assets/aktivitaeten/gardasee.webp",
             "alt": "Ausflug Gardasee",
             "title": "Ausflug Gardasee",
             "meta": "Ganztags"
@@ -242,7 +242,7 @@
         "comment": "Drei-Burgen-Wanderung",
         "cat": "wandern burgen",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.webp",
         "position": "50% 50%",
         "alt": "Schloss Korb, Drei-Burgen-Wanderung",
         "tags": [
@@ -261,7 +261,7 @@
         "comment": "Schloss Hocheppan",
         "cat": "burgen",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "image": "../assets/aktivitaeten/burg-hocheppan.webp",
         "position": "38% 35%",
         "alt": "Schloss Hocheppan mit Burgkapelle",
         "tags": [
@@ -280,7 +280,7 @@
         "comment": "Schloss Boymont",
         "cat": "burgen",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "image": "../assets/aktivitaeten/schloss-boymont.webp",
         "alt": "Schloss Boymont bei Eppan",
         "tags": [
           "Kultur",
@@ -298,7 +298,7 @@
         "comment": "Frühlingstal",
         "cat": "wandern badespass",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/fruehlingstal.jpg",
+        "image": "../assets/aktivitaeten/fruehlingstal.webp",
         "alt": "Frühlingstal bei Eppan",
         "tags": [
           "Wandern",
@@ -316,7 +316,7 @@
         "comment": "Montiggler Wald mit Seen",
         "cat": "wandern",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
+        "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.webp",
         "alt": "Wanderer rasten am Ufer des Montiggler Sees im Herbst",
         "tags": [
           "Wandern",
@@ -334,7 +334,7 @@
         "comment": "Radweg Überetsch",
         "cat": "bike",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+        "image": "../assets/aktivitaeten/bike-kalterer-see.webp",
         "alt": "Radweg Überetsch, Eppan",
         "tags": [
           "Bike",
@@ -353,7 +353,7 @@
         "comment": "Etschtal-Radweg",
         "cat": "bike",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/radtour-meran.jpg",
+        "image": "../assets/aktivitaeten/radtour-meran.webp",
         "alt": "Etschtal-Radweg Richtung Meran",
         "tags": [
           "Bike",
@@ -372,7 +372,7 @@
         "comment": "Trainingscenter Schloss Freudenstein",
         "cat": "golf",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "image": "../assets/aktivitaeten/golf-center-freudenstein.webp",
         "position": "60% 10%",
         "alt": "Trainingscenter Schloss Freudenstein",
         "tags": [
@@ -390,7 +390,7 @@
         "comment": "Golfclub Eppan Blue Monster",
         "cat": "golf",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "image": "../assets/aktivitaeten/golfclub-eppan.webp",
         "alt": "Golfclub Eppan Blue Monster",
         "tags": [
           "Golf"
@@ -407,7 +407,7 @@
         "comment": "Golfclub Lana",
         "cat": "golf",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "image": "../assets/aktivitaeten/golfclub-lana.webp",
         "position": "40% 45%",
         "alt": "Golfclub Lana Gutshof Brandis",
         "tags": [
@@ -425,7 +425,7 @@
         "comment": "Golfclub Dolomiti Sarnonico",
         "cat": "golf",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+        "image": "../assets/aktivitaeten/golfclub-dolomiti.webp",
         "alt": "Golfclub Dolomiti Sarnonico auf der Mendel",
         "tags": [
           "Golf",
@@ -443,7 +443,7 @@
         "comment": "Kalterer See",
         "cat": "badespass",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+        "image": "../assets/aktivitaeten/badespass-kalterer-see.webp",
         "alt": "Kalterer See",
         "tags": [
           "Badespaß",
@@ -462,7 +462,7 @@
         "comment": "Montiggler Seen",
         "cat": "badespass wandern",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/montiggler-see-bootssteg.jpg",
+        "image": "../assets/aktivitaeten/montiggler-see-bootssteg.webp",
         "alt": "Zwei Frauen spazieren am Bootssteg des Montiggler Sees",
         "tags": [
           "Badespaß",
@@ -480,7 +480,7 @@
         "comment": "MMM Firmian",
         "cat": "burgen kultur",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+        "image": "../assets/aktivitaeten/schloss-sigmundskron.webp",
         "alt": "MMM Firmian, Schloss Sigmundskron",
         "tags": [
           "Kultur",
@@ -498,7 +498,7 @@
         "comment": "Mendel-Wanderung",
         "cat": "wandern kultur",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "image": "../assets/aktivitaeten/mendelbahn.webp",
         "position": "70% 55%",
         "alt": "Mendelbahn zur Mendel-Wanderung",
         "tags": [
@@ -517,7 +517,7 @@
         "comment": "Roen",
         "cat": "wandern",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "image": "../assets/aktivitaeten/wanderung-roen.webp",
         "position": "64% 45%",
         "alt": "Roen, höchster Gipfel des Mendelkamms",
         "tags": [
@@ -536,7 +536,7 @@
         "comment": "Leuchtenburg",
         "cat": "wandern badespass",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.jpg",
+        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.webp",
         "alt": "Ruine Leuchtenburg über dem Kalterer See",
         "tags": [
           "Wandern",
@@ -554,7 +554,7 @@
         "comment": "Gleifkirche & Kreuzstein",
         "cat": "wandern kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/gleif-kirche.jpg",
+        "image": "../assets/aktivitaeten/gleif-kirche.webp",
         "alt": "Gleifkirche bei Eppan",
         "tags": [
           "Wandern",
@@ -590,7 +590,7 @@
         "comment": "Kellerei St. Pauls Weinführung",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+        "image": "../assets/aktivitaeten/kellerei-st-pauls.webp",
         "alt": "Weinberge der Kellerei St. Pauls",
         "tags": [
           "Kultur",
@@ -626,7 +626,7 @@
         "comment": "Gardasee Tagesausflug",
         "cat": "badespass",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/gardasee.jpg",
+        "image": "../assets/aktivitaeten/gardasee.webp",
         "alt": "Riva del Garda am Gardasee",
         "tags": [
           "Badespaß",
@@ -644,7 +644,7 @@
         "comment": "Bauernmarkt Eppan",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+        "image": "../assets/aktivitaeten/bauernmarkt-eppan.webp",
         "alt": "Marktstand mit frischem Gemüse am Bauernmarkt St. Michael/Eppan",
         "tags": [
           "Kultur",
@@ -662,7 +662,7 @@
         "comment": "Brennerei St. Urban",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "image": "../assets/aktivitaeten/brennerei-st-urban.webp",
         "position": "62% 38%",
         "alt": "Verkostung in der Brennerei St. Urban in Girlan, Eppan",
         "tags": [
@@ -681,7 +681,7 @@
         "comment": "Eislöcher-Wanderung",
         "cat": "wandern",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+        "image": "../assets/aktivitaeten/eisloecher-wanderung.webp",
         "alt": "Wanderweg zu den Eislöchern bei Eppan",
         "tags": [
           "Wandern",
@@ -699,7 +699,7 @@
         "comment": "Bogenparcours Hocheppan",
         "cat": "kultur",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.webp",
         "position": "12% 40%",
         "alt": "Bogenschütze am Bogenparcours bei Burg Hocheppan",
         "tags": [
@@ -718,7 +718,7 @@
         "comment": "Sektmanufaktur Winkler",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.webp",
         "position": "30% 25%",
         "alt": "Sekt-Verkostung in der Sektmanufaktur Winkler in Girlan",
         "tags": [
@@ -737,7 +737,7 @@
         "comment": "Paulser Dom",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/paulser-dom-kirchturm.jpg",
+        "image": "../assets/aktivitaeten/paulser-dom-kirchturm.webp",
         "position": "50% 40%",
         "alt": "Der Paulser Dom mit seinem markanten Zwiebelturm über den Weinbergen von St. Pauls, Eppan",
         "tags": [
@@ -756,7 +756,7 @@
         "comment": "Langer Mittwoch",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.jpg",
+        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.webp",
         "alt": "Bunte Schirme über der Dorfgasse beim Langen Mittwoch in St. Michael/Eppan",
         "tags": [
           "Kultur",
@@ -774,7 +774,7 @@
         "comment": "Kochkurs Knödel & Schlutzkrapfen",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.webp",
         "alt": "Teller mit hausgemachten Schlutzkrapfen (Schlutzer) beim Südtiroler Kochkurs",
         "tags": [
           "Kultur",
@@ -792,7 +792,7 @@
         "comment": "MTB-Tour Montiggler Wald",
         "cat": "bike",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.jpg",
+        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.webp",
         "alt": "Mountainbiker im Montiggler Wald",
         "tags": [
           "Bike",
@@ -823,7 +823,7 @@
       {
         "key": "wandern",
         "num": "01",
-        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.jpg",
+        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.webp",
         "bg_alt": "Escursionisti tra i vigneti vicino ad Appiano",
         "eyebrow": "Escursioni",
         "heading": "Dai vigneti alla vetta",
@@ -831,20 +831,20 @@
         "body": "Che sia una breve passeggiata tra i vigneti, un giro di mezza giornata intorno ai Laghi di Monticolo o un'escursione in vetta al Roen a oltre 2100 metri, i sentieri attraversano tutte le quote di Appiano, dal fondovalle fino alla zona alpina.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
+            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.webp",
             "alt": "Bosco di Monticolo con i laghi",
             "title": "Bosco di Monticolo con i laghi",
             "meta": "Mezza giornata",
             "position": "55% 65%"
           },
           {
-            "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+            "image": "../assets/aktivitaeten/wanderung-roen.webp",
             "alt": "Tour del Roen",
             "title": "Tour del Roen",
             "meta": "Giornata intera"
           },
           {
-            "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+            "image": "../assets/aktivitaeten/eisloecher-wanderung.webp",
             "alt": "Sentiero verso le buche di ghiaccio (Eislöcher) vicino ad Appiano",
             "title": "Sentiero delle buche di ghiaccio",
             "meta": "Breve"
@@ -862,14 +862,14 @@
         "body": "Chi vuole proseguire segue la pista ciclabile della Val d'Adige fino a Merano, oppure percorre l'anello del Mitterberg da Appiano attraverso il Lago di Caldaro e Ora fino a Bolzano, quasi sempre pianeggiante, tra frutteti e antichi masi.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+            "image": "../assets/aktivitaeten/bike-kalterer-see.webp",
             "alt": "Vino &amp; bici al Lago di Caldaro",
             "position": "82% 60%",
             "title": "Vino &amp; bici al Lago di Caldaro",
             "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/radtour-meran.jpg",
+            "image": "../assets/aktivitaeten/radtour-meran.webp",
             "alt": "Pista ciclabile Val d'Adige, Merano",
             "title": "Pista ciclabile Val d'Adige, Merano",
             "meta": "Giornata intera"
@@ -885,7 +885,7 @@
       {
         "key": "burgen",
         "num": "03",
-        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.webp",
         "bg_alt": "Mura e torre del castello di Hocheppan",
         "eyebrow": "Castelli",
         "heading": "Tre castelli, mille anni di storia",
@@ -893,20 +893,20 @@
         "body": "Chi prosegue trova nel castello di Sigmundskron il Messner Mountain Museum Firmian: storia dell'alpinismo con vista panoramica su Bolzano.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.webp",
             "position": "50% 50%",
             "alt": "Punto panoramico presso il castello di Boymont, Sentiero delle Tre Castella",
             "title": "Sentiero delle Tre Castella",
             "meta": "Mezza giornata"
           },
           {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "image": "../assets/aktivitaeten/burg-hocheppan.webp",
             "alt": "Castello di Hocheppan",
             "title": "Castello di Hocheppan",
             "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.webp",
             "alt": "MMM Firmian",
             "title": "MMM Firmian",
             "meta": "Mezza giornata"
@@ -916,7 +916,7 @@
       {
         "key": "golf",
         "num": "04",
-        "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "bg_image": "../assets/aktivitaeten/golfclub-eppan.webp",
         "bg_alt": "Golfclub Appiano Blue Monster dall'alto",
         "eyebrow": "Golf",
         "heading": "Tee-off con vista sul castello",
@@ -924,19 +924,19 @@
         "body": "Per round più lunghi, l'impianto da 9 buche di Lana e il campo da 18 buche Dolomiti sulla Mendola sono raggiungibili in circa 30-45 minuti d'auto.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+            "image": "../assets/aktivitaeten/golfclub-eppan.webp",
             "alt": "Golfclub Appiano \"Blue Monster\"",
             "title": "Golfclub Appiano \"Blue Monster\"",
             "meta": "Mezza giornata"
           },
           {
-            "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+            "image": "../assets/aktivitaeten/golf-center-freudenstein.webp",
             "alt": "Centro di allenamento Freudenstein",
             "title": "Centro di allenamento Freudenstein",
             "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+            "image": "../assets/aktivitaeten/golfclub-dolomiti.webp",
             "alt": "Golfclub Dolomiti",
             "title": "Golfclub Dolomiti",
             "meta": "Giornata intera"
@@ -946,7 +946,7 @@
       {
         "key": "kultur",
         "num": "05",
-        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.jpg",
+        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.webp",
         "bg_alt": "Corteo in costume tradizionale al festival Castelmusika di Appiano",
         "eyebrow": "Cultura",
         "heading": "Tradizione, vino e gusto",
@@ -954,19 +954,19 @@
         "body": "La Cantina di St. Paolo apre le sue porte per la visita guidata tra i vigneti e per il tour \"Preclarus\" nel suo storico bunker spumantistico, la Distilleria St. Urban e la Sektmanufaktur Winkler mostrano il loro artigianato, e durante il \"Langer Mittwoch\" il paese si trasforma in un palcoscenico estivo.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+            "image": "../assets/aktivitaeten/bauernmarkt-eppan.webp",
             "alt": "Bancarella con verdura fresca al mercato contadino di San Michele/Appiano",
             "title": "Mercato contadino di Appiano",
             "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.webp",
             "alt": "Vigneti della Cantina di St. Paolo",
             "title": "Cantina di St. Paolo",
             "meta": "Breve"
           },
           {
-            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.webp",
             "alt": "Piatto di schlutzkrapfen (Schlutzer) fatti in casa durante il corso di cucina altoatesina",
             "title": "Corso di Schlutzkrapfen",
             "meta": "Breve"
@@ -984,20 +984,20 @@
         "body": "Chi vuole dedicare un'intera giornata può passare per il Passo della Mendola o per la Val d'Adige fino al Lago di Garda, Riva del Garda e Torbole con lungolago, windsurfisti e la funivia sul Monte Baldo.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+            "image": "../assets/aktivitaeten/badespass-kalterer-see.webp",
             "alt": "Lago di Caldaro",
             "title": "Lago di Caldaro",
             "meta": "Mezza giornata",
             "position": "0% 65%"
           },
           {
-            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.webp",
             "alt": "Laghi di Monticolo",
             "title": "Laghi di Monticolo",
             "meta": "Mezza giornata"
           },
           {
-            "image": "../assets/aktivitaeten/gardasee.jpg",
+            "image": "../assets/aktivitaeten/gardasee.webp",
             "alt": "Gita al Lago di Garda",
             "title": "Gita al Lago di Garda",
             "meta": "Giornata intera"
@@ -1054,7 +1054,7 @@
         "comment": "Drei-Burgen-Wanderung",
         "cat": "wandern burgen",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.webp",
         "position": "50% 50%",
         "alt": "Castello di Korb, Sentiero delle Tre Castella",
         "tags": [
@@ -1073,7 +1073,7 @@
         "comment": "Schloss Hocheppan",
         "cat": "burgen",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "image": "../assets/aktivitaeten/burg-hocheppan.webp",
         "position": "38% 35%",
         "alt": "Castello di Hocheppan con la cappella",
         "tags": [
@@ -1092,7 +1092,7 @@
         "comment": "Schloss Boymont",
         "cat": "burgen",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "image": "../assets/aktivitaeten/schloss-boymont.webp",
         "alt": "Castello di Boymont vicino ad Appiano",
         "tags": [
           "Cultura",
@@ -1110,7 +1110,7 @@
         "comment": "Frühlingstal",
         "cat": "wandern badespass",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/fruehlingstal.jpg",
+        "image": "../assets/aktivitaeten/fruehlingstal.webp",
         "alt": "Frühlingstal vicino ad Appiano",
         "tags": [
           "Escursioni",
@@ -1128,7 +1128,7 @@
         "comment": "Montiggler Wald mit Seen",
         "cat": "wandern",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
+        "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.webp",
         "alt": "Escursionisti si riposano sulla riva del Lago di Monticolo in autunno",
         "tags": [
           "Escursioni",
@@ -1146,7 +1146,7 @@
         "comment": "Radweg Überetsch",
         "cat": "bike",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+        "image": "../assets/aktivitaeten/bike-kalterer-see.webp",
         "alt": "Pista ciclabile dell'Oltradige, Appiano",
         "tags": [
           "Bici",
@@ -1165,7 +1165,7 @@
         "comment": "Etschtal-Radweg",
         "cat": "bike",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/radtour-meran.jpg",
+        "image": "../assets/aktivitaeten/radtour-meran.webp",
         "alt": "Pista ciclabile della Val d'Adige verso Merano",
         "tags": [
           "Bici",
@@ -1184,7 +1184,7 @@
         "comment": "Trainingscenter Schloss Freudenstein",
         "cat": "golf",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "image": "../assets/aktivitaeten/golf-center-freudenstein.webp",
         "position": "60% 10%",
         "alt": "Centro di allenamento Schloss Freudenstein",
         "tags": [
@@ -1202,7 +1202,7 @@
         "comment": "Golfclub Eppan Blue Monster",
         "cat": "golf",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "image": "../assets/aktivitaeten/golfclub-eppan.webp",
         "alt": "Golfclub Appiano Blue Monster",
         "tags": [
           "Golf"
@@ -1219,7 +1219,7 @@
         "comment": "Golfclub Lana",
         "cat": "golf",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "image": "../assets/aktivitaeten/golfclub-lana.webp",
         "position": "40% 45%",
         "alt": "Golfclub Lana Gutshof Brandis",
         "tags": [
@@ -1237,7 +1237,7 @@
         "comment": "Golfclub Dolomiti Sarnonico",
         "cat": "golf",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+        "image": "../assets/aktivitaeten/golfclub-dolomiti.webp",
         "alt": "Golfclub Dolomiti Sarnonico sulla Mendola",
         "tags": [
           "Golf",
@@ -1255,7 +1255,7 @@
         "comment": "Kalterer See",
         "cat": "badespass",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+        "image": "../assets/aktivitaeten/badespass-kalterer-see.webp",
         "alt": "Lago di Caldaro",
         "tags": [
           "Balneazione",
@@ -1274,7 +1274,7 @@
         "comment": "Montiggler Seen",
         "cat": "badespass wandern",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/montiggler-see-bootssteg.jpg",
+        "image": "../assets/aktivitaeten/montiggler-see-bootssteg.webp",
         "alt": "Due donne passeggiano sul pontile del Lago di Monticolo",
         "tags": [
           "Balneazione",
@@ -1292,7 +1292,7 @@
         "comment": "MMM Firmian",
         "cat": "burgen kultur",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+        "image": "../assets/aktivitaeten/schloss-sigmundskron.webp",
         "alt": "MMM Firmian, castello di Sigmundskron",
         "tags": [
           "Cultura",
@@ -1310,7 +1310,7 @@
         "comment": "Mendel-Wanderung",
         "cat": "wandern kultur",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "image": "../assets/aktivitaeten/mendelbahn.webp",
         "position": "70% 55%",
         "alt": "Funicolare della Mendola per l'escursione",
         "tags": [
@@ -1329,7 +1329,7 @@
         "comment": "Roen",
         "cat": "wandern",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "image": "../assets/aktivitaeten/wanderung-roen.webp",
         "position": "64% 45%",
         "alt": "Roen, la vetta più alta del Gruppo della Mendola",
         "tags": [
@@ -1348,7 +1348,7 @@
         "comment": "Leuchtenburg",
         "cat": "wandern badespass",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.jpg",
+        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.webp",
         "alt": "Rovina di Leuchtenburg sopra il Lago di Caldaro",
         "tags": [
           "Escursioni",
@@ -1366,7 +1366,7 @@
         "comment": "Gleifkirche & Kreuzstein",
         "cat": "wandern kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/gleif-kirche.jpg",
+        "image": "../assets/aktivitaeten/gleif-kirche.webp",
         "alt": "Chiesa di Gleif vicino ad Appiano",
         "tags": [
           "Escursioni",
@@ -1402,7 +1402,7 @@
         "comment": "Kellerei St. Pauls Weinführung",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+        "image": "../assets/aktivitaeten/kellerei-st-pauls.webp",
         "alt": "Vigneti della Cantina di St. Paolo",
         "tags": [
           "Cultura",
@@ -1438,7 +1438,7 @@
         "comment": "Gardasee Tagesausflug",
         "cat": "badespass",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/gardasee.jpg",
+        "image": "../assets/aktivitaeten/gardasee.webp",
         "alt": "Riva del Garda sul Lago di Garda",
         "tags": [
           "Balneazione",
@@ -1456,7 +1456,7 @@
         "comment": "Bauernmarkt Eppan",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+        "image": "../assets/aktivitaeten/bauernmarkt-eppan.webp",
         "alt": "Bancarella con verdura fresca al mercato contadino di San Michele/Appiano",
         "tags": [
           "Cultura",
@@ -1474,7 +1474,7 @@
         "comment": "Brennerei St. Urban",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "image": "../assets/aktivitaeten/brennerei-st-urban.webp",
         "position": "62% 38%",
         "alt": "Degustazione alla Distilleria St. Urban a Cornaiano, Appiano",
         "tags": [
@@ -1493,7 +1493,7 @@
         "comment": "Eislöcher-Wanderung",
         "cat": "wandern",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+        "image": "../assets/aktivitaeten/eisloecher-wanderung.webp",
         "alt": "Sentiero verso le buche di ghiaccio (Eislöcher) vicino ad Appiano",
         "tags": [
           "Escursioni",
@@ -1511,7 +1511,7 @@
         "comment": "Bogenparcours Hocheppan",
         "cat": "kultur",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.webp",
         "position": "12% 40%",
         "alt": "Arciere al percorso d'arco presso il castello di Hocheppan",
         "tags": [
@@ -1530,7 +1530,7 @@
         "comment": "Sektmanufaktur Winkler",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.webp",
         "position": "30% 25%",
         "alt": "Degustazione di spumante alla Sektmanufaktur Winkler a Cornaiano",
         "tags": [
@@ -1549,7 +1549,7 @@
         "comment": "Langer Mittwoch",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.jpg",
+        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.webp",
         "alt": "Ombrelli colorati sopra i vicoli durante il Langer Mittwoch a San Michele/Appiano",
         "tags": [
           "Cultura",
@@ -1567,7 +1567,7 @@
         "comment": "Kochkurs Knödel & Schlutzkrapfen",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.webp",
         "alt": "Piatto di schlutzkrapfen (Schlutzer) fatti in casa durante il corso di cucina altoatesina",
         "tags": [
           "Cultura",
@@ -1585,7 +1585,7 @@
         "comment": "MTB-Tour Montiggler Wald",
         "cat": "bike",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.jpg",
+        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.webp",
         "alt": "Mountain bike nel Bosco di Monticolo",
         "tags": [
           "Bike",
@@ -1616,7 +1616,7 @@
       {
         "key": "wandern",
         "num": "01",
-        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.jpg",
+        "bg_image": "../assets/aktivitaeten/wandern-eppan-reben.webp",
         "bg_alt": "Hikers among the vineyards near Eppan",
         "eyebrow": "Hiking",
         "heading": "From the vineyards to the summit",
@@ -1624,20 +1624,20 @@
         "body": "Whether a short walk through the vines, a half-day loop around the Montiggl Lakes, or a summit hike up Mount Roen at over 2,100 metres, the trails cross every altitude around Eppan, from the valley floor up into the alpine zone.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
+            "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.webp",
             "alt": "Montiggl forest with its lakes",
             "title": "Montiggl forest with its lakes",
             "meta": "Half-day",
             "position": "55% 65%"
           },
           {
-            "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+            "image": "../assets/aktivitaeten/wanderung-roen.webp",
             "alt": "Mount Roen summit tour",
             "title": "Mount Roen summit tour",
             "meta": "Full day"
           },
           {
-            "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+            "image": "../assets/aktivitaeten/eisloecher-wanderung.webp",
             "alt": "Trail to the Eislöcher ice holes near Eppan",
             "title": "Eislöcher ice-hole hike",
             "meta": "Short"
@@ -1655,14 +1655,14 @@
         "body": "Those wanting to go further can follow the Adige Valley cycle path all the way to Merano, or ride the Mitterberg loop from Eppan via Lake Caldaro and Auer to Bolzano, nearly all flat, through orchards and old farmsteads.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+            "image": "../assets/aktivitaeten/bike-kalterer-see.webp",
             "alt": "Wine &amp; biking at Lake Caldaro",
             "position": "82% 60%",
             "title": "Wine &amp; biking at Lake Caldaro",
             "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/radtour-meran.jpg",
+            "image": "../assets/aktivitaeten/radtour-meran.webp",
             "alt": "Adige Valley cycle path to Merano",
             "title": "Adige Valley cycle path to Merano",
             "meta": "Full day"
@@ -1678,7 +1678,7 @@
       {
         "key": "burgen",
         "num": "03",
-        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.jpg",
+        "bg_image": "../assets/aktivitaeten/hocheppan-burgmauer.webp",
         "bg_alt": "Castle wall and tower of Hocheppan Castle",
         "eyebrow": "Castles",
         "heading": "Three castles, a thousand years of history",
@@ -1686,20 +1686,20 @@
         "body": "Further afield, Sigmundskron Castle houses the Messner Mountain Museum Firmian: the history of mountaineering with a panoramic view over Bolzano.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+            "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.webp",
             "position": "50% 50%",
             "alt": "Viewpoint near Boymont Castle, Three Castles Hike",
             "title": "Three Castles hike",
             "meta": "Half-day"
           },
           {
-            "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+            "image": "../assets/aktivitaeten/burg-hocheppan.webp",
             "alt": "Hocheppan Castle",
             "title": "Hocheppan Castle",
             "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+            "image": "../assets/aktivitaeten/schloss-sigmundskron.webp",
             "alt": "MMM Firmian",
             "title": "MMM Firmian",
             "meta": "Half-day"
@@ -1709,7 +1709,7 @@
       {
         "key": "golf",
         "num": "04",
-        "bg_image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "bg_image": "../assets/aktivitaeten/golfclub-eppan.webp",
         "bg_alt": "Golf Club Eppan Blue Monster from above",
         "eyebrow": "Golf",
         "heading": "Tee off with a view of the castle",
@@ -1717,19 +1717,19 @@
         "body": "For longer rounds, the 9-hole course in Lana and the 18-hole Golf Club Dolomiti on Mendel Pass are within about a 30-45 minute drive.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+            "image": "../assets/aktivitaeten/golfclub-eppan.webp",
             "alt": "Golf Club Eppan \"Blue Monster\"",
             "title": "Golf Club Eppan \"Blue Monster\"",
             "meta": "Half-day"
           },
           {
-            "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+            "image": "../assets/aktivitaeten/golf-center-freudenstein.webp",
             "alt": "Freudenstein training centre",
             "title": "Freudenstein training centre",
             "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+            "image": "../assets/aktivitaeten/golfclub-dolomiti.webp",
             "alt": "Golf Club Dolomiti",
             "title": "Golf Club Dolomiti",
             "meta": "Full day"
@@ -1739,7 +1739,7 @@
       {
         "key": "kultur",
         "num": "05",
-        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.jpg",
+        "bg_image": "../assets/aktivitaeten/castelmusika-tracht.webp",
         "bg_alt": "Traditional costume procession at the Castelmusika festival in Eppan",
         "eyebrow": "Culture",
         "heading": "Tradition, wine and flavour",
@@ -1747,19 +1747,19 @@
         "body": "The St. Pauls winery opens its doors for a guided walk through the vineyards and the \"Preclarus\" tour through its historic sparkling-wine bunker, the St. Urban distillery and the Winkler sparkling-wine manufactory show their craft, and during the \"Langer Mittwoch\" the village turns into a summer stage.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+            "image": "../assets/aktivitaeten/bauernmarkt-eppan.webp",
             "alt": "Market stall with fresh vegetables at the St. Michael/Eppan farmers' market",
             "title": "Eppan farmers' market",
             "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+            "image": "../assets/aktivitaeten/kellerei-st-pauls.webp",
             "alt": "St. Pauls winery vineyards",
             "title": "St. Pauls winery",
             "meta": "Short"
           },
           {
-            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+            "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.webp",
             "alt": "Plate of homemade Schlutzkrapfen (Schlutzer) at the South Tyrolean cooking class",
             "title": "Schlutzkrapfen cooking class",
             "meta": "Short"
@@ -1777,20 +1777,20 @@
         "body": "For a full day out, drive over Mendel Pass or through the Adige Valley to Lake Garda, Riva del Garda and Torbole with their lakeside promenades, windsurfers and the Monte Baldo cable car.",
         "tips": [
           {
-            "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+            "image": "../assets/aktivitaeten/badespass-kalterer-see.webp",
             "alt": "Lake Caldaro",
             "title": "Lake Caldaro",
             "meta": "Half-day",
             "position": "0% 65%"
           },
           {
-            "image": "../assets/aktivitaeten/grosser-montiggler-see.jpg",
+            "image": "../assets/aktivitaeten/grosser-montiggler-see.webp",
             "alt": "Montiggl Lakes",
             "title": "Montiggl Lakes",
             "meta": "Half-day"
           },
           {
-            "image": "../assets/aktivitaeten/gardasee.jpg",
+            "image": "../assets/aktivitaeten/gardasee.webp",
             "alt": "Day trip to Lake Garda",
             "title": "Day trip to Lake Garda",
             "meta": "Full day"
@@ -1847,7 +1847,7 @@
         "comment": "Drei-Burgen-Wanderung",
         "cat": "wandern burgen",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.jpg",
+        "image": "../assets/aktivitaeten/aussichtsplattform-flagge-drei-burgen.webp",
         "position": "50% 50%",
         "alt": "Korb Castle, Three Castles Hike",
         "tags": [
@@ -1866,7 +1866,7 @@
         "comment": "Schloss Hocheppan",
         "cat": "burgen",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/burg-hocheppan.jpg",
+        "image": "../assets/aktivitaeten/burg-hocheppan.webp",
         "position": "38% 35%",
         "alt": "Hocheppan Castle with its chapel",
         "tags": [
@@ -1885,7 +1885,7 @@
         "comment": "Schloss Boymont",
         "cat": "burgen",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/schloss-boymont.jpg",
+        "image": "../assets/aktivitaeten/schloss-boymont.webp",
         "alt": "Boymont Castle near Eppan",
         "tags": [
           "Culture",
@@ -1903,7 +1903,7 @@
         "comment": "Frühlingstal",
         "cat": "wandern badespass",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/fruehlingstal.jpg",
+        "image": "../assets/aktivitaeten/fruehlingstal.webp",
         "alt": "Frühlingstal near Eppan",
         "tags": [
           "Hiking",
@@ -1921,7 +1921,7 @@
         "comment": "Montiggler Wald mit Seen",
         "cat": "wandern",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.jpg",
+        "image": "../assets/aktivitaeten/montiggler-see-herbstwanderung.webp",
         "alt": "Hikers resting on the shore of Lake Monticolo in autumn",
         "tags": [
           "Hiking",
@@ -1939,7 +1939,7 @@
         "comment": "Radweg Überetsch",
         "cat": "bike",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/bike-kalterer-see.jpg",
+        "image": "../assets/aktivitaeten/bike-kalterer-see.webp",
         "alt": "Überetsch cycle path, Eppan",
         "tags": [
           "Biking",
@@ -1958,7 +1958,7 @@
         "comment": "Etschtal-Radweg",
         "cat": "bike",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/radtour-meran.jpg",
+        "image": "../assets/aktivitaeten/radtour-meran.webp",
         "alt": "Adige Valley cycle path to Merano",
         "tags": [
           "Biking",
@@ -1977,7 +1977,7 @@
         "comment": "Trainingscenter Schloss Freudenstein",
         "cat": "golf",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/golf-center-freudenstein.jpg",
+        "image": "../assets/aktivitaeten/golf-center-freudenstein.webp",
         "position": "60% 10%",
         "alt": "Schloss Freudenstein training centre",
         "tags": [
@@ -1995,7 +1995,7 @@
         "comment": "Golfclub Eppan Blue Monster",
         "cat": "golf",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/golfclub-eppan.jpg",
+        "image": "../assets/aktivitaeten/golfclub-eppan.webp",
         "alt": "Golf Club Eppan Blue Monster",
         "tags": [
           "Golf"
@@ -2012,7 +2012,7 @@
         "comment": "Golfclub Lana",
         "cat": "golf",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/golfclub-lana.jpg",
+        "image": "../assets/aktivitaeten/golfclub-lana.webp",
         "position": "40% 45%",
         "alt": "Golf Club Lana Gutshof Brandis",
         "tags": [
@@ -2030,7 +2030,7 @@
         "comment": "Golfclub Dolomiti Sarnonico",
         "cat": "golf",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/golfclub-dolomiti.jpg",
+        "image": "../assets/aktivitaeten/golfclub-dolomiti.webp",
         "alt": "Golf Club Dolomiti Sarnonico on Mendel Pass",
         "tags": [
           "Golf",
@@ -2048,7 +2048,7 @@
         "comment": "Kalterer See",
         "cat": "badespass",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/badespass-kalterer-see.jpg",
+        "image": "../assets/aktivitaeten/badespass-kalterer-see.webp",
         "alt": "Lake Caldaro",
         "tags": [
           "Swimming",
@@ -2067,7 +2067,7 @@
         "comment": "Montiggler Seen",
         "cat": "badespass wandern",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/montiggler-see-bootssteg.jpg",
+        "image": "../assets/aktivitaeten/montiggler-see-bootssteg.webp",
         "alt": "Two women walking along the jetty at Lake Monticolo",
         "tags": [
           "Swimming",
@@ -2085,7 +2085,7 @@
         "comment": "MMM Firmian",
         "cat": "burgen kultur",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/schloss-sigmundskron.jpg",
+        "image": "../assets/aktivitaeten/schloss-sigmundskron.webp",
         "alt": "MMM Firmian, Sigmundskron Castle",
         "tags": [
           "Culture",
@@ -2103,7 +2103,7 @@
         "comment": "Mendel-Wanderung",
         "cat": "wandern kultur",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/mendelbahn.jpg",
+        "image": "../assets/aktivitaeten/mendelbahn.webp",
         "position": "70% 55%",
         "alt": "Mendel funicular for the hike",
         "tags": [
@@ -2122,7 +2122,7 @@
         "comment": "Roen",
         "cat": "wandern",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/wanderung-roen.jpg",
+        "image": "../assets/aktivitaeten/wanderung-roen.webp",
         "position": "64% 45%",
         "alt": "Mount Roen, the highest peak of the Mendel range",
         "tags": [
@@ -2141,7 +2141,7 @@
         "comment": "Leuchtenburg",
         "cat": "wandern badespass",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.jpg",
+        "image": "../assets/aktivitaeten/wanderung-leuchtenburg.webp",
         "alt": "Leuchtenburg ruin above Lake Caldaro",
         "tags": [
           "Hiking",
@@ -2159,7 +2159,7 @@
         "comment": "Gleifkirche & Kreuzstein",
         "cat": "wandern kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/gleif-kirche.jpg",
+        "image": "../assets/aktivitaeten/gleif-kirche.webp",
         "alt": "Gleif church near Eppan",
         "tags": [
           "Hiking",
@@ -2195,7 +2195,7 @@
         "comment": "Kellerei St. Pauls Weinführung",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/kellerei-st-pauls.jpg",
+        "image": "../assets/aktivitaeten/kellerei-st-pauls.webp",
         "alt": "St. Pauls winery vineyards",
         "tags": [
           "Culture",
@@ -2231,7 +2231,7 @@
         "comment": "Gardasee Tagesausflug",
         "cat": "badespass",
         "zeit": "ganztags",
-        "image": "../assets/aktivitaeten/gardasee.jpg",
+        "image": "../assets/aktivitaeten/gardasee.webp",
         "alt": "Riva del Garda on Lake Garda",
         "tags": [
           "Swimming",
@@ -2249,7 +2249,7 @@
         "comment": "Bauernmarkt Eppan",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/bauernmarkt-eppan.jpg",
+        "image": "../assets/aktivitaeten/bauernmarkt-eppan.webp",
         "alt": "Market stall with fresh vegetables at the St. Michael/Eppan farmers' market",
         "tags": [
           "Culture",
@@ -2267,7 +2267,7 @@
         "comment": "Brennerei St. Urban",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/brennerei-st-urban.jpg",
+        "image": "../assets/aktivitaeten/brennerei-st-urban.webp",
         "position": "62% 38%",
         "alt": "Tasting at the St. Urban distillery in Girlan, Eppan",
         "tags": [
@@ -2286,7 +2286,7 @@
         "comment": "Eislöcher-Wanderung",
         "cat": "wandern",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/eisloecher-wanderung.jpg",
+        "image": "../assets/aktivitaeten/eisloecher-wanderung.webp",
         "alt": "Trail to the Eislöcher ice holes near Eppan",
         "tags": [
           "Hiking",
@@ -2304,7 +2304,7 @@
         "comment": "Bogenparcours Hocheppan",
         "cat": "kultur",
         "zeit": "halbtags",
-        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.jpg",
+        "image": "../assets/aktivitaeten/bogenparcours-hocheppan.webp",
         "position": "12% 40%",
         "alt": "Archer at the archery course near Hocheppan Castle",
         "tags": [
@@ -2323,7 +2323,7 @@
         "comment": "Sektmanufaktur Winkler",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.jpg",
+        "image": "../assets/aktivitaeten/sektmanufaktur-winkler.webp",
         "position": "30% 25%",
         "alt": "Sparkling wine tasting at Sektmanufaktur Winkler in Girlan",
         "tags": [
@@ -2342,7 +2342,7 @@
         "comment": "Langer Mittwoch",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.jpg",
+        "image": "../assets/aktivitaeten/langer-mittwoch-eppan.webp",
         "alt": "Colourful umbrellas over the lanes during Langer Mittwoch in St. Michael/Eppan",
         "tags": [
           "Culture",
@@ -2360,7 +2360,7 @@
         "comment": "Kochkurs Knödel & Schlutzkrapfen",
         "cat": "kultur",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.jpg",
+        "image": "../assets/aktivitaeten/kochkurs-suedtiroler-kueche.webp",
         "alt": "Plate of homemade Schlutzkrapfen (Schlutzer) at the South Tyrolean cooking class",
         "tags": [
           "Culture",
@@ -2378,7 +2378,7 @@
         "comment": "MTB-Tour Montiggler Wald",
         "cat": "bike",
         "zeit": "kurz",
-        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.jpg",
+        "image": "../assets/aktivitaeten/mtb-tour-montiggler-wald.webp",
         "alt": "Mountain bikers in Monticolo Forest",
         "tags": [
           "Biking",

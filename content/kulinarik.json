@@ -6,27 +6,27 @@
     "hero_text": "Wir kochen nicht mehr selbst, verraten euch aber gern, wohin wir zum Essen gehen: von der Pizza um die Ecke bis zum Aperitivo im historischen Ansitz.",
     "polaroids": [
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-5.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-5.webp",
         "alt": "Regionales Gericht, modern angerichtet",
         "caption": "Genuss in der Nachbarschaft"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-aperitivo-cocktail.jpg",
+        "image": "../assets/kulinarik/header/polaroid-aperitivo-cocktail.webp",
         "alt": "Cocktail mit Beeren-Garnitur in der Abendsonne",
         "caption": "Aperitivo-Stunde"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-4.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-4.webp",
         "alt": "Pizza Margherita",
         "caption": "Pizza-Klassiker"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-2.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-2.webp",
         "alt": "Südtiroler Knödel mit Rindsbraten",
         "caption": "Deftig &amp; regional"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-3.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-3.webp",
         "alt": "Geröstete Keschtn zum Törggelen",
         "caption": "Törggelen-Zeit"
       }
@@ -35,7 +35,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "fuss",
-        "image": "../assets/kulinarik/paulserhof.jpg",
+        "image": "../assets/kulinarik/paulserhof.webp",
         "img_alt": "Paulserhof, St. Pauls",
         "tags": [
           "Restaurant",
@@ -55,7 +55,7 @@
       {
         "cat": "aperitivo restaurant",
         "dist": "fuss",
-        "image": "../assets/kulinarik/allegra.jpg",
+        "image": "../assets/kulinarik/allegra.webp",
         "img_alt": "Allegra Weinbar, St. Pauls",
         "tags": [
           "Aperitivo",
@@ -76,7 +76,7 @@
       {
         "cat": "pizza",
         "dist": "fuss",
-        "image": "../assets/kulinarik/liliane.jpg",
+        "image": "../assets/kulinarik/liliane.webp",
         "img_alt": "Liliane Pizzeria Café Eisdiele, St. Pauls",
         "tags": [
           "Pizza",
@@ -96,7 +96,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "fuss",
-        "image": "../assets/kulinarik/guten-tropfen.jpg",
+        "image": "../assets/kulinarik/guten-tropfen.webp",
         "img_alt": "Gasthof zum Guten Tropfen, St. Pauls",
         "tags": [
           "Restaurant",
@@ -116,7 +116,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "auto",
-        "image": "../assets/kulinarik/pfeffermuehle.jpg",
+        "image": "../assets/kulinarik/pfeffermuehle.webp",
         "img_alt": "Restaurant Pizzeria Pfeffermühle, St. Michael/Eppan",
         "tags": [
           "Restaurant",
@@ -136,7 +136,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "auto",
-        "image": "../assets/kulinarik/platzegg.jpg",
+        "image": "../assets/kulinarik/platzegg.webp",
         "img_alt": "Osteria Platzegg, St. Michael/Eppan",
         "tags": [
           "Restaurant",
@@ -156,7 +156,7 @@
       {
         "cat": "restaurant pizza aperitivo",
         "dist": "auto",
-        "image": "../assets/kulinarik/meraner.jpg",
+        "image": "../assets/kulinarik/meraner.webp",
         "img_alt": "Restaurant Pizzeria Meraner, St. Michael/Eppan",
         "tags": [
           "Restaurant",
@@ -177,7 +177,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "auto",
-        "image": "../assets/kulinarik/wiesenheim.jpg",
+        "image": "../assets/kulinarik/wiesenheim.webp",
         "img_alt": "Restaurant Pizzeria Wiesenheim, Unterrain/Eppan",
         "tags": [
           "Restaurant",
@@ -197,7 +197,7 @@
       {
         "cat": "restaurant aperitivo",
         "dist": "auto",
-        "image": "../assets/kulinarik/golfclub-eppan.jpg",
+        "image": "../assets/kulinarik/golfclub-eppan.webp",
         "img_alt": "The Grillhouse, Golfclub Eppan",
         "tags": [
           "Restaurant",
@@ -223,27 +223,27 @@
     "hero_text": "Non cuciniamo più noi, ma vi sveliamo volentieri dove andiamo a mangiare: dalla pizza dietro l'angolo all'aperitivo in un antico ansitz.",
     "polaroids": [
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-5.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-5.webp",
         "alt": "Piatto regionale, presentazione moderna",
         "caption": "Gusto nel vicinato"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-aperitivo-cocktail.jpg",
+        "image": "../assets/kulinarik/header/polaroid-aperitivo-cocktail.webp",
         "alt": "Cocktail guarnito con frutti di bosco al tramonto",
         "caption": "L'ora dell'aperitivo"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-4.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-4.webp",
         "alt": "Pizza Margherita",
         "caption": "Classici della pizza"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-2.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-2.webp",
         "alt": "Canederli altoatesini con arrosto di manzo",
         "caption": "Gusto deciso &amp; regionale"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-3.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-3.webp",
         "alt": "Castagne arrostite per il Törggelen",
         "caption": "Stagione del Törggelen"
       }
@@ -252,7 +252,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "fuss",
-        "image": "../assets/kulinarik/paulserhof.jpg",
+        "image": "../assets/kulinarik/paulserhof.webp",
         "img_alt": "Paulserhof, St. Paolo",
         "tags": [
           "Ristorante",
@@ -272,7 +272,7 @@
       {
         "cat": "aperitivo restaurant",
         "dist": "fuss",
-        "image": "../assets/kulinarik/allegra.jpg",
+        "image": "../assets/kulinarik/allegra.webp",
         "img_alt": "Allegra Weinbar, St. Paolo",
         "tags": [
           "Aperitivo",
@@ -293,7 +293,7 @@
       {
         "cat": "pizza",
         "dist": "fuss",
-        "image": "../assets/kulinarik/liliane.jpg",
+        "image": "../assets/kulinarik/liliane.webp",
         "img_alt": "Liliane Pizzeria Café Gelateria, St. Paolo",
         "tags": [
           "Pizza",
@@ -313,7 +313,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "fuss",
-        "image": "../assets/kulinarik/guten-tropfen.jpg",
+        "image": "../assets/kulinarik/guten-tropfen.webp",
         "img_alt": "Gasthof zum Guten Tropfen, St. Paolo",
         "tags": [
           "Ristorante",
@@ -333,7 +333,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "auto",
-        "image": "../assets/kulinarik/pfeffermuehle.jpg",
+        "image": "../assets/kulinarik/pfeffermuehle.webp",
         "img_alt": "Restaurant Pizzeria Pfeffermühle, San Michele/Appiano",
         "tags": [
           "Ristorante",
@@ -353,7 +353,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "auto",
-        "image": "../assets/kulinarik/platzegg.jpg",
+        "image": "../assets/kulinarik/platzegg.webp",
         "img_alt": "Osteria Platzegg, San Michele/Appiano",
         "tags": [
           "Ristorante",
@@ -373,7 +373,7 @@
       {
         "cat": "restaurant pizza aperitivo",
         "dist": "auto",
-        "image": "../assets/kulinarik/meraner.jpg",
+        "image": "../assets/kulinarik/meraner.webp",
         "img_alt": "Restaurant Pizzeria Meraner, San Michele/Appiano",
         "tags": [
           "Ristorante",
@@ -394,7 +394,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "auto",
-        "image": "../assets/kulinarik/wiesenheim.jpg",
+        "image": "../assets/kulinarik/wiesenheim.webp",
         "img_alt": "Restaurant Pizzeria Wiesenheim, Unterrain/Appiano",
         "tags": [
           "Ristorante",
@@ -414,7 +414,7 @@
       {
         "cat": "restaurant aperitivo",
         "dist": "auto",
-        "image": "../assets/kulinarik/golfclub-eppan.jpg",
+        "image": "../assets/kulinarik/golfclub-eppan.webp",
         "img_alt": "The Grillhouse, Golfclub Appiano",
         "tags": [
           "Ristorante",
@@ -440,27 +440,27 @@
     "hero_text": "We don't cook ourselves anymore, but we're happy to share where we go to eat: from the pizzeria around the corner to aperitivo in a historic manor.",
     "polaroids": [
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-5.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-5.webp",
         "alt": "Regional dish, modern presentation",
         "caption": "Great food in the neighbourhood"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-aperitivo-cocktail.jpg",
+        "image": "../assets/kulinarik/header/polaroid-aperitivo-cocktail.webp",
         "alt": "Cocktail garnished with berries in the evening sun",
         "caption": "Aperitivo hour"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-4.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-4.webp",
         "alt": "Pizza Margherita",
         "caption": "Pizza classics"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-2.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-2.webp",
         "alt": "South Tyrolean dumplings with beef roast",
         "caption": "Hearty &amp; regional"
       },
       {
-        "image": "../assets/kulinarik/header/polaroid-dish-3.jpg",
+        "image": "../assets/kulinarik/header/polaroid-dish-3.webp",
         "alt": "Roasted chestnuts for Törggelen",
         "caption": "Törggelen season"
       }
@@ -469,7 +469,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "fuss",
-        "image": "../assets/kulinarik/paulserhof.jpg",
+        "image": "../assets/kulinarik/paulserhof.webp",
         "img_alt": "Paulserhof, St. Pauls",
         "tags": [
           "Restaurant",
@@ -489,7 +489,7 @@
       {
         "cat": "aperitivo restaurant",
         "dist": "fuss",
-        "image": "../assets/kulinarik/allegra.jpg",
+        "image": "../assets/kulinarik/allegra.webp",
         "img_alt": "Allegra Weinbar, St. Pauls",
         "tags": [
           "Aperitivo",
@@ -510,7 +510,7 @@
       {
         "cat": "pizza",
         "dist": "fuss",
-        "image": "../assets/kulinarik/liliane.jpg",
+        "image": "../assets/kulinarik/liliane.webp",
         "img_alt": "Liliane Pizzeria Café Ice Cream Parlour, St. Pauls",
         "tags": [
           "Pizza",
@@ -530,7 +530,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "fuss",
-        "image": "../assets/kulinarik/guten-tropfen.jpg",
+        "image": "../assets/kulinarik/guten-tropfen.webp",
         "img_alt": "Gasthof zum Guten Tropfen, St. Pauls",
         "tags": [
           "Restaurant",
@@ -550,7 +550,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "auto",
-        "image": "../assets/kulinarik/pfeffermuehle.jpg",
+        "image": "../assets/kulinarik/pfeffermuehle.webp",
         "img_alt": "Restaurant Pizzeria Pfeffermühle, St. Michael/Appiano",
         "tags": [
           "Restaurant",
@@ -570,7 +570,7 @@
       {
         "cat": "restaurant toerggelen",
         "dist": "auto",
-        "image": "../assets/kulinarik/platzegg.jpg",
+        "image": "../assets/kulinarik/platzegg.webp",
         "img_alt": "Osteria Platzegg, St. Michael/Appiano",
         "tags": [
           "Restaurant",
@@ -590,7 +590,7 @@
       {
         "cat": "restaurant pizza aperitivo",
         "dist": "auto",
-        "image": "../assets/kulinarik/meraner.jpg",
+        "image": "../assets/kulinarik/meraner.webp",
         "img_alt": "Restaurant Pizzeria Meraner, St. Michael/Appiano",
         "tags": [
           "Restaurant",
@@ -611,7 +611,7 @@
       {
         "cat": "restaurant pizza",
         "dist": "auto",
-        "image": "../assets/kulinarik/wiesenheim.jpg",
+        "image": "../assets/kulinarik/wiesenheim.webp",
         "img_alt": "Restaurant Pizzeria Wiesenheim, Unterrain/Appiano",
         "tags": [
           "Restaurant",
@@ -631,7 +631,7 @@
       {
         "cat": "restaurant aperitivo",
         "dist": "auto",
-        "image": "../assets/kulinarik/golfclub-eppan.jpg",
+        "image": "../assets/kulinarik/golfclub-eppan.webp",
         "img_alt": "The Grillhouse, Golfclub Appiano",
         "tags": [
           "Restaurant",

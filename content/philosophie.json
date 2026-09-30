@@ -9,7 +9,7 @@
       "heading": "Persönlich geführt, seit Generationen",
       "lede": "Umgeben von Weinreben liegt das Hotel Weinberg in St. Pauls an der Südtiroler Weinstraße: dort, wo das milde mediterrane Klima Palmen, Wein und Weite zusammenbringt.",
       "body": "Wir sind kein großes Resort. Bei uns kennt man sich, man grüßt sich über den Gartenzaun, und das Frühstück schmeckt nach echten, regionalen Zutaten. Ein Haus mit Geschichte, das wir Schritt für Schritt behutsam erneuern, ohne dabei seinen persönlichen Charakter zu verlieren.",
-      "image": "../assets/fotos/familie/familienfoto.jpg",
+      "image": "../assets/fotos/familie/familienfoto.webp",
       "alt": "Familie Schrott, Hotel Weinberg"
     },
     "gastgeber": {
@@ -18,17 +18,17 @@
       "lede": "Wir freuen uns, euch persönlich zu empfangen, mit einem offenen Ohr für Wünsche und einem Gespür dafür, wann man einfach in Ruhe lassen sollte.",
       "team": [
         {
-          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "image": "../assets/fotos/familie/nelly-2026.webp",
           "alt": "Nelli, Familie Schrott",
           "name": "Nelli"
         },
         {
-          "image": "../assets/fotos/familie/felix.jpg",
+          "image": "../assets/fotos/familie/felix.webp",
           "alt": "Felix, Familie Schrott",
           "name": "Felix"
         },
         {
-          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "image": "../assets/fotos/familie/mara-2026.webp",
           "alt": "Mara, Familie Schrott",
           "name": "Mara"
         }
@@ -44,15 +44,15 @@
       "heading": "Das Haus auf einen Blick",
       "slider": [
         {
-          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "image": "../assets/fotos/pool-wasser-detail-2026.webp",
           "alt": "Sonnenreflexion auf der Wasseroberfläche des Pools mit Palmenschatten, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.jpg",
+          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.webp",
           "alt": "Reich gedeckter Frühstückstisch mit Kaffee, Croissants und frischen Früchten, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.jpg",
+          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.webp",
           "alt": "Luftaufnahme der Weinbergreihen rund um das Hotel Weinberg"
         }
       ],
@@ -74,21 +74,21 @@
       "body": "Ob eine Empfehlung für den Abend, ein kurzer Plausch an der Rezeption oder einfach ein Lächeln beim Vorbeigehen: wir sind da, wenn ihr uns braucht, wie zuhause.",
       "images": [
         {
-          "image": "../assets/fotos/nelly-checkin-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-2026.webp",
           "alt": "Nelli begrüßt einen Gast an der Rezeption, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/nelly-checkin-2-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-2-2026.webp",
           "alt": "Nelli beim Check-in mit einem Gast an der Rezeption, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/nelly-checkin-3-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-3-2026.webp",
           "alt": "Herzlicher Empfang an der Rezeption des Hotel Weinberg"
         }
       ]
     },
     "geniessen_link": {
-      "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.jpg",
+      "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.webp",
       "alt": "Pool unter Palmen mit Sonnensegel, Blick zum Haus, Hotel Weinberg",
       "eyebrow": "Weitergehen",
       "heading": "Genießen: Pool, Garten &amp; Frühstück",
@@ -112,7 +112,7 @@
       "heading": "Gestione familiare, da generazioni",
       "lede": "Circondato dai vigneti, l'Hotel Weinberg si trova a St. Paolo, sulla Strada del Vino altoatesina: dove il clima mite e mediterraneo unisce palme, vino e ampi orizzonti.",
       "body": "Non siamo un grande resort. Da noi ci si conosce, ci si saluta oltre lo steccato del giardino, e la colazione ha il sapore di ingredienti veri e regionali. Una casa con una storia, che rinnoviamo passo dopo passo con cura, senza mai perdere il suo carattere personale.",
-      "image": "../assets/fotos/familie/familienfoto.jpg",
+      "image": "../assets/fotos/familie/familienfoto.webp",
       "alt": "Famiglia Schrott, Hotel Weinberg"
     },
     "gastgeber": {
@@ -121,17 +121,17 @@
       "lede": "Siamo felici di accogliervi di persona, con un orecchio attento ai vostri desideri e la sensibilità di sapere quando lasciarvi semplicemente in pace.",
       "team": [
         {
-          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "image": "../assets/fotos/familie/nelly-2026.webp",
           "alt": "Nelli, Famiglia Schrott",
           "name": "Nelli"
         },
         {
-          "image": "../assets/fotos/familie/felix.jpg",
+          "image": "../assets/fotos/familie/felix.webp",
           "alt": "Felix, Famiglia Schrott",
           "name": "Felix"
         },
         {
-          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "image": "../assets/fotos/familie/mara-2026.webp",
           "alt": "Mara, Famiglia Schrott",
           "name": "Mara"
         }
@@ -147,15 +147,15 @@
       "heading": "La casa in breve",
       "slider": [
         {
-          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "image": "../assets/fotos/pool-wasser-detail-2026.webp",
           "alt": "Riflesso del sole sulla superficie della piscina con ombra di palma, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.jpg",
+          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.webp",
           "alt": "Tavolo della colazione riccamente apparecchiato con caffè, croissant e frutta fresca, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.jpg",
+          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.webp",
           "alt": "Veduta aerea dei filari di vigneto intorno all'Hotel Weinberg"
         }
       ],
@@ -177,21 +177,21 @@
       "body": "Che sia un consiglio per la serata, due chiacchiere alla reception o semplicemente un sorriso incontrandoci: ci siamo, quando avete bisogno di noi, come a casa.",
       "images": [
         {
-          "image": "../assets/fotos/nelly-checkin-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-2026.webp",
           "alt": "Nelli accoglie un ospite alla reception, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/nelly-checkin-2-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-2-2026.webp",
           "alt": "Nelli al check-in con un ospite alla reception, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/nelly-checkin-3-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-3-2026.webp",
           "alt": "Calorosa accoglienza alla reception dell'Hotel Weinberg"
         }
       ]
     },
     "geniessen_link": {
-      "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.jpg",
+      "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.webp",
       "alt": "Piscina sotto le palme con vela ombreggiante, vista sulla casa, Hotel Weinberg",
       "eyebrow": "Continuate a scoprire",
       "heading": "Relax: piscina, giardino &amp; colazione",
@@ -215,7 +215,7 @@
       "heading": "Personally run, for generations",
       "lede": "Surrounded by vineyards, Hotel Weinberg sits in St. Pauls on the South Tyrolean Wine Route: where the mild, Mediterranean climate brings together palm trees, wine and wide open views.",
       "body": "We're not a big resort. Here, people know each other, greet one another over the garden fence, and breakfast tastes of real, regional ingredients. A house with history, which we're carefully renewing step by step, without ever losing its personal character.",
-      "image": "../assets/fotos/familie/familienfoto.jpg",
+      "image": "../assets/fotos/familie/familienfoto.webp",
       "alt": "The Schrott family, Hotel Weinberg"
     },
     "gastgeber": {
@@ -224,17 +224,17 @@
       "lede": "We're happy to welcome you personally, with an open ear for your wishes and a sense for when to simply leave you in peace.",
       "team": [
         {
-          "image": "../assets/fotos/familie/nelly-2026.jpg",
+          "image": "../assets/fotos/familie/nelly-2026.webp",
           "alt": "Nelli, Schrott family",
           "name": "Nelli"
         },
         {
-          "image": "../assets/fotos/familie/felix.jpg",
+          "image": "../assets/fotos/familie/felix.webp",
           "alt": "Felix, Schrott family",
           "name": "Felix"
         },
         {
-          "image": "../assets/fotos/familie/mara-2026.jpg",
+          "image": "../assets/fotos/familie/mara-2026.webp",
           "alt": "Mara, Schrott family",
           "name": "Mara"
         }
@@ -250,15 +250,15 @@
       "heading": "The house at a glance",
       "slider": [
         {
-          "image": "../assets/fotos/pool-wasser-detail-2026.jpg",
+          "image": "../assets/fotos/pool-wasser-detail-2026.webp",
           "alt": "Sun reflection on the pool's water surface with palm shadow, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.jpg",
+          "image": "../assets/fotos/fruehstueck-buffet-tisch-2026.webp",
           "alt": "Bountiful breakfast table with coffee, croissants and fresh fruit, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.jpg",
+          "image": "../assets/fotos/weinberg-reihen-luftaufnahme-2026.webp",
           "alt": "Aerial view of the vineyard rows surrounding Hotel Weinberg"
         }
       ],
@@ -280,21 +280,21 @@
       "body": "Whether it's a recommendation for the evening, a quick chat at reception, or simply a smile in passing: we're there when you need us, just like at home.",
       "images": [
         {
-          "image": "../assets/fotos/nelly-checkin-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-2026.webp",
           "alt": "Nelli welcoming a guest at reception, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/nelly-checkin-2-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-2-2026.webp",
           "alt": "Nelli checking in a guest at reception, Hotel Weinberg"
         },
         {
-          "image": "../assets/fotos/nelly-checkin-3-2026.jpg",
+          "image": "../assets/fotos/nelly-checkin-3-2026.webp",
           "alt": "A warm welcome at the reception of Hotel Weinberg"
         }
       ]
     },
     "geniessen_link": {
-      "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.jpg",
+      "image": "../assets/fotos/ueberuns-geniessen-teaser-2026.webp",
       "alt": "Pool beneath palm trees with a sail canopy, view of the house, Hotel Weinberg",
       "eyebrow": "Keep exploring",
       "heading": "Enjoy: pool, garden &amp; breakfast",
