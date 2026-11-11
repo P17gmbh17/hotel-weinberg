@@ -604,11 +604,11 @@ CMS.registerPreviewStyle('/assets/styles.css');
 CMS.registerPreviewStyle(
   '@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");' +
   'body { margin:0; background:#f7f5f0; }' +
-  // Keine feste Hoechstbreite: die Vorschau soll der Spaltenbreite folgen,
-  // die man mit dem Regler in der Mitte einstellt. Mit "max-width: 720px"
-  // blieb der Inhalt schmal stehen und rechts entstand tote Flaeche,
-  // sobald man den Regler nach links zog.
-  '.cms-preview-root { padding: 28px 32px; max-width: none; }' +
+  // Feste Hoechstbreite fuer die Inhaltskarten (Willkommen, Zimmer-Teaser
+  // usw.): die sollen immer gleich aussehen, egal wie breit die Spalte
+  // gerade ist. Nur das Live-Fenster ganz oben wechselt die Breite - das
+  // steuert die Desktop/Tablet/Handy-Leiste in admin/index.html.
+  '.cms-preview-root { padding: 28px 32px; max-width: 720px; }' +
   '.cms-sector { background:#fff; border:1px solid rgba(35,55,33,0.12); border-radius:10px; padding:20px 24px; margin-bottom:28px; box-shadow:0 1px 4px rgba(29,47,30,0.05); }' +
   '.cms-sector__label { font-family:var(--sans, sans-serif); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:#9a8f78; font-weight:600; margin-bottom:14px; padding-bottom:10px; border-bottom:1px solid rgba(35,55,33,0.1); }' +
   '.cms-eyebrow { font-family:var(--sans, sans-serif); font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color: var(--olive, #7a8452); margin-bottom:6px; }' +

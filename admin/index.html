@@ -536,30 +536,51 @@
       ];
       var aktuelleAnsicht = 0;
 
+      var SICHTHOEHE = 480;   // sichtbare Hoehe des Live-Fensters, wie im CSS
+
       function ansichtAnwenden() {
         var rahmen = document.getElementById('preview-pane');
         if (!rahmen || !rahmen.parentElement) return;
-        var spalte = rahmen.parentElement;
-        var spaltenBreite = spalte.clientWidth;
-        var spaltenHoehe = spalte.clientHeight;
-        if (!spaltenBreite || !spaltenHoehe) return;
-
-        var soll = ANSICHTEN[aktuelleAnsicht].breite;
-        var faktor = Math.min(1, spaltenBreite / soll);
-
-        if (window.getComputedStyle(spalte).position === 'static') {
-          spalte.style.position = 'relative';
+        if (window.getComputedStyle(rahmen.parentElement).position === 'static') {
+          rahmen.parentElement.style.position = 'relative';
         }
-        rahmen.style.setProperty('width', soll + 'px', 'important');
-        rahmen.style.setProperty('height', (spaltenHoehe / faktor) + 'px', 'important');
-        rahmen.style.setProperty('transform', 'scale(' + faktor + ')', 'important');
-        rahmen.style.setProperty('transform-origin', 'top left', 'important');
-        rahmen.style.setProperty('position', 'absolute', 'important');
-        rahmen.style.setProperty('top', '0', 'important');
-        // waagrecht mittig in der Spalte
-        rahmen.style.setProperty(
-          'left', Math.max(0, (spaltenBreite - soll * faktor) / 2) + 'px', 'important');
-        leisteSetzen(spalte);
+        leisteSetzen(rahmen.parentElement);
+
+        // Umgestellt wird NUR das Live-Fenster oben, nicht die ganze
+        // Vorschauspalte. Die Inhaltskarten darunter (Willkommen,
+        // Zimmer-Teaser ...) behalten ihre feste Breite - sonst wird beim
+        // Umschalten auf Handy die gesamte Oberflaeche schmal gequetscht.
+        var H = window.__weinbergHelfer;
+        var doc = H && H.findPreviewDoc(document);
+        if (!doc) return;
+        var soll = ANSICHTEN[aktuelleAnsicht].breite;
+
+        Array.prototype.forEach.call(
+          doc.querySelectorAll('.cms-live-frame'), function (frame) {
+            var halter = frame.parentElement;
+            if (!halter) return;
+            var verfuegbar = halter.clientWidth;
+            if (!verfuegbar) return;
+            // Nur verkleinern, nie vergroessern: 390 px bleiben 390 px und
+            // werden damit pixelgenau und unverzerrt dargestellt. Nur die
+            // Desktop-Breite muss in die schmalere Spalte gezoomt werden -
+            // das Seitenverhaeltnis bleibt dabei erhalten.
+            var faktor = Math.min(1, verfuegbar / soll);
+            frame.style.setProperty('width', soll + 'px', 'important');
+            frame.style.setProperty('height', (SICHTHOEHE / faktor) + 'px', 'important');
+            frame.style.setProperty('transform', 'scale(' + faktor + ')', 'important');
+            frame.style.setProperty('transform-origin', 'top left', 'important');
+            frame.style.setProperty(
+              'margin-left',
+              Math.max(0, (verfuegbar - soll * faktor) / 2) + 'px', 'important');
+            // Verkleinern aendert nur die Darstellung, nicht den Platz, den
+            // das Element im Fluss beansprucht. Der negative Aussenabstand
+            // holt die Differenz wieder herein, damit darunter keine Luecke
+            // entsteht.
+            frame.style.setProperty(
+              'margin-bottom',
+              (SICHTHOEHE - SICHTHOEHE / faktor) + 'px', 'important');
+          });
       }
 
       function leisteSetzen(spalte) {
