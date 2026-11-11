@@ -9,11 +9,34 @@
     "meta_description": "Hotel Weinberg in St. Pauls/Eppan, persönlich geführtes Haus mitten in den Weinbergen der Südtiroler Weinstraße, mit Blick auf die Dolomiten.",
     "cta_buchen_label": "Jetzt buchen",
     "hero_scroll_label": "Entdecken",
+    "neuigkeiten": {
+      "eyebrow": "06 · Neuigkeiten",
+      "heading": "Neue Rezeption, Lobby &amp; Bar",
+      "lede": "Bei uns tut sich was: unsere neue Lobby ist da.",
+      "body": "Rezeption, Lobby und Bar haben ein neues Zuhause bekommen: heller, offener und ganz im mediterranen Stil des Weinbergs. Familie Schrott heißt euch ab sofort in der neuen Bar auf einen Aperitivo oder gleich bei der Ankunft in der neuen Lobby herzlich willkommen.",
+      "images": [
+        {
+          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
+          "alt": "Neue Lobby, Hotel Weinberg",
+          "label": "Lobby"
+        },
+        {
+          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
+          "alt": "Neue Rezeption, Hotel Weinberg",
+          "label": "Rezeption"
+        },
+        {
+          "image": "../assets/fotos/bar-location-2026.webp",
+          "alt": "Neue Bar, Hotel Weinberg",
+          "label": "Bar"
+        }
+      ]
+    },
     "cta_book_label": "Jetzt anfragen",
     "hero_cta_secondary_label": "Zimmer entdecken",
     "geniessen": {
       "eyebrow": "03 · Genießen",
-      "heading": "Garten, Pool &amp; Frühstück",
+      "heading": "Garten, Pool & Frühstück",
       "lede": "Drei Lieblingsorte des Hauses: schattige Ruhe unter Palmen, ein Pool zum Verweilen und ein reichhaltiges Frühstück mit Blick auf die Dolomiten.",
       "images": [
         {
@@ -196,29 +219,6 @@
       "body": "Bei uns findet ihr keinen Prunk, dafür ehrliche Gastfreundschaft, ein reichhaltiges Frühstücksbuffet und einen Blick, der bis zu den fernen Gipfeln der Dolomiten reicht. Ein kleines Haus mit großem Garten, persönlich geführt, seit Jahren ein ruhiger Rückzugsort für Rad-, Motorrad- und Wanderfreunde.",
       "cta_label": "Mehr über uns →",
       "image": "../assets/fotos/familie/familienfoto.webp"
-    },
-    "neuigkeiten": {
-      "eyebrow": "06 · Neuigkeiten",
-      "heading": "Neue Rezeption, Lobby &amp; Bar",
-      "lede": "Bei uns tut sich was: unsere neue Lobby ist da.",
-      "body": "Rezeption, Lobby und Bar haben ein neues Zuhause bekommen: heller, offener und ganz im mediterranen Stil des Weinbergs. Familie Schrott heißt euch ab sofort in der neuen Bar auf einen Aperitivo oder gleich bei der Ankunft in der neuen Lobby herzlich willkommen.",
-      "images": [
-        {
-          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
-          "alt": "Neue Lobby, Hotel Weinberg",
-          "label": "Lobby"
-        },
-        {
-          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
-          "alt": "Neue Rezeption, Hotel Weinberg",
-          "label": "Rezeption"
-        },
-        {
-          "image": "../assets/fotos/bar-location-2026.webp",
-          "alt": "Neue Bar, Hotel Weinberg",
-          "label": "Bar"
-        }
-      ]
     }
   },
   "it": {
@@ -231,6 +231,29 @@
     "meta_description": "Hotel Weinberg a St. Paolo/Appiano, struttura a conduzione familiare tra i vigneti della Strada del Vino altoatesina, con vista sulle Dolomiti.",
     "cta_buchen_label": "Prenota ora",
     "hero_scroll_label": "Scopri",
+    "neuigkeiten": {
+      "eyebrow": "06 · Novità",
+      "heading": "Nuova reception, lobby &amp; bar",
+      "lede": "Da noi qualcosa si muove: la nostra nuova lobby è realtà.",
+      "body": "Reception, lobby e bar hanno una nuova casa: più luminosa, più aperta, in perfetto stile mediterraneo del Weinberg. La famiglia Schrott vi dà il benvenuto da subito con un aperitivo al nuovo bar o già al vostro arrivo nella nuova lobby.",
+      "images": [
+        {
+          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
+          "alt": "Nuova lobby, Hotel Weinberg",
+          "label": "Lobby"
+        },
+        {
+          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
+          "alt": "Nuova reception, Hotel Weinberg",
+          "label": "Reception"
+        },
+        {
+          "image": "../assets/fotos/bar-location-2026.webp",
+          "alt": "Nuovo bar, Hotel Weinberg",
+          "label": "Bar"
+        }
+      ]
+    },
     "cta_book_label": "Richiedi ora",
     "hero_cta_secondary_label": "Scopri le camere",
     "geniessen": {
@@ -418,29 +441,6 @@
       "body": "Da noi non troverete sfarzo, ma un'ospitalità sincera, una ricca colazione a buffet e una vista che arriva fino alle vette lontane delle Dolomiti. Una piccola casa con un grande giardino, gestita personalmente da anni, un rifugio tranquillo per gli amanti della bici, della moto e delle escursioni.",
       "cta_label": "Scopri di più su di noi →",
       "image": "../assets/fotos/familie/familienfoto.webp"
-    },
-    "neuigkeiten": {
-      "eyebrow": "06 · Novità",
-      "heading": "Nuova reception, lobby &amp; bar",
-      "lede": "Da noi qualcosa si muove: la nostra nuova lobby è realtà.",
-      "body": "Reception, lobby e bar hanno una nuova casa: più luminosa, più aperta, in perfetto stile mediterraneo del Weinberg. La famiglia Schrott vi dà il benvenuto da subito con un aperitivo al nuovo bar o già al vostro arrivo nella nuova lobby.",
-      "images": [
-        {
-          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
-          "alt": "Nuova lobby, Hotel Weinberg",
-          "label": "Lobby"
-        },
-        {
-          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
-          "alt": "Nuova reception, Hotel Weinberg",
-          "label": "Reception"
-        },
-        {
-          "image": "../assets/fotos/bar-location-2026.webp",
-          "alt": "Nuovo bar, Hotel Weinberg",
-          "label": "Bar"
-        }
-      ]
     }
   },
   "en": {
@@ -453,6 +453,29 @@
     "meta_description": "Hotel Weinberg in St. Pauls/Appiano, a family-run house among the vineyards of the South Tyrolean Wine Route, with views of the Dolomites.",
     "cta_buchen_label": "Book now",
     "hero_scroll_label": "Discover",
+    "neuigkeiten": {
+      "eyebrow": "06 · News",
+      "heading": "New Reception, Lobby &amp; Bar",
+      "lede": "Something new at Weinberg: our new lobby is here.",
+      "body": "Reception, lobby and bar have a new home: brighter, more open, and true to the Weinberg's Mediterranean style. Familie Schrott now welcomes you with an aperitivo at the new bar, or right at check-in in the new lobby.",
+      "images": [
+        {
+          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
+          "alt": "New lobby, Hotel Weinberg",
+          "label": "Lobby"
+        },
+        {
+          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
+          "alt": "New reception, Hotel Weinberg",
+          "label": "Reception"
+        },
+        {
+          "image": "../assets/fotos/bar-location-2026.webp",
+          "alt": "New bar, Hotel Weinberg",
+          "label": "Bar"
+        }
+      ]
+    },
     "cta_book_label": "Enquire now",
     "hero_cta_secondary_label": "Discover rooms",
     "geniessen": {
@@ -640,29 +663,6 @@
       "body": "With us you won't find grandeur, but honest hospitality, a generous breakfast buffet and a view that reaches all the way to the distant peaks of the Dolomites. A small house with a big garden, personally run for years, a quiet retreat for cyclists, motorcyclists and hikers alike.",
       "cta_label": "More about us →",
       "image": "../assets/fotos/familie/familienfoto.webp"
-    },
-    "neuigkeiten": {
-      "eyebrow": "06 · News",
-      "heading": "New Reception, Lobby &amp; Bar",
-      "lede": "Something new at Weinberg: our new lobby is here.",
-      "body": "Reception, lobby and bar have a new home: brighter, more open, and true to the Weinberg's Mediterranean style. Familie Schrott now welcomes you with an aperitivo at the new bar, or right at check-in in the new lobby.",
-      "images": [
-        {
-          "image": "../assets/fotos/neuigkeiten-lobby-2026.webp",
-          "alt": "New lobby, Hotel Weinberg",
-          "label": "Lobby"
-        },
-        {
-          "image": "../assets/fotos/neuigkeiten-rezeption-2026.webp",
-          "alt": "New reception, Hotel Weinberg",
-          "label": "Reception"
-        },
-        {
-          "image": "../assets/fotos/bar-location-2026.webp",
-          "alt": "New bar, Hotel Weinberg",
-          "label": "Bar"
-        }
-      ]
     }
   }
 }
