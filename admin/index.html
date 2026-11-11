@@ -529,14 +529,45 @@
       // Passt die gewaehlte Breite nicht in die Spalte, wird das iframe
       // verkleinert dargestellt (wie ein Zoom), nicht umgebrochen - so
       // bleibt das Seitenverhaeltnis echt.
+      // Breite UND Hoehe echter Geraete. Die Hoehe ist nicht nur Kosmetik:
+      // Der Kopfbereich der Seite ist mit "min-height: 100vh" eine volle
+      // Bildschirmhoehe hoch, und der Hinweis "Entdecken" haengt 30 px ueber
+      // dessen Unterkante. Gibt man dem Rahmen nur 480 px, schrumpft der
+      // Kopfbereich auf 480 px - dann rutscht "Entdecken" den Knoepfen in
+      // die Quere. Mit echten Geraetehoehen sitzt alles dort, wo es auch
+      // beim Gast sitzt.
+      // Gaengige Geraete, keine Fantasiewerte:
+      //   Desktop  Notebook-Bildschirm
+      //   Tablet   iPad Air, hochkant
+      //   Handy    iPhone 14/15, hochkant
+      //
+      // Desktop ist "fliessend": Sobald die Spalte breit genug ist, nimmt
+      // das Fenster genau deren Breite an - unskaliert, also gestochen
+      // scharf, und es waechst beim Ziehen am Regler mit. Die Hoehe folgt
+      // dem Seitenverhaeltnis eines Notebook-Bildschirms (16:10), damit
+      // "100vh" plausibel bleibt. Erst wenn die Spalte unter die
+      // Mindestbreite faellt, wird auf 1280 px zurueckgefallen und
+      // verkleinert - sonst zeigte der Knopf "Desktop" unversehens das
+      // Handy-Layout.
       var ANSICHTEN = [
-        { name: 'Desktop', breite: 1280 },
-        { name: 'Tablet', breite: 820 },
-        { name: 'Handy', breite: 390 },
+        { name: 'Desktop', breite: 1280, hoehe: 800, geraet: 'Notebook',
+          fliessend: true, mindestBreite: 1000, verhaeltnis: 0.625 },
+        { name: 'Tablet', breite: 820, hoehe: 1180, geraet: 'iPad Air, hochkant' },
+        { name: 'Handy', breite: 390, hoehe: 844, geraet: 'iPhone 14/15, hochkant' },
       ];
-      var aktuelleAnsicht = 0;
 
-      var SICHTHOEHE = 480;   // sichtbare Hoehe des Live-Fensters, wie im CSS
+      function masseFuer(ansicht, verfuegbar) {
+        if (ansicht.fliessend && verfuegbar >= ansicht.mindestBreite) {
+          var b = Math.round(verfuegbar);
+          return { breite: b, hoehe: Math.round(b * ansicht.verhaeltnis), faktor: 1 };
+        }
+        return {
+          breite: ansicht.breite,
+          hoehe: ansicht.hoehe,
+          faktor: Math.min(1, verfuegbar / ansicht.breite),
+        };
+      }
+      var aktuelleAnsicht = 0;
 
       function ansichtAnwenden() {
         var rahmen = document.getElementById('preview-pane');
@@ -553,7 +584,7 @@
         var H = window.__weinbergHelfer;
         var doc = H && H.findPreviewDoc(document);
         if (!doc) return;
-        var soll = ANSICHTEN[aktuelleAnsicht].breite;
+        var ansicht = ANSICHTEN[aktuelleAnsicht];
 
         Array.prototype.forEach.call(
           doc.querySelectorAll('.cms-live-frame'), function (frame) {
@@ -562,24 +593,24 @@
             var verfuegbar = halter.clientWidth;
             if (!verfuegbar) return;
             // Nur verkleinern, nie vergroessern: 390 px bleiben 390 px und
-            // werden damit pixelgenau und unverzerrt dargestellt. Nur die
-            // Desktop-Breite muss in die schmalere Spalte gezoomt werden -
-            // das Seitenverhaeltnis bleibt dabei erhalten.
-            var faktor = Math.min(1, verfuegbar / soll);
-            frame.style.setProperty('width', soll + 'px', 'important');
-            frame.style.setProperty('height', (SICHTHOEHE / faktor) + 'px', 'important');
-            frame.style.setProperty('transform', 'scale(' + faktor + ')', 'important');
+            // werden damit pixelgenau und unverzerrt dargestellt. Verkleinert
+            // wird ausschliesslich, wenn die Spalte zu schmal ist - das
+            // Seitenverhaeltnis bleibt dabei erhalten.
+            var m = masseFuer(ansicht, verfuegbar);
+            frame.style.setProperty('width', m.breite + 'px', 'important');
+            frame.style.setProperty('height', m.hoehe + 'px', 'important');
+            frame.style.setProperty('transform', 'scale(' + m.faktor + ')', 'important');
             frame.style.setProperty('transform-origin', 'top left', 'important');
             frame.style.setProperty(
               'margin-left',
-              Math.max(0, (verfuegbar - soll * faktor) / 2) + 'px', 'important');
+              Math.max(0, (verfuegbar - m.breite * m.faktor) / 2) + 'px', 'important');
             // Verkleinern aendert nur die Darstellung, nicht den Platz, den
             // das Element im Fluss beansprucht. Der negative Aussenabstand
             // holt die Differenz wieder herein, damit darunter keine Luecke
             // entsteht.
             frame.style.setProperty(
               'margin-bottom',
-              (SICHTHOEHE - SICHTHOEHE / faktor) + 'px', 'important');
+              (m.hoehe * m.faktor - m.hoehe) + 'px', 'important');
           });
       }
 
