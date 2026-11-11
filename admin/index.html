@@ -428,47 +428,21 @@
     })();
   </script>
   <script>
-    // Breitere Vorschau + Sync-Scrolling zwischen Formular und Vorschau.
+    // Sync-Scrolling zwischen Formular und Vorschau.
     //
-    // Decap teilt den Editor fest in zwei gleich breite Spalten und bietet
-    // keinen Schalter dafuer. Der Doppelpfeil oben rechts gleicht nur die
-    // SPRACHSPALTEN untereinander ab, nicht Formular gegen Vorschau.
+    // Der Doppelpfeil oben rechts gleicht nur die SPRACHSPALTEN
+    // untereinander ab, nicht Formular gegen Vorschau.
+    //
+    // Die Spaltenbreite wird hier bewusst NICHT angefasst: Decap hat dafuer
+    // einen Regler in der Mitte, den man ziehen kann. Ein Eingriff per
+    // Skript ueberschreibt dessen Werte und verschiebt ausserdem die drei
+    // Schaltflaechen am rechten Rand, die an der Vorschauspalte haengen.
+    // Dass der Inhalt frueher trotzdem schmal blieb, lag an einer festen
+    // Hoechstbreite in preview.js - die ist dort entfernt.
     (function () {
-      var VORSCHAU_ANTEIL = 60;          // Prozent der Breite fuer rechts
       var KOPF_TOLERANZ = 90;            // px: was gilt noch als "oben"
       var TOPBAR = '[class*="ControlTopbar" i]';
       var AUFKLAPPBAR = { 'object field': true, 'list field': true };
-
-      // ---------------------------------------------------------- Breite
-      // Die Klassennamen von Decap sind gehasht, deshalb wird die
-      // Vorschauspalte ueber das iframe #preview-pane gesucht und von dort
-      // nach oben gegangen, bis ein Element zwei Geschwister-Spalten hat.
-      // Erkennt die Funktion den Aufbau nicht wieder, laesst sie alles
-      // unveraendert - lieber keine Wirkung als ein zerschossenes Layout.
-      function breiteAnpassen() {
-        var rahmen = document.getElementById('preview-pane');
-        if (!rahmen) return;
-        var spalte = rahmen;
-        var schritte = 0;
-        while (spalte.parentElement && schritte < 6) {
-          var reihe = spalte.parentElement;
-          if (reihe.children.length === 2) {
-            var andere = reihe.children[0] === spalte
-              ? reihe.children[1] : reihe.children[0];
-            setzeBreite(spalte, VORSCHAU_ANTEIL);
-            setzeBreite(andere, 100 - VORSCHAU_ANTEIL);
-            return;
-          }
-          spalte = reihe;
-          schritte++;
-        }
-      }
-
-      function setzeBreite(el, prozent) {
-        el.style.setProperty('width', prozent + '%', 'important');
-        el.style.setProperty('max-width', prozent + '%', 'important');
-        el.style.setProperty('flex', '0 0 ' + prozent + '%', 'important');
-      }
 
       // -------------------------------------------------- Sync-Scrolling
       // Nicht prozentual (links 40 % = rechts 40 %): die beiden Spalten
@@ -540,10 +514,85 @@
       }, true);
 
       window.addEventListener('load', function () {
-        breiteAnpassen();
-        setInterval(breiteAnpassen, 1000);   // Decap baut den Editor neu auf
-        window.addEventListener('resize', breiteAnpassen);
+        setInterval(ansichtAnwenden, 1000);  // Decap baut den Editor neu auf
+        window.addEventListener('resize', ansichtAnwenden);
       });
+
+      // ------------------------------------------- Ansichten per Klick
+      // Statt die Spalte frei zu ziehen (dabei wird der Inhalt gequetscht,
+      // ohne dass die Seite wirklich in den Handy-Zustand wechselt) gibt es
+      // drei feste Breiten. Entscheidend: Die Vorschau laeuft in einem
+      // eigenen iframe, und CSS-Media-Queries richten sich nach dessen
+      // Breite - stellt man das iframe auf 390 px, schaltet die Seite
+      // tatsaechlich auf das Handy-Layout um, statt nur schmaler zu werden.
+      //
+      // Passt die gewaehlte Breite nicht in die Spalte, wird das iframe
+      // verkleinert dargestellt (wie ein Zoom), nicht umgebrochen - so
+      // bleibt das Seitenverhaeltnis echt.
+      var ANSICHTEN = [
+        { name: 'Desktop', breite: 1280 },
+        { name: 'Tablet', breite: 820 },
+        { name: 'Handy', breite: 390 },
+      ];
+      var aktuelleAnsicht = 0;
+
+      function ansichtAnwenden() {
+        var rahmen = document.getElementById('preview-pane');
+        if (!rahmen || !rahmen.parentElement) return;
+        var spalte = rahmen.parentElement;
+        var spaltenBreite = spalte.clientWidth;
+        var spaltenHoehe = spalte.clientHeight;
+        if (!spaltenBreite || !spaltenHoehe) return;
+
+        var soll = ANSICHTEN[aktuelleAnsicht].breite;
+        var faktor = Math.min(1, spaltenBreite / soll);
+
+        if (window.getComputedStyle(spalte).position === 'static') {
+          spalte.style.position = 'relative';
+        }
+        rahmen.style.setProperty('width', soll + 'px', 'important');
+        rahmen.style.setProperty('height', (spaltenHoehe / faktor) + 'px', 'important');
+        rahmen.style.setProperty('transform', 'scale(' + faktor + ')', 'important');
+        rahmen.style.setProperty('transform-origin', 'top left', 'important');
+        rahmen.style.setProperty('position', 'absolute', 'important');
+        rahmen.style.setProperty('top', '0', 'important');
+        // waagrecht mittig in der Spalte
+        rahmen.style.setProperty(
+          'left', Math.max(0, (spaltenBreite - soll * faktor) / 2) + 'px', 'important');
+        leisteSetzen(spalte);
+      }
+
+      function leisteSetzen(spalte) {
+        var leiste = spalte.querySelector('#weinbergAnsichten');
+        if (!leiste) {
+          leiste = document.createElement('div');
+          leiste.id = 'weinbergAnsichten';
+          leiste.style.cssText =
+            'position:absolute;right:12px;bottom:12px;z-index:99998;display:flex;' +
+            'gap:4px;background:#233721;padding:4px;border-radius:8px;' +
+            'box-shadow:0 2px 8px rgba(0,0,0,0.25);';
+          ANSICHTEN.forEach(function (ansicht, i) {
+            var knopf = document.createElement('button');
+            knopf.type = 'button';
+            knopf.textContent = ansicht.name;
+            knopf.style.cssText =
+              'border:0;border-radius:5px;padding:4px 10px;cursor:pointer;' +
+              'font:600 11px/1.4 system-ui,sans-serif;letter-spacing:0.04em;';
+            knopf.addEventListener('click', function (e) {
+              e.preventDefault();
+              aktuelleAnsicht = i;
+              ansichtAnwenden();
+            });
+            leiste.appendChild(knopf);
+          });
+          spalte.appendChild(leiste);
+        }
+        Array.prototype.forEach.call(leiste.children, function (knopf, i) {
+          var aktiv = i === aktuelleAnsicht;
+          knopf.style.background = aktiv ? '#f8f4ec' : 'transparent';
+          knopf.style.color = aktiv ? '#233721' : '#e9e0c9';
+        });
+      }
     })();
   </script>
 </body>
