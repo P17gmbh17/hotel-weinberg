@@ -1,7 +1,7 @@
 {
   "de": {
-    "meta_title": "Kontakt & Anfrage | Hotel Weinberg",
-    "meta_description": "Hotel Weinberg St. Pauls/Eppan, Lage, Kontakt und unverbindliche Zimmeranfrage.",
+    "meta_title": "Kontakt & Anfrage, Eppan an der Weinstraße | Hotel Weinberg",
+    "meta_description": "Hotel Weinberg, Luziafeldweg 3, St. Pauls/Eppan. 5 km ab der Ausfahrt Bozen Süd, der Radweg Bozen–Kaltern führt am Haus vorbei. Anfahrt, Kontakt und Anfrage.",
     "hero_heading": "Wir freuen uns auf euch",
     "hero_text": "Schreibt uns, ruft an, oder schickt eine Anfrage – ganz persönlich, ohne Umwege.",
     "hero_image": "../assets/fotos/kontakt-header-sonnenuntergang-2026.webp",
@@ -10,7 +10,7 @@
       "eyebrow": "Lage",
       "heading": "St. Pauls an der Südtiroler Weinstraße",
       "lede": "1,5 km vom Ortszentrum von Eppan, 5 km von der Autobahnausfahrt Bozen Süd, mitten in den Weinbergen, mit weitem Blick auf die Dolomiten.",
-      "dl_html": "<dl>\n          <dt>Adresse</dt><dd><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"Auf Google Maps ansehen\">Luziafeldweg 3, 39057 St. Pauls/Eppan (BZ), Südtirol</a></dd>\n          <dt>Telefon</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>E-Mail</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Anfahrt</dt><dd>5 km ab Ausfahrt Bozen Süd, Radweg Bozen–Kaltern direkt vorbei</dd>\n          <dt>Sprachen</dt><dd>Deutsch, Italienisch, Englisch</dd>\n        </dl>"
+      "dl_html": "<dl>\n          <dt>Adresse</dt><dd><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"Auf Google Maps ansehen\">Luziafeldweg 3, 39057 St. Pauls/Eppan (BZ), Südtirol</a></dd>\n          <dt>Telefon</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>E-Mail</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Check-in</dt><dd>ab 14.30 bis 20.00 Uhr</dd>\n          <dt>Check-out</dt><dd>bis 10.30 Uhr</dd>\n          <dt>Anfahrt</dt><dd>5 km ab Ausfahrt Bozen Süd, Radweg Bozen–Kaltern direkt vorbei</dd>\n          <dt>Sprachen</dt><dd>Deutsch, Italienisch, Englisch</dd>\n        </dl>"
     },
     "anfrage": {
       "eyebrow": "Verfügbarkeit &amp; Anfrage",
@@ -25,8 +25,8 @@
     "contact_strip_html": "<div class=\"contact-strip\">\n        <div><span class=\"label\">Telefon</span><a href=\"tel:+390471662326\">+39 0471 662326</a></div>\n        <div><span class=\"label\">E-Mail</span><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></div>\n        <div><span class=\"label\">Adresse</span><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"Auf Google Maps ansehen\">Luziafeldweg 3, 39057 St. Pauls/Eppan</a></div>\n      </div>"
   },
   "it": {
-    "meta_title": "Contatti & Richiesta | Hotel Weinberg",
-    "meta_description": "Hotel Weinberg St. Paolo/Appiano, posizione, contatti e richiesta camera non vincolante.",
+    "meta_title": "Contatto e richiesta, Appiano | Hotel Weinberg",
+    "meta_description": "Hotel Weinberg, Via Luziafeld 3, San Paolo/Appiano. A 5 km dall'uscita Bolzano Sud, la ciclabile Bolzano–Caldaro passa accanto alla casa. Come arrivare e richiesta.",
     "hero_heading": "Non vediamo l'ora di conoscervi",
     "hero_text": "Scriveteci, chiamateci o mandateci una richiesta – in modo personale, senza giri di parole.",
     "hero_image": "../assets/fotos/kontakt-header-sonnenuntergang-2026.webp",
@@ -35,7 +35,7 @@
       "eyebrow": "Posizione",
       "heading": "St. Paolo, sulla Strada del Vino altoatesina",
       "lede": "1,5 km dal centro di Appiano, 5 km dall'uscita autostradale di Bolzano Sud, tra i vigneti, con ampia vista sulle Dolomiti.",
-      "dl_html": "<dl>\n          <dt>Indirizzo</dt><dd><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"Vedi su Google Maps\">Luziafeldweg 3, 39057 St. Paolo/Appiano (BZ), Alto Adige</a></dd>\n          <dt>Telefono</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>E-Mail</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Come arrivare</dt><dd>5 km dall'uscita Bolzano Sud, pista ciclabile Bolzano–Caldaro proprio accanto</dd>\n          <dt>Lingue</dt><dd>Tedesco, italiano, inglese</dd>\n        </dl>"
+      "dl_html": "<dl>\n          <dt>Indirizzo</dt><dd><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"Vedi su Google Maps\">Luziafeldweg 3, 39057 St. Paolo/Appiano (BZ), Alto Adige</a></dd>\n          <dt>Telefono</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>E-Mail</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Check-in</dt><dd>dalle 14.30 alle 20.00</dd>\n          <dt>Check-out</dt><dd>entro le 10.30</dd>\n          <dt>Come arrivare</dt><dd>5 km dall'uscita Bolzano Sud, pista ciclabile Bolzano–Caldaro proprio accanto</dd>\n          <dt>Lingue</dt><dd>Tedesco, italiano, inglese</dd>\n        </dl>"
     },
     "anfrage": {
       "eyebrow": "Disponibilità &amp; Richiesta",
@@ -50,8 +50,8 @@
     "contact_strip_html": "<div class=\"contact-strip\">\n        <div><span class=\"label\">Telefono</span><a href=\"tel:+390471662326\">+39 0471 662326</a></div>\n        <div><span class=\"label\">E-Mail</span><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></div>\n        <div><span class=\"label\">Indirizzo</span><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"Vedi su Google Maps\">Luziafeldweg 3, 39057 St. Paolo/Appiano</a></div>\n      </div>"
   },
   "en": {
-    "meta_title": "Contact & Enquiry | Hotel Weinberg",
-    "meta_description": "Hotel Weinberg St. Pauls/Appiano, location, contact and a no-obligation room enquiry.",
+    "meta_title": "Contact & enquiry, Eppan on the Wine Road | Hotel Weinberg",
+    "meta_description": "Hotel Weinberg, Luziafeldweg 3, St. Pauls/Eppan. 5 km from the Bolzano South exit, the Bolzano–Kaltern cycle path passes the house. Directions, contact and enquiry.",
     "hero_heading": "We look forward to having you",
     "hero_text": "Write to us, call us, or send an enquiry – personal, no detours.",
     "hero_image": "../assets/fotos/kontakt-header-sonnenuntergang-2026.webp",
@@ -60,7 +60,7 @@
       "eyebrow": "Location",
       "heading": "St. Pauls on the South Tyrolean Wine Route",
       "lede": "1.5 km from the centre of Appiano, 5 km from the Bolzano South motorway exit, right among the vineyards, with wide views of the Dolomites.",
-      "dl_html": "<dl>\n          <dt>Address</dt><dd><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"View on Google Maps\">Luziafeldweg 3, 39057 St. Pauls/Appiano (BZ), South Tyrol</a></dd>\n          <dt>Phone</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>Email</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Getting here</dt><dd>5 km from the Bolzano South exit, the Bolzano–Caldaro cycle path passes right by</dd>\n          <dt>Languages</dt><dd>German, Italian, English</dd>\n        </dl>"
+      "dl_html": "<dl>\n          <dt>Address</dt><dd><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Hotel+Weinberg+Luziafeldweg+3+39057+St.+Pauls+Eppan\" target=\"_blank\" rel=\"noopener\" aria-label=\"View on Google Maps\">Luziafeldweg 3, 39057 St. Pauls/Appiano (BZ), South Tyrol</a></dd>\n          <dt>Phone</dt><dd><a href=\"tel:+390471662326\">+39 0471 662326</a></dd>\n          <dt>Email</dt><dd><a href=\"mailto:info@hotelweinberg.eu\">info@hotelweinberg.eu</a></dd>\n          <dt>Check-in</dt><dd>from 2.30 pm to 8 pm</dd>\n          <dt>Check-out</dt><dd>by 10.30 am</dd>\n          <dt>Getting here</dt><dd>5 km from the Bolzano South exit, the Bolzano–Caldaro cycle path passes right by</dd>\n          <dt>Languages</dt><dd>German, Italian, English</dd>\n        </dl>"
     },
     "anfrage": {
       "eyebrow": "Availability &amp; Enquiry",

@@ -133,6 +133,22 @@ def build_head_block(lang, filename, title, full_title, description, og_image_re
     if filename in NOINDEX:
         lines.append('<meta name="robots" content="noindex, follow">')
 
+    # --- Signet (Browser-Tab, Lesezeichen, Startbildschirm) ----------------
+    # Das Fuellhorn aus dem Logo, weiss auf CD-Gruen. Ohne Schriftzug: bei
+    # 32 x 32 Pixeln waere "WEINBERG" nur ein grauer Strich.
+    # Die Pfade sind absolut ab Wurzel, damit sie aus /de/, /it/ und /en/
+    # gleichermassen stimmen.
+    lines.extend([
+        '<link rel="icon" href="/favicon.ico" sizes="48x48">',
+        '<link rel="icon" type="image/png" sizes="32x32" '
+        'href="/assets/icons/favicon-32.png">',
+        '<link rel="icon" type="image/png" sizes="16x16" '
+        'href="/assets/icons/favicon-16.png">',
+        '<link rel="apple-touch-icon" sizes="180x180" '
+        'href="/assets/icons/apple-touch-icon.png">',
+        '<meta name="theme-color" content="#233721">',
+    ])
+
     # --- Link-Vorschau -----------------------------------------------------
     lines.extend(og_block(lang, filename, full_title or title, description, og_image_rel))
 
@@ -191,6 +207,23 @@ def hotel_node(lang):
             "latitude": HOTEL["latitude"],
             "longitude": HOTEL["longitude"],
         }
+        # Kartenverweis: Google verknuepft den Eintrag damit leichter mit
+        # dem bestehenden Unternehmensprofil am selben Ort.
+        node["hasMap"] = (
+            "https://www.google.com/maps/search/?api=1&query="
+            f"{HOTEL['latitude']},{HOTEL['longitude']}"
+        )
+    # Die Adresse nennt nur St. Pauls. areaServed sagt Google zusaetzlich,
+    # fuer welche Orte der Umgebung das Haus als Unterkunft in Frage kommt -
+    # Eppan, Girlan, Kaltern, Bozen, Ueberetsch.
+    if HOTEL.get("area_served"):
+        node["areaServed"] = [
+            {"@type": "Place", "name": ort} for ort in HOTEL["area_served"]
+        ]
+    if HOTEL.get("checkin"):
+        node["checkinTime"] = HOTEL["checkin"]
+    if HOTEL.get("checkout"):
+        node["checkoutTime"] = HOTEL["checkout"]
     return node
 
 

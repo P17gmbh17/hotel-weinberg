@@ -91,13 +91,32 @@ HOTEL = {
     # 3-Sterne-Hotel. Stimmt das nicht, Zeile einfach auf None setzen - dann
     # faellt die Angabe aus dem JSON-LD raus.
     "star_rating": 3,
-    # ZU ERGAENZEN: exakte Koordinaten des Hauses. In Google Maps mit
-    # Rechtsklick auf das Gebaeude -> die beiden Zahlen erscheinen ganz oben
-    # und koennen direkt kopiert werden. Solange None, laesst build_seo.py
-    # die Geo-Angabe weg (lieber keine als eine falsche - eine falsche
-    # Koordinate schickt Gaeste an den falschen Ort).
-    "latitude": None,
-    "longitude": None,
+    # Koordinaten aus der Angabe des Hauses selbst (bisherige Website:
+    # N 46°28'07" - E 11°15'54", umgerechnet in Dezimalgrad). Die Angabe
+    # deckt sich mit dem Eintrag auf weinstrasse.com (46.46827 / 11.26506),
+    # Abweichung rund 20 Meter. Bei Zweifel in Google Maps mit Rechtsklick
+    # aufs Gebaeude nachschlagen und hier ersetzen; auf None gesetzt laesst
+    # build_seo.py die Geo-Angabe ganz weg.
+    "latitude": 46.4686,
+    "longitude": 11.2650,
+    # Orte, fuer die das Haus als Unterkunft in Frage kommt. Landet als
+    # "areaServed" im JSON-LD und hilft Google, das Haus der Region
+    # zuzuordnen - zusaetzlich zur Adresse, die nur St. Pauls nennt.
+    "area_served": [
+        "Eppan an der Weinstraße",
+        "St. Pauls",
+        "Girlan",
+        "Kaltern am See",
+        "Überetsch",
+        "Bozen",
+        "Südtiroler Weinstraße",
+    ],
+    # Von Familie Schrott bestaetigt. schema.org kennt nur EINEN Zeitpunkt
+    # je Feld - checkinTime ist der frueheste Zeitpunkt. Dass die Rezeption
+    # um 20.00 Uhr schliesst, laesst sich dort nicht abbilden und steht
+    # deshalb im sichtbaren Lage-Block der Kontaktseite.
+    "checkin": "14:30:00",
+    "checkout": "10:30:00",
     # Repraesentatives Bild fuer die Suchergebnisse.
     "image": "assets/fotos/kontakt-header-sonnenuntergang-2026.webp",
     "languages": ["Deutsch", "Italiano", "English"],

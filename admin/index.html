@@ -556,15 +556,21 @@
         { name: 'Handy', breite: 390, hoehe: 844, geraet: 'iPhone 14/15, hochkant' },
       ];
 
-      function masseFuer(ansicht, verfuegbar) {
-        if (ansicht.fliessend && verfuegbar >= ansicht.mindestBreite) {
-          var b = Math.round(verfuegbar);
+      // Das Fenster soll IMMER vollstaendig sichtbar sein, ohne scrollen zu
+      // muessen. Deshalb begrenzt nicht nur die Breite der Spalte, sondern
+      // auch deren Hoehe - sonst lief die Tablet-Ansicht mit 1180 px nach
+      // unten aus dem Bild. Der Faktor ist das Minimum aus beidem.
+      function masseFuer(ansicht, verfuegbarB, verfuegbarH) {
+        if (ansicht.fliessend && verfuegbarB >= ansicht.mindestBreite) {
+          var b = Math.round(Math.min(verfuegbarB, verfuegbarH / ansicht.verhaeltnis));
           return { breite: b, hoehe: Math.round(b * ansicht.verhaeltnis), faktor: 1 };
         }
         return {
           breite: ansicht.breite,
           hoehe: ansicht.hoehe,
-          faktor: Math.min(1, verfuegbar / ansicht.breite),
+          faktor: Math.min(1,
+                           verfuegbarB / ansicht.breite,
+                           verfuegbarH / ansicht.hoehe),
         };
       }
       var aktuelleAnsicht = 0;
@@ -586,24 +592,40 @@
         if (!doc) return;
         var ansicht = ANSICHTEN[aktuelleAnsicht];
 
+        // Platz NICHT am Halter messen, sondern am Vorschaufenster selbst:
+        // Der Halter bekommt gleich eine feste Breite verpasst, damit der
+        // weisse Kasten das Geraet eng umschliesst. Wuerde man an ihm
+        // messen, schrumpfte er bei jedem Durchlauf ein Stueck weiter.
+        var RAND_SEITLICH = 64 + 48;   // Innenabstand Wurzel + Karte
+        var RAND_OBEN = 150;           // Kartenkopf, Abstaende, Luft
+        var verfuegbarB = doc.documentElement.clientWidth - RAND_SEITLICH;
+        // Der Faktor 0.9 ist Absicht: Das Geraet soll nicht bis an die
+        // Unterkante stossen, sondern mit etwas Luft stehen.
+        var verfuegbarH = (doc.documentElement.clientHeight - RAND_OBEN) * 0.9;
+        if (verfuegbarB < 100 || verfuegbarH < 100) return;
+
         Array.prototype.forEach.call(
           doc.querySelectorAll('.cms-live-frame'), function (frame) {
             var halter = frame.parentElement;
             if (!halter) return;
-            var verfuegbar = halter.clientWidth;
-            if (!verfuegbar) return;
             // Nur verkleinern, nie vergroessern: 390 px bleiben 390 px und
             // werden damit pixelgenau und unverzerrt dargestellt. Verkleinert
             // wird ausschliesslich, wenn die Spalte zu schmal ist - das
             // Seitenverhaeltnis bleibt dabei erhalten.
-            var m = masseFuer(ansicht, verfuegbar);
+            var m = masseFuer(ansicht, verfuegbarB, verfuegbarH);
             frame.style.setProperty('width', m.breite + 'px', 'important');
             frame.style.setProperty('height', m.hoehe + 'px', 'important');
             frame.style.setProperty('transform', 'scale(' + m.faktor + ')', 'important');
             frame.style.setProperty('transform-origin', 'top left', 'important');
-            frame.style.setProperty(
-              'margin-left',
-              Math.max(0, (verfuegbar - m.breite * m.faktor) / 2) + 'px', 'important');
+            frame.style.setProperty('margin-left', '0', 'important');
+
+            // Der weisse Kasten legt sich eng um das Geraet, statt ueber die
+            // ganze Spalte zu laufen - bei der Handy-Ansicht stand sonst
+            // links und rechts eine grosse leere Flaeche.
+            halter.style.setProperty(
+              'width', Math.round(m.breite * m.faktor + 48) + 'px', 'important');
+            halter.style.setProperty('margin-left', 'auto', 'important');
+            halter.style.setProperty('margin-right', 'auto', 'important');
             // Verkleinern aendert nur die Darstellung, nicht den Platz, den
             // das Element im Fluss beansprucht. Der negative Aussenabstand
             // holt die Differenz wieder herein, damit darunter keine Luecke
