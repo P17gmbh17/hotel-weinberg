@@ -95,26 +95,6 @@
       },
       {
         "cat": "restaurant pizza",
-        "dist": "fuss",
-        "image": "../assets/kulinarik/guten-tropfen.webp",
-        "img_alt": "Gasthof zum Guten Tropfen, St. Pauls",
-        "tags": [
-          "Restaurant",
-          "Pizza"
-        ],
-        "place": "St. Pauls · Paulser Straße 4",
-        "name": "Guten Tropfen",
-        "desc": "Gemütlicher Familiengasthof im Ortszentrum mit Pizzeria, einladendem Innenhof und Südtiroler Spezialitäten, seit Generationen in Familienhand.",
-        "walk_time": "ca. 4 Gehmin.",
-        "drive_time": "ca. 2 Autominuten",
-        "hours": "Reservierung empfohlen · Öffnungszeiten siehe Website",
-        "phone_href": "tel:+390471662223",
-        "phone_label": "Anrufen",
-        "website_href": "https://www.gutentropfen.com",
-        "website_label": "Website ↗"
-      },
-      {
-        "cat": "restaurant pizza",
         "dist": "auto",
         "image": "../assets/kulinarik/pfeffermuehle.webp",
         "img_alt": "Restaurant Pizzeria Pfeffermühle, St. Michael/Eppan",
@@ -312,26 +292,6 @@
       },
       {
         "cat": "restaurant pizza",
-        "dist": "fuss",
-        "image": "../assets/kulinarik/guten-tropfen.webp",
-        "img_alt": "Gasthof zum Guten Tropfen, St. Paolo",
-        "tags": [
-          "Ristorante",
-          "Pizza"
-        ],
-        "place": "St. Paolo · Paulser Straße 4",
-        "name": "Guten Tropfen",
-        "desc": "Accogliente locanda familiare nel centro del paese, con pizzeria, invitante cortile interno e specialità altoatesine, gestita dalla stessa famiglia da generazioni.",
-        "walk_time": "circa 4 min a piedi",
-        "drive_time": "circa 2 min in auto",
-        "hours": "Prenotazione consigliata · orari sul sito web",
-        "phone_href": "tel:+390471662223",
-        "phone_label": "Chiama",
-        "website_href": "https://www.gutentropfen.com",
-        "website_label": "Sito web ↗"
-      },
-      {
-        "cat": "restaurant pizza",
         "dist": "auto",
         "image": "../assets/kulinarik/pfeffermuehle.webp",
         "img_alt": "Restaurant Pizzeria Pfeffermühle, San Michele/Appiano",
@@ -525,26 +485,6 @@
         "phone_href": "tel:+390471664300",
         "phone_label": "Call",
         "website_href": "https://www.liliane.it/de/",
-        "website_label": "Website ↗"
-      },
-      {
-        "cat": "restaurant pizza",
-        "dist": "fuss",
-        "image": "../assets/kulinarik/guten-tropfen.webp",
-        "img_alt": "Gasthof zum Guten Tropfen, St. Pauls",
-        "tags": [
-          "Restaurant",
-          "Pizza"
-        ],
-        "place": "St. Pauls · Paulser Straße 4",
-        "name": "Guten Tropfen",
-        "desc": "A cosy family-run inn in the village centre with a pizzeria, welcoming courtyard and South Tyrolean specialities, in family hands for generations.",
-        "walk_time": "approx. 4 min walk",
-        "drive_time": "approx. 2 min drive",
-        "hours": "Reservation recommended · see website for opening hours",
-        "phone_href": "tel:+390471662223",
-        "phone_label": "Call",
-        "website_href": "https://www.gutentropfen.com",
         "website_label": "Website ↗"
       },
       {
