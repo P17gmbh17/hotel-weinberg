@@ -346,12 +346,41 @@
         return target;
       }
 
+      // Diese drei Helfer braucht auch das Sync-Scrolling weiter unten.
+      // Statt sie dort zu verdoppeln (und bei jeder Aenderung an zwei
+      // Stellen pflegen zu muessen) werden sie hier einmal bereitgestellt.
+      window.__weinbergHelfer = {
+        normalizeTitle: normalizeTitle,
+        findPreviewDoc: findPreviewDoc,
+        findSectorByTitle: findSectorByTitle,
+      };
+
+      // Angesprungene Sektion mittig statt am oberen Rand platzieren.
+      //
+      // scrollIntoView({block:'center'}) waere die naheliegende Loesung,
+      // taugt hier aber nur fuer kurze Abschnitte: Es zentriert IMMER den
+      // ganzen Kasten, also rutscht bei einem Abschnitt, der laenger ist als
+      // das Fenster, die Ueberschrift nach oben aus dem Bild - man landet
+      // mitten im Text und sieht nicht mehr, wo man ist. Deshalb hier von
+      // Hand gerechnet:
+      //   - passt der Abschnitt ins Fenster  -> senkrecht mittig setzen
+      //   - ist er laenger als das Fenster   -> Anfang auf ein Fuenftel
+      //                                         Hoehe, Ueberschrift bleibt
+      //                                         sichtbar
       function scrollToActive(normTitle, attemptsLeft) {
         attemptsLeft = attemptsLeft === undefined ? 20 : attemptsLeft;
         var doc = findPreviewDoc(document);
         var target = doc ? findSectorByTitle(doc, normTitle) : null;
-        if (target && target.scrollIntoView) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (target) {
+          var win = doc.defaultView || window;
+          var fensterHoehe = win.innerHeight || doc.documentElement.clientHeight;
+          var kasten = target.getBoundingClientRect();
+          var bereitsGescrollt = win.pageYOffset || doc.documentElement.scrollTop || 0;
+          var obenImDokument = kasten.top + bereitsGescrollt;
+          var ziel = kasten.height < fensterHoehe * 0.9
+            ? obenImDokument - (fensterHoehe - kasten.height) / 2
+            : obenImDokument - fensterHoehe * 0.2;
+          win.scrollTo({ top: Math.max(0, ziel), behavior: 'smooth' });
           return;
         }
         if (attemptsLeft > 0) {
@@ -396,6 +425,125 @@
         window.__weinbergActiveSectionTitle = normTitle;
         setTimeout(function () { scrollToActive(normTitle); }, 150);
       }, true);
+    })();
+  </script>
+  <script>
+    // Breitere Vorschau + Sync-Scrolling zwischen Formular und Vorschau.
+    //
+    // Decap teilt den Editor fest in zwei gleich breite Spalten und bietet
+    // keinen Schalter dafuer. Der Doppelpfeil oben rechts gleicht nur die
+    // SPRACHSPALTEN untereinander ab, nicht Formular gegen Vorschau.
+    (function () {
+      var VORSCHAU_ANTEIL = 60;          // Prozent der Breite fuer rechts
+      var KOPF_TOLERANZ = 90;            // px: was gilt noch als "oben"
+      var TOPBAR = '[class*="ControlTopbar" i]';
+      var AUFKLAPPBAR = { 'object field': true, 'list field': true };
+
+      // ---------------------------------------------------------- Breite
+      // Die Klassennamen von Decap sind gehasht, deshalb wird die
+      // Vorschauspalte ueber das iframe #preview-pane gesucht und von dort
+      // nach oben gegangen, bis ein Element zwei Geschwister-Spalten hat.
+      // Erkennt die Funktion den Aufbau nicht wieder, laesst sie alles
+      // unveraendert - lieber keine Wirkung als ein zerschossenes Layout.
+      function breiteAnpassen() {
+        var rahmen = document.getElementById('preview-pane');
+        if (!rahmen) return;
+        var spalte = rahmen;
+        var schritte = 0;
+        while (spalte.parentElement && schritte < 6) {
+          var reihe = spalte.parentElement;
+          if (reihe.children.length === 2) {
+            var andere = reihe.children[0] === spalte
+              ? reihe.children[1] : reihe.children[0];
+            setzeBreite(spalte, VORSCHAU_ANTEIL);
+            setzeBreite(andere, 100 - VORSCHAU_ANTEIL);
+            return;
+          }
+          spalte = reihe;
+          schritte++;
+        }
+      }
+
+      function setzeBreite(el, prozent) {
+        el.style.setProperty('width', prozent + '%', 'important');
+        el.style.setProperty('max-width', prozent + '%', 'important');
+        el.style.setProperty('flex', '0 0 ' + prozent + '%', 'important');
+      }
+
+      // -------------------------------------------------- Sync-Scrolling
+      // Nicht prozentual (links 40 % = rechts 40 %): die beiden Spalten
+      // sind unterschiedlich lang, das liefe sofort auseinander. Stattdessen
+      // wird beim Scrollen bestimmt, welche Sektionsleiste links gerade
+      // oben steht, und die Vorschau springt zur gleichnamigen Sektion.
+      var letzterTitel = null;
+      var warteAufBild = false;
+
+      function obersteSektion(behaelter) {
+        var oben = behaelter.getBoundingClientRect
+          ? behaelter.getBoundingClientRect().top : 0;
+        var leisten = behaelter.querySelectorAll(TOPBAR);
+        var treffer = null;
+        Array.prototype.forEach.call(leisten, function (leiste) {
+          var feld = leiste.parentElement;
+          var art = feld && feld.getAttribute && feld.getAttribute('aria-label');
+          if (!art || !AUFKLAPPBAR[art]) return;
+          if (leiste.getBoundingClientRect().top <= oben + KOPF_TOLERANZ) {
+            treffer = leiste;        // letzter, der noch oberhalb liegt
+          }
+        });
+        return treffer;
+      }
+
+      function vorschauNachfuehren(behaelter) {
+        var H = window.__weinbergHelfer;
+        if (!H) return;
+        var leiste = obersteSektion(behaelter);
+        if (!leiste) return;
+        var titel = H.normalizeTitle(
+          (leiste.textContent || '').replace(/^\s*\d+\s*·\s*/, '')
+        );
+        if (!titel || titel === letzterTitel) return;
+        letzterTitel = titel;
+        window.__weinbergActiveSectionTitle = titel;
+
+        var doc = H.findPreviewDoc(document);
+        var ziel = doc ? H.findSectorByTitle(doc, titel) : null;
+        if (!ziel) return;
+        var win = doc.defaultView || window;
+        var fenster = win.innerHeight || doc.documentElement.clientHeight;
+        var kasten = ziel.getBoundingClientRect();
+        var gescrollt = win.pageYOffset || doc.documentElement.scrollTop || 0;
+        var obenImDokument = kasten.top + gescrollt;
+        // Gleiche Regel wie beim Anklicken: kurze Abschnitte mittig,
+        // lange mit der Ueberschrift auf einem Fuenftel Hoehe.
+        var neu = kasten.height < fenster * 0.9
+          ? obenImDokument - (fenster - kasten.height) / 2
+          : obenImDokument - fenster * 0.2;
+        // Beim Mitlaufen bewusst OHNE "smooth": sonst haengt die Vorschau
+        // der Hand hinterher und wirkt traege.
+        win.scrollTo(0, Math.max(0, neu));
+      }
+
+      // Scroll-Ereignisse steigen nicht auf, deshalb in der Erfassungsphase
+      // am Dokument lauschen - so wird jede scrollbare Flaeche erfasst.
+      // Gedrosselt auf ein Bild pro Monitoraktualisierung.
+      document.addEventListener('scroll', function (e) {
+        var behaelter = e.target;
+        if (!behaelter || !behaelter.querySelectorAll) return;
+        if (!behaelter.querySelector(TOPBAR)) return;   // nicht die Formularspalte
+        if (warteAufBild) return;
+        warteAufBild = true;
+        window.requestAnimationFrame(function () {
+          warteAufBild = false;
+          vorschauNachfuehren(behaelter);
+        });
+      }, true);
+
+      window.addEventListener('load', function () {
+        breiteAnpassen();
+        setInterval(breiteAnpassen, 1000);   // Decap baut den Editor neu auf
+        window.addEventListener('resize', breiteAnpassen);
+      });
     })();
   </script>
 </body>
